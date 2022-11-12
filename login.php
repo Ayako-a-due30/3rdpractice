@@ -1,4 +1,5 @@
 <?php
+session_start();
 
 if(!empty($_POST)){
     $email = $_POST['email'];
@@ -18,10 +19,9 @@ if(!empty($_POST)){
     $result = 0;
     $result = $stmt->fetch(PDO::FETCH_ASSOC);
     if (!empty($result)){
-        session_start();
             $_SESSION['login_date']=time();
             $_SESSION['user_id']=$dbh->lastInsertId();
-            var_dump($_SESSION);
+            print_r($dbh);
             // header("Location:mypage3.php");
     }
 }

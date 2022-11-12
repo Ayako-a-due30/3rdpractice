@@ -3,7 +3,8 @@ error_reporting(E_ALL);
 ini_set('display_errors','on');
 
 require('function.php');
-
+$dbh = dbConnect();
+session_start();
 if(!empty($_POST)){
     $email = $_POST['email'];
     $pass= $_POST['pass'];
@@ -19,7 +20,7 @@ if(!empty($_POST)){
     $dbh=new PDO($dsn,$user,$password,$options);
     $stmt = $dbh->prepare('INSERT INTO users (email,password,create_date) VALUES(:email,:password,:create_date)');
     $stmt->execute(array(':email'=>$email,':password'=>$pass,':create_date'=>date('Y-m-d H:i:s')));
-    session_start();
+    $_SESSION['user_id']=$dbh->lastInsertId();
     header("Location:mypage3.php");
 
 

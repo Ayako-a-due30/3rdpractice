@@ -2,8 +2,8 @@
 require('function.php');
     $dbh = dbConnect();
     session_start();
+
     $_SESSION['user_id']=$dbh->lastInsertId();
-    var_dump($_SESSION);
     print_r($_SESSION);
 if(!empty($_POST)){
     if(array_key_exists('logout',$_POST)){
