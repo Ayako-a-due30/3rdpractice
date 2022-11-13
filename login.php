@@ -19,10 +19,11 @@ if(!empty($_POST)){
     $result = 0;
     $result = $stmt->fetch(PDO::FETCH_ASSOC);
     if (!empty($result)){
+        var_dump($result);
             $_SESSION['login_date']=time();
-            $_SESSION['user_id']=$dbh->lastInsertId();
-            print_r($dbh);
-            // header("Location:mypage3.php");
+            $_SESSION['user_id']=$result['id'];
+            // $_SESSION['user_id']=$dbh->lastInsertId();
+            header("Location:mypage3.php");
     }
 }
 

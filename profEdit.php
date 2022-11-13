@@ -4,7 +4,6 @@ require('function.php');
 
 session_start();
 $dbh = dbConnect();
-$_SESSION['user_id']=$dbh->lastInsertId();
 var_dump($_SESSION);
 if(!empty($_POST)){
     $username = $_POST['username'];
@@ -22,8 +21,8 @@ if(!empty($_POST)){
         PDO::MYSQL_ATTR_USE_BUFFERED_QUERY=>true,
     );
     $dbh = new PDO($dsn,$user,$password,$options);
-    $stmt = $dbh->prepare('UPDATE users SET username =:username,age=:age,tel=:tel,zip=:zip,addr=:addr');
-    $stmt->execute(array(':username'=>$username,':age'=>$age,':tel'=>$tel,':zip'=>$zip,':addr'=>$addr));
+    $stmt = $dbh->prepare('UPDATE users SET username =:username,age=:age,tel=:tel,zip=:zip,addr=:addr WHERE id =:u_id');
+    $stmt->execute(array(':username'=>$username,':age'=>$age,':tel'=>$tel,':zip'=>$zip,':addr'=>$addr,':u_id'=>$_SESSION['user_id']));
 }
 
 ?>
