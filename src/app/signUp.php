@@ -2,7 +2,7 @@
 error_reporting(E_ALL);
 ini_set('display_errors','on');
 
-require('function.php');
+require('../function/function.php');
 $dbh = dbConnect();
 session_start();
 if(!empty($_POST)){

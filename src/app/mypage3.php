@@ -1,5 +1,5 @@
 <?php
-require('function.php');
+require('../function/function.php');
     $dbh = dbConnect();
     session_start();
     $sesLimit = 60*60;
@@ -8,12 +8,13 @@ require('function.php');
 if(!empty($_POST)){
     if(array_key_exists('logout',$_POST)){
         session_unset();
-        header("Location:login.php");
+        header("Location:./login.php");
     }elseif(array_key_exists('bye',$_POST)){
         $dbh=dbConnect();
         $stmt = $dbh->prepare('UPDATE users SET delete_flg = 1 WHERE id = :us_id');
         $stmt-> execute(array(':us_id'=> $_SESSION['user_id']));
         session_destroy();
+        header("Location:./login.php");
     }
 }
 ?>
@@ -30,7 +31,7 @@ if(!empty($_POST)){
     <form action="" method = "post">
         <input type="submit" name="logout" value="ログアウト">
         <input type="submit" name ="bye" value="退会する">
-        <a href="profEdit.php">プロフィール編集</a>
+        <a href="./profEdit.php">プロフィール編集</a>
 
     </form>
 </body>

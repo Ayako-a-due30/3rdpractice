@@ -1,6 +1,6 @@
 <?php
 
-require('function.php');
+require('../function/function.php');
 
 session_start();
 $dbh = dbConnect();
@@ -43,6 +43,6 @@ if(!empty($_POST)){
         住所<input type="text" name="addr">
         <input type="submit" value="更新する">
     </form>
-
+    <a href="mypage3.php">マイページへ</a>
 </body>
 </html>
