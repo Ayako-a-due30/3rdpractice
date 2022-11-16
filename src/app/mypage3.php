@@ -1,9 +1,8 @@
 <?php
 require('../function/function.php');
     $dbh = dbConnect();
-    session_start();
     $sesLimit = 60*60;
-    // $user_id =$_SESSION['user_id'];
+    $user_id =$_SESSION['user_id'];
     print_r($_SESSION);
 if(!empty($_POST)){
     if(array_key_exists('logout',$_POST)){
