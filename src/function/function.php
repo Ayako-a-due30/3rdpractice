@@ -15,6 +15,7 @@ const ERR08 ='ハイフンなしの電話番号を入力してください';
 const ERR09='半角英数字で入力してください';
 const ERR10='郵便番号形式で入力してください';
 const ERR11 = 'エラーが発生しました。しばらくしてからやり直してください';
+const ERR12 = 'パスワードが一致しません';
 const SUC01 = 'プロフィール更新しました';
 
 function dbConnect(){
@@ -114,5 +115,84 @@ function validHalf($str,$key){
     }
 }
 
+//ユーザー情報取得
+function getUser($u_id){
+    try{
+        $dbh = dbConnect();
+        $sql = 'SELECT*FROM users WHERE id = :u_id AND delete_flg=0';
+        $data = array(':u_id' => $u_id);
+
+        $stmt = queryPost($dbh, $sql,$data);
+        if($stmt){
+            return $stmt->fetch (PDO::FETCH_ASSOC);
+        }else{
+            return false;
+        }
+    }catch(Exception $e){
+        global $err_msg;
+        $err_msg['common']=ERR04;
+    }
+}
+function getFormData($str,$flg=false){
+    if($flg){
+        $method =$_GET;
+    }else{
+        $method = $_POST;//基本POST
+    }
+    global $dbFormData;
+    if(!empty($dbFormData)){
+        if(!empty($err_msg[$str])){
+            if(isset($method[$str])){
+            }else{
+                return sanitize($dbFormData[$str]);
+            }
+        }else{
+            if(isset($method[$str]) && $method[$str]!==$dbFormData[$str]){
+                return sanitize($method[$str]);
+            }else{
+                return sanitize($dbFormData[$str]);
+            }
+        }
+    }else{
+        if(isset($method[$str])){
+            return sanitize($method[$str]);
+        }
+    }
+}
+// function getFormData($str){
+//     global $dbFormData;
+//     if(!empty($dbFormData)){
+//         if(!empty($dbFormData)){
+//             if(!empty($err_msg[$str])){
+//                 if(isset($_POST[$str])){
+//                     return $_POST[$str];
+//                 }else{
+//                     return $dbFormData[$str];
+//                 }
+//             }else{
+//                 if(isset($_POST[$str]) && $_POST[$str] !== $dbFormData[$str]){
+//                     return $_POST[$str];
+//                 }else{
+//                     return $dbFormData[$str];
+//                 }
+//             }
+//         }else{
+//             if(isset($_POST[$str])){
+//                 return $_POST[$str];
+//             }
+//         }
+//     }
+//     if($flg){
+//         $method = $_GET;
+//     }else{
+//         $method = $_POST;
+//     }
+//     global $dbFormData;
+
+// }
+//サニタイズーーーーーーーーーーーーーーーーー
+function sanitize($str){
+    return htmlspecialchars($str,ENT_QUOTES);
+}
 
 ?>

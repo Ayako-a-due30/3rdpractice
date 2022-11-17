@@ -16,6 +16,16 @@ if(!empty($_POST)){
         header("Location:./login.php");
     }
 }
+$dbFormData = getUser($_SESSION['user_id']);
+if(!empty($_POST)){
+    $username = $_POST['username'];
+    $age = $_POST['age'];
+    $tel = $_POST['tel'];
+    $zip = $_POST['zip'];
+    $addr = $_POST['addr'];
+    $email = $_POST['email'];
+}
+
 ?>
 
 <html lang="en">
@@ -27,6 +37,7 @@ if(!empty($_POST)){
 </head>
 <body>
     <h1>マイページ</h1>
+    こんにちは、<?php echo getFormData('username'); ?>さん！
     <form action="" method = "post">
         <input type="submit" name="logout" value="ログアウト">
         <input type="submit" name ="bye" value="退会する">

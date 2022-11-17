@@ -4,7 +4,6 @@ require('../function/function.php');
 if(!empty($_POST)){
     $email = $_POST['email'];
     $pass = $_POST['pass'];
-    $result ='';
     
     //バリデーション
     //未入力
@@ -14,16 +13,19 @@ if(!empty($_POST)){
     if(empty($err_msg)){
         try{
             $dbh=dbConnect();
-            $sql = 'SELECT*FROM users WHERE email= :email AND password=:password';
-            $data = array(':email'=>$email,':password'=>$pass);
+            $sql = 'SELECT password,id FROM users WHERE email= :email AND delete_flg = 0';
+            $data = array(':email'=>$email);
             $stmt=queryPost($dbh,$sql,$data);
-            $result =$stmt->fetch(PDO::FETCH_ASSOC);
+            $result = $stmt->fetch(PDO::FETCH_ASSOC);
             //パスワード照合
-            if(!empty($result)&& password_verify($pass,array_shift($result))){
-                
-            }
-            if($stmt){
-                // header("Location:mypage3.php");
+            if(!empty($result) && password_verify($pass,array_shift($result))){
+                $sesLimit = 60*60;
+                $_SESSION['login_date']=time();
+                $_SESSION['login_limit'] = $sesLimit;
+                $_SESSION['user_id'] = $result['id'];
+                header("Location:mypage3.php");
+            }else{
+                $err_msg['pass'] = ERR12; 
             }
         }catch(Exception $e){
             $err_msg['common']=ERR11;
@@ -41,10 +43,15 @@ if(!empty($_POST)){
     </head>
     <body>
         <h1>ログインページ</h1>
+        <?php if(!empty($_POST)) var_dump($_SESSION);?>
+        <?php if(!empty($_POST)) var_dump($stmt);?>
     <form action="" method="post">
-        メールアドレス<input type="email"  name="email">
-        パスワード<input type="password" name="pass">
-        <input type="submit" value="ログインする">
+        <?php if(!empty($err_msg['common'])) echo $err_msg['common']; ?><br>
+        <?php if(!empty($err_msg['email'])) echo $err_msg['email']; ?><br>
+        メールアドレス<input type="email"  name="email"><br>
+        <?php if (!empty($err_msg['pass'])) echo $err_msg['pass'];?><br>
+        パスワード<input type="password" name="pass"><br>
+        <input type="submit" value="ログインする"><br>
         <a href="signUp.php">新規登録画面へ</a>
     </form>
 </body>
