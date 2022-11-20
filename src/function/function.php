@@ -140,56 +140,27 @@ function getFormData($str,$flg=false){
         $method = $_POST;//基本POST
     }
     global $dbFormData;
-    if(!empty($dbFormData)){
-        if(!empty($err_msg[$str])){
-            if(isset($method[$str])){
-            }else{
-                return sanitize($dbFormData[$str]);
+    if(!empty($dbFormData)){//ユーザーデータが入ってて
+        if(!empty($err_msg[$str])){//フォームから送信されたエラーメッセージが入ってたらこっち
+            if(isset($method[$str])){//フォームから送信されたデータがあったら
+                return sanitize($method[$str]);//送信されたデータを返す
+            }else{//フォームから送信されたデータがなかったら
+                return sanitize($dbFormData[$str]);//（フォームから送信されてないのにエラーメッセージが出るって、考えられる？）登録済みデータを返す
             }
         }else{
             if(isset($method[$str]) && $method[$str]!==$dbFormData[$str]){
-                return sanitize($method[$str]);
+                return sanitize($method[$str]);//送信されたデータと登録データが違ったら送信された方を返す
             }else{
-                return sanitize($dbFormData[$str]);
+                return sanitize($dbFormData[$str]);//同じなら登録データを返す
             }
         }
-    }else{
+    }else{//登録済みデータがなかったら、送信データを返す
         if(isset($method[$str])){
             return sanitize($method[$str]);
         }
     }
 }
-// function getFormData($str){
-//     global $dbFormData;
-//     if(!empty($dbFormData)){
-//         if(!empty($dbFormData)){
-//             if(!empty($err_msg[$str])){
-//                 if(isset($_POST[$str])){
-//                     return $_POST[$str];
-//                 }else{
-//                     return $dbFormData[$str];
-//                 }
-//             }else{
-//                 if(isset($_POST[$str]) && $_POST[$str] !== $dbFormData[$str]){
-//                     return $_POST[$str];
-//                 }else{
-//                     return $dbFormData[$str];
-//                 }
-//             }
-//         }else{
-//             if(isset($_POST[$str])){
-//                 return $_POST[$str];
-//             }
-//         }
-//     }
-//     if($flg){
-//         $method = $_GET;
-//     }else{
-//         $method = $_POST;
-//     }
-//     global $dbFormData;
 
-// }
 //サニタイズーーーーーーーーーーーーーーーーー
 function sanitize($str){
     return htmlspecialchars($str,ENT_QUOTES);

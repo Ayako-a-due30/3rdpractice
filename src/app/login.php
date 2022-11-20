@@ -4,6 +4,7 @@ require('../function/function.php');
 if(!empty($_POST)){
     $email = $_POST['email'];
     $pass = $_POST['pass'];
+    $stmt = '';
     
     //バリデーション
     //未入力
@@ -16,6 +17,7 @@ if(!empty($_POST)){
             $sql = 'SELECT password,id FROM users WHERE email= :email AND delete_flg = 0';
             $data = array(':email'=>$email);
             $stmt=queryPost($dbh,$sql,$data);
+            
             $result = $stmt->fetch(PDO::FETCH_ASSOC);
             //パスワード照合
             if(!empty($result) && password_verify($pass,array_shift($result))){
@@ -43,8 +45,6 @@ if(!empty($_POST)){
     </head>
     <body>
         <h1>ログインページ</h1>
-        <?php if(!empty($_POST)) var_dump($_SESSION);?>
-        <?php if(!empty($_POST)) var_dump($stmt);?>
     <form action="" method="post">
         <?php if(!empty($err_msg['common'])) echo $err_msg['common']; ?><br>
         <?php if(!empty($err_msg['email'])) echo $err_msg['email']; ?><br>
@@ -52,7 +52,8 @@ if(!empty($_POST)){
         <?php if (!empty($err_msg['pass'])) echo $err_msg['pass'];?><br>
         パスワード<input type="password" name="pass"><br>
         <input type="submit" value="ログインする"><br>
-        <a href="signUp.php">新規登録画面へ</a>
+        <a href="signUp.php">新規登録画面へ</a><br>
+        <a href="passKeySend.php">パスワードをお忘れの方</a>
     </form>
 </body>
 </html>

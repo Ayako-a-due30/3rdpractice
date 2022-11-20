@@ -1,9 +1,13 @@
 <?php
 require('../function/function.php');
+
+require('../function/auth.php');
+
     $dbh = dbConnect();
     $sesLimit = 60*60;
     $user_id =$_SESSION['user_id'];
     print_r($_SESSION);
+    print_r(time());
 if(!empty($_POST)){
     if(array_key_exists('logout',$_POST)){
         session_unset();
@@ -40,8 +44,9 @@ if(!empty($_POST)){
     こんにちは、<?php echo getFormData('username'); ?>さん！
     <form action="" method = "post">
         <input type="submit" name="logout" value="ログアウト">
-        <input type="submit" name ="bye" value="退会する">
-        <a href="./profEdit.php">プロフィール編集</a>
+        <input type="submit" name ="bye" value="退会する"><br>
+        <a href="./profEdit.php">プロフィール編集</a><br>
+        <a href="./passEdit.php">パスワード変更</a>
 
     </form>
 </body>
