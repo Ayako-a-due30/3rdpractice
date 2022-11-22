@@ -8,6 +8,7 @@ require('../function/auth.php');
     $user_id =$_SESSION['user_id'];
     print_r($_SESSION);
     print_r(time());
+    
 if(!empty($_POST)){
     if(array_key_exists('logout',$_POST)){
         session_unset();

@@ -4,7 +4,6 @@ require('../function/function.php');
 if(!empty($_POST)){
     $email = $_POST['email'];
     $pass = $_POST['pass'];
-    $stmt = '';
     
     //バリデーション
     //未入力
@@ -20,7 +19,8 @@ if(!empty($_POST)){
             
             $result = $stmt->fetch(PDO::FETCH_ASSOC);
             //パスワード照合
-            if(!empty($result) && password_verify($pass,array_shift($result))){
+            if(!empty($result && password_verify($pass,array_shift($result)))){
+
                 $sesLimit = 60*60;
                 $_SESSION['login_date']=time();
                 $_SESSION['login_limit'] = $sesLimit;
@@ -30,7 +30,7 @@ if(!empty($_POST)){
                 $err_msg['pass'] = ERR12; 
             }
         }catch(Exception $e){
-            $err_msg['common']=ERR11;
+            $err_msg['common']=ERR04;
         }
     }
 }
@@ -44,6 +44,7 @@ if(!empty($_POST)){
         <title>ログインページ</title>
     </head>
     <body>
+        <?php print_r($result);?>
         <h1>ログインページ</h1>
     <form action="" method="post">
         <?php if(!empty($err_msg['common'])) echo $err_msg['common']; ?><br>

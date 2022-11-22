@@ -15,7 +15,7 @@ require('../function/auth.php');
 
     //今のパスワードは正しいか
     if(!password_verify($nowPass, $userData['password']))  {
-        echo 'パスワード前のと違うよ';//どうしても前のと一致しない
+        echo 'パスワード前のと違うよ';
     }
   
     //以下新しいパスワードについて-----------------
@@ -33,17 +33,15 @@ require('../function/auth.php');
             try{
                 $dbh = dbConnect();
                 $sql ='UPDATE users SET password =:password WHERE id = :u_id';
-                $data = array(':password'=>$newPass,':u_id'=> $_SESSION['user_id']);
+                $data = array(':password'=>password_hash($newPass,PASSWORD_DEFAULT),':u_id'=> $_SESSION['user_id']);
                 queryPost($dbh,$sql,$data);
-                // $_SESSION['success']=SUC01;
-                // header("Location:mypage3.php");
+                $_SESSION['success']=SUC01;
+                header("Location:mypage3.php");
             }catch(Execute $e){
                 $err_msg['common']= ERR04;
             }
         }
     }
-
- 
 
 ?>
 

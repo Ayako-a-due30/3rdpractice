@@ -14,9 +14,12 @@ const ERR07='255文字以内で入力してください';
 const ERR08 ='ハイフンなしの電話番号を入力してください';
 const ERR09='半角英数字で入力してください';
 const ERR10='郵便番号形式で入力してください';
-const ERR11 = 'エラーが発生しました。しばらくしてからやり直してください';
+const ERR11 = 'メールアドレスかパスキーに誤りがあるようです';
 const ERR12 = 'パスワードが一致しません';
+const ERR13 = 'メールを送信できませんでした';
 const SUC01 = 'プロフィール更新しました';
+const SUC02 = 'パスワードを更新しました';
+const SUC03 ='登録済みのメールアドレスにキーを送ります。';
 
 function dbConnect(){
     $dsn = 'mysql:dbname=freamarket;host=localhost;charset=utf8';
@@ -157,6 +160,30 @@ function getFormData($str,$flg=false){
     }else{//登録済みデータがなかったら、送信データを返す
         if(isset($method[$str])){
             return sanitize($method[$str]);
+        }
+    }
+}
+//認証キー作成
+function makeRandKey($length=5){
+    $chars ='1234567890';
+    $str ='';
+    for($i=0; $i < $length; ++$i){
+        $str .= $chars[mt_rand(0,10)];
+    }
+    return $str;
+}
+
+//メール送信
+function sendMail($from,$to,$subject,$comment){
+    if(!empty($to)&& !empty($subject)&& !empty($comment)){
+        mb_language("Japanese");
+        mb_internal_encoding("UTF-8");
+
+        $result= mb_send_mail($to,$subject,$comment,"From:".$from);
+        if($result){
+            $_SESSION['message']=SUC03;
+        }else{
+            $_SESSION['message']= ERR13;
         }
     }
 }

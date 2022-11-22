@@ -43,7 +43,7 @@ if(!empty($_POST)){
                         header("Location:mypage3.php");
                     }
             }catch(Exception $e){
-                $err_msg['common']= ERR11;
+                $err_msg['common']= ERR04;
             }
         }
 

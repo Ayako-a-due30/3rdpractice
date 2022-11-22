@@ -3,6 +3,7 @@ error_reporting(E_ALL);
 ini_set('display_errors','on');
 
 require('../function/function.php');
+
 $dbh = dbConnect();
 if(!empty($_POST)){
     $email = $_POST['email'];
@@ -39,6 +40,9 @@ if(!empty($_POST)){
         $stmt = $dbh->prepare('INSERT INTO users (email,password,create_date) VALUES(:email,:password,:create_date)');
         $stmt->execute(array(':email'=>$email,':password'=>password_hash($pass,PASSWORD_DEFAULT),':create_date'=>date('Y-m-d H:i:s')));
         $_SESSION['user_id']=$dbh->lastInsertId();
+        $_SESSION['login_date']=time();
+        $_SESSION['login_limit']= 60*60;
+
         header("Location:mypage3.php");
 
     }
