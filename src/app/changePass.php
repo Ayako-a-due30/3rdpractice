@@ -14,15 +14,14 @@ if(!empty($_POST['newPass'])){
     validRequired($newPass,'newPass');
     validRequired($newPassRe,'newPassRe');
 
+    //6文字以上255文字以内、半角
+    validPass($newPass,'newPass');
+
     //同値チェック
     validMatch($newPass,$newPassRe,'newPass');
 
-    //半角英数字
-    validHalf($newPass,'newPass');
+    validPass($newPass,'newPass');
 
-    //6文字以上255文字未満
-    validMinLength($newPass,'newPass');
-    validMaxLength($newPass,'newPass');
     //パスワードの書き換え
     if(empty($err_msg)){
         try{

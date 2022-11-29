@@ -38,7 +38,7 @@ if(!empty($_POST)){
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>マイページ</title>
 </head>
 <body>
     <h1>マイページ</h1>
@@ -47,8 +47,11 @@ if(!empty($_POST)){
         <input type="submit" name="logout" value="ログアウト">
         <input type="submit" name ="bye" value="退会する"><br>
         <a href="./profEdit.php">プロフィール編集</a><br>
-        <a href="./passEdit.php">パスワード変更</a>
+        <a href="./passEdit.php">パスワード変更</a><br>
+        <a href="./registArticle.php"> 記事登録</a><br>
+        <a href="./index.php">記事一覧</a>
 
     </form>
+   
 </body>
 </html>

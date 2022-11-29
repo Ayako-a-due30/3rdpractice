@@ -54,9 +54,7 @@ require('../function/auth.php');
 </head>
 <body>
     <h1>パスワード変更</h1>
-    <?php echo $nowPass;?>
-    <?php var_dump($userData);
-    ?>
+
     <form action=""method ="post">
         <?php if(!empty($err_msg['nowPass'])) echo $err_msg['nowPass']; ?><br>
         現在のパスワード<input type="password" name="nowPass"><br>

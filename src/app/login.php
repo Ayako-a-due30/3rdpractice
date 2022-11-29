@@ -44,7 +44,6 @@ if(!empty($_POST)){
         <title>ログインページ</title>
     </head>
     <body>
-        <?php print_r($result);?>
         <h1>ログインページ</h1>
     <form action="" method="post">
         <?php if(!empty($err_msg['common'])) echo $err_msg['common']; ?><br>

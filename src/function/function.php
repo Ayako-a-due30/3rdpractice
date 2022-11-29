@@ -20,6 +20,7 @@ const ERR13 = 'メールを送信できませんでした';
 const SUC01 = 'プロフィール更新しました';
 const SUC02 = 'パスワードを更新しました';
 const SUC03 ='登録済みのメールアドレスにキーを送ります。';
+const SUC04 = '登録しました';
 
 function dbConnect(){
     $dsn = 'mysql:dbname=freamarket;host=localhost;charset=utf8';
@@ -117,7 +118,12 @@ function validHalf($str,$key){
         $err_msg[$key]= ERR09;
     }
 }
-
+//パスワード：6文字以上255文字以内、半角
+function validPass($str, $key ,$max = 255, $min=6,){
+    validMaxLength();
+    validMinLength();
+    validHalf();
+}
 //ユーザー情報取得
 function getUser($u_id){
     try{
@@ -164,12 +170,9 @@ function getFormData($str,$flg=false){
     }
 }
 //認証キー作成
-function makeRandKey($length=5){
-    $chars ='1234567890';
+function makeRandKey(){
     $str ='';
-    for($i=0; $i < $length; ++$i){
-        $str .= $chars[mt_rand(0,10)];
-    }
+    $str = mt_rand(10000,99999);
     return $str;
 }
 
@@ -188,6 +191,112 @@ function sendMail($from,$to,$subject,$comment){
     }
 }
 
+function getProduct($u_id,$p_id){
+    try{
+        $dbh=dbConnect();
+        $sql= 'SELECT*FROM product WHERE user_id =:u_id AND id =:p_id AND delete_flg=0';
+        $data= array(':u_id'=>$u_id,':p_id'=>$p_id);
+
+        $stmt=queryPost($dbh,$sql,$data);
+        if($stmt){
+            return $stmt->fetch(PDO::FETCH_ASSOC);
+        }else{
+            return false;
+        }
+    }catch(Exception $e){
+        global $err_msg;
+        $err_msg = ERR04;
+    }
+}
+
+function getProductData($u_id,$p_id){
+    try{
+        $dbh = dbConnect();
+        $sql = 'SELECT id FROM product WHERE $u_id = :u_id AND delete_flg= 0';
+        $data= array(':u_id' => $u_id);
+
+        
+    }catch (Exception $e){
+        $err_msg['common']= ERR04;
+    }
+}
+// function getProductList($currentMinNum=1,$category,$sort,$span=20){
+//     try{
+//         $dbh = dbConnect();
+//         $sql = 'SELECT id FROM product';
+//         if(!empty($category)) $sql .='WHEREcategory_id = '.$category;
+//         if(!empty($sort)){
+//             switch($sort){
+//                 case 1:
+//                     $sql .='ORDER BY price ASC';
+//                     break;
+//                 case2:
+//                     $sql .='ORDER BY price DESC';
+//                     break;
+//             }
+//         }
+//         $data = array();
+//         $stmt = queryPost($dbh,$sql,$data);
+//         $rst['total']= $stmt->rowCount();//総レコード数
+//         $rst['total_page']= ceil($rst['total']/$span);
+//         if($stmt){
+//             return false;
+//         }
+//     }
+// }
+
+function getCategory(){
+    try{
+        $dbh = dbConnect();
+        $sql = 'SELECT*FROM category';
+        $data = array();
+        $stmt = queryPost($dbh,$sql,$data);
+        if($stmt){
+            return $stmt ->fetchAll();
+        }else{
+            return false;
+        }
+    }catch(Exception $e){
+        global $err_msg;
+        $err_msg = ERR04;
+    }
+}
+function uploadImg($file,$key){
+    if(isset($file['error']) && is_int($file['error'])){
+        try{
+            switch($file['error']){
+                case UPLOAD_ERR_OK:
+                    break;
+                case UPLOAD_ERR_NO_FILE:
+                    throw new RuntimeException('ファイルが選択されていません');  
+                case UPLOAD_ERR_INI_SIZE:
+                case UPLOAD_ERR_FORM_SIZE:
+                    throw new RuntimeException('ファイルサイズが大きすぎます');
+                default:
+                throw new RuntimeException('その他のエラーが発生しました');
+            }
+            $type=@exif_imagetype($file['tmp_name']);
+            
+            if(!in_array($type,[IMAGETYPE_GIF,IMAGETYPE_JPEG,IMAGETYPE_PNG],true)){
+
+                throw new RuntimeException('画像形式が未対応です');
+            }
+            
+            
+            $path = 'uploads/'.sha1_file($file['tmp_name']).image_type_to_extension($type);
+
+            if (!move_uploaded_file($file['tmp_name'], $path)){
+                throw new RuntimeException('ファイル保存時にエラーが発生しました');
+            }
+            chmod($path,0644);
+            return $path;
+        } catch (RuntimeException $e){
+            
+            global $err_msg;
+            $err_msg[$key] =$e->getMessage();
+        }
+    }
+}
 //サニタイズーーーーーーーーーーーーーーーーー
 function sanitize($str){
     return htmlspecialchars($str,ENT_QUOTES);
