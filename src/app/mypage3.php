@@ -52,6 +52,6 @@ if(!empty($_POST)){
         <a href="./index.php">記事一覧</a>
 
     </form>
-   
+
 </body>
 </html>
