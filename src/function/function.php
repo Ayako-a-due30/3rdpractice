@@ -220,30 +220,33 @@ function getProductData($u_id,$p_id){
         $err_msg['common']= ERR04;
     }
 }
-// function getProductList($currentMinNum=1,$category,$sort,$span=20){
-//     try{
-//         $dbh = dbConnect();
-//         $sql = 'SELECT id FROM product';
-//         if(!empty($category)) $sql .='WHEREcategory_id = '.$category;
-//         if(!empty($sort)){
-//             switch($sort){
-//                 case 1:
-//                     $sql .='ORDER BY price ASC';
-//                     break;
-//                 case2:
-//                     $sql .='ORDER BY price DESC';
-//                     break;
-//             }
-//         }
-//         $data = array();
-//         $stmt = queryPost($dbh,$sql,$data);
-//         $rst['total']= $stmt->rowCount();//総レコード数
-//         $rst['total_page']= ceil($rst['total']/$span);
-//         if($stmt){
-//             return false;
-//         }
-//     }
-// }
+function getProductList($currentMinNum=1,$category,$sort,$span=20){
+    try{
+        $dbh = dbConnect();
+        $sql = 'SELECT id FROM product';
+        if(!empty($category)) $sql .='WHEREcategory_id = '.$category;
+        if(!empty($sort)){
+            switch($sort){
+                case 1:
+                    $sql .='ORDER BY price ASC';
+                    break;
+                case2:
+                    $sql .='ORDER BY price DESC';
+                    break;
+            }
+        }
+        $data = array();
+        $stmt = queryPost($dbh,$sql,$data);
+        $rst['total']= $stmt->rowCount();//総レコード数
+        $rst['total_page']= ceil($rst['total']/$span);
+        if($stmt){
+            return false;
+        }
+    }catch(Exception $e){
+        global $err_msg;
+        $err_msg = ERR04;
+    }
+}
 
 function getCategory(){
     try{

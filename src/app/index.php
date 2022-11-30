@@ -23,7 +23,7 @@ $dbCategoryData = getCategory();
     <title>記事一覧</title>
 </head>
 <body>
-    <?php echo $dbProductData;?>
+    <!-- <?php echo $dbProductData;?> -->
     <section id= "main">
 
     </section>
