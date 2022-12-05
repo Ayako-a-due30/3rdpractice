@@ -1,0 +1,81 @@
+[05-Dec-2022 11:03:11 Asia/Tokyo] PHP Warning:  Undefined array key "data" in /Applications/MAMP/htdocs/3rdpractice/src/app/index.php on line 62
+[05-Dec-2022 11:03:11 Asia/Tokyo] PHP Warning:  foreach() argument must be of type array|object, null given in /Applications/MAMP/htdocs/3rdpractice/src/app/index.php on line 62
+[05-Dec-2022 11:03:12 Asia/Tokyo] PHP Warning:  Undefined array key "data" in /Applications/MAMP/htdocs/3rdpractice/src/app/index.php on line 62
+[05-Dec-2022 11:03:12 Asia/Tokyo] PHP Warning:  foreach() argument must be of type array|object, null given in /Applications/MAMP/htdocs/3rdpractice/src/app/index.php on line 62
+[05-Dec-2022 11:07:52 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to undefined function debug() in /Applications/MAMP/htdocs/3rdpractice/src/function/function.php:264
+Stack trace:
+#0 /Applications/MAMP/htdocs/3rdpractice/src/app/index.php(14): getProductList(3)
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/3rdpractice/src/function/function.php on line 264
+[05-Dec-2022 11:10:22 Asia/Tokyo] デバッグ：SQL：SELECT * FROM product LIMIT 20 OFFSET 3
+[05-Dec-2022 11:10:22 Asia/Tokyo] PHP Warning:  Undefined array key "data" in /Applications/MAMP/htdocs/3rdpractice/src/app/index.php on line 62
+[05-Dec-2022 11:10:22 Asia/Tokyo] PHP Warning:  foreach() argument must be of type array|object, null given in /Applications/MAMP/htdocs/3rdpractice/src/app/index.php on line 62
+[05-Dec-2022 13:32:21 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[05-Dec-2022 13:32:21 Asia/Tokyo] デバッグ：セッションID：1nle507vmdjfsm2bj2rcaeuoos
+[05-Dec-2022 13:32:21 Asia/Tokyo] デバッグ：セッション変数の中身：1670214741
+[05-Dec-2022 13:32:21 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1670214741
+[05-Dec-2022 13:32:21 Asia/Tokyo] PHP Warning:  Undefined array key "login_date" in /Applications/MAMP/htdocs/3rdpractice/src/function/function.php on line 63
+[05-Dec-2022 13:32:21 Asia/Tokyo] デバッグ：///トップページ////
+[05-Dec-2022 13:32:21 Asia/Tokyo] デバッグ：SQL：SELECT * FROM product LIMIT 20 OFFSET 3
+[05-Dec-2022 13:32:21 Asia/Tokyo] PHP Warning:  Undefined array key "data" in /Applications/MAMP/htdocs/3rdpractice/src/app/index.php on line 64
+[05-Dec-2022 13:32:21 Asia/Tokyo] PHP Warning:  foreach() argument must be of type array|object, null given in /Applications/MAMP/htdocs/3rdpractice/src/app/index.php on line 64
+[05-Dec-2022 13:32:34 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[05-Dec-2022 13:32:34 Asia/Tokyo] デバッグ：セッションID：1nle507vmdjfsm2bj2rcaeuoos
+[05-Dec-2022 13:32:34 Asia/Tokyo] デバッグ：セッション変数の中身：1670214754
+[05-Dec-2022 13:32:34 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1670214754
+[05-Dec-2022 13:32:34 Asia/Tokyo] デバッグ：ログイン期限日時：1670218354
+[05-Dec-2022 13:32:34 Asia/Tokyo] デバッグ：///トップページ////
+[05-Dec-2022 13:32:34 Asia/Tokyo] デバッグ：SQL：SELECT * FROM product LIMIT 20 OFFSET 3
+[05-Dec-2022 13:32:34 Asia/Tokyo] PHP Warning:  Undefined array key "data" in /Applications/MAMP/htdocs/3rdpractice/src/app/index.php on line 64
+[05-Dec-2022 13:32:34 Asia/Tokyo] PHP Warning:  foreach() argument must be of type array|object, null given in /Applications/MAMP/htdocs/3rdpractice/src/app/index.php on line 64
+[05-Dec-2022 13:34:30 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[05-Dec-2022 13:34:30 Asia/Tokyo] デバッグ：セッションID：1nle507vmdjfsm2bj2rcaeuoos
+[05-Dec-2022 13:34:30 Asia/Tokyo] デバッグ：セッション変数の中身：1670214870
+[05-Dec-2022 13:34:30 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1670214870
+[05-Dec-2022 13:34:30 Asia/Tokyo] デバッグ：ログイン期限日時：1670218470
+[05-Dec-2022 13:34:30 Asia/Tokyo] デバッグ：///トップページ////
+[05-Dec-2022 13:34:30 Asia/Tokyo] デバッグ：SQL：SELECT * FROM product LIMIT 20 OFFSET 20
+[05-Dec-2022 13:34:30 Asia/Tokyo] PHP Warning:  Undefined array key "data" in /Applications/MAMP/htdocs/3rdpractice/src/app/index.php on line 64
+[05-Dec-2022 13:34:30 Asia/Tokyo] PHP Warning:  foreach() argument must be of type array|object, null given in /Applications/MAMP/htdocs/3rdpractice/src/app/index.php on line 64
+[05-Dec-2022 13:43:48 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[05-Dec-2022 13:43:48 Asia/Tokyo] デバッグ：セッションID：1nle507vmdjfsm2bj2rcaeuoos
+[05-Dec-2022 13:43:48 Asia/Tokyo] デバッグ：セッション変数の中身：1670215428
+[05-Dec-2022 13:43:48 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1670215428
+[05-Dec-2022 13:43:48 Asia/Tokyo] デバッグ：ログイン期限日時：1670219028
+[05-Dec-2022 13:43:48 Asia/Tokyo] デバッグ：///トップページ////
+[05-Dec-2022 13:43:48 Asia/Tokyo] デバッグ：商品情報を取得
+[05-Dec-2022 13:43:48 Asia/Tokyo] デバッグ：SQL：SELECT * FROM product LIMIT 20 OFFSET 20
+[05-Dec-2022 13:43:48 Asia/Tokyo] PHP Warning:  Undefined array key "data" in /Applications/MAMP/htdocs/3rdpractice/src/app/index.php on line 64
+[05-Dec-2022 13:43:48 Asia/Tokyo] PHP Warning:  foreach() argument must be of type array|object, null given in /Applications/MAMP/htdocs/3rdpractice/src/app/index.php on line 64
+[05-Dec-2022 13:46:31 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[05-Dec-2022 13:46:31 Asia/Tokyo] デバッグ：セッションID：1nle507vmdjfsm2bj2rcaeuoos
+[05-Dec-2022 13:46:31 Asia/Tokyo] デバッグ：セッション変数の中身：1670215591
+[05-Dec-2022 13:46:31 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1670215591
+[05-Dec-2022 13:46:31 Asia/Tokyo] デバッグ：ログイン期限日時：1670219191
+[05-Dec-2022 13:46:31 Asia/Tokyo] デバッグ：///トップページ////
+[05-Dec-2022 13:46:31 Asia/Tokyo] デバッグ：商品情報を取得
+[05-Dec-2022 13:46:31 Asia/Tokyo] デバッグ：SQL：SELECT * FROM product LIMIT 20 OFFSET 20
+[05-Dec-2022 13:46:31 Asia/Tokyo] PHP Warning:  Undefined array key "data" in /Applications/MAMP/htdocs/3rdpractice/src/app/index.php on line 64
+[05-Dec-2022 13:46:31 Asia/Tokyo] PHP Warning:  foreach() argument must be of type array|object, null given in /Applications/MAMP/htdocs/3rdpractice/src/app/index.php on line 64
+[05-Dec-2022 13:47:07 Asia/Tokyo] PHP Warning:  Undefined variable $stmt in /Applications/MAMP/htdocs/3rdpractice/src/app/index.php on line 6
+[05-Dec-2022 13:47:07 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[05-Dec-2022 13:47:07 Asia/Tokyo] デバッグ：セッションID：1nle507vmdjfsm2bj2rcaeuoos
+[05-Dec-2022 13:47:07 Asia/Tokyo] デバッグ：セッション変数の中身：1670215627
+[05-Dec-2022 13:47:07 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1670215627
+[05-Dec-2022 13:47:07 Asia/Tokyo] デバッグ：ログイン期限日時：1670219227
+[05-Dec-2022 13:47:07 Asia/Tokyo] デバッグ：///トップページ////
+[05-Dec-2022 13:47:07 Asia/Tokyo] デバッグ：商品情報を取得
+[05-Dec-2022 13:47:07 Asia/Tokyo] デバッグ：SQL：SELECT * FROM product LIMIT 20 OFFSET 20
+[05-Dec-2022 13:47:07 Asia/Tokyo] PHP Warning:  Undefined array key "data" in /Applications/MAMP/htdocs/3rdpractice/src/app/index.php on line 66
+[05-Dec-2022 13:47:07 Asia/Tokyo] PHP Warning:  foreach() argument must be of type array|object, null given in /Applications/MAMP/htdocs/3rdpractice/src/app/index.php on line 66
+[05-Dec-2022 13:47:09 Asia/Tokyo] PHP Warning:  Undefined variable $stmt in /Applications/MAMP/htdocs/3rdpractice/src/app/index.php on line 6
+[05-Dec-2022 13:47:09 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[05-Dec-2022 13:47:09 Asia/Tokyo] デバッグ：セッションID：1nle507vmdjfsm2bj2rcaeuoos
+[05-Dec-2022 13:47:09 Asia/Tokyo] デバッグ：セッション変数の中身：1670215629
+[05-Dec-2022 13:47:09 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1670215629
+[05-Dec-2022 13:47:09 Asia/Tokyo] デバッグ：ログイン期限日時：1670219229
+[05-Dec-2022 13:47:09 Asia/Tokyo] デバッグ：///トップページ////
+[05-Dec-2022 13:47:09 Asia/Tokyo] デバッグ：商品情報を取得
+[05-Dec-2022 13:47:09 Asia/Tokyo] デバッグ：SQL：SELECT * FROM product LIMIT 20 OFFSET 20
+[05-Dec-2022 13:47:09 Asia/Tokyo] PHP Warning:  Undefined array key "data" in /Applications/MAMP/htdocs/3rdpractice/src/app/index.php on line 66
+[05-Dec-2022 13:47:09 Asia/Tokyo] PHP Warning:  foreach() argument must be of type array|object, null given in /Applications/MAMP/htdocs/3rdpractice/src/app/index.php on line 66

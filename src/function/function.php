@@ -1,5 +1,17 @@
 <?php
 //セッション
+
+//ログ
+ini_set('log_errors','on');
+ini_set('error_log','php.log');
+$debug_flg = true;
+function debug($str){
+    global $debug_flg;
+    if(!empty($debug_flg)){
+        error_log('デバッグ：'.$str);
+    }
+}
+
 session_start();
 //エラーメッセージ格納用配列
 $err_msg=array();
@@ -37,12 +49,21 @@ function dbConnect(){
 function queryPost($dbh, $sql,$data){
     $stmt = $dbh->prepare($sql);
     if(!$stmt->execute($data)){
-        $err_msg['common']= ERR04;
-        return 0;
+        debug('クエリに失敗しました。');
+        debug('失敗したSQL：'.print_r($stmt,true));
+            return 0;
     }
     return $stmt;
 }
-
+function debugLogStart(){
+    debug('///画面表示処理開始/////');
+    debug('セッションID：'.session_id());
+    debug('セッション変数の中身：'.time());
+    debug('現在日時タイムスタンプ：'.time());
+    if(!empty($_SESSION['login_date']&&!empty($_SESSION['login_limit']))){
+        debug('ログイン期限日時：'.($_SESSION['login_date']+$_SESSION['login_limit']));
+    }
+}
 //バリデーション
 // 未入力チェック
 function validRequired($str,$key){
@@ -220,33 +241,89 @@ function getProductData($u_id,$p_id){
         $err_msg['common']= ERR04;
     }
 }
-function getProductList($currentMinNum=1,$category,$sort,$span=20){
-    try{
-        $dbh = dbConnect();
-        $sql = 'SELECT id FROM product';
-        if(!empty($category)) $sql .='WHEREcategory_id = '.$category;
-        if(!empty($sort)){
-            switch($sort){
-                case 1:
-                    $sql .='ORDER BY price ASC';
-                    break;
-                case2:
-                    $sql .='ORDER BY price DESC';
-                    break;
-            }
-        }
-        $data = array();
-        $stmt = queryPost($dbh,$sql,$data);
-        $rst['total']= $stmt->rowCount();//総レコード数
-        $rst['total_page']= ceil($rst['total']/$span);
-        if($stmt){
-            return false;
-        }
-    }catch(Exception $e){
-        global $err_msg;
-        $err_msg = ERR04;
+function getProductList($currentMinNum = 1, $span = 20){
+    debug('商品情報を取得');
+    //例外処理
+    try {
+      // DBへ接続
+      $dbh = dbConnect();
+      // 件数用のSQL文作成
+      $sql = 'SELECT id FROM product';
+      $data = array();///←$data=array();が結局どういう動きをするんや？
+      // クエリ実行
+      $stmt = queryPost($dbh, $sql, $data);
+      $rst['total'] = $stmt->rowCount(); //総レコード数
+      $rst['total_page'] = ceil($rst['total']/$span); //総ページ数
+      if(!$stmt){
+        return false;
+      }
+      
+      // ページング用のSQL文作成
+      $sql = 'SELECT * FROM product';
+  //    if(!empty($category)) $sql .= ' WHERE category = '.$category;
+  //    if(!empty($sort)){
+  //      switch($sort){
+  //        case 1:
+  //          $sql .= ' ORDER BY price ASC';
+  //          break;
+  //        case 2:
+      //          $sql .= ' ORDER BY price DESC';
+  //          break;
+  //        case 3:
+  //          $sql .= ' ORDER BY create_date DESC';
+  //          break;
+  //      }
+  //    } 
+      $sql .= ' LIMIT '.$span.' OFFSET '.$currentMinNum;
+
+      $data = array();
+      debug('SQL：'.$sql);
+      // クエリ実行
+      $stmt = queryPost($dbh, $sql, $data);
+  
+      if($stmt){
+        // クエリ結果のデータを全レコードを格納
+        $rst['data'] = $stmt->fetchAll();
+        return $rst;
+        global $stmt;
+      }else{
+        return false;
+      }
+  
+    } catch (Exception $e) {
+      error_log('エラー発生:' . $e->getMessage());
     }
-}
+  }
+  
+// function getProductList($currentMinNum=1,$span=3){
+//     try{
+//         $dbh = dbConnect();
+//         $sql = 'SELECT id FROM product';
+//         $data = array();
+//         $stmt = queryPost($dbh,$sql,$data);
+//         $rst['total']= $stmt->rowCount();//総レコード数
+//         $rst['total_page']= ceil($rst['total']/$span);//ページ数
+//         if(!$stmt){
+//             return false;
+//         }
+//         //ページング
+//         $sql = 'SELECT * FROM product';
+//         $sql .= ' LIMIT '.$span.' OFFSET '.$currentMinNum;
+
+//         $data= array();
+//         $stmt = queryPost($dbh,$sql,$data);
+//         global $data;
+//         if($stmt){
+//             $rst['data']= $stmt->fetchAll();
+//             return $rst;
+//         }else{
+//             return false;
+//         }
+//     }catch(Exception $e){
+//         global $err_msg;
+//         $err_msg = ERR04;
+//     }
+// }  
 
 function getCategory(){
     try{

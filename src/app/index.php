@@ -3,13 +3,18 @@
 require('../function/function.php');
 require('../function/auth.php');
 
-$currentPageNum = (!empty($_GET['p']))?$_GET['p']:1;
+var_dump($stmt);
+
+debugLogStart();
+debug('///トップページ////');
+
+$currentPageNum = (!empty($_GET['p'])) ? $_GET['p'] : 1; //デフォルトは１ページめ
 if(!is_int((int)$currentPageNum)){
     header("Location:index.php");
 }
 //表示件数
-$listSpan=3;
-$currentMinNum = (($currentPageNum-1)*$listSpan);
+$listSpan=20;
+$currentMinNum = (($currentPageNum)*$listSpan);
 $dbProductData = getProductList($currentMinNum);
 $dbCategoryData = getCategory();
 ?>
@@ -22,8 +27,64 @@ $dbCategoryData = getCategory();
     <title>記事一覧</title>
 </head>
 <body>
-    <?php echo $dbProductData;?>
     <section id= "main">
+        <form action="">
+            <h1>カテゴリー</h1>
+            <div class="selectbox">
+                <span class="icn_select"></span>
+                <select name="category" id="">
+                    <option value="1">１月</option>
+                    <option value="2">２月</option>
+                </select>
+            </div>
+            <h1>表示順</h1>
+            <div>
+                <span class="icn_select"></span>
+                <select name="price" id="">
+                    <option value="1">金額が安い順</option>
+                    <option value="2">金額が高い順</option>
+                </select>
+            </div>
+            <input type="submit" value="検索">
+        </form>
+        <div class="search-title">
+            <div class="search-left">
+                <span class="total-num">
+                    <?php 
+                    $dbProductData = array("total"=>null);
+                    echo sanitize($dbProductData['total']); ?>
+                </span>件の商品が見つかりました。
+            </div>
+            <div class="search-right">
+                <span class="num"><?php echo $currentMinNum+1; ?></span> - 
+                <span class="num"><?php echo $currentMinNum + $listSpan; ?></span>件
+                <span class="num"><?php echo sanitize($dbProductData['total']); ?>
+                </span>件中
+            </div>
+        </div>
+        <div class="panel-list">
+            <?php foreach($dbProductData['data'] as $key => $val): ?>
+
+            <a href="productDetail.php?p_id=<?php echo $val['id'];?>"class="panel">
+                <div class="panel-head">
+                    <img src="<?php 
+                    $val = array("pic1"=>null);
+                    echo sanitize($val['pic1']); ?>" 
+                    alt="<?php echo sanitize($val['name']); 
+                    ?>">
+                </div>
+                <div class="panel-body">
+                    <p class="panel-title"><?php echo sanitize($val['name']); ?>
+                    <span class="price">¥<?php echo sanitize(number_format($val['price']));?>
+                </span></p>
+                </div>
+            </a>
+            <?php endforeach; ?>
+        </div>
+        
+      </section>
+
+    </div>
 
     </section>
     
