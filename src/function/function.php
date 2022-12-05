@@ -285,7 +285,6 @@ function getProductList($currentMinNum = 1, $span = 20){
         // クエリ結果のデータを全レコードを格納
         $rst['data'] = $stmt->fetchAll();
         return $rst;
-        global $stmt;
       }else{
         return false;
       }

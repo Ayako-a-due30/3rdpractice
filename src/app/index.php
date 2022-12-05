@@ -3,7 +3,6 @@
 require('../function/function.php');
 require('../function/auth.php');
 
-var_dump($stmt);
 
 debugLogStart();
 debug('///トップページ////');
@@ -17,6 +16,8 @@ $listSpan=20;
 $currentMinNum = (($currentPageNum)*$listSpan);
 $dbProductData = getProductList($currentMinNum);
 $dbCategoryData = getCategory();
+
+var_dump($dbProductData);//こっちはちゃんと出力できる
 ?>
 
 <html lang="en">
@@ -55,33 +56,23 @@ $dbCategoryData = getCategory();
                     echo sanitize($dbProductData['total']); ?>
                 </span>件の商品が見つかりました。
             </div>
-            <div class="search-right">
-                <span class="num"><?php echo $currentMinNum+1; ?></span> - 
-                <span class="num"><?php echo $currentMinNum + $listSpan; ?></span>件
-                <span class="num"><?php echo sanitize($dbProductData['total']); ?>
-                </span>件中
-            </div>
+            <div class="panel-list">
+         <?php
+            foreach($dbProductData['data'] as $key=>$val)://ここが動いてないっぽい？
+          ?>
+            <!-- <a href="productDetail.php?p_id=<?php echo $val['id']; ?>" class="panel"> -->
+              <div class="panel-head">
+                <img src="<?php echo sanitize($val['pic1']); ?>" alt="<?php echo sanitize($val['name']); ?>">
+              </div>
+              <div class="panel-body">
+                <p class="panel-title"><?php echo sanitize($val['name']); ?> <span class="price">¥
+                    <?php echo sanitize(number_format($val['price'])); ?></span></p>
+              </div>
+            <!-- </a> -->
+          <?php
+            endforeach;
+          ?>
         </div>
-        <div class="panel-list">
-            <?php foreach($dbProductData['data'] as $key => $val): ?>
-
-            <a href="productDetail.php?p_id=<?php echo $val['id'];?>"class="panel">
-                <div class="panel-head">
-                    <img src="<?php 
-                    $val = array("pic1"=>null);
-                    echo sanitize($val['pic1']); ?>" 
-                    alt="<?php echo sanitize($val['name']); 
-                    ?>">
-                </div>
-                <div class="panel-body">
-                    <p class="panel-title"><?php echo sanitize($val['name']); ?>
-                    <span class="price">¥<?php echo sanitize(number_format($val['price']));?>
-                </span></p>
-                </div>
-            </a>
-            <?php endforeach; ?>
-        </div>
-        
       </section>
 
     </div>
