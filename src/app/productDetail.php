@@ -7,7 +7,7 @@ debug('/////////商品詳細ページ//////////');
 //商品IDをgetパラメーターに
 $p_id = (!empty($_GET['p_id']))? $_GET['p_id'] :'';
 $viewData= getProductOne($p_id);
-if(!is_int((int)$currentPageNum)){
+if(empty($viewData)){
     error_log('エラー：指定ページに不正な値が入りました');
     header("Location:index.php");
 }
@@ -15,20 +15,21 @@ debug('DBデータ：'.print_r($viewData,true));
 //POST送信されていた場合
 if(!empty($_POST['submit'])){
     debug('POST送信があります。');
-    require('auth.php');
+    require('../function/auth.php');
 
     try{
         $dbh = dbConnect();
-        $data = array (':s_uid'=>$viewData['user_id'],':b_uid'=>$_SESSION['user_id'],':p_id'=>$_p_id,':data'=>('Y-m-d H:i:s'));
+        $sql = 'INSERT INTO bord (sale_user, buy_user, product_id, create_date) VALUES (:s_uid, :b_uid, :p_id, :date)';
+        $data = array (':s_uid'=>$viewData['user_id'],':b_uid'=>$_SESSION['user_id'],':p_id'=>$p_id,':date'=> date('Y-m-d H:i:s'));
         $stmt = queryPost($dbh,$sql,$data);
         if($stmt){
             $_SESSION['msg_success']=SUC05;
             debug('連絡掲示板へ遷移します');
-            header("Location:msg.php?m_if=".$dbh->lastInsertID());
+            header("Location:msg.php?m_id=".$dbh->lastInsertID());
         }
     }catch(Exception $e){
         error_log('エラー発生：'.$e->getMessage());
-        $err_msg['common']=MSG07;
+        $err_msg['common']=ERR04;
     }
 }
 debug('///////画面表示処理終了///////')
@@ -39,7 +40,6 @@ debug('///////画面表示処理終了///////')
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>商品詳細</title>
-    <?php var_dump($viewData); ?>
     <style>
       .badge{
         padding: 5px 10px;
@@ -125,19 +125,35 @@ debug('///////画面表示処理終了///////')
         <div class="product-img-container">
             <div class="img-main">
                 <img src="<?php echo sanitize($viewData['pic1']); ?>" alt="メイン画像：
-                <?php echo sanitize($viewData['name']); ?>" class="js-switch-img-sub">
+                <?php echo sanitize($viewData['name']); ?>" id="js-switch-img-main">
             </div>
             <div class="img-sub">
-                <img src="<?php echo sanitize($viewData['pic1']); ?>" alt="画像１：<?php echo sanitize($viewData['name']); ?>" class="js-switch-img-sub">
-                <img src="<?php echo sanitize($viewData['pic2']); ?>" alt="画像２：<?php echo sanitize($viewData['name']); ?>" class="js-switch-img-sub">
-                <img src="<?php echo sanitize($viewData['pic3']); ?>" alt="画像３：<?php echo sanitize($viewData['name']); ?>" class="js-switch-img-sub">
+                <img src="<?php echo showImg(sanitize($viewData['pic1'])); ?>" alt="画像１：<?php echo sanitize($viewData['name']); ?>" class="js-switch-img-sub">
+                <img src="<?php echo showImg(sanitize($viewData['pic2'])); ?>" alt="画像２：<?php echo sanitize($viewData['name']); ?>" class="js-switch-img-sub">
+                <img src="<?php echo showImg(sanitize($viewData['pic3'])); ?>" alt="画像３：<?php echo sanitize($viewData['name']); ?>" class="js-switch-img-sub">
             </div>
         </div>
         <div class="product-detail">
             <p><?php echo sanitize($viewData['comment']); ?></p>
         </div>
+        <div class="product-buy">
+            <div class="item-left">
+                <a href="index.php<?php appendGetParam(array('p_id')) ;?>">&lt;商品一覧に戻る</a>
+            </div>
+            <form action="" method="post">
+                <div class="item-right">
+                    <input type="submit" value="買う" name="submit" class="btn btn-primary" style="margin-top:0;">
+                </div>
+            </form>
+        <div class="item-right">
+                <p class="price">¥<?php echo sanitize(number_format($viewData['price'])); ?></p>
+        </div>
+    </div>
     </section>
-    
+    <?php require('footer.php');?>
+    <script>
+        console.log('wie gehts?');
+    </script>
 
 
 

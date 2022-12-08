@@ -113,38 +113,6 @@ ini_set('display_errors','on');
         </div>
         <input type="submit" value="<?php echo (!$edit_flg)?'登録する':'更新する' ?>">
     </form>
-
-    <footer style="background-color:#B3DB7D;">
-        なんとかかんとか
-
-    </footer> 
-    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-
-    <script>
-        var $dropArea = $('.area-drop');
-        var $fileInput = $('.input-file');
-        $dropArea.on('click',function(e){
-            e.stopPropagation();
-            e.preventDefault();
-            $(this).css('border','3px #ccc dashed');
-        });
-        $dropArea.on('dragleave',function(e){
-            e.stopPropagation();
-            e.preventDefault();
-            $(this).css('border','none');
-        });
-        $fileInput.on('change',function(e){
-            $dropArea.css('border','none');
-            var file = this.files[0],
-            $img = $(this).siblings('.prev-img'),
-            fileReader=new FileReader();
-
-            fileReader.onload=function(event){
-                $img.attr('src',event.target.result).show();
-            };
-            fileReader.readAsDataURL(file);
-        });
-    </script>
-    
-</body>
+    <?php require('footer.php'); ?>
+    </body>
 </html>

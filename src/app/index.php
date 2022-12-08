@@ -93,7 +93,7 @@ $dbCategoryData = getCategory();
          <?php
             foreach($dbProductData["data"] as $key=>$val):
           ?>
-            <a href="productDetail.php?p_id=<?php echo $val['id']; ?>" class="panel">
+            <a href="productDetail.php?p_id=<?php echo $val['id'].'&p='.$currentPageNum; ?>" class="panel">
               <div class="panel-head">
                 <img src="<?php echo sanitize($val['pic1']); ?>" alt="<?php echo sanitize($val['name']); ?>" style ="height:100px; width:100px;" >
               </div>
@@ -107,6 +107,6 @@ $dbCategoryData = getCategory();
         </div>
         <?php pagination($currentPageNum,$dbProductData['total_page']); ?>
     </section>
-    
+    <?php require('footer.php'); ?>
 </body>
 </html>

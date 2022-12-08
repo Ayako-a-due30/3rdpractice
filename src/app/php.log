@@ -3349,3 +3349,1610 @@ Stack trace:
 )
 
 [08-Dec-2022 09:54:58 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[08-Dec-2022 11:11:24 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[08-Dec-2022 11:11:24 Asia/Tokyo] デバッグ：商品情報を取得：商品ID78
+[08-Dec-2022 11:11:24 Asia/Tokyo] PHP Warning:  Undefined variable $currentPageNum in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 10
+[08-Dec-2022 11:11:24 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 78
+    [name] => なし
+    [comment] => ラフランス
+    [price] => 600
+    [pic1] => uploads/84a35e21e367d99dbfbf81046a7020ca0ac95a33.jpeg
+    [pic2] => uploads/6253d1e7abe66637a1c6800ee23a691a9eb8fdcc.jpeg
+    [pic3] => uploads/7ab8acf805f20b8f533933db23a39a34db490678.jpeg
+    [user_id] => 40
+    [create_date] => 2022-12-08 09:54:50
+    [update_date] => 2022-12-08 09:54:50
+    [category] => １月
+)
+
+[08-Dec-2022 11:11:24 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[08-Dec-2022 11:14:57 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[08-Dec-2022 11:14:57 Asia/Tokyo] デバッグ：商品情報を取得：商品ID78
+[08-Dec-2022 11:14:57 Asia/Tokyo] PHP Warning:  Undefined variable $currentPageNum in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 10
+[08-Dec-2022 11:14:57 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 78
+    [name] => なし
+    [comment] => ラフランス
+    [price] => 600
+    [pic1] => uploads/84a35e21e367d99dbfbf81046a7020ca0ac95a33.jpeg
+    [pic2] => uploads/6253d1e7abe66637a1c6800ee23a691a9eb8fdcc.jpeg
+    [pic3] => uploads/7ab8acf805f20b8f533933db23a39a34db490678.jpeg
+    [user_id] => 40
+    [create_date] => 2022-12-08 09:54:50
+    [update_date] => 2022-12-08 09:54:50
+    [category] => １月
+)
+
+[08-Dec-2022 11:14:57 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[08-Dec-2022 11:15:09 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[08-Dec-2022 11:15:09 Asia/Tokyo] デバッグ：セッションID：
+[08-Dec-2022 11:15:09 Asia/Tokyo] デバッグ：セッション変数の中身：1670465709
+[08-Dec-2022 11:15:09 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1670465709
+[08-Dec-2022 11:15:09 Asia/Tokyo] デバッグ：ログイン期限日時：1670464496
+[08-Dec-2022 11:15:09 Asia/Tokyo] デバッグ：///トップページ////
+[08-Dec-2022 11:15:09 Asia/Tokyo] デバッグ：商品情報を取得
+[08-Dec-2022 11:15:09 Asia/Tokyo] デバッグ：SQL：SELECT * FROM product LIMIT 20 OFFSET 60
+[08-Dec-2022 11:15:20 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[08-Dec-2022 11:15:20 Asia/Tokyo] デバッグ：セッションID：cbmvo49sfmn057753h785s4pvh
+[08-Dec-2022 11:15:20 Asia/Tokyo] デバッグ：セッション変数の中身：1670465720
+[08-Dec-2022 11:15:20 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1670465720
+[08-Dec-2022 11:15:20 Asia/Tokyo] デバッグ：ログイン期限日時：1670469320
+[08-Dec-2022 11:15:20 Asia/Tokyo] デバッグ：///トップページ////
+[08-Dec-2022 11:15:20 Asia/Tokyo] デバッグ：商品情報を取得
+[08-Dec-2022 11:15:20 Asia/Tokyo] デバッグ：SQL：SELECT * FROM product LIMIT 20 OFFSET 0
+[08-Dec-2022 11:15:22 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[08-Dec-2022 11:15:22 Asia/Tokyo] デバッグ：セッションID：cbmvo49sfmn057753h785s4pvh
+[08-Dec-2022 11:15:22 Asia/Tokyo] デバッグ：セッション変数の中身：1670465722
+[08-Dec-2022 11:15:22 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1670465722
+[08-Dec-2022 11:15:22 Asia/Tokyo] デバッグ：ログイン期限日時：1670469322
+[08-Dec-2022 11:15:22 Asia/Tokyo] デバッグ：///トップページ////
+[08-Dec-2022 11:15:22 Asia/Tokyo] デバッグ：商品情報を取得
+[08-Dec-2022 11:15:22 Asia/Tokyo] デバッグ：SQL：SELECT * FROM product LIMIT 20 OFFSET 60
+[08-Dec-2022 11:15:24 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[08-Dec-2022 11:15:24 Asia/Tokyo] デバッグ：商品情報を取得：商品ID77
+[08-Dec-2022 11:15:24 Asia/Tokyo] PHP Warning:  Undefined variable $currentPageNum in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 10
+[08-Dec-2022 11:15:24 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 77
+    [name] => 伊予柑
+    [comment] => 美味しいかも
+    [price] => 3000
+    [pic1] => uploads/805e17d5f4df59517fd720358fda61df250f1559.jpeg
+    [pic2] => uploads/805e17d5f4df59517fd720358fda61df250f1559.jpeg
+    [pic3] => uploads/805e17d5f4df59517fd720358fda61df250f1559.jpeg
+    [user_id] => 40
+    [create_date] => 2022-12-08 09:45:06
+    [update_date] => 2022-12-08 09:45:06
+    [category] => ２月
+)
+
+[08-Dec-2022 11:15:24 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[08-Dec-2022 11:15:44 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[08-Dec-2022 11:15:44 Asia/Tokyo] デバッグ：商品情報を取得：商品ID77
+[08-Dec-2022 11:15:44 Asia/Tokyo] PHP Warning:  Undefined variable $currentPageNum in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 10
+[08-Dec-2022 11:15:44 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 77
+    [name] => 伊予柑
+    [comment] => 美味しいかも
+    [price] => 3000
+    [pic1] => uploads/805e17d5f4df59517fd720358fda61df250f1559.jpeg
+    [pic2] => uploads/805e17d5f4df59517fd720358fda61df250f1559.jpeg
+    [pic3] => uploads/805e17d5f4df59517fd720358fda61df250f1559.jpeg
+    [user_id] => 40
+    [create_date] => 2022-12-08 09:45:06
+    [update_date] => 2022-12-08 09:45:06
+    [category] => ２月
+)
+
+[08-Dec-2022 11:15:44 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[08-Dec-2022 11:19:58 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[08-Dec-2022 11:19:58 Asia/Tokyo] デバッグ：商品情報を取得：商品ID77
+[08-Dec-2022 11:19:58 Asia/Tokyo] PHP Warning:  Undefined variable $currentPageNum in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 10
+[08-Dec-2022 11:19:58 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 77
+    [name] => 伊予柑
+    [comment] => 美味しいかも
+    [price] => 3000
+    [pic1] => uploads/805e17d5f4df59517fd720358fda61df250f1559.jpeg
+    [pic2] => uploads/805e17d5f4df59517fd720358fda61df250f1559.jpeg
+    [pic3] => uploads/805e17d5f4df59517fd720358fda61df250f1559.jpeg
+    [user_id] => 40
+    [create_date] => 2022-12-08 09:45:06
+    [update_date] => 2022-12-08 09:45:06
+    [category] => ２月
+)
+
+[08-Dec-2022 11:19:58 Asia/Tokyo] デバッグ：POST送信があります。
+[08-Dec-2022 11:19:58 Asia/Tokyo] PHP Warning:  require(auth.php): Failed to open stream: No such file or directory in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 18
+[08-Dec-2022 11:19:58 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Failed opening required 'auth.php' (include_path='.:/Applications/MAMP/bin/php/php8.0.8/lib/php') in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php:18
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 18
+[08-Dec-2022 11:22:00 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[08-Dec-2022 11:22:00 Asia/Tokyo] デバッグ：商品情報を取得：商品ID77
+[08-Dec-2022 11:22:00 Asia/Tokyo] PHP Warning:  Undefined variable $currentPageNum in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 10
+[08-Dec-2022 11:22:00 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 77
+    [name] => 伊予柑
+    [comment] => 美味しいかも
+    [price] => 3000
+    [pic1] => uploads/805e17d5f4df59517fd720358fda61df250f1559.jpeg
+    [pic2] => uploads/805e17d5f4df59517fd720358fda61df250f1559.jpeg
+    [pic3] => uploads/805e17d5f4df59517fd720358fda61df250f1559.jpeg
+    [user_id] => 40
+    [create_date] => 2022-12-08 09:45:06
+    [update_date] => 2022-12-08 09:45:06
+    [category] => ２月
+)
+
+[08-Dec-2022 11:22:00 Asia/Tokyo] デバッグ：POST送信があります。
+[08-Dec-2022 11:22:00 Asia/Tokyo] PHP Warning:  Undefined variable $_p_id in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 22
+[08-Dec-2022 11:22:00 Asia/Tokyo] PHP Warning:  Undefined variable $sql in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 23
+[08-Dec-2022 11:22:00 Asia/Tokyo] PHP Fatal error:  Uncaught ValueError: PDO::prepare(): Argument #1 ($query) cannot be empty in /Applications/MAMP/htdocs/3rdpractice/src/function/function.php:50
+Stack trace:
+#0 /Applications/MAMP/htdocs/3rdpractice/src/function/function.php(50): PDO->prepare('')
+#1 /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php(23): queryPost(Object(PDO), NULL, Array)
+#2 {main}
+  thrown in /Applications/MAMP/htdocs/3rdpractice/src/function/function.php on line 50
+[08-Dec-2022 11:24:22 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[08-Dec-2022 11:24:22 Asia/Tokyo] デバッグ：商品情報を取得：商品ID77
+[08-Dec-2022 11:24:22 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 77
+    [name] => 伊予柑
+    [comment] => 美味しいかも
+    [price] => 3000
+    [pic1] => uploads/805e17d5f4df59517fd720358fda61df250f1559.jpeg
+    [pic2] => uploads/805e17d5f4df59517fd720358fda61df250f1559.jpeg
+    [pic3] => uploads/805e17d5f4df59517fd720358fda61df250f1559.jpeg
+    [user_id] => 40
+    [create_date] => 2022-12-08 09:45:06
+    [update_date] => 2022-12-08 09:45:06
+    [category] => ２月
+)
+
+[08-Dec-2022 11:24:22 Asia/Tokyo] デバッグ：POST送信があります。
+[08-Dec-2022 11:24:22 Asia/Tokyo] PHP Warning:  Undefined variable $_p_id in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 22
+[08-Dec-2022 11:24:22 Asia/Tokyo] PHP Warning:  Undefined variable $sql in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 23
+[08-Dec-2022 11:24:22 Asia/Tokyo] PHP Fatal error:  Uncaught ValueError: PDO::prepare(): Argument #1 ($query) cannot be empty in /Applications/MAMP/htdocs/3rdpractice/src/function/function.php:50
+Stack trace:
+#0 /Applications/MAMP/htdocs/3rdpractice/src/function/function.php(50): PDO->prepare('')
+#1 /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php(23): queryPost(Object(PDO), NULL, Array)
+#2 {main}
+  thrown in /Applications/MAMP/htdocs/3rdpractice/src/function/function.php on line 50
+[08-Dec-2022 11:25:21 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[08-Dec-2022 11:25:21 Asia/Tokyo] デバッグ：商品情報を取得：商品ID77
+[08-Dec-2022 11:25:21 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 77
+    [name] => 伊予柑
+    [comment] => 美味しいかも
+    [price] => 3000
+    [pic1] => uploads/805e17d5f4df59517fd720358fda61df250f1559.jpeg
+    [pic2] => uploads/805e17d5f4df59517fd720358fda61df250f1559.jpeg
+    [pic3] => uploads/805e17d5f4df59517fd720358fda61df250f1559.jpeg
+    [user_id] => 40
+    [create_date] => 2022-12-08 09:45:06
+    [update_date] => 2022-12-08 09:45:06
+    [category] => ２月
+)
+
+[08-Dec-2022 11:25:21 Asia/Tokyo] デバッグ：POST送信があります。
+[08-Dec-2022 11:25:21 Asia/Tokyo] PHP Warning:  Undefined variable $sql in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 23
+[08-Dec-2022 11:25:21 Asia/Tokyo] PHP Fatal error:  Uncaught ValueError: PDO::prepare(): Argument #1 ($query) cannot be empty in /Applications/MAMP/htdocs/3rdpractice/src/function/function.php:50
+Stack trace:
+#0 /Applications/MAMP/htdocs/3rdpractice/src/function/function.php(50): PDO->prepare('')
+#1 /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php(23): queryPost(Object(PDO), NULL, Array)
+#2 {main}
+  thrown in /Applications/MAMP/htdocs/3rdpractice/src/function/function.php on line 50
+[08-Dec-2022 11:27:24 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[08-Dec-2022 11:27:24 Asia/Tokyo] デバッグ：商品情報を取得：商品ID77
+[08-Dec-2022 11:27:24 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 77
+    [name] => 伊予柑
+    [comment] => 美味しいかも
+    [price] => 3000
+    [pic1] => uploads/805e17d5f4df59517fd720358fda61df250f1559.jpeg
+    [pic2] => uploads/805e17d5f4df59517fd720358fda61df250f1559.jpeg
+    [pic3] => uploads/805e17d5f4df59517fd720358fda61df250f1559.jpeg
+    [user_id] => 40
+    [create_date] => 2022-12-08 09:45:06
+    [update_date] => 2022-12-08 09:45:06
+    [category] => ２月
+)
+
+[08-Dec-2022 11:27:24 Asia/Tokyo] デバッグ：POST送信があります。
+[08-Dec-2022 11:27:24 Asia/Tokyo] PHP Warning:  Undefined variable $sql in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 24
+[08-Dec-2022 11:27:24 Asia/Tokyo] PHP Fatal error:  Uncaught ValueError: PDO::prepare(): Argument #1 ($query) cannot be empty in /Applications/MAMP/htdocs/3rdpractice/src/function/function.php:50
+Stack trace:
+#0 /Applications/MAMP/htdocs/3rdpractice/src/function/function.php(50): PDO->prepare('')
+#1 /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php(24): queryPost(Object(PDO), NULL, Array)
+#2 {main}
+  thrown in /Applications/MAMP/htdocs/3rdpractice/src/function/function.php on line 50
+[08-Dec-2022 11:30:20 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[08-Dec-2022 11:30:20 Asia/Tokyo] デバッグ：商品情報を取得：商品ID77
+[08-Dec-2022 11:30:20 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 77
+    [name] => 伊予柑
+    [comment] => 美味しいかも
+    [price] => 3000
+    [pic1] => uploads/805e17d5f4df59517fd720358fda61df250f1559.jpeg
+    [pic2] => uploads/805e17d5f4df59517fd720358fda61df250f1559.jpeg
+    [pic3] => uploads/805e17d5f4df59517fd720358fda61df250f1559.jpeg
+    [user_id] => 40
+    [create_date] => 2022-12-08 09:45:06
+    [update_date] => 2022-12-08 09:45:06
+    [category] => ２月
+)
+
+[08-Dec-2022 11:30:20 Asia/Tokyo] デバッグ：POST送信があります。
+[08-Dec-2022 11:30:20 Asia/Tokyo] エラー発生：SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+[08-Dec-2022 11:30:20 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Undefined constant "MSG07" in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php:32
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 32
+[08-Dec-2022 11:31:05 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[08-Dec-2022 11:31:05 Asia/Tokyo] デバッグ：商品情報を取得：商品ID77
+[08-Dec-2022 11:31:05 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 77
+    [name] => 伊予柑
+    [comment] => 美味しいかも
+    [price] => 3000
+    [pic1] => uploads/805e17d5f4df59517fd720358fda61df250f1559.jpeg
+    [pic2] => uploads/805e17d5f4df59517fd720358fda61df250f1559.jpeg
+    [pic3] => uploads/805e17d5f4df59517fd720358fda61df250f1559.jpeg
+    [user_id] => 40
+    [create_date] => 2022-12-08 09:45:06
+    [update_date] => 2022-12-08 09:45:06
+    [category] => ２月
+)
+
+[08-Dec-2022 11:31:05 Asia/Tokyo] デバッグ：POST送信があります。
+[08-Dec-2022 11:31:05 Asia/Tokyo] エラー発生：SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+[08-Dec-2022 11:31:05 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[08-Dec-2022 11:31:13 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[08-Dec-2022 11:31:13 Asia/Tokyo] デバッグ：商品情報を取得：商品ID77
+[08-Dec-2022 11:31:13 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 77
+    [name] => 伊予柑
+    [comment] => 美味しいかも
+    [price] => 3000
+    [pic1] => uploads/805e17d5f4df59517fd720358fda61df250f1559.jpeg
+    [pic2] => uploads/805e17d5f4df59517fd720358fda61df250f1559.jpeg
+    [pic3] => uploads/805e17d5f4df59517fd720358fda61df250f1559.jpeg
+    [user_id] => 40
+    [create_date] => 2022-12-08 09:45:06
+    [update_date] => 2022-12-08 09:45:06
+    [category] => ２月
+)
+
+[08-Dec-2022 11:31:13 Asia/Tokyo] デバッグ：POST送信があります。
+[08-Dec-2022 11:31:13 Asia/Tokyo] エラー発生：SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+[08-Dec-2022 11:31:13 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[08-Dec-2022 11:31:21 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[08-Dec-2022 11:31:21 Asia/Tokyo] デバッグ：商品情報を取得：商品ID77
+[08-Dec-2022 11:31:21 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 77
+    [name] => 伊予柑
+    [comment] => 美味しいかも
+    [price] => 3000
+    [pic1] => uploads/805e17d5f4df59517fd720358fda61df250f1559.jpeg
+    [pic2] => uploads/805e17d5f4df59517fd720358fda61df250f1559.jpeg
+    [pic3] => uploads/805e17d5f4df59517fd720358fda61df250f1559.jpeg
+    [user_id] => 40
+    [create_date] => 2022-12-08 09:45:06
+    [update_date] => 2022-12-08 09:45:06
+    [category] => ２月
+)
+
+[08-Dec-2022 11:31:21 Asia/Tokyo] デバッグ：POST送信があります。
+[08-Dec-2022 11:31:21 Asia/Tokyo] エラー発生：SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+[08-Dec-2022 11:31:21 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[08-Dec-2022 11:41:57 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[08-Dec-2022 11:41:57 Asia/Tokyo] デバッグ：商品情報を取得：商品ID77
+[08-Dec-2022 11:41:57 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 77
+    [name] => 伊予柑
+    [comment] => 美味しいかも
+    [price] => 3000
+    [pic1] => uploads/805e17d5f4df59517fd720358fda61df250f1559.jpeg
+    [pic2] => uploads/805e17d5f4df59517fd720358fda61df250f1559.jpeg
+    [pic3] => uploads/805e17d5f4df59517fd720358fda61df250f1559.jpeg
+    [user_id] => 40
+    [create_date] => 2022-12-08 09:45:06
+    [update_date] => 2022-12-08 09:45:06
+    [category] => ２月
+)
+
+[08-Dec-2022 11:41:57 Asia/Tokyo] デバッグ：POST送信があります。
+[08-Dec-2022 11:41:57 Asia/Tokyo] エラー発生：SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+[08-Dec-2022 11:41:57 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[08-Dec-2022 11:42:00 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[08-Dec-2022 11:42:00 Asia/Tokyo] デバッグ：商品情報を取得：商品ID77
+[08-Dec-2022 11:42:00 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 77
+    [name] => 伊予柑
+    [comment] => 美味しいかも
+    [price] => 3000
+    [pic1] => uploads/805e17d5f4df59517fd720358fda61df250f1559.jpeg
+    [pic2] => uploads/805e17d5f4df59517fd720358fda61df250f1559.jpeg
+    [pic3] => uploads/805e17d5f4df59517fd720358fda61df250f1559.jpeg
+    [user_id] => 40
+    [create_date] => 2022-12-08 09:45:06
+    [update_date] => 2022-12-08 09:45:06
+    [category] => ２月
+)
+
+[08-Dec-2022 11:42:00 Asia/Tokyo] デバッグ：POST送信があります。
+[08-Dec-2022 11:42:00 Asia/Tokyo] エラー発生：SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+[08-Dec-2022 11:42:00 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[08-Dec-2022 11:42:10 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[08-Dec-2022 11:42:10 Asia/Tokyo] デバッグ：商品情報を取得：商品ID77
+[08-Dec-2022 11:42:10 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 77
+    [name] => 伊予柑
+    [comment] => 美味しいかも
+    [price] => 3000
+    [pic1] => uploads/805e17d5f4df59517fd720358fda61df250f1559.jpeg
+    [pic2] => uploads/805e17d5f4df59517fd720358fda61df250f1559.jpeg
+    [pic3] => uploads/805e17d5f4df59517fd720358fda61df250f1559.jpeg
+    [user_id] => 40
+    [create_date] => 2022-12-08 09:45:06
+    [update_date] => 2022-12-08 09:45:06
+    [category] => ２月
+)
+
+[08-Dec-2022 11:42:10 Asia/Tokyo] デバッグ：POST送信があります。
+[08-Dec-2022 11:42:10 Asia/Tokyo] エラー発生：SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+[08-Dec-2022 11:42:10 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[08-Dec-2022 11:47:40 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[08-Dec-2022 11:47:40 Asia/Tokyo] デバッグ：商品情報を取得：商品ID77
+[08-Dec-2022 11:47:40 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 77
+    [name] => 伊予柑
+    [comment] => 美味しいかも
+    [price] => 3000
+    [pic1] => uploads/805e17d5f4df59517fd720358fda61df250f1559.jpeg
+    [pic2] => uploads/805e17d5f4df59517fd720358fda61df250f1559.jpeg
+    [pic3] => uploads/805e17d5f4df59517fd720358fda61df250f1559.jpeg
+    [user_id] => 40
+    [create_date] => 2022-12-08 09:45:06
+    [update_date] => 2022-12-08 09:45:06
+    [category] => ２月
+)
+
+[08-Dec-2022 11:47:40 Asia/Tokyo] デバッグ：POST送信があります。
+[08-Dec-2022 11:47:40 Asia/Tokyo] エラー発生：SQLSTATE[42S02]: Base table or view not found: 1146 Table 'freamarket.bord' doesn't exist
+[08-Dec-2022 11:47:40 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[08-Dec-2022 11:47:46 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[08-Dec-2022 11:47:46 Asia/Tokyo] デバッグ：商品情報を取得：商品ID77
+[08-Dec-2022 11:47:46 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 77
+    [name] => 伊予柑
+    [comment] => 美味しいかも
+    [price] => 3000
+    [pic1] => uploads/805e17d5f4df59517fd720358fda61df250f1559.jpeg
+    [pic2] => uploads/805e17d5f4df59517fd720358fda61df250f1559.jpeg
+    [pic3] => uploads/805e17d5f4df59517fd720358fda61df250f1559.jpeg
+    [user_id] => 40
+    [create_date] => 2022-12-08 09:45:06
+    [update_date] => 2022-12-08 09:45:06
+    [category] => ２月
+)
+
+[08-Dec-2022 11:47:46 Asia/Tokyo] デバッグ：POST送信があります。
+[08-Dec-2022 11:47:46 Asia/Tokyo] エラー発生：SQLSTATE[42S02]: Base table or view not found: 1146 Table 'freamarket.bord' doesn't exist
+[08-Dec-2022 11:47:46 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[08-Dec-2022 11:47:49 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[08-Dec-2022 11:47:49 Asia/Tokyo] デバッグ：商品情報を取得：商品ID77
+[08-Dec-2022 11:47:49 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 77
+    [name] => 伊予柑
+    [comment] => 美味しいかも
+    [price] => 3000
+    [pic1] => uploads/805e17d5f4df59517fd720358fda61df250f1559.jpeg
+    [pic2] => uploads/805e17d5f4df59517fd720358fda61df250f1559.jpeg
+    [pic3] => uploads/805e17d5f4df59517fd720358fda61df250f1559.jpeg
+    [user_id] => 40
+    [create_date] => 2022-12-08 09:45:06
+    [update_date] => 2022-12-08 09:45:06
+    [category] => ２月
+)
+
+[08-Dec-2022 11:47:49 Asia/Tokyo] デバッグ：POST送信があります。
+[08-Dec-2022 11:47:49 Asia/Tokyo] エラー発生：SQLSTATE[42S02]: Base table or view not found: 1146 Table 'freamarket.bord' doesn't exist
+[08-Dec-2022 11:47:49 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[08-Dec-2022 11:48:06 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[08-Dec-2022 11:48:06 Asia/Tokyo] デバッグ：セッションID：cbmvo49sfmn057753h785s4pvh
+[08-Dec-2022 11:48:06 Asia/Tokyo] デバッグ：セッション変数の中身：1670467686
+[08-Dec-2022 11:48:06 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1670467686
+[08-Dec-2022 11:48:06 Asia/Tokyo] デバッグ：ログイン期限日時：1670471286
+[08-Dec-2022 11:48:06 Asia/Tokyo] デバッグ：///トップページ////
+[08-Dec-2022 11:48:06 Asia/Tokyo] デバッグ：商品情報を取得
+[08-Dec-2022 11:48:06 Asia/Tokyo] デバッグ：SQL：SELECT * FROM product LIMIT 20 OFFSET 0
+[08-Dec-2022 11:48:08 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[08-Dec-2022 11:48:08 Asia/Tokyo] デバッグ：セッションID：cbmvo49sfmn057753h785s4pvh
+[08-Dec-2022 11:48:08 Asia/Tokyo] デバッグ：セッション変数の中身：1670467688
+[08-Dec-2022 11:48:08 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1670467688
+[08-Dec-2022 11:48:08 Asia/Tokyo] デバッグ：ログイン期限日時：1670471288
+[08-Dec-2022 11:48:08 Asia/Tokyo] デバッグ：///トップページ////
+[08-Dec-2022 11:48:08 Asia/Tokyo] デバッグ：商品情報を取得
+[08-Dec-2022 11:48:08 Asia/Tokyo] デバッグ：SQL：SELECT * FROM product LIMIT 20 OFFSET 60
+[08-Dec-2022 11:48:11 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[08-Dec-2022 11:48:11 Asia/Tokyo] デバッグ：商品情報を取得：商品ID78
+[08-Dec-2022 11:48:11 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 78
+    [name] => なし
+    [comment] => ラフランス
+    [price] => 600
+    [pic1] => uploads/84a35e21e367d99dbfbf81046a7020ca0ac95a33.jpeg
+    [pic2] => uploads/6253d1e7abe66637a1c6800ee23a691a9eb8fdcc.jpeg
+    [pic3] => uploads/7ab8acf805f20b8f533933db23a39a34db490678.jpeg
+    [user_id] => 40
+    [create_date] => 2022-12-08 09:54:50
+    [update_date] => 2022-12-08 09:54:50
+    [category] => １月
+)
+
+[08-Dec-2022 11:48:11 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[08-Dec-2022 11:48:26 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[08-Dec-2022 11:48:26 Asia/Tokyo] デバッグ：商品情報を取得：商品ID78
+[08-Dec-2022 11:48:26 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 78
+    [name] => なし
+    [comment] => ラフランス
+    [price] => 600
+    [pic1] => uploads/84a35e21e367d99dbfbf81046a7020ca0ac95a33.jpeg
+    [pic2] => uploads/6253d1e7abe66637a1c6800ee23a691a9eb8fdcc.jpeg
+    [pic3] => uploads/7ab8acf805f20b8f533933db23a39a34db490678.jpeg
+    [user_id] => 40
+    [create_date] => 2022-12-08 09:54:50
+    [update_date] => 2022-12-08 09:54:50
+    [category] => １月
+)
+
+[08-Dec-2022 11:48:26 Asia/Tokyo] デバッグ：POST送信があります。
+[08-Dec-2022 11:48:26 Asia/Tokyo] エラー発生：SQLSTATE[42S02]: Base table or view not found: 1146 Table 'freamarket.bord' doesn't exist
+[08-Dec-2022 11:48:26 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[08-Dec-2022 11:56:38 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[08-Dec-2022 11:56:38 Asia/Tokyo] デバッグ：商品情報を取得：商品ID78
+[08-Dec-2022 11:56:38 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 78
+    [name] => なし
+    [comment] => ラフランス
+    [price] => 600
+    [pic1] => uploads/84a35e21e367d99dbfbf81046a7020ca0ac95a33.jpeg
+    [pic2] => uploads/6253d1e7abe66637a1c6800ee23a691a9eb8fdcc.jpeg
+    [pic3] => uploads/7ab8acf805f20b8f533933db23a39a34db490678.jpeg
+    [user_id] => 40
+    [create_date] => 2022-12-08 09:54:50
+    [update_date] => 2022-12-08 09:54:50
+    [category] => １月
+)
+
+[08-Dec-2022 11:56:38 Asia/Tokyo] デバッグ：POST送信があります。
+[08-Dec-2022 11:56:38 Asia/Tokyo] エラー発生：SQLSTATE[42S02]: Base table or view not found: 1146 Table 'freamarket.bord' doesn't exist
+[08-Dec-2022 11:56:38 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[08-Dec-2022 11:56:44 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[08-Dec-2022 11:56:44 Asia/Tokyo] デバッグ：商品情報を取得：商品ID78
+[08-Dec-2022 11:56:44 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 78
+    [name] => なし
+    [comment] => ラフランス
+    [price] => 600
+    [pic1] => uploads/84a35e21e367d99dbfbf81046a7020ca0ac95a33.jpeg
+    [pic2] => uploads/6253d1e7abe66637a1c6800ee23a691a9eb8fdcc.jpeg
+    [pic3] => uploads/7ab8acf805f20b8f533933db23a39a34db490678.jpeg
+    [user_id] => 40
+    [create_date] => 2022-12-08 09:54:50
+    [update_date] => 2022-12-08 09:54:50
+    [category] => １月
+)
+
+[08-Dec-2022 11:56:44 Asia/Tokyo] デバッグ：POST送信があります。
+[08-Dec-2022 11:56:44 Asia/Tokyo] エラー発生：SQLSTATE[42S02]: Base table or view not found: 1146 Table 'freamarket.bord' doesn't exist
+[08-Dec-2022 11:56:44 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[08-Dec-2022 11:56:47 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[08-Dec-2022 11:56:47 Asia/Tokyo] デバッグ：商品情報を取得：商品ID78
+[08-Dec-2022 11:56:47 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 78
+    [name] => なし
+    [comment] => ラフランス
+    [price] => 600
+    [pic1] => uploads/84a35e21e367d99dbfbf81046a7020ca0ac95a33.jpeg
+    [pic2] => uploads/6253d1e7abe66637a1c6800ee23a691a9eb8fdcc.jpeg
+    [pic3] => uploads/7ab8acf805f20b8f533933db23a39a34db490678.jpeg
+    [user_id] => 40
+    [create_date] => 2022-12-08 09:54:50
+    [update_date] => 2022-12-08 09:54:50
+    [category] => １月
+)
+
+[08-Dec-2022 11:56:47 Asia/Tokyo] デバッグ：POST送信があります。
+[08-Dec-2022 11:56:47 Asia/Tokyo] エラー発生：SQLSTATE[42S02]: Base table or view not found: 1146 Table 'freamarket.bord' doesn't exist
+[08-Dec-2022 11:56:47 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[08-Dec-2022 12:00:38 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[08-Dec-2022 12:00:38 Asia/Tokyo] デバッグ：商品情報を取得：商品ID78
+[08-Dec-2022 12:00:38 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 78
+    [name] => なし
+    [comment] => ラフランス
+    [price] => 600
+    [pic1] => uploads/84a35e21e367d99dbfbf81046a7020ca0ac95a33.jpeg
+    [pic2] => uploads/6253d1e7abe66637a1c6800ee23a691a9eb8fdcc.jpeg
+    [pic3] => uploads/7ab8acf805f20b8f533933db23a39a34db490678.jpeg
+    [user_id] => 40
+    [create_date] => 2022-12-08 09:54:50
+    [update_date] => 2022-12-08 09:54:50
+    [category] => １月
+)
+
+[08-Dec-2022 12:00:38 Asia/Tokyo] デバッグ：POST送信があります。
+[08-Dec-2022 12:00:38 Asia/Tokyo] エラー発生：SQLSTATE[42S22]: Column not found: 1054 Unknown column 'buy_user' in 'field list'
+[08-Dec-2022 12:00:38 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[08-Dec-2022 12:00:42 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[08-Dec-2022 12:00:42 Asia/Tokyo] デバッグ：商品情報を取得：商品ID78
+[08-Dec-2022 12:00:42 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 78
+    [name] => なし
+    [comment] => ラフランス
+    [price] => 600
+    [pic1] => uploads/84a35e21e367d99dbfbf81046a7020ca0ac95a33.jpeg
+    [pic2] => uploads/6253d1e7abe66637a1c6800ee23a691a9eb8fdcc.jpeg
+    [pic3] => uploads/7ab8acf805f20b8f533933db23a39a34db490678.jpeg
+    [user_id] => 40
+    [create_date] => 2022-12-08 09:54:50
+    [update_date] => 2022-12-08 09:54:50
+    [category] => １月
+)
+
+[08-Dec-2022 12:00:42 Asia/Tokyo] デバッグ：POST送信があります。
+[08-Dec-2022 12:00:42 Asia/Tokyo] エラー発生：SQLSTATE[42S22]: Column not found: 1054 Unknown column 'buy_user' in 'field list'
+[08-Dec-2022 12:00:42 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[08-Dec-2022 12:00:45 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[08-Dec-2022 12:00:45 Asia/Tokyo] デバッグ：商品情報を取得：商品ID78
+[08-Dec-2022 12:00:45 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 78
+    [name] => なし
+    [comment] => ラフランス
+    [price] => 600
+    [pic1] => uploads/84a35e21e367d99dbfbf81046a7020ca0ac95a33.jpeg
+    [pic2] => uploads/6253d1e7abe66637a1c6800ee23a691a9eb8fdcc.jpeg
+    [pic3] => uploads/7ab8acf805f20b8f533933db23a39a34db490678.jpeg
+    [user_id] => 40
+    [create_date] => 2022-12-08 09:54:50
+    [update_date] => 2022-12-08 09:54:50
+    [category] => １月
+)
+
+[08-Dec-2022 12:00:45 Asia/Tokyo] デバッグ：POST送信があります。
+[08-Dec-2022 12:00:45 Asia/Tokyo] エラー発生：SQLSTATE[42S22]: Column not found: 1054 Unknown column 'buy_user' in 'field list'
+[08-Dec-2022 12:00:45 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[08-Dec-2022 12:09:22 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[08-Dec-2022 12:09:22 Asia/Tokyo] デバッグ：商品情報を取得：商品ID78
+[08-Dec-2022 12:09:22 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 78
+    [name] => なし
+    [comment] => ラフランス
+    [price] => 600
+    [pic1] => uploads/84a35e21e367d99dbfbf81046a7020ca0ac95a33.jpeg
+    [pic2] => uploads/6253d1e7abe66637a1c6800ee23a691a9eb8fdcc.jpeg
+    [pic3] => uploads/7ab8acf805f20b8f533933db23a39a34db490678.jpeg
+    [user_id] => 40
+    [create_date] => 2022-12-08 09:54:50
+    [update_date] => 2022-12-08 09:54:50
+    [category] => １月
+)
+
+[08-Dec-2022 12:09:22 Asia/Tokyo] デバッグ：POST送信があります。
+[08-Dec-2022 12:09:22 Asia/Tokyo] エラー発生：SQLSTATE[42S22]: Column not found: 1054 Unknown column 'buy_user' in 'field list'
+[08-Dec-2022 12:09:22 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[08-Dec-2022 12:10:49 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[08-Dec-2022 12:10:49 Asia/Tokyo] デバッグ：商品情報を取得：商品ID78
+[08-Dec-2022 12:10:49 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 78
+    [name] => なし
+    [comment] => ラフランス
+    [price] => 600
+    [pic1] => uploads/84a35e21e367d99dbfbf81046a7020ca0ac95a33.jpeg
+    [pic2] => uploads/6253d1e7abe66637a1c6800ee23a691a9eb8fdcc.jpeg
+    [pic3] => uploads/7ab8acf805f20b8f533933db23a39a34db490678.jpeg
+    [user_id] => 40
+    [create_date] => 2022-12-08 09:54:50
+    [update_date] => 2022-12-08 09:54:50
+    [category] => １月
+)
+
+[08-Dec-2022 12:10:49 Asia/Tokyo] デバッグ：POST送信があります。
+[08-Dec-2022 12:10:49 Asia/Tokyo] エラー発生：SQLSTATE[42S22]: Column not found: 1054 Unknown column 'buy_user' in 'field list'
+[08-Dec-2022 12:10:49 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[08-Dec-2022 12:13:55 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[08-Dec-2022 12:13:55 Asia/Tokyo] デバッグ：商品情報を取得：商品ID78
+[08-Dec-2022 12:13:55 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 78
+    [name] => なし
+    [comment] => ラフランス
+    [price] => 600
+    [pic1] => uploads/84a35e21e367d99dbfbf81046a7020ca0ac95a33.jpeg
+    [pic2] => uploads/6253d1e7abe66637a1c6800ee23a691a9eb8fdcc.jpeg
+    [pic3] => uploads/7ab8acf805f20b8f533933db23a39a34db490678.jpeg
+    [user_id] => 40
+    [create_date] => 2022-12-08 09:54:50
+    [update_date] => 2022-12-08 09:54:50
+    [category] => １月
+)
+
+[08-Dec-2022 12:13:55 Asia/Tokyo] デバッグ：POST送信があります。
+[08-Dec-2022 12:13:55 Asia/Tokyo] エラー発生：SQLSTATE[42S22]: Column not found: 1054 Unknown column 'buy_user' in 'field list'
+[08-Dec-2022 12:13:55 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[08-Dec-2022 12:14:26 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[08-Dec-2022 12:14:26 Asia/Tokyo] デバッグ：商品情報を取得：商品ID78
+[08-Dec-2022 12:14:26 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 78
+    [name] => なし
+    [comment] => ラフランス
+    [price] => 600
+    [pic1] => uploads/84a35e21e367d99dbfbf81046a7020ca0ac95a33.jpeg
+    [pic2] => uploads/6253d1e7abe66637a1c6800ee23a691a9eb8fdcc.jpeg
+    [pic3] => uploads/7ab8acf805f20b8f533933db23a39a34db490678.jpeg
+    [user_id] => 40
+    [create_date] => 2022-12-08 09:54:50
+    [update_date] => 2022-12-08 09:54:50
+    [category] => １月
+)
+
+[08-Dec-2022 12:14:26 Asia/Tokyo] デバッグ：POST送信があります。
+[08-Dec-2022 12:14:26 Asia/Tokyo] エラー発生：SQLSTATE[42S22]: Column not found: 1054 Unknown column 'buy_user' in 'field list'
+[08-Dec-2022 12:14:26 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[08-Dec-2022 13:07:25 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[08-Dec-2022 13:07:25 Asia/Tokyo] デバッグ：商品情報を取得：商品ID78
+[08-Dec-2022 13:07:25 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 78
+    [name] => なし
+    [comment] => ラフランス
+    [price] => 600
+    [pic1] => uploads/84a35e21e367d99dbfbf81046a7020ca0ac95a33.jpeg
+    [pic2] => uploads/6253d1e7abe66637a1c6800ee23a691a9eb8fdcc.jpeg
+    [pic3] => uploads/7ab8acf805f20b8f533933db23a39a34db490678.jpeg
+    [user_id] => 40
+    [create_date] => 2022-12-08 09:54:50
+    [update_date] => 2022-12-08 09:54:50
+    [category] => １月
+)
+
+[08-Dec-2022 13:07:25 Asia/Tokyo] デバッグ：POST送信があります。
+[08-Dec-2022 13:07:25 Asia/Tokyo] エラー発生：SQLSTATE[42S22]: Column not found: 1054 Unknown column 'buy_user' in 'field list'
+[08-Dec-2022 13:07:25 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[08-Dec-2022 13:07:30 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[08-Dec-2022 13:07:30 Asia/Tokyo] デバッグ：セッションID：cbmvo49sfmn057753h785s4pvh
+[08-Dec-2022 13:07:30 Asia/Tokyo] デバッグ：セッション変数の中身：1670472450
+[08-Dec-2022 13:07:30 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1670472450
+[08-Dec-2022 13:07:30 Asia/Tokyo] デバッグ：ログイン期限日時：1670476050
+[08-Dec-2022 13:07:30 Asia/Tokyo] デバッグ：///トップページ////
+[08-Dec-2022 13:07:30 Asia/Tokyo] デバッグ：商品情報を取得
+[08-Dec-2022 13:07:30 Asia/Tokyo] デバッグ：SQL：SELECT * FROM product LIMIT 20 OFFSET 0
+[08-Dec-2022 13:07:36 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[08-Dec-2022 13:07:36 Asia/Tokyo] デバッグ：商品情報を取得：商品ID2
+[08-Dec-2022 13:07:36 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 2
+    [name] => cat
+    [comment] => asdf
+    [price] => 0
+    [pic1] => uploads/7ec9e68e8c49460ae8d527bd6d84e367321392e4.jpeg
+    [pic2] => uploads/7ec9e68e8c49460ae8d527bd6d84e367321392e4.jpeg
+    [pic3] => uploads/7ec9e68e8c49460ae8d527bd6d84e367321392e4.jpeg
+    [user_id] => 40
+    [create_date] => 2022-11-25 14:05:33
+    [update_date] => 2022-11-25 14:05:33
+    [category] => １月
+)
+
+[08-Dec-2022 13:07:36 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[08-Dec-2022 13:07:40 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[08-Dec-2022 13:07:40 Asia/Tokyo] デバッグ：セッションID：cbmvo49sfmn057753h785s4pvh
+[08-Dec-2022 13:07:40 Asia/Tokyo] デバッグ：セッション変数の中身：1670472460
+[08-Dec-2022 13:07:40 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1670472460
+[08-Dec-2022 13:07:40 Asia/Tokyo] デバッグ：ログイン期限日時：1670476060
+[08-Dec-2022 13:07:40 Asia/Tokyo] デバッグ：///トップページ////
+[08-Dec-2022 13:07:40 Asia/Tokyo] デバッグ：商品情報を取得
+[08-Dec-2022 13:07:40 Asia/Tokyo] デバッグ：SQL：SELECT * FROM product LIMIT 20 OFFSET 0
+[08-Dec-2022 13:07:42 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[08-Dec-2022 13:07:42 Asia/Tokyo] デバッグ：セッションID：cbmvo49sfmn057753h785s4pvh
+[08-Dec-2022 13:07:42 Asia/Tokyo] デバッグ：セッション変数の中身：1670472462
+[08-Dec-2022 13:07:42 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1670472462
+[08-Dec-2022 13:07:42 Asia/Tokyo] デバッグ：ログイン期限日時：1670476062
+[08-Dec-2022 13:07:42 Asia/Tokyo] デバッグ：///トップページ////
+[08-Dec-2022 13:07:42 Asia/Tokyo] デバッグ：商品情報を取得
+[08-Dec-2022 13:07:42 Asia/Tokyo] デバッグ：SQL：SELECT * FROM product LIMIT 20 OFFSET 60
+[08-Dec-2022 13:07:45 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[08-Dec-2022 13:07:45 Asia/Tokyo] デバッグ：商品情報を取得：商品ID78
+[08-Dec-2022 13:07:45 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 78
+    [name] => なし
+    [comment] => ラフランス
+    [price] => 600
+    [pic1] => uploads/84a35e21e367d99dbfbf81046a7020ca0ac95a33.jpeg
+    [pic2] => uploads/6253d1e7abe66637a1c6800ee23a691a9eb8fdcc.jpeg
+    [pic3] => uploads/7ab8acf805f20b8f533933db23a39a34db490678.jpeg
+    [user_id] => 40
+    [create_date] => 2022-12-08 09:54:50
+    [update_date] => 2022-12-08 09:54:50
+    [category] => １月
+)
+
+[08-Dec-2022 13:07:45 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[08-Dec-2022 13:07:48 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[08-Dec-2022 13:07:48 Asia/Tokyo] デバッグ：セッションID：cbmvo49sfmn057753h785s4pvh
+[08-Dec-2022 13:07:48 Asia/Tokyo] デバッグ：セッション変数の中身：1670472468
+[08-Dec-2022 13:07:48 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1670472468
+[08-Dec-2022 13:07:48 Asia/Tokyo] デバッグ：ログイン期限日時：1670476068
+[08-Dec-2022 13:07:48 Asia/Tokyo] デバッグ：///トップページ////
+[08-Dec-2022 13:07:48 Asia/Tokyo] デバッグ：商品情報を取得
+[08-Dec-2022 13:07:48 Asia/Tokyo] デバッグ：SQL：SELECT * FROM product LIMIT 20 OFFSET 0
+[08-Dec-2022 13:10:31 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[08-Dec-2022 13:10:31 Asia/Tokyo] デバッグ：セッションID：cbmvo49sfmn057753h785s4pvh
+[08-Dec-2022 13:10:31 Asia/Tokyo] デバッグ：セッション変数の中身：1670472631
+[08-Dec-2022 13:10:31 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1670472631
+[08-Dec-2022 13:10:31 Asia/Tokyo] デバッグ：ログイン期限日時：1670476231
+[08-Dec-2022 13:10:31 Asia/Tokyo] デバッグ：///トップページ////
+[08-Dec-2022 13:10:31 Asia/Tokyo] デバッグ：商品情報を取得
+[08-Dec-2022 13:10:31 Asia/Tokyo] デバッグ：SQL：SELECT * FROM product LIMIT 20 OFFSET 60
+[08-Dec-2022 13:10:33 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[08-Dec-2022 13:10:33 Asia/Tokyo] デバッグ：商品情報を取得：商品ID78
+[08-Dec-2022 13:10:33 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 78
+    [name] => なし
+    [comment] => ラフランス
+    [price] => 600
+    [pic1] => uploads/84a35e21e367d99dbfbf81046a7020ca0ac95a33.jpeg
+    [pic2] => uploads/6253d1e7abe66637a1c6800ee23a691a9eb8fdcc.jpeg
+    [pic3] => uploads/7ab8acf805f20b8f533933db23a39a34db490678.jpeg
+    [user_id] => 40
+    [create_date] => 2022-12-08 09:54:50
+    [update_date] => 2022-12-08 09:54:50
+    [category] => １月
+)
+
+[08-Dec-2022 13:10:33 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[08-Dec-2022 13:10:40 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[08-Dec-2022 13:10:40 Asia/Tokyo] デバッグ：セッションID：cbmvo49sfmn057753h785s4pvh
+[08-Dec-2022 13:10:40 Asia/Tokyo] デバッグ：セッション変数の中身：1670472640
+[08-Dec-2022 13:10:40 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1670472640
+[08-Dec-2022 13:10:40 Asia/Tokyo] デバッグ：ログイン期限日時：1670476240
+[08-Dec-2022 13:10:40 Asia/Tokyo] デバッグ：///トップページ////
+[08-Dec-2022 13:10:40 Asia/Tokyo] デバッグ：商品情報を取得
+[08-Dec-2022 13:10:40 Asia/Tokyo] デバッグ：SQL：SELECT * FROM product LIMIT 20 OFFSET 60
+[08-Dec-2022 13:10:42 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[08-Dec-2022 13:10:42 Asia/Tokyo] デバッグ：商品情報を取得：商品ID77
+[08-Dec-2022 13:10:42 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 77
+    [name] => 伊予柑
+    [comment] => 美味しいかも
+    [price] => 3000
+    [pic1] => uploads/805e17d5f4df59517fd720358fda61df250f1559.jpeg
+    [pic2] => uploads/805e17d5f4df59517fd720358fda61df250f1559.jpeg
+    [pic3] => uploads/805e17d5f4df59517fd720358fda61df250f1559.jpeg
+    [user_id] => 40
+    [create_date] => 2022-12-08 09:45:06
+    [update_date] => 2022-12-08 09:45:06
+    [category] => ２月
+)
+
+[08-Dec-2022 13:10:42 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[08-Dec-2022 13:10:45 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[08-Dec-2022 13:10:45 Asia/Tokyo] デバッグ：セッションID：cbmvo49sfmn057753h785s4pvh
+[08-Dec-2022 13:10:45 Asia/Tokyo] デバッグ：セッション変数の中身：1670472645
+[08-Dec-2022 13:10:45 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1670472645
+[08-Dec-2022 13:10:45 Asia/Tokyo] デバッグ：ログイン期限日時：1670476245
+[08-Dec-2022 13:10:45 Asia/Tokyo] デバッグ：///トップページ////
+[08-Dec-2022 13:10:45 Asia/Tokyo] デバッグ：商品情報を取得
+[08-Dec-2022 13:10:45 Asia/Tokyo] デバッグ：SQL：SELECT * FROM product LIMIT 20 OFFSET 60
+[08-Dec-2022 13:46:51 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[08-Dec-2022 13:46:51 Asia/Tokyo] デバッグ：商品情報を取得：商品ID78
+[08-Dec-2022 13:46:51 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 78
+    [name] => なし
+    [comment] => ラフランス
+    [price] => 600
+    [pic1] => uploads/84a35e21e367d99dbfbf81046a7020ca0ac95a33.jpeg
+    [pic2] => uploads/6253d1e7abe66637a1c6800ee23a691a9eb8fdcc.jpeg
+    [pic3] => uploads/7ab8acf805f20b8f533933db23a39a34db490678.jpeg
+    [user_id] => 40
+    [create_date] => 2022-12-08 09:54:50
+    [update_date] => 2022-12-08 09:54:50
+    [category] => １月
+)
+
+[08-Dec-2022 13:46:51 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[08-Dec-2022 13:47:23 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[08-Dec-2022 13:47:23 Asia/Tokyo] デバッグ：商品情報を取得：商品ID78
+[08-Dec-2022 13:47:23 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 78
+    [name] => なし
+    [comment] => ラフランス
+    [price] => 600
+    [pic1] => uploads/84a35e21e367d99dbfbf81046a7020ca0ac95a33.jpeg
+    [pic2] => uploads/6253d1e7abe66637a1c6800ee23a691a9eb8fdcc.jpeg
+    [pic3] => uploads/7ab8acf805f20b8f533933db23a39a34db490678.jpeg
+    [user_id] => 40
+    [create_date] => 2022-12-08 09:54:50
+    [update_date] => 2022-12-08 09:54:50
+    [category] => １月
+)
+
+[08-Dec-2022 13:47:23 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[08-Dec-2022 14:03:07 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[08-Dec-2022 14:03:07 Asia/Tokyo] デバッグ：セッションID：cbmvo49sfmn057753h785s4pvh
+[08-Dec-2022 14:03:07 Asia/Tokyo] デバッグ：セッション変数の中身：1670475787
+[08-Dec-2022 14:03:07 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1670475787
+[08-Dec-2022 14:03:07 Asia/Tokyo] デバッグ：ログイン期限日時：1670479387
+[08-Dec-2022 14:03:07 Asia/Tokyo] デバッグ：///トップページ////
+[08-Dec-2022 14:03:07 Asia/Tokyo] デバッグ：商品情報を取得
+[08-Dec-2022 14:03:07 Asia/Tokyo] デバッグ：SQL：SELECT * FROM product LIMIT 20 OFFSET 60
+[08-Dec-2022 14:03:09 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[08-Dec-2022 14:03:09 Asia/Tokyo] デバッグ：商品情報を取得：商品ID77
+[08-Dec-2022 14:03:09 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 77
+    [name] => 伊予柑
+    [comment] => 美味しいかも
+    [price] => 3000
+    [pic1] => uploads/805e17d5f4df59517fd720358fda61df250f1559.jpeg
+    [pic2] => uploads/805e17d5f4df59517fd720358fda61df250f1559.jpeg
+    [pic3] => uploads/805e17d5f4df59517fd720358fda61df250f1559.jpeg
+    [user_id] => 40
+    [create_date] => 2022-12-08 09:45:06
+    [update_date] => 2022-12-08 09:45:06
+    [category] => ２月
+)
+
+[08-Dec-2022 14:03:09 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[08-Dec-2022 14:03:14 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[08-Dec-2022 14:03:14 Asia/Tokyo] デバッグ：セッションID：cbmvo49sfmn057753h785s4pvh
+[08-Dec-2022 14:03:14 Asia/Tokyo] デバッグ：セッション変数の中身：1670475794
+[08-Dec-2022 14:03:14 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1670475794
+[08-Dec-2022 14:03:14 Asia/Tokyo] デバッグ：ログイン期限日時：1670479394
+[08-Dec-2022 14:03:14 Asia/Tokyo] デバッグ：///トップページ////
+[08-Dec-2022 14:03:14 Asia/Tokyo] デバッグ：商品情報を取得
+[08-Dec-2022 14:03:14 Asia/Tokyo] デバッグ：SQL：SELECT * FROM product LIMIT 20 OFFSET 60
+[08-Dec-2022 14:03:16 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[08-Dec-2022 14:03:16 Asia/Tokyo] デバッグ：商品情報を取得：商品ID78
+[08-Dec-2022 14:03:16 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 78
+    [name] => なし
+    [comment] => ラフランス
+    [price] => 600
+    [pic1] => uploads/84a35e21e367d99dbfbf81046a7020ca0ac95a33.jpeg
+    [pic2] => uploads/6253d1e7abe66637a1c6800ee23a691a9eb8fdcc.jpeg
+    [pic3] => uploads/7ab8acf805f20b8f533933db23a39a34db490678.jpeg
+    [user_id] => 40
+    [create_date] => 2022-12-08 09:54:50
+    [update_date] => 2022-12-08 09:54:50
+    [category] => １月
+)
+
+[08-Dec-2022 14:03:16 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[08-Dec-2022 14:15:55 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[08-Dec-2022 14:15:55 Asia/Tokyo] デバッグ：商品情報を取得：商品ID78
+[08-Dec-2022 14:15:55 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 78
+    [name] => なし
+    [comment] => ラフランス
+    [price] => 600
+    [pic1] => uploads/84a35e21e367d99dbfbf81046a7020ca0ac95a33.jpeg
+    [pic2] => uploads/6253d1e7abe66637a1c6800ee23a691a9eb8fdcc.jpeg
+    [pic3] => uploads/7ab8acf805f20b8f533933db23a39a34db490678.jpeg
+    [user_id] => 40
+    [create_date] => 2022-12-08 09:54:50
+    [update_date] => 2022-12-08 09:54:50
+    [category] => １月
+)
+
+[08-Dec-2022 14:15:55 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[08-Dec-2022 14:18:32 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[08-Dec-2022 14:18:32 Asia/Tokyo] デバッグ：商品情報を取得：商品ID78
+[08-Dec-2022 14:18:32 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 78
+    [name] => なし
+    [comment] => ラフランス
+    [price] => 600
+    [pic1] => uploads/84a35e21e367d99dbfbf81046a7020ca0ac95a33.jpeg
+    [pic2] => uploads/6253d1e7abe66637a1c6800ee23a691a9eb8fdcc.jpeg
+    [pic3] => uploads/7ab8acf805f20b8f533933db23a39a34db490678.jpeg
+    [user_id] => 40
+    [create_date] => 2022-12-08 09:54:50
+    [update_date] => 2022-12-08 09:54:50
+    [category] => １月
+)
+
+[08-Dec-2022 14:18:32 Asia/Tokyo] デバッグ：POST送信があります。
+[08-Dec-2022 14:18:32 Asia/Tokyo] エラー発生：SQLSTATE[42S22]: Column not found: 1054 Unknown column 'buy_user' in 'field list'
+[08-Dec-2022 14:18:32 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[08-Dec-2022 14:49:06 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[08-Dec-2022 14:49:06 Asia/Tokyo] デバッグ：商品情報を取得：商品ID78
+[08-Dec-2022 14:49:06 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 78
+    [name] => なし
+    [comment] => ラフランス
+    [price] => 600
+    [pic1] => uploads/84a35e21e367d99dbfbf81046a7020ca0ac95a33.jpeg
+    [pic2] => uploads/6253d1e7abe66637a1c6800ee23a691a9eb8fdcc.jpeg
+    [pic3] => uploads/7ab8acf805f20b8f533933db23a39a34db490678.jpeg
+    [user_id] => 40
+    [create_date] => 2022-12-08 09:54:50
+    [update_date] => 2022-12-08 09:54:50
+    [category] => １月
+)
+
+[08-Dec-2022 14:49:06 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[08-Dec-2022 14:49:08 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[08-Dec-2022 14:49:08 Asia/Tokyo] デバッグ：セッションID：cbmvo49sfmn057753h785s4pvh
+[08-Dec-2022 14:49:08 Asia/Tokyo] デバッグ：セッション変数の中身：1670478548
+[08-Dec-2022 14:49:08 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1670478548
+[08-Dec-2022 14:49:08 Asia/Tokyo] デバッグ：ログイン期限日時：1670482148
+[08-Dec-2022 14:49:08 Asia/Tokyo] デバッグ：///トップページ////
+[08-Dec-2022 14:49:08 Asia/Tokyo] デバッグ：商品情報を取得
+[08-Dec-2022 14:49:08 Asia/Tokyo] デバッグ：SQL：SELECT * FROM product LIMIT 20 OFFSET 60
+[08-Dec-2022 14:49:09 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[08-Dec-2022 14:49:09 Asia/Tokyo] デバッグ：商品情報を取得：商品ID78
+[08-Dec-2022 14:49:09 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 78
+    [name] => なし
+    [comment] => ラフランス
+    [price] => 600
+    [pic1] => uploads/84a35e21e367d99dbfbf81046a7020ca0ac95a33.jpeg
+    [pic2] => uploads/6253d1e7abe66637a1c6800ee23a691a9eb8fdcc.jpeg
+    [pic3] => uploads/7ab8acf805f20b8f533933db23a39a34db490678.jpeg
+    [user_id] => 40
+    [create_date] => 2022-12-08 09:54:50
+    [update_date] => 2022-12-08 09:54:50
+    [category] => １月
+)
+
+[08-Dec-2022 14:49:09 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[08-Dec-2022 14:57:00 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[08-Dec-2022 14:57:00 Asia/Tokyo] デバッグ：商品情報を取得：商品ID78
+[08-Dec-2022 14:57:00 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 78
+    [name] => なし
+    [comment] => ラフランス
+    [price] => 600
+    [pic1] => uploads/84a35e21e367d99dbfbf81046a7020ca0ac95a33.jpeg
+    [pic2] => uploads/6253d1e7abe66637a1c6800ee23a691a9eb8fdcc.jpeg
+    [pic3] => uploads/7ab8acf805f20b8f533933db23a39a34db490678.jpeg
+    [user_id] => 40
+    [create_date] => 2022-12-08 09:54:50
+    [update_date] => 2022-12-08 09:54:50
+    [category] => １月
+)
+
+[08-Dec-2022 14:57:00 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[08-Dec-2022 14:57:01 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[08-Dec-2022 14:57:01 Asia/Tokyo] デバッグ：商品情報を取得：商品ID78
+[08-Dec-2022 14:57:01 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 78
+    [name] => なし
+    [comment] => ラフランス
+    [price] => 600
+    [pic1] => uploads/84a35e21e367d99dbfbf81046a7020ca0ac95a33.jpeg
+    [pic2] => uploads/6253d1e7abe66637a1c6800ee23a691a9eb8fdcc.jpeg
+    [pic3] => uploads/7ab8acf805f20b8f533933db23a39a34db490678.jpeg
+    [user_id] => 40
+    [create_date] => 2022-12-08 09:54:50
+    [update_date] => 2022-12-08 09:54:50
+    [category] => １月
+)
+
+[08-Dec-2022 14:57:01 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[08-Dec-2022 14:57:57 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[08-Dec-2022 14:57:57 Asia/Tokyo] デバッグ：商品情報を取得：商品ID78
+[08-Dec-2022 14:57:57 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 78
+    [name] => なし
+    [comment] => ラフランス
+    [price] => 600
+    [pic1] => uploads/84a35e21e367d99dbfbf81046a7020ca0ac95a33.jpeg
+    [pic2] => uploads/6253d1e7abe66637a1c6800ee23a691a9eb8fdcc.jpeg
+    [pic3] => uploads/7ab8acf805f20b8f533933db23a39a34db490678.jpeg
+    [user_id] => 40
+    [create_date] => 2022-12-08 09:54:50
+    [update_date] => 2022-12-08 09:54:50
+    [category] => １月
+)
+
+[08-Dec-2022 14:57:57 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[08-Dec-2022 14:59:26 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[08-Dec-2022 14:59:26 Asia/Tokyo] デバッグ：セッションID：cbmvo49sfmn057753h785s4pvh
+[08-Dec-2022 14:59:26 Asia/Tokyo] デバッグ：セッション変数の中身：1670479166
+[08-Dec-2022 14:59:26 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1670479166
+[08-Dec-2022 14:59:26 Asia/Tokyo] デバッグ：ログイン期限日時：1670482766
+[08-Dec-2022 14:59:26 Asia/Tokyo] デバッグ：///トップページ////
+[08-Dec-2022 14:59:26 Asia/Tokyo] デバッグ：商品情報を取得
+[08-Dec-2022 14:59:26 Asia/Tokyo] デバッグ：SQL：SELECT * FROM product LIMIT 20 OFFSET 60
+[08-Dec-2022 14:59:36 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[08-Dec-2022 14:59:36 Asia/Tokyo] デバッグ：商品情報を取得：商品ID78
+[08-Dec-2022 14:59:36 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 78
+    [name] => なし
+    [comment] => ラフランス
+    [price] => 600
+    [pic1] => uploads/84a35e21e367d99dbfbf81046a7020ca0ac95a33.jpeg
+    [pic2] => uploads/6253d1e7abe66637a1c6800ee23a691a9eb8fdcc.jpeg
+    [pic3] => uploads/7ab8acf805f20b8f533933db23a39a34db490678.jpeg
+    [user_id] => 40
+    [create_date] => 2022-12-08 09:54:50
+    [update_date] => 2022-12-08 09:54:50
+    [category] => １月
+)
+
+[08-Dec-2022 14:59:36 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[08-Dec-2022 15:04:11 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[08-Dec-2022 15:04:11 Asia/Tokyo] デバッグ：セッションID：cbmvo49sfmn057753h785s4pvh
+[08-Dec-2022 15:04:11 Asia/Tokyo] デバッグ：セッション変数の中身：1670479451
+[08-Dec-2022 15:04:11 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1670479451
+[08-Dec-2022 15:04:11 Asia/Tokyo] デバッグ：ログイン期限日時：1670483051
+[08-Dec-2022 15:04:11 Asia/Tokyo] デバッグ：///トップページ////
+[08-Dec-2022 15:04:11 Asia/Tokyo] デバッグ：商品情報を取得
+[08-Dec-2022 15:04:11 Asia/Tokyo] デバッグ：SQL：SELECT * FROM product LIMIT 20 OFFSET 60
+[08-Dec-2022 15:05:45 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[08-Dec-2022 15:05:45 Asia/Tokyo] デバッグ：商品情報を取得：商品ID74
+[08-Dec-2022 15:05:45 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 74
+    [name] => たぬき
+    [comment] => たぬきの置き物
+    [price] => 3000
+    [pic1] => uploads/f11143effda8756d6f56ad976e20a40738db9d95.jpeg
+    [pic2] => uploads/f11143effda8756d6f56ad976e20a40738db9d95.jpeg
+    [pic3] => uploads/f11143effda8756d6f56ad976e20a40738db9d95.jpeg
+    [user_id] => 40
+    [create_date] => 2022-11-27 14:51:16
+    [update_date] => 2022-11-27 14:51:16
+    [category] => １月
+)
+
+[08-Dec-2022 15:05:45 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[08-Dec-2022 15:05:47 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[08-Dec-2022 15:05:47 Asia/Tokyo] デバッグ：商品情報を取得：商品ID74
+[08-Dec-2022 15:05:47 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 74
+    [name] => たぬき
+    [comment] => たぬきの置き物
+    [price] => 3000
+    [pic1] => uploads/f11143effda8756d6f56ad976e20a40738db9d95.jpeg
+    [pic2] => uploads/f11143effda8756d6f56ad976e20a40738db9d95.jpeg
+    [pic3] => uploads/f11143effda8756d6f56ad976e20a40738db9d95.jpeg
+    [user_id] => 40
+    [create_date] => 2022-11-27 14:51:16
+    [update_date] => 2022-11-27 14:51:16
+    [category] => １月
+)
+
+[08-Dec-2022 15:05:47 Asia/Tokyo] デバッグ：POST送信があります。
+[08-Dec-2022 15:05:47 Asia/Tokyo] PHP Warning:  Undefined array key "user_id" in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 23
+[08-Dec-2022 15:05:47 Asia/Tokyo] エラー発生：SQLSTATE[42S22]: Column not found: 1054 Unknown column 'buy_user' in 'field list'
+[08-Dec-2022 15:05:47 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[08-Dec-2022 15:06:15 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[08-Dec-2022 15:06:15 Asia/Tokyo] デバッグ：セッションID：iurkh79nk1s1urvhchkjl6il2s
+[08-Dec-2022 15:06:15 Asia/Tokyo] デバッグ：セッション変数の中身：1670479575
+[08-Dec-2022 15:06:15 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1670479575
+[08-Dec-2022 15:06:15 Asia/Tokyo] デバッグ：ログイン期限日時：1670483175
+[08-Dec-2022 15:06:15 Asia/Tokyo] デバッグ：///トップページ////
+[08-Dec-2022 15:06:15 Asia/Tokyo] デバッグ：商品情報を取得
+[08-Dec-2022 15:06:15 Asia/Tokyo] デバッグ：SQL：SELECT * FROM product LIMIT 20 OFFSET 0
+[08-Dec-2022 15:06:17 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[08-Dec-2022 15:06:17 Asia/Tokyo] デバッグ：商品情報を取得：商品ID2
+[08-Dec-2022 15:06:17 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 2
+    [name] => cat
+    [comment] => asdf
+    [price] => 0
+    [pic1] => uploads/7ec9e68e8c49460ae8d527bd6d84e367321392e4.jpeg
+    [pic2] => uploads/7ec9e68e8c49460ae8d527bd6d84e367321392e4.jpeg
+    [pic3] => uploads/7ec9e68e8c49460ae8d527bd6d84e367321392e4.jpeg
+    [user_id] => 40
+    [create_date] => 2022-11-25 14:05:33
+    [update_date] => 2022-11-25 14:05:33
+    [category] => １月
+)
+
+[08-Dec-2022 15:06:17 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[08-Dec-2022 15:06:20 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[08-Dec-2022 15:06:20 Asia/Tokyo] デバッグ：商品情報を取得：商品ID2
+[08-Dec-2022 15:06:20 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 2
+    [name] => cat
+    [comment] => asdf
+    [price] => 0
+    [pic1] => uploads/7ec9e68e8c49460ae8d527bd6d84e367321392e4.jpeg
+    [pic2] => uploads/7ec9e68e8c49460ae8d527bd6d84e367321392e4.jpeg
+    [pic3] => uploads/7ec9e68e8c49460ae8d527bd6d84e367321392e4.jpeg
+    [user_id] => 40
+    [create_date] => 2022-11-25 14:05:33
+    [update_date] => 2022-11-25 14:05:33
+    [category] => １月
+)
+
+[08-Dec-2022 15:06:20 Asia/Tokyo] デバッグ：POST送信があります。
+[08-Dec-2022 15:06:20 Asia/Tokyo] エラー発生：SQLSTATE[42S22]: Column not found: 1054 Unknown column 'buy_user' in 'field list'
+[08-Dec-2022 15:06:20 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[08-Dec-2022 15:11:59 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[08-Dec-2022 15:11:59 Asia/Tokyo] デバッグ：商品情報を取得：商品ID2
+[08-Dec-2022 15:11:59 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 2
+    [name] => cat
+    [comment] => asdf
+    [price] => 0
+    [pic1] => uploads/7ec9e68e8c49460ae8d527bd6d84e367321392e4.jpeg
+    [pic2] => uploads/7ec9e68e8c49460ae8d527bd6d84e367321392e4.jpeg
+    [pic3] => uploads/7ec9e68e8c49460ae8d527bd6d84e367321392e4.jpeg
+    [user_id] => 40
+    [create_date] => 2022-11-25 14:05:33
+    [update_date] => 2022-11-25 14:05:33
+    [category] => １月
+)
+
+[08-Dec-2022 15:11:59 Asia/Tokyo] デバッグ：POST送信があります。
+[08-Dec-2022 15:11:59 Asia/Tokyo] エラー発生：SQLSTATE[42S22]: Column not found: 1054 Unknown column 'buy_user' in 'field list'
+[08-Dec-2022 15:11:59 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[08-Dec-2022 15:12:08 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[08-Dec-2022 15:12:08 Asia/Tokyo] デバッグ：商品情報を取得：商品ID2
+[08-Dec-2022 15:12:08 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 2
+    [name] => cat
+    [comment] => asdf
+    [price] => 0
+    [pic1] => uploads/7ec9e68e8c49460ae8d527bd6d84e367321392e4.jpeg
+    [pic2] => uploads/7ec9e68e8c49460ae8d527bd6d84e367321392e4.jpeg
+    [pic3] => uploads/7ec9e68e8c49460ae8d527bd6d84e367321392e4.jpeg
+    [user_id] => 40
+    [create_date] => 2022-11-25 14:05:33
+    [update_date] => 2022-11-25 14:05:33
+    [category] => １月
+)
+
+[08-Dec-2022 15:12:08 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[08-Dec-2022 15:12:08 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[08-Dec-2022 15:12:08 Asia/Tokyo] デバッグ：セッションID：iurkh79nk1s1urvhchkjl6il2s
+[08-Dec-2022 15:12:08 Asia/Tokyo] デバッグ：セッション変数の中身：1670479928
+[08-Dec-2022 15:12:08 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1670479928
+[08-Dec-2022 15:12:08 Asia/Tokyo] デバッグ：ログイン期限日時：1670483528
+[08-Dec-2022 15:12:08 Asia/Tokyo] デバッグ：///トップページ////
+[08-Dec-2022 15:12:08 Asia/Tokyo] デバッグ：商品情報を取得
+[08-Dec-2022 15:12:08 Asia/Tokyo] デバッグ：SQL：SELECT * FROM product LIMIT 20 OFFSET 0
+[08-Dec-2022 15:12:11 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[08-Dec-2022 15:12:11 Asia/Tokyo] デバッグ：セッションID：iurkh79nk1s1urvhchkjl6il2s
+[08-Dec-2022 15:12:11 Asia/Tokyo] デバッグ：セッション変数の中身：1670479931
+[08-Dec-2022 15:12:11 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1670479931
+[08-Dec-2022 15:12:11 Asia/Tokyo] デバッグ：ログイン期限日時：1670483531
+[08-Dec-2022 15:12:11 Asia/Tokyo] デバッグ：///トップページ////
+[08-Dec-2022 15:12:11 Asia/Tokyo] デバッグ：商品情報を取得
+[08-Dec-2022 15:12:11 Asia/Tokyo] デバッグ：SQL：SELECT * FROM product LIMIT 20 OFFSET 60
+[08-Dec-2022 15:12:12 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[08-Dec-2022 15:12:12 Asia/Tokyo] デバッグ：商品情報を取得：商品ID78
+[08-Dec-2022 15:12:12 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 78
+    [name] => なし
+    [comment] => ラフランス
+    [price] => 600
+    [pic1] => uploads/84a35e21e367d99dbfbf81046a7020ca0ac95a33.jpeg
+    [pic2] => uploads/6253d1e7abe66637a1c6800ee23a691a9eb8fdcc.jpeg
+    [pic3] => uploads/7ab8acf805f20b8f533933db23a39a34db490678.jpeg
+    [user_id] => 40
+    [create_date] => 2022-12-08 09:54:50
+    [update_date] => 2022-12-08 09:54:50
+    [category] => １月
+)
+
+[08-Dec-2022 15:12:12 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[08-Dec-2022 15:12:42 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[08-Dec-2022 15:12:42 Asia/Tokyo] デバッグ：商品情報を取得：商品ID78
+[08-Dec-2022 15:12:42 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 78
+    [name] => なし
+    [comment] => ラフランス
+    [price] => 600
+    [pic1] => uploads/84a35e21e367d99dbfbf81046a7020ca0ac95a33.jpeg
+    [pic2] => uploads/6253d1e7abe66637a1c6800ee23a691a9eb8fdcc.jpeg
+    [pic3] => uploads/7ab8acf805f20b8f533933db23a39a34db490678.jpeg
+    [user_id] => 40
+    [create_date] => 2022-12-08 09:54:50
+    [update_date] => 2022-12-08 09:54:50
+    [category] => １月
+)
+
+[08-Dec-2022 15:12:42 Asia/Tokyo] デバッグ：POST送信があります。
+[08-Dec-2022 15:12:42 Asia/Tokyo] エラー発生：SQLSTATE[42S22]: Column not found: 1054 Unknown column 'buy_user' in 'field list'
+[08-Dec-2022 15:12:42 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[08-Dec-2022 15:15:45 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[08-Dec-2022 15:15:45 Asia/Tokyo] デバッグ：商品情報を取得：商品ID78
+[08-Dec-2022 15:15:45 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 78
+    [name] => なし
+    [comment] => ラフランス
+    [price] => 600
+    [pic1] => uploads/84a35e21e367d99dbfbf81046a7020ca0ac95a33.jpeg
+    [pic2] => uploads/6253d1e7abe66637a1c6800ee23a691a9eb8fdcc.jpeg
+    [pic3] => uploads/7ab8acf805f20b8f533933db23a39a34db490678.jpeg
+    [user_id] => 40
+    [create_date] => 2022-12-08 09:54:50
+    [update_date] => 2022-12-08 09:54:50
+    [category] => １月
+)
+
+[08-Dec-2022 15:15:45 Asia/Tokyo] デバッグ：POST送信があります。
+[08-Dec-2022 15:15:45 Asia/Tokyo] エラー発生：SQLSTATE[42S22]: Column not found: 1054 Unknown column 'buy_user' in 'field list'
+[08-Dec-2022 15:15:45 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[08-Dec-2022 15:15:48 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[08-Dec-2022 15:15:48 Asia/Tokyo] デバッグ：商品情報を取得：商品ID78
+[08-Dec-2022 15:15:48 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 78
+    [name] => なし
+    [comment] => ラフランス
+    [price] => 600
+    [pic1] => uploads/84a35e21e367d99dbfbf81046a7020ca0ac95a33.jpeg
+    [pic2] => uploads/6253d1e7abe66637a1c6800ee23a691a9eb8fdcc.jpeg
+    [pic3] => uploads/7ab8acf805f20b8f533933db23a39a34db490678.jpeg
+    [user_id] => 40
+    [create_date] => 2022-12-08 09:54:50
+    [update_date] => 2022-12-08 09:54:50
+    [category] => １月
+)
+
+[08-Dec-2022 15:15:48 Asia/Tokyo] デバッグ：POST送信があります。
+[08-Dec-2022 15:15:48 Asia/Tokyo] エラー発生：SQLSTATE[42S22]: Column not found: 1054 Unknown column 'buy_user' in 'field list'
+[08-Dec-2022 15:15:48 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[08-Dec-2022 15:17:34 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[08-Dec-2022 15:17:34 Asia/Tokyo] デバッグ：商品情報を取得：商品ID78
+[08-Dec-2022 15:17:34 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 78
+    [name] => なし
+    [comment] => ラフランス
+    [price] => 600
+    [pic1] => uploads/84a35e21e367d99dbfbf81046a7020ca0ac95a33.jpeg
+    [pic2] => uploads/6253d1e7abe66637a1c6800ee23a691a9eb8fdcc.jpeg
+    [pic3] => uploads/7ab8acf805f20b8f533933db23a39a34db490678.jpeg
+    [user_id] => 40
+    [create_date] => 2022-12-08 09:54:50
+    [update_date] => 2022-12-08 09:54:50
+    [category] => １月
+)
+
+[08-Dec-2022 15:17:34 Asia/Tokyo] デバッグ：POST送信があります。
+[08-Dec-2022 15:17:34 Asia/Tokyo] エラー発生：SQLSTATE[42S22]: Column not found: 1054 Unknown column 'buy_user' in 'field list'
+[08-Dec-2022 15:17:34 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[08-Dec-2022 15:17:35 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[08-Dec-2022 15:17:35 Asia/Tokyo] デバッグ：商品情報を取得：商品ID78
+[08-Dec-2022 15:17:35 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 78
+    [name] => なし
+    [comment] => ラフランス
+    [price] => 600
+    [pic1] => uploads/84a35e21e367d99dbfbf81046a7020ca0ac95a33.jpeg
+    [pic2] => uploads/6253d1e7abe66637a1c6800ee23a691a9eb8fdcc.jpeg
+    [pic3] => uploads/7ab8acf805f20b8f533933db23a39a34db490678.jpeg
+    [user_id] => 40
+    [create_date] => 2022-12-08 09:54:50
+    [update_date] => 2022-12-08 09:54:50
+    [category] => １月
+)
+
+[08-Dec-2022 15:17:35 Asia/Tokyo] デバッグ：POST送信があります。
+[08-Dec-2022 15:17:35 Asia/Tokyo] エラー発生：SQLSTATE[42S22]: Column not found: 1054 Unknown column 'buy_user' in 'field list'
+[08-Dec-2022 15:17:35 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[08-Dec-2022 16:28:52 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[08-Dec-2022 16:28:52 Asia/Tokyo] デバッグ：商品情報を取得：商品ID78
+[08-Dec-2022 16:28:52 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 78
+    [name] => なし
+    [comment] => ラフランス
+    [price] => 600
+    [pic1] => uploads/84a35e21e367d99dbfbf81046a7020ca0ac95a33.jpeg
+    [pic2] => uploads/6253d1e7abe66637a1c6800ee23a691a9eb8fdcc.jpeg
+    [pic3] => uploads/7ab8acf805f20b8f533933db23a39a34db490678.jpeg
+    [user_id] => 40
+    [create_date] => 2022-12-08 09:54:50
+    [update_date] => 2022-12-08 09:54:50
+    [category] => １月
+)
+
+[08-Dec-2022 16:28:52 Asia/Tokyo] デバッグ：POST送信があります。
+[08-Dec-2022 16:28:52 Asia/Tokyo] エラー発生：SQLSTATE[42S22]: Column not found: 1054 Unknown column 'buy_user' in 'field list'
+[08-Dec-2022 16:28:52 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[08-Dec-2022 16:29:03 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[08-Dec-2022 16:29:03 Asia/Tokyo] デバッグ：セッションID：iurkh79nk1s1urvhchkjl6il2s
+[08-Dec-2022 16:29:03 Asia/Tokyo] デバッグ：セッション変数の中身：1670484543
+[08-Dec-2022 16:29:03 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1670484543
+[08-Dec-2022 16:29:03 Asia/Tokyo] デバッグ：ログイン期限日時：1670488143
+[08-Dec-2022 16:29:03 Asia/Tokyo] デバッグ：///トップページ////
+[08-Dec-2022 16:29:03 Asia/Tokyo] デバッグ：商品情報を取得
+[08-Dec-2022 16:29:03 Asia/Tokyo] デバッグ：SQL：SELECT * FROM product LIMIT 20 OFFSET 0
+[08-Dec-2022 16:29:06 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[08-Dec-2022 16:29:06 Asia/Tokyo] デバッグ：商品情報を取得：商品ID20
+[08-Dec-2022 16:29:06 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 20
+    [name] => きつね
+    [comment] => キツネの皮
+    [price] => 7000
+    [pic1] => uploads/7ab8acf805f20b8f533933db23a39a34db490678.jpeg
+    [pic2] => uploads/7ab8acf805f20b8f533933db23a39a34db490678.jpeg
+    [pic3] => uploads/7ab8acf805f20b8f533933db23a39a34db490678.jpeg
+    [user_id] => 40
+    [create_date] => 2022-11-27 14:52:39
+    [update_date] => 2022-11-27 14:52:39
+    [category] => ２月
+)
+
+[08-Dec-2022 16:29:06 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[08-Dec-2022 16:46:07 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[08-Dec-2022 16:46:07 Asia/Tokyo] デバッグ：商品情報を取得：商品ID20
+[08-Dec-2022 16:46:07 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 20
+    [name] => きつね
+    [comment] => キツネの皮
+    [price] => 7000
+    [pic1] => uploads/7ab8acf805f20b8f533933db23a39a34db490678.jpeg
+    [pic2] => uploads/7ab8acf805f20b8f533933db23a39a34db490678.jpeg
+    [pic3] => uploads/7ab8acf805f20b8f533933db23a39a34db490678.jpeg
+    [user_id] => 40
+    [create_date] => 2022-11-27 14:52:39
+    [update_date] => 2022-11-27 14:52:39
+    [category] => ２月
+)
+
+[08-Dec-2022 16:46:07 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[08-Dec-2022 16:48:00 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[08-Dec-2022 16:48:00 Asia/Tokyo] デバッグ：商品情報を取得：商品ID20
+[08-Dec-2022 16:48:00 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 20
+    [name] => きつね
+    [comment] => キツネの皮
+    [price] => 7000
+    [pic1] => uploads/7ab8acf805f20b8f533933db23a39a34db490678.jpeg
+    [pic2] => uploads/7ab8acf805f20b8f533933db23a39a34db490678.jpeg
+    [pic3] => uploads/7ab8acf805f20b8f533933db23a39a34db490678.jpeg
+    [user_id] => 40
+    [create_date] => 2022-11-27 14:52:39
+    [update_date] => 2022-11-27 14:52:39
+    [category] => ２月
+)
+
+[08-Dec-2022 16:48:00 Asia/Tokyo] デバッグ：POST送信があります。
+[08-Dec-2022 16:48:00 Asia/Tokyo] エラー発生：SQLSTATE[42S22]: Column not found: 1054 Unknown column 'buy_user' in 'field list'
+[08-Dec-2022 16:48:00 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[08-Dec-2022 16:49:05 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[08-Dec-2022 16:49:05 Asia/Tokyo] デバッグ：商品情報を取得：商品ID20
+[08-Dec-2022 16:49:05 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 20
+    [name] => きつね
+    [comment] => キツネの皮
+    [price] => 7000
+    [pic1] => uploads/7ab8acf805f20b8f533933db23a39a34db490678.jpeg
+    [pic2] => uploads/7ab8acf805f20b8f533933db23a39a34db490678.jpeg
+    [pic3] => uploads/7ab8acf805f20b8f533933db23a39a34db490678.jpeg
+    [user_id] => 40
+    [create_date] => 2022-11-27 14:52:39
+    [update_date] => 2022-11-27 14:52:39
+    [category] => ２月
+)
+
+[08-Dec-2022 16:49:05 Asia/Tokyo] デバッグ：POST送信があります。
+[08-Dec-2022 16:49:05 Asia/Tokyo] エラー発生：SQLSTATE[42S22]: Column not found: 1054 Unknown column 'buy_user' in 'field list'
+[08-Dec-2022 16:49:05 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[08-Dec-2022 16:49:06 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[08-Dec-2022 16:49:06 Asia/Tokyo] デバッグ：商品情報を取得：商品ID20
+[08-Dec-2022 16:49:06 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 20
+    [name] => きつね
+    [comment] => キツネの皮
+    [price] => 7000
+    [pic1] => uploads/7ab8acf805f20b8f533933db23a39a34db490678.jpeg
+    [pic2] => uploads/7ab8acf805f20b8f533933db23a39a34db490678.jpeg
+    [pic3] => uploads/7ab8acf805f20b8f533933db23a39a34db490678.jpeg
+    [user_id] => 40
+    [create_date] => 2022-11-27 14:52:39
+    [update_date] => 2022-11-27 14:52:39
+    [category] => ２月
+)
+
+[08-Dec-2022 16:49:06 Asia/Tokyo] デバッグ：POST送信があります。
+[08-Dec-2022 16:49:07 Asia/Tokyo] エラー発生：SQLSTATE[42S22]: Column not found: 1054 Unknown column 'buy_user' in 'field list'
+[08-Dec-2022 16:49:07 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[08-Dec-2022 16:49:15 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[08-Dec-2022 16:49:15 Asia/Tokyo] デバッグ：商品情報を取得：商品ID20
+[08-Dec-2022 16:49:15 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 20
+    [name] => きつね
+    [comment] => キツネの皮
+    [price] => 7000
+    [pic1] => uploads/7ab8acf805f20b8f533933db23a39a34db490678.jpeg
+    [pic2] => uploads/7ab8acf805f20b8f533933db23a39a34db490678.jpeg
+    [pic3] => uploads/7ab8acf805f20b8f533933db23a39a34db490678.jpeg
+    [user_id] => 40
+    [create_date] => 2022-11-27 14:52:39
+    [update_date] => 2022-11-27 14:52:39
+    [category] => ２月
+)
+
+[08-Dec-2022 16:49:15 Asia/Tokyo] デバッグ：POST送信があります。
+[08-Dec-2022 16:49:15 Asia/Tokyo] エラー発生：SQLSTATE[42S22]: Column not found: 1054 Unknown column 'buy_user' in 'field list'
+[08-Dec-2022 16:49:15 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[08-Dec-2022 16:50:50 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[08-Dec-2022 16:50:50 Asia/Tokyo] デバッグ：商品情報を取得：商品ID20
+[08-Dec-2022 16:50:50 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 20
+    [name] => きつね
+    [comment] => キツネの皮
+    [price] => 7000
+    [pic1] => uploads/7ab8acf805f20b8f533933db23a39a34db490678.jpeg
+    [pic2] => uploads/7ab8acf805f20b8f533933db23a39a34db490678.jpeg
+    [pic3] => uploads/7ab8acf805f20b8f533933db23a39a34db490678.jpeg
+    [user_id] => 40
+    [create_date] => 2022-11-27 14:52:39
+    [update_date] => 2022-11-27 14:52:39
+    [category] => ２月
+)
+
+[08-Dec-2022 16:50:50 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[08-Dec-2022 16:50:52 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[08-Dec-2022 16:50:52 Asia/Tokyo] デバッグ：セッションID：iurkh79nk1s1urvhchkjl6il2s
+[08-Dec-2022 16:50:52 Asia/Tokyo] デバッグ：セッション変数の中身：1670485852
+[08-Dec-2022 16:50:52 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1670485852
+[08-Dec-2022 16:50:52 Asia/Tokyo] デバッグ：ログイン期限日時：1670489452
+[08-Dec-2022 16:50:52 Asia/Tokyo] デバッグ：///トップページ////
+[08-Dec-2022 16:50:52 Asia/Tokyo] デバッグ：商品情報を取得
+[08-Dec-2022 16:50:52 Asia/Tokyo] デバッグ：SQL：SELECT * FROM product LIMIT 20 OFFSET 0
+[08-Dec-2022 16:50:54 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[08-Dec-2022 16:50:54 Asia/Tokyo] デバッグ：商品情報を取得：商品ID20
+[08-Dec-2022 16:50:54 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 20
+    [name] => きつね
+    [comment] => キツネの皮
+    [price] => 7000
+    [pic1] => uploads/7ab8acf805f20b8f533933db23a39a34db490678.jpeg
+    [pic2] => uploads/7ab8acf805f20b8f533933db23a39a34db490678.jpeg
+    [pic3] => uploads/7ab8acf805f20b8f533933db23a39a34db490678.jpeg
+    [user_id] => 40
+    [create_date] => 2022-11-27 14:52:39
+    [update_date] => 2022-11-27 14:52:39
+    [category] => ２月
+)
+
+[08-Dec-2022 16:50:54 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[08-Dec-2022 16:50:56 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[08-Dec-2022 16:50:56 Asia/Tokyo] デバッグ：セッションID：iurkh79nk1s1urvhchkjl6il2s
+[08-Dec-2022 16:50:56 Asia/Tokyo] デバッグ：セッション変数の中身：1670485856
+[08-Dec-2022 16:50:56 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1670485856
+[08-Dec-2022 16:50:56 Asia/Tokyo] デバッグ：ログイン期限日時：1670489456
+[08-Dec-2022 16:50:56 Asia/Tokyo] デバッグ：///トップページ////
+[08-Dec-2022 16:50:56 Asia/Tokyo] デバッグ：商品情報を取得
+[08-Dec-2022 16:50:56 Asia/Tokyo] デバッグ：SQL：SELECT * FROM product LIMIT 20 OFFSET 0
+[08-Dec-2022 16:50:58 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[08-Dec-2022 16:50:58 Asia/Tokyo] デバッグ：セッションID：iurkh79nk1s1urvhchkjl6il2s
+[08-Dec-2022 16:50:58 Asia/Tokyo] デバッグ：セッション変数の中身：1670485858
+[08-Dec-2022 16:50:58 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1670485858
+[08-Dec-2022 16:50:58 Asia/Tokyo] デバッグ：ログイン期限日時：1670489458
+[08-Dec-2022 16:50:58 Asia/Tokyo] デバッグ：///トップページ////
+[08-Dec-2022 16:50:58 Asia/Tokyo] デバッグ：商品情報を取得
+[08-Dec-2022 16:50:58 Asia/Tokyo] デバッグ：SQL：SELECT * FROM product LIMIT 20 OFFSET 60
+[08-Dec-2022 16:50:59 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[08-Dec-2022 16:50:59 Asia/Tokyo] デバッグ：商品情報を取得：商品ID78
+[08-Dec-2022 16:50:59 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 78
+    [name] => なし
+    [comment] => ラフランス
+    [price] => 600
+    [pic1] => uploads/84a35e21e367d99dbfbf81046a7020ca0ac95a33.jpeg
+    [pic2] => uploads/6253d1e7abe66637a1c6800ee23a691a9eb8fdcc.jpeg
+    [pic3] => uploads/7ab8acf805f20b8f533933db23a39a34db490678.jpeg
+    [user_id] => 40
+    [create_date] => 2022-12-08 09:54:50
+    [update_date] => 2022-12-08 09:54:50
+    [category] => １月
+)
+
+[08-Dec-2022 16:50:59 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[08-Dec-2022 16:51:15 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[08-Dec-2022 16:51:15 Asia/Tokyo] デバッグ：商品情報を取得：商品ID78
+[08-Dec-2022 16:51:15 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 78
+    [name] => なし
+    [comment] => ラフランス
+    [price] => 600
+    [pic1] => uploads/84a35e21e367d99dbfbf81046a7020ca0ac95a33.jpeg
+    [pic2] => uploads/6253d1e7abe66637a1c6800ee23a691a9eb8fdcc.jpeg
+    [pic3] => uploads/7ab8acf805f20b8f533933db23a39a34db490678.jpeg
+    [user_id] => 40
+    [create_date] => 2022-12-08 09:54:50
+    [update_date] => 2022-12-08 09:54:50
+    [category] => １月
+)
+
+[08-Dec-2022 16:51:15 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[08-Dec-2022 16:51:26 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[08-Dec-2022 16:51:26 Asia/Tokyo] デバッグ：商品情報を取得：商品ID78
+[08-Dec-2022 16:51:26 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 78
+    [name] => なし
+    [comment] => ラフランス
+    [price] => 600
+    [pic1] => uploads/84a35e21e367d99dbfbf81046a7020ca0ac95a33.jpeg
+    [pic2] => uploads/6253d1e7abe66637a1c6800ee23a691a9eb8fdcc.jpeg
+    [pic3] => uploads/7ab8acf805f20b8f533933db23a39a34db490678.jpeg
+    [user_id] => 40
+    [create_date] => 2022-12-08 09:54:50
+    [update_date] => 2022-12-08 09:54:50
+    [category] => １月
+)
+
+[08-Dec-2022 16:51:26 Asia/Tokyo] デバッグ：POST送信があります。
+[08-Dec-2022 16:51:26 Asia/Tokyo] エラー発生：SQLSTATE[42S22]: Column not found: 1054 Unknown column 'buy_user' in 'field list'
+[08-Dec-2022 16:51:26 Asia/Tokyo] デバッグ：///////画面表示処理終了///////

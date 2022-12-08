@@ -350,13 +350,11 @@ function uploadImg($file,$key){
 }
 function showImg($path){
     if(empty($path)){
-        if(empty($path)){
             return 'img/sample-img.png';
         }else{
             return $path;
         }
     }
-}
 function appendGetParam($arr_del_key){
     if(!empty($_GET)){
         $str='?';
