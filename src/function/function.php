@@ -293,36 +293,7 @@ function getProductList($currentMinNum = 1, $span = 20){
       error_log('エラー発生:' . $e->getMessage());
     }
   }
-  
-// function getProductList($currentMinNum=1,$span=3){
-//     try{
-//         $dbh = dbConnect();
-//         $sql = 'SELECT id FROM product';
-//         $data = array();
-//         $stmt = queryPost($dbh,$sql,$data);
-//         $rst['total']= $stmt->rowCount();//総レコード数
-//         $rst['total_page']= ceil($rst['total']/$span);//ページ数
-//         if(!$stmt){
-//             return false;
-//         }
-//         //ページング
-//         $sql = 'SELECT * FROM product';
-//         $sql .= ' LIMIT '.$span.' OFFSET '.$currentMinNum;
 
-//         $data= array();
-//         $stmt = queryPost($dbh,$sql,$data);
-//         global $data;
-//         if($stmt){
-//             $rst['data']= $stmt->fetchAll();
-//             return $rst;
-//         }else{
-//             return false;
-//         }
-//     }catch(Exception $e){
-//         global $err_msg;
-//         $err_msg = ERR04;
-//     }
-// }  
 
 function getCategory(){
     try{
@@ -340,6 +311,7 @@ function getCategory(){
         $err_msg = ERR04;
     }
 }
+
 function uploadImg($file,$key){
     if(isset($file['error']) && is_int($file['error'])){
         try{
@@ -376,6 +348,93 @@ function uploadImg($file,$key){
         }
     }
 }
+function showImg($path){
+    if(empty($path)){
+        if(empty($path)){
+            return 'img/sample-img.png';
+        }else{
+            return $path;
+        }
+    }
+}
+function appendGetParam($arr_del_key){
+    if(!empty($_GET)){
+        $str='?';
+        foreach($_GET as $key =>$val){
+            if(!in_array($key,$arr_del_key,true)){
+                $str.=$key.'='.$val.'&';
+            }
+        }
+        $str = mb_substr($str,0,-1,"UTF-8");
+        echo $str;
+    }
+}
+function pagination($currentPageNum,$totalPageNum,$link='',$pageColNum = 5){
+    if($currentPageNum == $totalPageNum && $totalPageNum >= $pageColNum){
+        //インデックスは今のページからマイナス４の値から始まって
+        $minPageNum = $currentPageNum-4;
+        //今のページが最終インデックス
+        $maxPageNum = $currentPageNum;
+        //今のページが最終ページから１ページ前で５ページ以上あったら
+      } elseif($currentPageNum == ($totalPageNum -1) && $totalPageNum >=$pageColNum){
+        //最初のインデックスは３ページ前から始まって
+        $minPageNum = $currentPageNum-3;
+        //最後のインデックスは１つ後のページで終了
+        $maxPageNum = $currentPageNum+1;
+        //今２ページ目で全ページ数が５ページ以上あったら
+      } elseif($currentPageNum ==2 && $totalPageNum >= $pageColNum){
+        //最初のインデックスは１つ前のページから始まって
+        $minPageNum = $currentPageNum -1;
+        //最後のインデックスは３つあとが最終
+        $maxPageNum = $currentPageNum +3;
+        //１ページ目だったら
+      } elseif($currentPageNum ==1 && $totalPageNum >=$pageColNum){
+        $minPageNum = $currentPageNum;
+        $maxPageNum = 5;
+        //全ページが５ページなかったら
+      } elseif($totalPageNum < $pageColNum){
+        $minPageNum = 1;
+        $maxPageNum = $totalPageNum;
+        //それ以外だったらインデックスは２ページ前から始まって、２ページ後から始まる
+      } else{
+        $minPageNum = $currentPageNum -2;
+        $maxPageNum = $currentPageNum +2;
+      }
+      echo '<div class="pagination">';
+      echo '<ul class="pagination-list">';
+        if($currentPageNum != 1){
+          echo '<li class="list-item"><a href="?p=1'.$link.'">&lt;</a></li>';
+        }
+        for($i = $minPageNum; $i <= $maxPageNum; $i++){
+          echo '<li class="list-item ';
+          if($currentPageNum == $i ){ echo 'active'; }
+          echo '"><a href="?p='.$i.$link.'">'.$i.'</a></li>';
+        }
+        if($currentPageNum != $maxPageNum){
+          echo '<li class="list-item"><a href="?p='.$maxPageNum.$link.'">&gt;</a></li>';
+        }
+      echo '</ul>';
+    echo '</div>';
+  
+}
+function getProductOne($p_id){
+    debug('商品情報を取得：商品ID'.$p_id);
+    try{
+        $dbh=dbConnect();
+        $sql='SELECT p.id,p.name,p.comment,p.price,p.pic1,p.pic2,p.pic3,p.user_id,p.create_date,p.update_date,c.name 
+        AS category FROM product AS p LEFT JOIN category AS c ON p.category_id=c.id WHERE p.id=:p_id AND p.delete_flg = 0 AND c.delete_flg =0';
+        $data = array(':p_id' =>$p_id);
+        $stmt =queryPost($dbh,$sql,$data);
+        if($stmt){
+            return $stmt->fetch(PDO::FETCH_ASSOC);
+        }else{
+            return false;
+        }
+    }catch(Exception $e){
+        error_log('エラー：'.$e->getMessage());
+    }
+}
+
 //サニタイズーーーーーーーーーーーーーーーーー
 function sanitize($str){
     return htmlspecialchars($str,ENT_QUOTES);

@@ -19,16 +19,16 @@ ini_set('display_errors','on');
     $pic1 = (!empty($_FILES['pic1']['name'])) ? uploadImg($_FILES['pic1'],'pic1'):'';
     $pic1 = (empty($pic1) && !empty($dbFormData['pic1']) ? $dbFormData['pic1']: $pic1);
     $pic2 = (!empty($_FILES['pic2']['name'])) ? uploadImg($_FILES['pic2'],'pic2'):'';
-    $pic2 = (empty($pic2) && !empty($dbFormData['pic2']) ? $dbFormData['pic2']: $pic1);
+    $pic2 = (empty($pic2) && !empty($dbFormData['pic2']) ? $dbFormData['pic2']: $pic2);
     $pic3 = (!empty($_FILES['pic3']['name'])) ? uploadImg($_FILES['pic3'],'pic3'):'';
-    $pic3 = (empty($pic3) && !empty($dbFormData['pic3']) ? $dbFormData['pic3']: $pic1);
+    $pic3 = (empty($pic3) && !empty($dbFormData['pic3']) ? $dbFormData['pic3']: $pic3);
 
     try{
         $dbh = dbConnect();
         if($edit_flg){
             //更新する
             $sql = 'UPDATE product SET name=:name,category_id=:category,price=:price,comment=:comment,pic1=:pic1,pic2=:pic2,pic3=:pic3,user_id=:user_id AND id = :p_id';
-            $data = array(':name'=>$name,':category'=>$category,':price'=>$price,':comment'=>$comment,':pic1'=>$pic1,':pic2'=>$pic2,':pic3'=>$pic3,':user_id'=>$_SESSION['user_id'],'p_id'=>$p_id);
+            $data = array(':name'=>$name,':category'=>$category,':price'=>$price,':comment'=>$comment,':pic1'=>$pic1,':pic2'=>$pic2,':pic3'=>$pic3,':u_id'=>$_SESSION['user_id'],'p_id'=>$p_id);
         }else{
             //新規登録
             $sql = 'insert into product (name, category_id, price, comment, pic1, pic2, pic3, user_id, create_date ) values (:name, :category, :price, :comment,  :pic1, :pic2, :pic3, :u_id, :date)';
