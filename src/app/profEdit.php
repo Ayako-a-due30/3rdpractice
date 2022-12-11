@@ -3,15 +3,20 @@
 require('../function/function.php');
 require('../function/auth.php');
 
+///==============画面表示=====================-====---
+$dbFormData = getUser($_SESSION['user_id']);
+
 $dbh = dbConnect();
 if(!empty($_POST)){
+    debug('POST送信あり：'.print_r($_POST,true));
+    debug('FILE情報：'.print_r($_FILES,true));
     $username = $_POST['username'];
     $age = $_POST['age'];
     $tel = $_POST['tel'];
     $zip = $_POST['zip']?$_POST['zip']:0;
     $addr = $_POST['addr'];
     $email = $_POST['email'];
-
+    $pic =(!empty($_FILES['pic']['name'])) ? uploadImg($_FILES['pic'],'pic'):'';
     // 入力チェック
     // validRequired($username,'username');
     // validRequired($age,'age');
@@ -34,9 +39,8 @@ if(!empty($_POST)){
         if(empty($err_msg)){
             try{
                 $dbh= dbConnect();
-                $sql = 'UPDATE users SET username =:username,age=:age,tel=:tel,zip=:zip,addr=:addr,email =:email WHERE id =:u_id';
-                $data = array(':username'=>$username,':age'=>$age,':tel'=>$tel,':zip'=>$zip,':addr'=>$addr,':email'=>$email,':u_id'=>$_SESSION['user_id']);
-                var_dump($data);
+                $sql = 'UPDATE users SET username =:username,age=:age,tel=:tel,zip=:zip,addr=:addr,email =:email,pic =:pic WHERE id =:u_id';
+                $data = array(':username'=>$username,':age'=>$age,':tel'=>$tel,':zip'=>$zip,':addr'=>$addr,':email'=>$email,':pic' =>$pic,':u_id'=>$_SESSION['user_id']);
                 $stmt= queryPost($dbh,$sql,$data);
                     if($stmt){
                         $_SESSION['success']=SUC01;
@@ -50,20 +54,6 @@ if(!empty($_POST)){
     }
 
 }
-///==============画面表示=====================-====---
-$dbFormData = getUser($_SESSION['user_id']);
-if(!empty($_POST)){
-    $username = $_POST['username'];
-    $age = $_POST['age'];
-    $tel = $_POST['tel'];
-    $zip = $_POST['zip'];
-    $addr = $_POST['addr'];
-    $email = $_POST['email'];
-    //DBの情報と入力情報が異なる場合のバリデーション
-    if($dbFormData['email']!== $email){
-        validEmail($email,'email');
-    }
-}
 
 ?>
 <html lang="en">
@@ -72,10 +62,15 @@ if(!empty($_POST)){
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>プロフィール編集</title>
+    <style>
+        input{
+            margin:10px;
+        }
+    </style>
 </head>
 <body>
     <h2>プロフィール編集画面</h2>
-    <form action="" method="post">
+    <form action="" method="post" enctype="multipart/form-data">
             <?php if (!empty($err_msg['common'])) echo $err_msg['common'];?>
             <?php if(!empty($err_msg['username'])) echo $err_msg['username'];?>
         お名前*<input type="text" name="username" value = <?php echo getFormData('username'); ?>><br>
@@ -89,7 +84,10 @@ if(!empty($_POST)){
         住所*<input type="text" name="addr" value=<?php echo getFormData('addr'); ?>><br>
         メールアドレス<input type="email" name = "email" value=<?php echo getFormData('email');?>><br>
         <?php if(!empty($err_msg['email'])) echo $err_msg['email'];?>
+        登録画像 <input type="file" name="pic" value=<?php echo getFormData('pic'); ?>><br>
+        <?php if(!empty($err_msg['pic'])) echo $err_msg['pic']; ?>
         <input type="submit" value="更新する"><br>
+
     </form>
     <a href="mypage3.php">マイページへ</a>
 </body>

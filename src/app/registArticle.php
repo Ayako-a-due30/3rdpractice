@@ -3,7 +3,7 @@ error_reporting(E_ALL);
 ini_set('display_errors','on');
 
     require('../function/function.php');
-    // require('../function/auth.php');
+    require('../function/auth.php');
 
     $p_id = (!empty($_GET['p_id'])) ? $_GET['p_id'] : '';//GETでp_idがあればそれを取ってきて、なければ空文字''
     $dbFormData = (!empty($p_id))? getProduct($_SESSION['user_id'],$p_id) :'';

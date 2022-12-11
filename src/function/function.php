@@ -33,6 +33,7 @@ const SUC01 = 'プロフィール更新しました';
 const SUC02 = 'パスワードを更新しました';
 const SUC03 ='登録済みのメールアドレスにキーを送ります。';
 const SUC04 = '登録しました';
+const SUC05 ='連絡画面に遷移します';
 
 function dbConnect(){
     $dsn = 'mysql:dbname=freamarket;host=localhost;charset=utf8';
@@ -163,6 +164,7 @@ function getUser($u_id){
         $err_msg['common']=ERR04;
     }
 }
+
 function getFormData($str,$flg=false){
     if($flg){
         $method =$_GET;
@@ -190,6 +192,7 @@ function getFormData($str,$flg=false){
         }
     }
 }
+
 //認証キー作成
 function makeRandKey(){
     $str ='';
@@ -241,39 +244,46 @@ function getProductData($u_id,$p_id){
         $err_msg['common']= ERR04;
     }
 }
-function getProductList($currentMinNum = 1, $span = 20){
+function getProductList($currentMinNum=1,$category,$sort, $span = 20){
     debug('商品情報を取得');
     //例外処理
     try {
-      // DBへ接続
-      $dbh = dbConnect();
-      // 件数用のSQL文作成
-      $sql = 'SELECT id FROM product';
-      $data = array();///←$data=array();が結局どういう動きをするんや？
-      // クエリ実行
-      $stmt = queryPost($dbh, $sql, $data);
-      $rst['total'] = $stmt->rowCount(); //総レコード数
-      $rst['total_page'] = ceil($rst['total']/$span); //総ページ数
-      if(!$stmt){
-        return false;
-      }
-      
-      // ページング用のSQL文作成
-      $sql = 'SELECT * FROM product';
-  //    if(!empty($category)) $sql .= ' WHERE category = '.$category;
-  //    if(!empty($sort)){
-  //      switch($sort){
-  //        case 1:
-  //          $sql .= ' ORDER BY price ASC';
-  //          break;
-  //        case 2:
-      //          $sql .= ' ORDER BY price DESC';
-  //          break;
-  //        case 3:
-  //          $sql .= ' ORDER BY create_date DESC';
-  //          break;
-  //      }
-  //    } 
+        // DBへ接続
+        $dbh = dbConnect();
+        // 件数用のSQL文作成
+        $sql = 'SELECT id FROM product';
+        if(!empty($category))$sql .=' WHERE category_id = '.$category;
+        if(!empty($sort)){
+            switch($sort){
+                case 1:
+                    $sql .= ' ORDER BY price ASC';
+                    break;
+                case 2:
+                    $sql .= ' ORDER BY price DESC';
+                    break;
+            }
+        }
+        $data = array();///←$data=array();が結局どういう動きをするんや？
+        // クエリ実行
+        $stmt = queryPost($dbh, $sql, $data);
+        $rst['total'] = $stmt->rowCount(); //総レコード数
+        $rst['total_page'] = ceil($rst['total']/$span); //総ページ数
+        if(!$stmt){
+            return false;
+            }  
+        // ページング用のSQL文作成
+        $sql = 'SELECT * FROM product';
+            if(!empty($category)) $sql .= ' WHERE category_id = '.$category;
+            if(!empty($sort)){
+            switch($sort){
+                case 1:
+                $sql .= ' ORDER BY price ASC';
+                break;
+                case 2:
+                    $sql .= ' ORDER BY price DESC';
+                break;
+            }
+        } 
       $sql .= ' LIMIT '.$span.' OFFSET '.$currentMinNum;
 
       $data = array();
@@ -340,9 +350,11 @@ function uploadImg($file,$key){
                 throw new RuntimeException('ファイル保存時にエラーが発生しました');
             }
             chmod($path,0644);
+            debug('ファイルは正常にアップロードされました');
+            debug('ファイルパス：'.$path);
             return $path;
         } catch (RuntimeException $e){
-            
+            debug ($e->getMessage());
             global $err_msg;
             $err_msg[$key] =$e->getMessage();
         }
@@ -430,6 +442,15 @@ function getProductOne($p_id){
         }
     }catch(Exception $e){
         error_log('エラー：'.$e->getMessage());
+    }
+}
+
+//一回だけ表示
+function getSessionFlash($key){
+    if(!empty($_SESSION[$key])){
+        $data= $_SESSION[$key];
+        $SESSION[$key]='';
+        return $data;
     }
 }
 

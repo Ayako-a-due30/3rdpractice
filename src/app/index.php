@@ -8,13 +8,15 @@ debugLogStart();
 debug('///トップページ////');
 
 $currentPageNum = (!empty($_GET['p'])) ? $_GET['p'] : 1; //デフォルトは１ページめ
+$category = (!empty($_GET['c_id']))? $_GET['c_id']:'';
+$sort = (!empty($_GET['sort']))? $_GET['sort']:'';
 if(!is_int((int)$currentPageNum)){
     header("Location:index.php");
 }
 //表示件数
 $listSpan=20;
 $currentMinNum = (($currentPageNum-1)*$listSpan);
-$dbProductData = getProductList($currentMinNum);
+$dbProductData = getProductList($currentMinNum,$category,$sort);
 $dbCategoryData = getCategory();
 ?>
 
@@ -56,22 +58,27 @@ $dbCategoryData = getCategory();
     <title>記事一覧</title>
 </head>
 <body>
-    <section id= "main">
-        <form action="">
-            <h1>カテゴリー</h1>
-            <div class="selectbox">
-                <span class="icn_select"></span>
-                <select name="category" id="">
-                    <option value="1">１月</option>
-                    <option value="2">２月</option>
-                </select>
+    <section id= "sidebar">
+      <form action="" method="get">
+        <h1>カテゴリー</h1>
+        <div class="selectbox">
+          <span class="icn_select"></span>
+          <select name="c_id" id="">
+            <option value="0" <?php if(getFormData('c_id',true)==0){echo 'selected';} ?>>選択してください</option>
+            <?php foreach($dbCategoryData as $key=>$val){ ?>
+              <option value="<?php echo $val['id'] ?>"<?php if(getFormData('c_id',true) == $val['id']){echo 'selected';} ?>>
+                <?php echo $val['name']; ?>
+              </option>
+              <?php } ?>
+          </select>
             </div>
             <h1>表示順</h1>
-            <div>
+            <div class="selectbox">
                 <span class="icn_select"></span>
-                <select name="price" id="">
-                    <option value="1">金額が安い順</option>
-                    <option value="2">金額が高い順</option>
+                <select name="sort" id="">
+                  <option value="0" <?php if(getFormData('sort',true) == 0 ){ echo 'selected'; } ?> >選択してください</option>
+                  <option value="1" <?php if(getFormData('sort',true) == 1 ){ echo 'selected'; } ?> >金額が安い順</option>
+                  <option value="2" <?php if(getFormData('sort',true) == 2 ){ echo 'selected'; } ?> >金額が高い順</option>
                 </select>
             </div>
             <input type="submit" value="検索">
@@ -84,8 +91,8 @@ $dbCategoryData = getCategory();
                 </span>件の商品が見つかりました。
             </div>
             <div class="search-right">
-            <span class="num"><?php echo $currentMinNum+1; ?></span> - 
-            <span class="num"><?php echo $currentMinNum+$listSpan; ?></span>件 / 
+            <span class="num"><?php echo (!empty($dbProductData['data'])) ? $currentMinNum+1:0; ?></span> - 
+            <span class="num"><?php echo ($currentMinNum + count($dbProductData['data'])); ?></span>件 / 
             <span class="num"><?php echo sanitize($dbProductData['total']); ?></span>件中
           </div>
 
@@ -106,7 +113,18 @@ $dbCategoryData = getCategory();
           ?>
         </div>
         <?php pagination($currentPageNum,$dbProductData['total_page']); ?>
+        <a href="mypage3.php">マイページへ戻る</a>
     </section>
+            $currentMinNum <br>
+            <?php var_dump($currentMinNum); ?>
+            <br>
+            <br>$_GET <br>
+            <?php var_dump($_GET); ?>
+            <br>
+            <br>$dbProductData['data'] <br>
+            <?php var_dump($dbProductData['data']); ?>
+
+
     <?php require('footer.php'); ?>
 </body>
 </html>

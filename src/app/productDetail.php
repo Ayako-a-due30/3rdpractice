@@ -117,6 +117,16 @@ debug('///////画面表示処理終了///////')
     </style>
 </head>
 <body>
+  <?php var_dump($viewData['user_id']); ?>
+  <br>
+  <br>
+  <?php var_dump($_SESSION['user_id']); ?>
+  <br>
+  <br>
+  <?php var_dump($p_id); ?>
+  <br>
+  <br>
+  <?php var_dump(date('Y-m-d H:i:s')); ?>
     <section id="main">
         <div class="title">
             <span class="badge"><?php echo sanitize($viewData['category']); ?></span>
@@ -151,9 +161,6 @@ debug('///////画面表示処理終了///////')
     </div>
     </section>
     <?php require('footer.php');?>
-    <script>
-        console.log('wie gehts?');
-    </script>
 
 
 
