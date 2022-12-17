@@ -18,24 +18,24 @@ if(!empty($_POST['submit'])){
     require('../function/auth.php');
 
     try{
-        $dbh = dbConnect();
-        $sql = 'INSERT INTO bord (sale_user, buy_user, product_id, create_date) VALUES (:s_uid, :b_uid, :p_id, :date)';
-        $data = array (':s_uid'=>$viewData['user_id'],':b_uid'=>$_SESSION['user_id'],':p_id'=>$p_id,':date'=> date('Y-m-d H:i:s'));
-        $stmt = queryPost($dbh,$sql,$data);
-        if($stmt){
-            $_SESSION['msg_success']=SUC05;
-            debug('連絡掲示板へ遷移します');
-            header("Location:msg.php?m_id=".$dbh->lastInsertID());
+      $dbh = dbConnect();
+      $sql = 'INSERT INTO bord (sale_user, buy_user, product_id, create_date) VALUES (:s_uid, :b_uid, :p_id, :date)';
+      $data = array (':s_uid'=>$viewData['user_id'],':b_uid'=>$_SESSION['user_id'],':p_id'=>$p_id,':date'=> date('Y-m-d H:i:s'));
+      $stmt = queryPost($dbh,$sql,$data);
+      if($stmt){
+        $_SESSION['msg_success']=SUC05;
+        debug('連絡掲示板へ遷移します');
+        header("Location:msg.php?m_id=".$dbh->lastInsertID());
+          }
+        }catch(Exception $e){
+          error_log('エラー発生：'.$e->getMessage());
+          $err_msg['common']=ERR04;
         }
-    }catch(Exception $e){
-        error_log('エラー発生：'.$e->getMessage());
-        $err_msg['common']=ERR04;
-    }
-}
-debug('///////画面表示処理終了///////')
-?>
+      }
+      debug('///////画面表示処理終了///////')
+      ?>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -114,25 +114,16 @@ debug('///////画面表示処理終了///////')
       .product-buy .btn:hover{
         cursor: pointer;
       }
-    </style>
+      </style>
 </head>
 <body>
-  <?php var_dump($viewData['user_id']); ?>
-  <br>
-  <br>
-  <?php var_dump($_SESSION['user_id']); ?>
-  <br>
-  <br>
-  <?php var_dump($p_id); ?>
-  <br>
-  <br>
-  <?php var_dump(date('Y-m-d H:i:s')); ?>
-    <section id="main">
-        <div class="title">
-            <span class="badge"><?php echo sanitize($viewData['category']); ?></span>
-            <?php echo sanitize($viewData['name']); ?>
-        </div>
-        <div class="product-img-container">
+  <section id="main">
+    <div class="title">
+      <span class="badge"><?php echo sanitize($viewData['category']); ?></span>
+      <?php echo sanitize($viewData['name']); ?>
+    </div>
+    <?php var_dump($viewData); ?>
+    <div class="product-img-container">
             <div class="img-main">
                 <img src="<?php echo sanitize($viewData['pic1']); ?>" alt="メイン画像：
                 <?php echo sanitize($viewData['name']); ?>" id="js-switch-img-main">

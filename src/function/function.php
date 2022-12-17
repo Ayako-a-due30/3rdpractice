@@ -244,7 +244,7 @@ function getProductData($u_id,$p_id){
         $err_msg['common']= ERR04;
     }
 }
-function getProductList($currentMinNum=1,$category,$sort, $span = 20){
+function getProductList($category,$sort,$currentMinNum=1,$span = 20){
     debug('商品情報を取得');
     //例外処理
     try {
@@ -263,7 +263,7 @@ function getProductList($currentMinNum=1,$category,$sort, $span = 20){
                     break;
             }
         }
-        $data = array();///←$data=array();が結局どういう動きをするんや？
+        $data = array();
         // クエリ実行
         $stmt = queryPost($dbh, $sql, $data);
         $rst['total'] = $stmt->rowCount(); //総レコード数
@@ -431,8 +431,17 @@ function getProductOne($p_id){
     debug('商品情報を取得：商品ID'.$p_id);
     try{
         $dbh=dbConnect();
-        $sql='SELECT p.id,p.name,p.comment,p.price,p.pic1,p.pic2,p.pic3,p.user_id,p.create_date,p.update_date,c.name 
-        AS category FROM product AS p LEFT JOIN category AS c ON p.category_id=c.id WHERE p.id=:p_id AND p.delete_flg = 0 AND c.delete_flg =0';
+        $sql='SELECT 
+        p.id,p.name,p.comment,p.price,p.pic1,p.pic2,p.pic3,p.user_id,p.create_date,p.update_date,c.name 
+        AS category
+        FROM product 
+        AS p 
+        LEFT JOIN category 
+        AS c 
+        ON p.category_id=c.id 
+        WHERE p.id=:p_id 
+        AND p.delete_flg = 0 
+        AND c.delete_flg =0';
         $data = array(':p_id' =>$p_id);
         $stmt =queryPost($dbh,$sql,$data);
         if($stmt){
@@ -445,6 +454,8 @@ function getProductOne($p_id){
     }
 }
 
+//
+
 //一回だけ表示
 function getSessionFlash($key){
     if(!empty($_SESSION[$key])){
@@ -453,10 +464,31 @@ function getSessionFlash($key){
         return $data;
     }
 }
+//掲示板
+function getMsgsAndBord($id){
+    debug('msg情報を取得します。掲示板ID'.$id);
+    try{
+        $dbh = dbConnect();
+        $sql =   
+        'SELECT m.id, b.product_id, b.id, m.send_date, m.to_user, m.from_user, b.sale_user, b.buy_user, m.msg, b.create_date 
+        FROM message AS m 
+        inner JOIN bord AS b 
+        ON b.id = m.id 
+        WHERE b.id = :id
+        ORDER BY send_date ASC';
+        $data = array(':id' => $id);
+        $stmt = queryPost($dbh,$sql,$data);
+        if($stmt){
+            return $stmt->fetchAll();
+        }else{
+            return false;
+        }
+    }catch(Exception $e){
+        error_log('エラー：'.$e->getMessage());
+    }
+}
 
 //サニタイズーーーーーーーーーーーーーーーーー
 function sanitize($str){
     return htmlspecialchars($str,ENT_QUOTES);
 }
-
-?>

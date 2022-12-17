@@ -16,7 +16,7 @@ if(!is_int((int)$currentPageNum)){
 //表示件数
 $listSpan=20;
 $currentMinNum = (($currentPageNum-1)*$listSpan);
-$dbProductData = getProductList($currentMinNum,$category,$sort);
+$dbProductData = getProductList($category,$sort,$currentMinNum);
 $dbCategoryData = getCategory();
 ?>
 
