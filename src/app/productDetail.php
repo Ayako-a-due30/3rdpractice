@@ -7,6 +7,9 @@ debug('/////////商品詳細ページ//////////');
 //商品IDをgetパラメーターに
 $p_id = (!empty($_GET['p_id']))? $_GET['p_id'] :'';
 $viewData= getProductOne($p_id);
+
+var_dump($viewData);
+
 if(empty($viewData)){
     error_log('エラー：指定ページに不正な値が入りました');
     header("Location:index.php");
@@ -122,7 +125,6 @@ if(!empty($_POST['submit'])){
       <span class="badge"><?php echo sanitize($viewData['category']); ?></span>
       <?php echo sanitize($viewData['name']); ?>
     </div>
-    <?php var_dump($viewData); ?>
     <div class="product-img-container">
             <div class="img-main">
                 <img src="<?php echo sanitize($viewData['pic1']); ?>" alt="メイン画像：

@@ -12,22 +12,21 @@ $productInfo = '';
 
 $m_id = (!empty($_GET['m_id']))? $_GET['m_id']:'';
 $viewData = getMsgsAndBord($m_id);
-
+var_dump($m_id);
 debug('取得したDBデータ：'.print_r($viewData,true));
 
 if(empty($viewData)){
     error_log('エラー：不正な値が入りました');
-    header("Location:mypage3.php");
+    // header("Location:mypage3.php");
 }
 $productInfo=getProductOne($viewData[0]['product_id']);
-var_dump($viewData);
 debug('取得したDBデータ：'.print_r($productInfo,true));
 
 if(empty($productInfo)){
     error_log('エラー：商品情報が取得できませんでした');
-    header("Location:mypage3.php");
+    // header("Location:mypage3.php");
 }
-//viewDataから相手のユーザーIDを取り出す
+viewDataから相手のユーザーIDを取り出す
 $dealUserIds[]= $viewData[0]['sale_user'];
 $dealUserIds[]= $viewData[0]['buy_user'];
 if(($key= array_search($_SESSION['user_id'],$dealUserIds)) !== false){
@@ -36,20 +35,20 @@ if(($key= array_search($_SESSION['user_id'],$dealUserIds)) !== false){
 
 $partnerUserId=array_shift($dealUserIds);
 debug('取得した相手のユーザーID:'.$partnerUserId);
-//DBから取引相手のユーザー情報を取得
+DBから取引相手のユーザー情報を取得
 if(isset($partnerUserId)){
     $partnerUserInfo = getUser($partnerUserId);
 }
 if(empty($partnerUserInfo)){
     error_log('エラー発生：相手のユーザー情報が取得できませんでした。');
-    header("Location:mypage3.php");
+    // header("Location:mypage3.php");
 }
 $myUserInfo = getUser($_SESSION['user_id']);
 debug('取得したユーザーデータ：'.print_r($partnerUserInfo,true));
 //自分のユーザー情報が取れたかチェック
 if(empty($myUserInfo)){
     error_log('エラー：自分のユーザー情報が取得できませんでした');
-    header("Location:mypage3.php");
+    // header("Location:mypage3.php");
 }
 //post送信されていた場合
 if(!empty($_POST)){
@@ -64,9 +63,9 @@ if(!empty($_POST)){
 
         try{
             $dbh = dbConnect();
-            $sql = 'INSERT INTO message(id,send_date,to_user,from_user,msg,create_date) 
+            $sql = 'INSERT INTO message(bord_id,send_date,to_user,from_user,msg,create_date) 
             VALUES (:b_id,:send_date,:to_user,:from_user,:msg,:date)';
-            $data = array('b_id'=>$m_id,':send_date'=>date('Y-m-d H:i:s'),':to_user'=>$partnerUserId,'from_user'=>$_SESSION['user_id'],':msg'=>$msg,':date'=>date('Y-m-d H:i:s'));
+            $data = array(':b_id'=>$m_id,':send_date'=>date('Y-m-d H:i:s'),':to_user'=>$partnerUserId,':from_user'=>$_SESSION['user_id'],':msg'=>$msg,':date'=>date('Y-m-d H:i:s'));
             $stmt = queryPost($dbh,$sql,$data);
             if($stmt){
                 $_POST= array();

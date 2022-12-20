@@ -469,11 +469,12 @@ function getMsgsAndBord($id){
     debug('msg情報を取得します。掲示板ID'.$id);
     try{
         $dbh = dbConnect();
-        $sql =   
-        'SELECT m.id, b.product_id, b.id, m.send_date, m.to_user, m.from_user, b.sale_user, b.buy_user, m.msg, b.create_date 
+        $sql = 
+        'SELECT m.id, b.product_id, b.id, m.send_date, m.to_user, m.from_user, 
+        b.sale_user, b.buy_user, m.msg, b.create_date 
         FROM message AS m 
         inner JOIN bord AS b 
-        ON b.id = m.id 
+        ON b.id = m.bord_id 
         WHERE b.id = :id
         ORDER BY send_date ASC';
         $data = array(':id' => $id);
