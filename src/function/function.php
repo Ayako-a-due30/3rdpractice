@@ -427,6 +427,7 @@ function pagination($currentPageNum,$totalPageNum,$link='',$pageColNum = 5){
     echo '</div>';
   
 }
+
 function getProductOne($p_id){
     debug('商品情報を取得：商品ID'.$p_id);
     try{
@@ -453,8 +454,28 @@ function getProductOne($p_id){
         error_log('エラー：'.$e->getMessage());
     }
 }
-
-//
+function getMsgsAndBord($id){
+    debug('msg情報を取得：掲示板ID'.$id);
+    try{
+        $dbh = dbConnect();
+        $sql = 'SELECT m.id, b.product_id, b.id, m.send_date, m.to_user, m.from_user, 
+                b.sale_user, b.buy_user, m.msg, b.create_date 
+                FROM message AS m 
+                inner JOIN bord AS b 
+                ON b.id = m.bord_id 
+                WHERE b.id = :id
+                ORDER BY send_date ASC';
+        $data = array(':id' => $id);
+        $stmt = queryPost($dbh, $sql,$data);
+        if($stmt){
+            return $stmt ->fetchAll();
+        }else{
+            return false;
+        }
+    }catch(Exception $e){
+        error_log('エラー'.$e->getMessage());
+    }
+}
 
 //一回だけ表示
 function getSessionFlash($key){
@@ -465,29 +486,6 @@ function getSessionFlash($key){
     }
 }
 //掲示板
-function getMsgsAndBord($id){
-    debug('msg情報を取得します。掲示板ID'.$id);
-    try{
-        $dbh = dbConnect();
-        $sql = 
-        'SELECT m.id, b.product_id, b.id, m.send_date, m.to_user, m.from_user, 
-        b.sale_user, b.buy_user, m.msg, b.create_date 
-        FROM message AS m 
-        inner JOIN bord AS b 
-        ON b.id = m.bord_id 
-        WHERE b.id = :id
-        ORDER BY send_date ASC';
-        $data = array(':id' => $id);
-        $stmt = queryPost($dbh,$sql,$data);
-        if($stmt){
-            return $stmt->fetchAll();
-        }else{
-            return false;
-        }
-    }catch(Exception $e){
-        error_log('エラー：'.$e->getMessage());
-    }
-}
 
 //サニタイズーーーーーーーーーーーーーーーーー
 function sanitize($str){

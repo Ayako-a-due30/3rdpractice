@@ -18467,3 +18467,1454 @@ Stack trace:
 Stack trace:
 #0 {main}
   thrown in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 222
+[23-Dec-2022 06:39:20 Asia/Tokyo] デバッグ：///////掲示板//////////
+[23-Dec-2022 06:39:20 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[23-Dec-2022 06:39:20 Asia/Tokyo] デバッグ：セッションID：bgjjpooqoquq464cq9u8p8tuev
+[23-Dec-2022 06:39:20 Asia/Tokyo] デバッグ：セッション変数の中身：1671745160
+[23-Dec-2022 06:39:20 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1671745160
+[23-Dec-2022 06:39:20 Asia/Tokyo] PHP Warning:  Undefined array key "login_date" in /Applications/MAMP/htdocs/3rdpractice/src/function/function.php on line 64
+[23-Dec-2022 06:39:20 Asia/Tokyo] デバッグ：msg情報を取得します。掲示板ID
+[23-Dec-2022 06:39:20 Asia/Tokyo] PHP Warning:  Uninitialized string offset 0 in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 222
+[23-Dec-2022 06:39:20 Asia/Tokyo] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php:222
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 222
+[23-Dec-2022 06:39:48 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[23-Dec-2022 06:39:48 Asia/Tokyo] デバッグ：セッションID：bgjjpooqoquq464cq9u8p8tuev
+[23-Dec-2022 06:39:48 Asia/Tokyo] デバッグ：セッション変数の中身：1671745188
+[23-Dec-2022 06:39:48 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1671745188
+[23-Dec-2022 06:39:48 Asia/Tokyo] デバッグ：ログイン期限日時：1671748788
+[23-Dec-2022 06:39:48 Asia/Tokyo] デバッグ：///トップページ////
+[23-Dec-2022 06:39:48 Asia/Tokyo] デバッグ：商品情報を取得
+[23-Dec-2022 06:39:48 Asia/Tokyo] デバッグ：SQL：SELECT * FROM product LIMIT 20 OFFSET 0
+[23-Dec-2022 06:39:49 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[23-Dec-2022 06:39:49 Asia/Tokyo] デバッグ：商品情報を取得：商品ID1
+[23-Dec-2022 06:39:49 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 1
+    [name] => 
+    [comment] => dfdgsf
+    [price] => 0
+    [pic1] => uploads/7ec9e68e8c49460ae8d527bd6d84e367321392e4.jpeg
+    [pic2] => uploads/7ec9e68e8c49460ae8d527bd6d84e367321392e4.jpeg
+    [pic3] => uploads/7ec9e68e8c49460ae8d527bd6d84e367321392e4.jpeg
+    [user_id] => 40
+    [create_date] => 2022-11-25 14:04:48
+    [update_date] => 2022-11-25 14:04:48
+    [category] => １月
+)
+
+[23-Dec-2022 06:39:49 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[23-Dec-2022 06:39:52 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[23-Dec-2022 06:39:52 Asia/Tokyo] デバッグ：商品情報を取得：商品ID1
+[23-Dec-2022 06:39:52 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 1
+    [name] => 
+    [comment] => dfdgsf
+    [price] => 0
+    [pic1] => uploads/7ec9e68e8c49460ae8d527bd6d84e367321392e4.jpeg
+    [pic2] => uploads/7ec9e68e8c49460ae8d527bd6d84e367321392e4.jpeg
+    [pic3] => uploads/7ec9e68e8c49460ae8d527bd6d84e367321392e4.jpeg
+    [user_id] => 40
+    [create_date] => 2022-11-25 14:04:48
+    [update_date] => 2022-11-25 14:04:48
+    [category] => １月
+)
+
+[23-Dec-2022 06:39:52 Asia/Tokyo] デバッグ：POST送信があります。
+[23-Dec-2022 06:39:52 Asia/Tokyo] デバッグ：連絡掲示板へ遷移します
+[23-Dec-2022 06:39:52 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[23-Dec-2022 06:39:52 Asia/Tokyo] デバッグ：///////掲示板//////////
+[23-Dec-2022 06:39:52 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[23-Dec-2022 06:39:52 Asia/Tokyo] デバッグ：セッションID：bgjjpooqoquq464cq9u8p8tuev
+[23-Dec-2022 06:39:52 Asia/Tokyo] デバッグ：セッション変数の中身：1671745192
+[23-Dec-2022 06:39:52 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1671745192
+[23-Dec-2022 06:39:52 Asia/Tokyo] デバッグ：ログイン期限日時：1671748792
+[23-Dec-2022 06:39:52 Asia/Tokyo] デバッグ：msg情報を取得します。掲示板ID69
+[23-Dec-2022 06:39:52 Asia/Tokyo] PHP Warning:  Uninitialized string offset 0 in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 222
+[23-Dec-2022 06:39:52 Asia/Tokyo] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php:222
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 222
+[23-Dec-2022 06:40:26 Asia/Tokyo] デバッグ：///////掲示板//////////
+[23-Dec-2022 06:40:26 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[23-Dec-2022 06:40:26 Asia/Tokyo] デバッグ：セッションID：bgjjpooqoquq464cq9u8p8tuev
+[23-Dec-2022 06:40:26 Asia/Tokyo] デバッグ：セッション変数の中身：1671745226
+[23-Dec-2022 06:40:26 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1671745226
+[23-Dec-2022 06:40:26 Asia/Tokyo] デバッグ：ログイン期限日時：1671748792
+[23-Dec-2022 06:40:26 Asia/Tokyo] デバッグ：msg情報を取得します。掲示板ID69
+[23-Dec-2022 06:40:26 Asia/Tokyo] PHP Warning:  Uninitialized string offset 0 in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 222
+[23-Dec-2022 06:40:26 Asia/Tokyo] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php:222
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 222
+[23-Dec-2022 06:41:47 Asia/Tokyo] デバッグ：///////掲示板//////////
+[23-Dec-2022 06:41:47 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[23-Dec-2022 06:41:47 Asia/Tokyo] デバッグ：セッションID：bgjjpooqoquq464cq9u8p8tuev
+[23-Dec-2022 06:41:47 Asia/Tokyo] デバッグ：セッション変数の中身：1671745307
+[23-Dec-2022 06:41:47 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1671745307
+[23-Dec-2022 06:41:47 Asia/Tokyo] デバッグ：ログイン期限日時：1671748792
+[23-Dec-2022 06:41:47 Asia/Tokyo] デバッグ：msg情報を取得します。掲示板ID69
+[23-Dec-2022 06:41:47 Asia/Tokyo] PHP Warning:  Uninitialized string offset 0 in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 223
+[23-Dec-2022 06:41:47 Asia/Tokyo] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php:223
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 223
+[23-Dec-2022 06:42:02 Asia/Tokyo] デバッグ：///////掲示板//////////
+[23-Dec-2022 06:42:02 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[23-Dec-2022 06:42:02 Asia/Tokyo] デバッグ：セッションID：bgjjpooqoquq464cq9u8p8tuev
+[23-Dec-2022 06:42:02 Asia/Tokyo] デバッグ：セッション変数の中身：1671745322
+[23-Dec-2022 06:42:02 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1671745322
+[23-Dec-2022 06:42:02 Asia/Tokyo] デバッグ：ログイン期限日時：1671748792
+[23-Dec-2022 06:42:02 Asia/Tokyo] デバッグ：msg情報を取得します。掲示板ID69
+[23-Dec-2022 06:42:02 Asia/Tokyo] PHP Warning:  Uninitialized string offset 0 in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 223
+[23-Dec-2022 06:42:02 Asia/Tokyo] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php:223
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 223
+[23-Dec-2022 06:44:08 Asia/Tokyo] デバッグ：///////掲示板//////////
+[23-Dec-2022 06:44:08 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[23-Dec-2022 06:44:08 Asia/Tokyo] デバッグ：セッションID：bgjjpooqoquq464cq9u8p8tuev
+[23-Dec-2022 06:44:08 Asia/Tokyo] デバッグ：セッション変数の中身：1671745448
+[23-Dec-2022 06:44:08 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1671745448
+[23-Dec-2022 06:44:08 Asia/Tokyo] デバッグ：ログイン期限日時：1671748792
+[23-Dec-2022 06:44:08 Asia/Tokyo] デバッグ：msg情報を取得します。掲示板ID69
+[23-Dec-2022 06:44:08 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+)
+
+[23-Dec-2022 06:44:08 Asia/Tokyo] エラー：不正な値が入りました
+[23-Dec-2022 06:44:08 Asia/Tokyo] PHP Warning:  Undefined array key 0 in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 23
+[23-Dec-2022 06:44:08 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 23
+[23-Dec-2022 06:44:08 Asia/Tokyo] デバッグ：商品情報を取得：商品ID
+[23-Dec-2022 06:44:08 Asia/Tokyo] デバッグ：取得したDBデータ：
+[23-Dec-2022 06:44:08 Asia/Tokyo] エラー：商品情報が取得できませんでした
+[23-Dec-2022 06:44:08 Asia/Tokyo] PHP Warning:  Undefined array key 0 in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 31
+[23-Dec-2022 06:44:08 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 31
+[23-Dec-2022 06:44:08 Asia/Tokyo] PHP Warning:  Undefined array key 0 in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 32
+[23-Dec-2022 06:44:08 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 32
+[23-Dec-2022 06:44:08 Asia/Tokyo] デバッグ：取得した相手のユーザーID:
+[23-Dec-2022 06:44:08 Asia/Tokyo] エラー発生：相手のユーザー情報が取得できませんでした。
+[23-Dec-2022 06:44:08 Asia/Tokyo] デバッグ：取得したユーザーデータ：
+[23-Dec-2022 06:44:08 Asia/Tokyo] デバッグ：////////////////////////画面表示処理終了
+[23-Dec-2022 06:44:08 Asia/Tokyo] PHP Warning:  Uninitialized string offset 0 in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 223
+[23-Dec-2022 06:44:08 Asia/Tokyo] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php:223
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 223
+[23-Dec-2022 06:45:29 Asia/Tokyo] デバッグ：///////掲示板//////////
+[23-Dec-2022 06:45:29 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[23-Dec-2022 06:45:29 Asia/Tokyo] デバッグ：セッションID：bgjjpooqoquq464cq9u8p8tuev
+[23-Dec-2022 06:45:29 Asia/Tokyo] デバッグ：セッション変数の中身：1671745529
+[23-Dec-2022 06:45:29 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1671745529
+[23-Dec-2022 06:45:29 Asia/Tokyo] デバッグ：ログイン期限日時：1671748792
+[23-Dec-2022 06:45:29 Asia/Tokyo] デバッグ：msg情報を取得します。掲示板ID69
+[23-Dec-2022 06:45:29 Asia/Tokyo] デバッグ：msg情報を取得します。掲示板ID3
+[23-Dec-2022 06:45:29 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+)
+
+[23-Dec-2022 06:45:29 Asia/Tokyo] エラー：不正な値が入りました
+[23-Dec-2022 06:45:29 Asia/Tokyo] PHP Warning:  Undefined array key 0 in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 23
+[23-Dec-2022 06:45:29 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 23
+[23-Dec-2022 06:45:29 Asia/Tokyo] デバッグ：商品情報を取得：商品ID
+[23-Dec-2022 06:45:29 Asia/Tokyo] デバッグ：取得したDBデータ：
+[23-Dec-2022 06:45:29 Asia/Tokyo] エラー：商品情報が取得できませんでした
+[23-Dec-2022 06:45:29 Asia/Tokyo] PHP Warning:  Undefined array key 0 in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 31
+[23-Dec-2022 06:45:29 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 31
+[23-Dec-2022 06:45:29 Asia/Tokyo] PHP Warning:  Undefined array key 0 in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 32
+[23-Dec-2022 06:45:29 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 32
+[23-Dec-2022 06:45:29 Asia/Tokyo] デバッグ：取得した相手のユーザーID:
+[23-Dec-2022 06:45:29 Asia/Tokyo] エラー発生：相手のユーザー情報が取得できませんでした。
+[23-Dec-2022 06:45:29 Asia/Tokyo] デバッグ：取得したユーザーデータ：
+[23-Dec-2022 06:45:29 Asia/Tokyo] デバッグ：////////////////////////画面表示処理終了
+[23-Dec-2022 06:45:29 Asia/Tokyo] PHP Warning:  Uninitialized string offset 0 in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 223
+[23-Dec-2022 06:45:29 Asia/Tokyo] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php:223
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 223
+[23-Dec-2022 06:45:31 Asia/Tokyo] デバッグ：///////掲示板//////////
+[23-Dec-2022 06:45:31 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[23-Dec-2022 06:45:31 Asia/Tokyo] デバッグ：セッションID：bgjjpooqoquq464cq9u8p8tuev
+[23-Dec-2022 06:45:31 Asia/Tokyo] デバッグ：セッション変数の中身：1671745531
+[23-Dec-2022 06:45:31 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1671745531
+[23-Dec-2022 06:45:31 Asia/Tokyo] デバッグ：ログイン期限日時：1671748792
+[23-Dec-2022 06:45:31 Asia/Tokyo] デバッグ：msg情報を取得します。掲示板ID69
+[23-Dec-2022 06:45:31 Asia/Tokyo] デバッグ：msg情報を取得します。掲示板ID3
+[23-Dec-2022 06:45:31 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+)
+
+[23-Dec-2022 06:45:31 Asia/Tokyo] エラー：不正な値が入りました
+[23-Dec-2022 06:45:31 Asia/Tokyo] PHP Warning:  Undefined array key 0 in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 23
+[23-Dec-2022 06:45:31 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 23
+[23-Dec-2022 06:45:31 Asia/Tokyo] デバッグ：商品情報を取得：商品ID
+[23-Dec-2022 06:45:31 Asia/Tokyo] デバッグ：取得したDBデータ：
+[23-Dec-2022 06:45:31 Asia/Tokyo] エラー：商品情報が取得できませんでした
+[23-Dec-2022 06:45:31 Asia/Tokyo] PHP Warning:  Undefined array key 0 in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 31
+[23-Dec-2022 06:45:31 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 31
+[23-Dec-2022 06:45:31 Asia/Tokyo] PHP Warning:  Undefined array key 0 in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 32
+[23-Dec-2022 06:45:31 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 32
+[23-Dec-2022 06:45:31 Asia/Tokyo] デバッグ：取得した相手のユーザーID:
+[23-Dec-2022 06:45:31 Asia/Tokyo] エラー発生：相手のユーザー情報が取得できませんでした。
+[23-Dec-2022 06:45:31 Asia/Tokyo] デバッグ：取得したユーザーデータ：
+[23-Dec-2022 06:45:31 Asia/Tokyo] デバッグ：////////////////////////画面表示処理終了
+[23-Dec-2022 06:45:31 Asia/Tokyo] PHP Warning:  Uninitialized string offset 0 in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 223
+[23-Dec-2022 06:45:31 Asia/Tokyo] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php:223
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 223
+[23-Dec-2022 06:45:51 Asia/Tokyo] デバッグ：///////掲示板//////////
+[23-Dec-2022 06:45:51 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[23-Dec-2022 06:45:51 Asia/Tokyo] デバッグ：セッションID：bgjjpooqoquq464cq9u8p8tuev
+[23-Dec-2022 06:45:51 Asia/Tokyo] デバッグ：セッション変数の中身：1671745551
+[23-Dec-2022 06:45:51 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1671745551
+[23-Dec-2022 06:45:51 Asia/Tokyo] デバッグ：ログイン期限日時：1671748792
+[23-Dec-2022 06:45:51 Asia/Tokyo] デバッグ：msg情報を取得します。掲示板ID69
+[23-Dec-2022 06:45:51 Asia/Tokyo] デバッグ：msg情報を取得します。掲示板ID1
+[23-Dec-2022 06:45:51 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+)
+
+[23-Dec-2022 06:45:51 Asia/Tokyo] エラー：不正な値が入りました
+[23-Dec-2022 06:45:51 Asia/Tokyo] PHP Warning:  Undefined array key 0 in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 24
+[23-Dec-2022 06:45:51 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 24
+[23-Dec-2022 06:45:51 Asia/Tokyo] デバッグ：商品情報を取得：商品ID
+[23-Dec-2022 06:45:51 Asia/Tokyo] デバッグ：取得したDBデータ：
+[23-Dec-2022 06:45:51 Asia/Tokyo] エラー：商品情報が取得できませんでした
+[23-Dec-2022 06:45:51 Asia/Tokyo] PHP Warning:  Undefined array key 0 in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 32
+[23-Dec-2022 06:45:51 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 32
+[23-Dec-2022 06:45:51 Asia/Tokyo] PHP Warning:  Undefined array key 0 in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 33
+[23-Dec-2022 06:45:51 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 33
+[23-Dec-2022 06:45:51 Asia/Tokyo] デバッグ：取得した相手のユーザーID:
+[23-Dec-2022 06:45:51 Asia/Tokyo] エラー発生：相手のユーザー情報が取得できませんでした。
+[23-Dec-2022 06:45:51 Asia/Tokyo] デバッグ：取得したユーザーデータ：
+[23-Dec-2022 06:45:51 Asia/Tokyo] デバッグ：////////////////////////画面表示処理終了
+[23-Dec-2022 06:45:51 Asia/Tokyo] PHP Warning:  Uninitialized string offset 0 in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 224
+[23-Dec-2022 06:45:51 Asia/Tokyo] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php:224
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 224
+[23-Dec-2022 06:45:54 Asia/Tokyo] デバッグ：///////掲示板//////////
+[23-Dec-2022 06:45:54 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[23-Dec-2022 06:45:54 Asia/Tokyo] デバッグ：セッションID：bgjjpooqoquq464cq9u8p8tuev
+[23-Dec-2022 06:45:54 Asia/Tokyo] デバッグ：セッション変数の中身：1671745554
+[23-Dec-2022 06:45:54 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1671745554
+[23-Dec-2022 06:45:54 Asia/Tokyo] デバッグ：ログイン期限日時：1671748792
+[23-Dec-2022 06:45:54 Asia/Tokyo] デバッグ：msg情報を取得します。掲示板ID69
+[23-Dec-2022 06:45:54 Asia/Tokyo] デバッグ：msg情報を取得します。掲示板ID1
+[23-Dec-2022 06:45:54 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+)
+
+[23-Dec-2022 06:45:54 Asia/Tokyo] エラー：不正な値が入りました
+[23-Dec-2022 06:45:54 Asia/Tokyo] PHP Warning:  Undefined array key 0 in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 24
+[23-Dec-2022 06:45:54 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 24
+[23-Dec-2022 06:45:54 Asia/Tokyo] デバッグ：商品情報を取得：商品ID
+[23-Dec-2022 06:45:54 Asia/Tokyo] デバッグ：取得したDBデータ：
+[23-Dec-2022 06:45:54 Asia/Tokyo] エラー：商品情報が取得できませんでした
+[23-Dec-2022 06:45:54 Asia/Tokyo] PHP Warning:  Undefined array key 0 in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 32
+[23-Dec-2022 06:45:54 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 32
+[23-Dec-2022 06:45:54 Asia/Tokyo] PHP Warning:  Undefined array key 0 in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 33
+[23-Dec-2022 06:45:54 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 33
+[23-Dec-2022 06:45:54 Asia/Tokyo] デバッグ：取得した相手のユーザーID:
+[23-Dec-2022 06:45:54 Asia/Tokyo] エラー発生：相手のユーザー情報が取得できませんでした。
+[23-Dec-2022 06:45:54 Asia/Tokyo] デバッグ：取得したユーザーデータ：
+[23-Dec-2022 06:45:54 Asia/Tokyo] デバッグ：////////////////////////画面表示処理終了
+[23-Dec-2022 06:45:54 Asia/Tokyo] PHP Warning:  Uninitialized string offset 0 in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 224
+[23-Dec-2022 06:45:54 Asia/Tokyo] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php:224
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 224
+[23-Dec-2022 06:45:55 Asia/Tokyo] デバッグ：///////掲示板//////////
+[23-Dec-2022 06:45:55 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[23-Dec-2022 06:45:55 Asia/Tokyo] デバッグ：セッションID：bgjjpooqoquq464cq9u8p8tuev
+[23-Dec-2022 06:45:55 Asia/Tokyo] デバッグ：セッション変数の中身：1671745555
+[23-Dec-2022 06:45:55 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1671745555
+[23-Dec-2022 06:45:55 Asia/Tokyo] デバッグ：ログイン期限日時：1671748792
+[23-Dec-2022 06:45:55 Asia/Tokyo] デバッグ：msg情報を取得します。掲示板ID69
+[23-Dec-2022 06:45:55 Asia/Tokyo] デバッグ：msg情報を取得します。掲示板ID1
+[23-Dec-2022 06:45:55 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+)
+
+[23-Dec-2022 06:45:55 Asia/Tokyo] エラー：不正な値が入りました
+[23-Dec-2022 06:45:55 Asia/Tokyo] PHP Warning:  Undefined array key 0 in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 24
+[23-Dec-2022 06:45:55 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 24
+[23-Dec-2022 06:45:55 Asia/Tokyo] デバッグ：商品情報を取得：商品ID
+[23-Dec-2022 06:45:55 Asia/Tokyo] デバッグ：取得したDBデータ：
+[23-Dec-2022 06:45:55 Asia/Tokyo] エラー：商品情報が取得できませんでした
+[23-Dec-2022 06:45:55 Asia/Tokyo] PHP Warning:  Undefined array key 0 in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 32
+[23-Dec-2022 06:45:55 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 32
+[23-Dec-2022 06:45:55 Asia/Tokyo] PHP Warning:  Undefined array key 0 in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 33
+[23-Dec-2022 06:45:55 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 33
+[23-Dec-2022 06:45:55 Asia/Tokyo] デバッグ：取得した相手のユーザーID:
+[23-Dec-2022 06:45:55 Asia/Tokyo] エラー発生：相手のユーザー情報が取得できませんでした。
+[23-Dec-2022 06:45:55 Asia/Tokyo] デバッグ：取得したユーザーデータ：
+[23-Dec-2022 06:45:55 Asia/Tokyo] デバッグ：////////////////////////画面表示処理終了
+[23-Dec-2022 06:45:55 Asia/Tokyo] PHP Warning:  Uninitialized string offset 0 in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 224
+[23-Dec-2022 06:45:55 Asia/Tokyo] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php:224
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 224
+[23-Dec-2022 06:45:59 Asia/Tokyo] デバッグ：///////掲示板//////////
+[23-Dec-2022 06:45:59 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[23-Dec-2022 06:45:59 Asia/Tokyo] デバッグ：セッションID：bgjjpooqoquq464cq9u8p8tuev
+[23-Dec-2022 06:45:59 Asia/Tokyo] デバッグ：セッション変数の中身：1671745559
+[23-Dec-2022 06:45:59 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1671745559
+[23-Dec-2022 06:45:59 Asia/Tokyo] デバッグ：ログイン期限日時：1671748792
+[23-Dec-2022 06:45:59 Asia/Tokyo] デバッグ：msg情報を取得します。掲示板ID
+[23-Dec-2022 06:45:59 Asia/Tokyo] デバッグ：msg情報を取得します。掲示板ID1
+[23-Dec-2022 06:45:59 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+)
+
+[23-Dec-2022 06:45:59 Asia/Tokyo] エラー：不正な値が入りました
+[23-Dec-2022 06:45:59 Asia/Tokyo] PHP Warning:  Undefined array key 0 in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 24
+[23-Dec-2022 06:45:59 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 24
+[23-Dec-2022 06:45:59 Asia/Tokyo] デバッグ：商品情報を取得：商品ID
+[23-Dec-2022 06:45:59 Asia/Tokyo] デバッグ：取得したDBデータ：
+[23-Dec-2022 06:45:59 Asia/Tokyo] エラー：商品情報が取得できませんでした
+[23-Dec-2022 06:45:59 Asia/Tokyo] PHP Warning:  Undefined array key 0 in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 32
+[23-Dec-2022 06:45:59 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 32
+[23-Dec-2022 06:45:59 Asia/Tokyo] PHP Warning:  Undefined array key 0 in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 33
+[23-Dec-2022 06:45:59 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 33
+[23-Dec-2022 06:45:59 Asia/Tokyo] デバッグ：取得した相手のユーザーID:
+[23-Dec-2022 06:45:59 Asia/Tokyo] エラー発生：相手のユーザー情報が取得できませんでした。
+[23-Dec-2022 06:45:59 Asia/Tokyo] デバッグ：取得したユーザーデータ：
+[23-Dec-2022 06:45:59 Asia/Tokyo] デバッグ：////////////////////////画面表示処理終了
+[23-Dec-2022 06:45:59 Asia/Tokyo] PHP Warning:  Uninitialized string offset 0 in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 224
+[23-Dec-2022 06:45:59 Asia/Tokyo] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php:224
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 224
+[23-Dec-2022 06:46:10 Asia/Tokyo] デバッグ：///////掲示板//////////
+[23-Dec-2022 06:46:10 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[23-Dec-2022 06:46:10 Asia/Tokyo] デバッグ：セッションID：bgjjpooqoquq464cq9u8p8tuev
+[23-Dec-2022 06:46:10 Asia/Tokyo] デバッグ：セッション変数の中身：1671745570
+[23-Dec-2022 06:46:10 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1671745570
+[23-Dec-2022 06:46:10 Asia/Tokyo] デバッグ：ログイン期限日時：1671748792
+[23-Dec-2022 06:46:10 Asia/Tokyo] デバッグ：msg情報を取得します。掲示板ID
+[23-Dec-2022 06:46:10 Asia/Tokyo] デバッグ：msg情報を取得します。掲示板ID1
+[23-Dec-2022 06:46:10 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+)
+
+[23-Dec-2022 06:46:10 Asia/Tokyo] エラー：不正な値が入りました
+[23-Dec-2022 06:46:10 Asia/Tokyo] PHP Warning:  Undefined array key 0 in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 24
+[23-Dec-2022 06:46:10 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 24
+[23-Dec-2022 06:46:10 Asia/Tokyo] デバッグ：商品情報を取得：商品ID
+[23-Dec-2022 06:46:10 Asia/Tokyo] デバッグ：取得したDBデータ：
+[23-Dec-2022 06:46:10 Asia/Tokyo] エラー：商品情報が取得できませんでした
+[23-Dec-2022 06:46:10 Asia/Tokyo] PHP Warning:  Undefined array key 0 in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 32
+[23-Dec-2022 06:46:10 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 32
+[23-Dec-2022 06:46:10 Asia/Tokyo] PHP Warning:  Undefined array key 0 in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 33
+[23-Dec-2022 06:46:10 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 33
+[23-Dec-2022 06:46:10 Asia/Tokyo] デバッグ：取得した相手のユーザーID:
+[23-Dec-2022 06:46:10 Asia/Tokyo] エラー発生：相手のユーザー情報が取得できませんでした。
+[23-Dec-2022 06:46:10 Asia/Tokyo] デバッグ：取得したユーザーデータ：
+[23-Dec-2022 06:46:10 Asia/Tokyo] デバッグ：////////////////////////画面表示処理終了
+[23-Dec-2022 06:46:10 Asia/Tokyo] PHP Warning:  Uninitialized string offset 0 in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 224
+[23-Dec-2022 06:46:10 Asia/Tokyo] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php:224
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 224
+[23-Dec-2022 06:46:51 Asia/Tokyo] デバッグ：///////掲示板//////////
+[23-Dec-2022 06:46:51 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[23-Dec-2022 06:46:51 Asia/Tokyo] デバッグ：セッションID：bgjjpooqoquq464cq9u8p8tuev
+[23-Dec-2022 06:46:51 Asia/Tokyo] デバッグ：セッション変数の中身：1671745611
+[23-Dec-2022 06:46:51 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1671745611
+[23-Dec-2022 06:46:51 Asia/Tokyo] デバッグ：ログイン期限日時：1671748792
+[23-Dec-2022 06:46:51 Asia/Tokyo] デバッグ：msg情報を取得します。掲示板ID
+[23-Dec-2022 06:46:51 Asia/Tokyo] PHP Warning:  Undefined variable $i in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 16
+[23-Dec-2022 06:46:51 Asia/Tokyo] デバッグ：msg情報を取得します。掲示板ID
+[23-Dec-2022 06:46:51 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+)
+
+[23-Dec-2022 06:46:51 Asia/Tokyo] エラー：不正な値が入りました
+[23-Dec-2022 06:46:51 Asia/Tokyo] PHP Warning:  Undefined array key 0 in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 23
+[23-Dec-2022 06:46:51 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 23
+[23-Dec-2022 06:46:51 Asia/Tokyo] デバッグ：商品情報を取得：商品ID
+[23-Dec-2022 06:46:51 Asia/Tokyo] デバッグ：取得したDBデータ：
+[23-Dec-2022 06:46:51 Asia/Tokyo] エラー：商品情報が取得できませんでした
+[23-Dec-2022 06:46:51 Asia/Tokyo] PHP Warning:  Undefined array key "sale_user" in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 31
+[23-Dec-2022 06:46:51 Asia/Tokyo] PHP Warning:  Undefined array key "buy_user" in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 32
+[23-Dec-2022 06:46:51 Asia/Tokyo] デバッグ：取得した相手のユーザーID:
+[23-Dec-2022 06:46:51 Asia/Tokyo] エラー発生：相手のユーザー情報が取得できませんでした。
+[23-Dec-2022 06:46:51 Asia/Tokyo] デバッグ：取得したユーザーデータ：
+[23-Dec-2022 06:46:51 Asia/Tokyo] デバッグ：////////////////////////画面表示処理終了
+[23-Dec-2022 06:46:51 Asia/Tokyo] PHP Warning:  Uninitialized string offset 0 in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 223
+[23-Dec-2022 06:46:51 Asia/Tokyo] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php:223
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 223
+[23-Dec-2022 06:46:55 Asia/Tokyo] デバッグ：///////掲示板//////////
+[23-Dec-2022 06:46:55 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[23-Dec-2022 06:46:55 Asia/Tokyo] デバッグ：セッションID：bgjjpooqoquq464cq9u8p8tuev
+[23-Dec-2022 06:46:55 Asia/Tokyo] デバッグ：セッション変数の中身：1671745615
+[23-Dec-2022 06:46:55 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1671745615
+[23-Dec-2022 06:46:55 Asia/Tokyo] デバッグ：ログイン期限日時：1671748792
+[23-Dec-2022 06:46:55 Asia/Tokyo] デバッグ：msg情報を取得します。掲示板ID
+[23-Dec-2022 06:46:55 Asia/Tokyo] PHP Warning:  Undefined variable $i in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 16
+[23-Dec-2022 06:46:55 Asia/Tokyo] デバッグ：msg情報を取得します。掲示板ID
+[23-Dec-2022 06:46:55 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+)
+
+[23-Dec-2022 06:46:55 Asia/Tokyo] エラー：不正な値が入りました
+[23-Dec-2022 06:46:55 Asia/Tokyo] PHP Warning:  Undefined array key 0 in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 23
+[23-Dec-2022 06:46:55 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 23
+[23-Dec-2022 06:46:55 Asia/Tokyo] デバッグ：商品情報を取得：商品ID
+[23-Dec-2022 06:46:55 Asia/Tokyo] デバッグ：取得したDBデータ：
+[23-Dec-2022 06:46:55 Asia/Tokyo] エラー：商品情報が取得できませんでした
+[23-Dec-2022 06:46:55 Asia/Tokyo] PHP Warning:  Undefined array key "sale_user" in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 31
+[23-Dec-2022 06:46:55 Asia/Tokyo] PHP Warning:  Undefined array key "buy_user" in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 32
+[23-Dec-2022 06:46:55 Asia/Tokyo] デバッグ：取得した相手のユーザーID:
+[23-Dec-2022 06:46:55 Asia/Tokyo] エラー発生：相手のユーザー情報が取得できませんでした。
+[23-Dec-2022 06:46:55 Asia/Tokyo] デバッグ：取得したユーザーデータ：
+[23-Dec-2022 06:46:55 Asia/Tokyo] デバッグ：////////////////////////画面表示処理終了
+[23-Dec-2022 06:46:55 Asia/Tokyo] PHP Warning:  Uninitialized string offset 0 in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 223
+[23-Dec-2022 06:46:55 Asia/Tokyo] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php:223
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 223
+[23-Dec-2022 06:48:02 Asia/Tokyo] デバッグ：///////掲示板//////////
+[23-Dec-2022 06:48:02 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[23-Dec-2022 06:48:02 Asia/Tokyo] デバッグ：セッションID：bgjjpooqoquq464cq9u8p8tuev
+[23-Dec-2022 06:48:02 Asia/Tokyo] デバッグ：セッション変数の中身：1671745682
+[23-Dec-2022 06:48:02 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1671745682
+[23-Dec-2022 06:48:02 Asia/Tokyo] デバッグ：ログイン期限日時：1671748792
+[23-Dec-2022 06:48:02 Asia/Tokyo] デバッグ：msg情報を取得します。掲示板ID
+[23-Dec-2022 06:48:02 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+)
+
+[23-Dec-2022 06:48:02 Asia/Tokyo] エラー：不正な値が入りました
+[23-Dec-2022 06:48:02 Asia/Tokyo] PHP Warning:  Undefined array key 0 in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 23
+[23-Dec-2022 06:48:02 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 23
+[23-Dec-2022 06:48:02 Asia/Tokyo] デバッグ：商品情報を取得：商品ID
+[23-Dec-2022 06:48:02 Asia/Tokyo] デバッグ：取得したDBデータ：
+[23-Dec-2022 06:48:02 Asia/Tokyo] エラー：商品情報が取得できませんでした
+[23-Dec-2022 06:48:02 Asia/Tokyo] PHP Warning:  Undefined array key "sale_user" in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 31
+[23-Dec-2022 06:48:02 Asia/Tokyo] PHP Warning:  Undefined array key "buy_user" in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 32
+[23-Dec-2022 06:48:02 Asia/Tokyo] デバッグ：取得した相手のユーザーID:
+[23-Dec-2022 06:48:02 Asia/Tokyo] エラー発生：相手のユーザー情報が取得できませんでした。
+[23-Dec-2022 06:48:02 Asia/Tokyo] デバッグ：取得したユーザーデータ：
+[23-Dec-2022 06:48:02 Asia/Tokyo] デバッグ：////////////////////////画面表示処理終了
+[23-Dec-2022 06:48:02 Asia/Tokyo] PHP Warning:  Uninitialized string offset 0 in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 223
+[23-Dec-2022 06:48:02 Asia/Tokyo] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php:223
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 223
+[23-Dec-2022 06:51:38 Asia/Tokyo] デバッグ：///////掲示板//////////
+[23-Dec-2022 06:51:38 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[23-Dec-2022 06:51:38 Asia/Tokyo] デバッグ：セッションID：bgjjpooqoquq464cq9u8p8tuev
+[23-Dec-2022 06:51:38 Asia/Tokyo] デバッグ：セッション変数の中身：1671745898
+[23-Dec-2022 06:51:38 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1671745898
+[23-Dec-2022 06:51:38 Asia/Tokyo] デバッグ：ログイン期限日時：1671748792
+[23-Dec-2022 06:51:38 Asia/Tokyo] デバッグ：msg情報を取得します。掲示板ID
+[23-Dec-2022 06:51:38 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+)
+
+[23-Dec-2022 06:51:38 Asia/Tokyo] エラー：不正な値が入りました
+[23-Dec-2022 06:51:38 Asia/Tokyo] PHP Warning:  Undefined array key 0 in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 22
+[23-Dec-2022 06:51:38 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 22
+[23-Dec-2022 06:51:38 Asia/Tokyo] デバッグ：商品情報を取得：商品ID
+[23-Dec-2022 06:51:38 Asia/Tokyo] デバッグ：取得したDBデータ：
+[23-Dec-2022 06:51:38 Asia/Tokyo] エラー：商品情報が取得できませんでした
+[23-Dec-2022 06:51:38 Asia/Tokyo] PHP Warning:  Undefined array key "sale_user" in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 30
+[23-Dec-2022 06:51:38 Asia/Tokyo] PHP Warning:  Undefined array key "buy_user" in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 31
+[23-Dec-2022 06:51:38 Asia/Tokyo] デバッグ：取得した相手のユーザーID:
+[23-Dec-2022 06:51:38 Asia/Tokyo] エラー発生：相手のユーザー情報が取得できませんでした。
+[23-Dec-2022 06:51:38 Asia/Tokyo] デバッグ：取得したユーザーデータ：
+[23-Dec-2022 06:51:38 Asia/Tokyo] デバッグ：////////////////////////画面表示処理終了
+[23-Dec-2022 06:51:38 Asia/Tokyo] PHP Warning:  Uninitialized string offset 0 in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 223
+[23-Dec-2022 06:51:38 Asia/Tokyo] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php:223
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 223
+[23-Dec-2022 06:58:51 Asia/Tokyo] デバッグ：///////掲示板//////////
+[23-Dec-2022 06:58:51 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[23-Dec-2022 06:58:51 Asia/Tokyo] デバッグ：セッションID：bgjjpooqoquq464cq9u8p8tuev
+[23-Dec-2022 06:58:51 Asia/Tokyo] デバッグ：セッション変数の中身：1671746331
+[23-Dec-2022 06:58:51 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1671746331
+[23-Dec-2022 06:58:51 Asia/Tokyo] デバッグ：ログイン期限日時：1671748792
+[23-Dec-2022 06:58:51 Asia/Tokyo] デバッグ：msg情報を取得します。掲示板ID
+[23-Dec-2022 06:58:51 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+)
+
+[23-Dec-2022 06:58:51 Asia/Tokyo] エラー：不正な値が入りました
+[23-Dec-2022 06:58:51 Asia/Tokyo] PHP Warning:  Undefined array key 0 in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 22
+[23-Dec-2022 06:58:51 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 22
+[23-Dec-2022 06:58:51 Asia/Tokyo] デバッグ：商品情報を取得：商品ID
+[23-Dec-2022 06:58:51 Asia/Tokyo] デバッグ：取得したDBデータ：
+[23-Dec-2022 06:58:51 Asia/Tokyo] エラー：商品情報が取得できませんでした
+[23-Dec-2022 06:58:51 Asia/Tokyo] PHP Warning:  Undefined array key "sale_user" in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 30
+[23-Dec-2022 06:58:51 Asia/Tokyo] PHP Warning:  Undefined array key "buy_user" in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 31
+[23-Dec-2022 06:58:51 Asia/Tokyo] デバッグ：取得した相手のユーザーID:
+[23-Dec-2022 06:58:51 Asia/Tokyo] エラー発生：相手のユーザー情報が取得できませんでした。
+[23-Dec-2022 06:58:51 Asia/Tokyo] デバッグ：取得したユーザーデータ：
+[23-Dec-2022 06:58:51 Asia/Tokyo] デバッグ：////////////////////////画面表示処理終了
+[23-Dec-2022 06:58:51 Asia/Tokyo] PHP Warning:  Uninitialized string offset 0 in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 223
+[23-Dec-2022 06:58:51 Asia/Tokyo] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php:223
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 223
+[23-Dec-2022 06:58:54 Asia/Tokyo] デバッグ：///////掲示板//////////
+[23-Dec-2022 06:58:54 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[23-Dec-2022 06:58:54 Asia/Tokyo] デバッグ：セッションID：bgjjpooqoquq464cq9u8p8tuev
+[23-Dec-2022 06:58:54 Asia/Tokyo] デバッグ：セッション変数の中身：1671746334
+[23-Dec-2022 06:58:54 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1671746334
+[23-Dec-2022 06:58:54 Asia/Tokyo] デバッグ：ログイン期限日時：1671748792
+[23-Dec-2022 06:58:54 Asia/Tokyo] デバッグ：msg情報を取得します。掲示板ID
+[23-Dec-2022 06:58:54 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+)
+
+[23-Dec-2022 06:58:54 Asia/Tokyo] エラー：不正な値が入りました
+[23-Dec-2022 06:58:54 Asia/Tokyo] PHP Warning:  Undefined array key 0 in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 22
+[23-Dec-2022 06:58:54 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 22
+[23-Dec-2022 06:58:54 Asia/Tokyo] デバッグ：商品情報を取得：商品ID
+[23-Dec-2022 06:58:54 Asia/Tokyo] デバッグ：取得したDBデータ：
+[23-Dec-2022 06:58:54 Asia/Tokyo] エラー：商品情報が取得できませんでした
+[23-Dec-2022 06:58:54 Asia/Tokyo] PHP Warning:  Undefined array key "sale_user" in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 30
+[23-Dec-2022 06:58:54 Asia/Tokyo] PHP Warning:  Undefined array key "buy_user" in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 31
+[23-Dec-2022 06:58:54 Asia/Tokyo] デバッグ：取得した相手のユーザーID:
+[23-Dec-2022 06:58:54 Asia/Tokyo] エラー発生：相手のユーザー情報が取得できませんでした。
+[23-Dec-2022 06:58:54 Asia/Tokyo] デバッグ：取得したユーザーデータ：
+[23-Dec-2022 06:58:54 Asia/Tokyo] デバッグ：////////////////////////画面表示処理終了
+[23-Dec-2022 06:58:54 Asia/Tokyo] PHP Warning:  Uninitialized string offset 0 in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 223
+[23-Dec-2022 06:58:54 Asia/Tokyo] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php:223
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 223
+[23-Dec-2022 07:03:53 Asia/Tokyo] デバッグ：///////掲示板//////////
+[23-Dec-2022 07:03:53 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[23-Dec-2022 07:03:53 Asia/Tokyo] デバッグ：セッションID：bgjjpooqoquq464cq9u8p8tuev
+[23-Dec-2022 07:03:53 Asia/Tokyo] デバッグ：セッション変数の中身：1671746633
+[23-Dec-2022 07:03:53 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1671746633
+[23-Dec-2022 07:03:53 Asia/Tokyo] デバッグ：ログイン期限日時：1671748792
+[23-Dec-2022 07:03:53 Asia/Tokyo] デバッグ：msg情報を取得します。掲示板ID
+[23-Dec-2022 07:03:53 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+)
+
+[23-Dec-2022 07:03:53 Asia/Tokyo] エラー：不正な値が入りました
+[23-Dec-2022 07:03:53 Asia/Tokyo] PHP Warning:  Undefined array key 0 in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 22
+[23-Dec-2022 07:03:53 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 22
+[23-Dec-2022 07:03:53 Asia/Tokyo] デバッグ：商品情報を取得：商品ID
+[23-Dec-2022 07:03:53 Asia/Tokyo] デバッグ：取得したDBデータ：
+[23-Dec-2022 07:03:53 Asia/Tokyo] エラー：商品情報が取得できませんでした
+[23-Dec-2022 07:03:53 Asia/Tokyo] PHP Warning:  Undefined array key "sale_user" in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 30
+[23-Dec-2022 07:03:53 Asia/Tokyo] PHP Warning:  Undefined array key "buy_user" in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 31
+[23-Dec-2022 07:03:53 Asia/Tokyo] デバッグ：取得した相手のユーザーID:
+[23-Dec-2022 07:03:53 Asia/Tokyo] エラー発生：相手のユーザー情報が取得できませんでした。
+[23-Dec-2022 07:03:53 Asia/Tokyo] デバッグ：取得したユーザーデータ：
+[23-Dec-2022 07:03:53 Asia/Tokyo] デバッグ：////////////////////////画面表示処理終了
+[23-Dec-2022 07:03:53 Asia/Tokyo] PHP Warning:  Uninitialized string offset 0 in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 223
+[23-Dec-2022 07:03:53 Asia/Tokyo] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php:223
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 223
+[23-Dec-2022 07:03:56 Asia/Tokyo] デバッグ：///////掲示板//////////
+[23-Dec-2022 07:03:56 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[23-Dec-2022 07:03:56 Asia/Tokyo] デバッグ：セッションID：bgjjpooqoquq464cq9u8p8tuev
+[23-Dec-2022 07:03:56 Asia/Tokyo] デバッグ：セッション変数の中身：1671746636
+[23-Dec-2022 07:03:56 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1671746636
+[23-Dec-2022 07:03:56 Asia/Tokyo] デバッグ：ログイン期限日時：1671748792
+[23-Dec-2022 07:03:56 Asia/Tokyo] デバッグ：msg情報を取得します。掲示板ID69
+[23-Dec-2022 07:03:56 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+)
+
+[23-Dec-2022 07:03:56 Asia/Tokyo] エラー：不正な値が入りました
+[23-Dec-2022 07:03:56 Asia/Tokyo] PHP Warning:  Undefined array key 0 in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 22
+[23-Dec-2022 07:03:56 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 22
+[23-Dec-2022 07:03:56 Asia/Tokyo] デバッグ：商品情報を取得：商品ID
+[23-Dec-2022 07:03:56 Asia/Tokyo] デバッグ：取得したDBデータ：
+[23-Dec-2022 07:03:56 Asia/Tokyo] エラー：商品情報が取得できませんでした
+[23-Dec-2022 07:03:56 Asia/Tokyo] PHP Warning:  Undefined array key "sale_user" in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 30
+[23-Dec-2022 07:03:56 Asia/Tokyo] PHP Warning:  Undefined array key "buy_user" in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 31
+[23-Dec-2022 07:03:56 Asia/Tokyo] デバッグ：取得した相手のユーザーID:
+[23-Dec-2022 07:03:56 Asia/Tokyo] エラー発生：相手のユーザー情報が取得できませんでした。
+[23-Dec-2022 07:03:56 Asia/Tokyo] デバッグ：取得したユーザーデータ：
+[23-Dec-2022 07:03:56 Asia/Tokyo] デバッグ：////////////////////////画面表示処理終了
+[23-Dec-2022 07:03:56 Asia/Tokyo] PHP Warning:  Uninitialized string offset 0 in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 223
+[23-Dec-2022 07:03:56 Asia/Tokyo] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php:223
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 223
+[23-Dec-2022 07:03:57 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[23-Dec-2022 07:03:57 Asia/Tokyo] デバッグ：商品情報を取得：商品ID1
+[23-Dec-2022 07:03:57 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 1
+    [name] => 
+    [comment] => dfdgsf
+    [price] => 0
+    [pic1] => uploads/7ec9e68e8c49460ae8d527bd6d84e367321392e4.jpeg
+    [pic2] => uploads/7ec9e68e8c49460ae8d527bd6d84e367321392e4.jpeg
+    [pic3] => uploads/7ec9e68e8c49460ae8d527bd6d84e367321392e4.jpeg
+    [user_id] => 40
+    [create_date] => 2022-11-25 14:04:48
+    [update_date] => 2022-11-25 14:04:48
+    [category] => １月
+)
+
+[23-Dec-2022 07:03:57 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[23-Dec-2022 07:03:59 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[23-Dec-2022 07:03:59 Asia/Tokyo] デバッグ：商品情報を取得：商品ID1
+[23-Dec-2022 07:03:59 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 1
+    [name] => 
+    [comment] => dfdgsf
+    [price] => 0
+    [pic1] => uploads/7ec9e68e8c49460ae8d527bd6d84e367321392e4.jpeg
+    [pic2] => uploads/7ec9e68e8c49460ae8d527bd6d84e367321392e4.jpeg
+    [pic3] => uploads/7ec9e68e8c49460ae8d527bd6d84e367321392e4.jpeg
+    [user_id] => 40
+    [create_date] => 2022-11-25 14:04:48
+    [update_date] => 2022-11-25 14:04:48
+    [category] => １月
+)
+
+[23-Dec-2022 07:03:59 Asia/Tokyo] デバッグ：POST送信があります。
+[23-Dec-2022 07:03:59 Asia/Tokyo] デバッグ：連絡掲示板へ遷移します
+[23-Dec-2022 07:03:59 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[23-Dec-2022 07:03:59 Asia/Tokyo] デバッグ：///////掲示板//////////
+[23-Dec-2022 07:03:59 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[23-Dec-2022 07:03:59 Asia/Tokyo] デバッグ：セッションID：bgjjpooqoquq464cq9u8p8tuev
+[23-Dec-2022 07:03:59 Asia/Tokyo] デバッグ：セッション変数の中身：1671746639
+[23-Dec-2022 07:03:59 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1671746639
+[23-Dec-2022 07:03:59 Asia/Tokyo] デバッグ：ログイン期限日時：1671750239
+[23-Dec-2022 07:03:59 Asia/Tokyo] デバッグ：msg情報を取得します。掲示板ID70
+[23-Dec-2022 07:03:59 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+)
+
+[23-Dec-2022 07:03:59 Asia/Tokyo] エラー：不正な値が入りました
+[23-Dec-2022 07:03:59 Asia/Tokyo] PHP Warning:  Undefined array key 0 in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 22
+[23-Dec-2022 07:03:59 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 22
+[23-Dec-2022 07:03:59 Asia/Tokyo] デバッグ：商品情報を取得：商品ID
+[23-Dec-2022 07:03:59 Asia/Tokyo] デバッグ：取得したDBデータ：
+[23-Dec-2022 07:03:59 Asia/Tokyo] エラー：商品情報が取得できませんでした
+[23-Dec-2022 07:03:59 Asia/Tokyo] PHP Warning:  Undefined array key "sale_user" in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 30
+[23-Dec-2022 07:03:59 Asia/Tokyo] PHP Warning:  Undefined array key "buy_user" in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 31
+[23-Dec-2022 07:03:59 Asia/Tokyo] デバッグ：取得した相手のユーザーID:
+[23-Dec-2022 07:03:59 Asia/Tokyo] エラー発生：相手のユーザー情報が取得できませんでした。
+[23-Dec-2022 07:03:59 Asia/Tokyo] デバッグ：取得したユーザーデータ：
+[23-Dec-2022 07:03:59 Asia/Tokyo] デバッグ：////////////////////////画面表示処理終了
+[23-Dec-2022 07:03:59 Asia/Tokyo] PHP Warning:  Uninitialized string offset 0 in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 223
+[23-Dec-2022 07:03:59 Asia/Tokyo] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php:223
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 223
+[23-Dec-2022 14:16:20 Asia/Tokyo] デバッグ：///////掲示板//////////
+[23-Dec-2022 14:16:20 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[23-Dec-2022 14:16:20 Asia/Tokyo] デバッグ：セッションID：bgjjpooqoquq464cq9u8p8tuev
+[23-Dec-2022 14:16:20 Asia/Tokyo] デバッグ：セッション変数の中身：1671772580
+[23-Dec-2022 14:16:20 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1671772580
+[23-Dec-2022 14:16:20 Asia/Tokyo] デバッグ：ログイン期限日時：1671750239
+[23-Dec-2022 14:16:20 Asia/Tokyo] デバッグ：msg情報を取得します。掲示板ID70
+[23-Dec-2022 14:16:20 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+)
+
+[23-Dec-2022 14:16:20 Asia/Tokyo] エラー：不正な値が入りました
+[23-Dec-2022 14:16:20 Asia/Tokyo] PHP Warning:  Undefined array key 0 in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 22
+[23-Dec-2022 14:16:20 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 22
+[23-Dec-2022 14:16:20 Asia/Tokyo] デバッグ：商品情報を取得：商品ID
+[23-Dec-2022 14:16:20 Asia/Tokyo] デバッグ：取得したDBデータ：
+[23-Dec-2022 14:16:20 Asia/Tokyo] エラー：商品情報が取得できませんでした
+[23-Dec-2022 14:16:20 Asia/Tokyo] PHP Warning:  Undefined array key "sale_user" in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 30
+[23-Dec-2022 14:16:20 Asia/Tokyo] PHP Warning:  Undefined array key "buy_user" in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 31
+[23-Dec-2022 14:16:20 Asia/Tokyo] デバッグ：取得した相手のユーザーID:
+[23-Dec-2022 14:16:20 Asia/Tokyo] エラー発生：相手のユーザー情報が取得できませんでした。
+[23-Dec-2022 14:16:20 Asia/Tokyo] デバッグ：取得したユーザーデータ：
+[23-Dec-2022 14:16:20 Asia/Tokyo] デバッグ：////////////////////////画面表示処理終了
+[23-Dec-2022 14:16:20 Asia/Tokyo] PHP Warning:  Uninitialized string offset 0 in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 223
+[23-Dec-2022 14:16:20 Asia/Tokyo] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php:223
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 223
+[23-Dec-2022 14:16:21 Asia/Tokyo] デバッグ：///////掲示板//////////
+[23-Dec-2022 14:16:21 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[23-Dec-2022 14:16:21 Asia/Tokyo] デバッグ：セッションID：bgjjpooqoquq464cq9u8p8tuev
+[23-Dec-2022 14:16:21 Asia/Tokyo] デバッグ：セッション変数の中身：1671772581
+[23-Dec-2022 14:16:21 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1671772581
+[23-Dec-2022 14:16:21 Asia/Tokyo] デバッグ：ログイン期限日時：1671750239
+[23-Dec-2022 14:16:21 Asia/Tokyo] デバッグ：msg情報を取得します。掲示板ID70
+[23-Dec-2022 14:16:21 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+)
+
+[23-Dec-2022 14:16:21 Asia/Tokyo] エラー：不正な値が入りました
+[23-Dec-2022 14:16:21 Asia/Tokyo] PHP Warning:  Undefined array key 0 in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 22
+[23-Dec-2022 14:16:21 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 22
+[23-Dec-2022 14:16:21 Asia/Tokyo] デバッグ：商品情報を取得：商品ID
+[23-Dec-2022 14:16:21 Asia/Tokyo] デバッグ：取得したDBデータ：
+[23-Dec-2022 14:16:21 Asia/Tokyo] エラー：商品情報が取得できませんでした
+[23-Dec-2022 14:16:21 Asia/Tokyo] PHP Warning:  Undefined array key "sale_user" in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 30
+[23-Dec-2022 14:16:21 Asia/Tokyo] PHP Warning:  Undefined array key "buy_user" in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 31
+[23-Dec-2022 14:16:21 Asia/Tokyo] デバッグ：取得した相手のユーザーID:
+[23-Dec-2022 14:16:21 Asia/Tokyo] エラー発生：相手のユーザー情報が取得できませんでした。
+[23-Dec-2022 14:16:21 Asia/Tokyo] デバッグ：取得したユーザーデータ：
+[23-Dec-2022 14:16:21 Asia/Tokyo] デバッグ：////////////////////////画面表示処理終了
+[23-Dec-2022 14:16:21 Asia/Tokyo] PHP Warning:  Uninitialized string offset 0 in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 223
+[23-Dec-2022 14:16:21 Asia/Tokyo] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php:223
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 223
+[23-Dec-2022 14:17:36 Asia/Tokyo] デバッグ：///////掲示板//////////
+[23-Dec-2022 14:17:36 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[23-Dec-2022 14:17:36 Asia/Tokyo] デバッグ：セッションID：bgjjpooqoquq464cq9u8p8tuev
+[23-Dec-2022 14:17:36 Asia/Tokyo] デバッグ：セッション変数の中身：1671772656
+[23-Dec-2022 14:17:36 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1671772656
+[23-Dec-2022 14:17:36 Asia/Tokyo] デバッグ：ログイン期限日時：1671750239
+[23-Dec-2022 14:17:36 Asia/Tokyo] デバッグ：msg情報を取得します。掲示板ID70
+[23-Dec-2022 14:17:36 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+)
+
+[23-Dec-2022 14:17:36 Asia/Tokyo] エラー：不正な値が入りました
+[23-Dec-2022 14:17:36 Asia/Tokyo] PHP Warning:  Undefined array key 0 in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 22
+[23-Dec-2022 14:17:36 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 22
+[23-Dec-2022 14:17:36 Asia/Tokyo] デバッグ：商品情報を取得：商品ID
+[23-Dec-2022 14:17:36 Asia/Tokyo] デバッグ：取得したDBデータ：
+[23-Dec-2022 14:17:36 Asia/Tokyo] エラー：商品情報が取得できませんでした
+[23-Dec-2022 14:17:36 Asia/Tokyo] PHP Warning:  Undefined array key 0 in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 30
+[23-Dec-2022 14:17:36 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 30
+[23-Dec-2022 14:17:36 Asia/Tokyo] PHP Warning:  Undefined array key 0 in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 31
+[23-Dec-2022 14:17:36 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 31
+[23-Dec-2022 14:17:36 Asia/Tokyo] デバッグ：取得した相手のユーザーID:
+[23-Dec-2022 14:17:36 Asia/Tokyo] エラー発生：相手のユーザー情報が取得できませんでした。
+[23-Dec-2022 14:17:36 Asia/Tokyo] デバッグ：取得したユーザーデータ：
+[23-Dec-2022 14:17:36 Asia/Tokyo] デバッグ：////////////////////////画面表示処理終了
+[23-Dec-2022 14:17:36 Asia/Tokyo] PHP Warning:  Uninitialized string offset 0 in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 223
+[23-Dec-2022 14:17:36 Asia/Tokyo] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php:223
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 223
+[23-Dec-2022 14:19:22 Asia/Tokyo] デバッグ：///////掲示板//////////
+[23-Dec-2022 14:19:22 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[23-Dec-2022 14:19:22 Asia/Tokyo] デバッグ：セッションID：bgjjpooqoquq464cq9u8p8tuev
+[23-Dec-2022 14:19:22 Asia/Tokyo] デバッグ：セッション変数の中身：1671772762
+[23-Dec-2022 14:19:22 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1671772762
+[23-Dec-2022 14:19:22 Asia/Tokyo] デバッグ：ログイン期限日時：1671750239
+[23-Dec-2022 14:19:22 Asia/Tokyo] デバッグ：msg情報を取得します。掲示板ID70
+[23-Dec-2022 14:19:22 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+)
+
+[23-Dec-2022 14:19:22 Asia/Tokyo] エラー：不正な値が入りました
+[23-Dec-2022 14:19:22 Asia/Tokyo] PHP Warning:  Undefined array key "product_id" in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 22
+[23-Dec-2022 14:19:22 Asia/Tokyo] デバッグ：商品情報を取得：商品ID
+[23-Dec-2022 14:19:22 Asia/Tokyo] デバッグ：取得したDBデータ：
+[23-Dec-2022 14:19:22 Asia/Tokyo] エラー：商品情報が取得できませんでした
+[23-Dec-2022 14:19:22 Asia/Tokyo] PHP Warning:  Undefined array key "sale_user" in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 30
+[23-Dec-2022 14:19:22 Asia/Tokyo] PHP Warning:  Undefined array key "buy_user" in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 31
+[23-Dec-2022 14:19:22 Asia/Tokyo] デバッグ：取得した相手のユーザーID:
+[23-Dec-2022 14:19:22 Asia/Tokyo] エラー発生：相手のユーザー情報が取得できませんでした。
+[23-Dec-2022 14:19:22 Asia/Tokyo] デバッグ：取得したユーザーデータ：
+[23-Dec-2022 14:19:22 Asia/Tokyo] デバッグ：////////////////////////画面表示処理終了
+[23-Dec-2022 14:19:22 Asia/Tokyo] PHP Warning:  Uninitialized string offset 0 in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 223
+[23-Dec-2022 14:19:22 Asia/Tokyo] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php:223
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 223
+[23-Dec-2022 14:19:27 Asia/Tokyo] デバッグ：///////掲示板//////////
+[23-Dec-2022 14:19:27 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[23-Dec-2022 14:19:27 Asia/Tokyo] デバッグ：セッションID：bgjjpooqoquq464cq9u8p8tuev
+[23-Dec-2022 14:19:27 Asia/Tokyo] デバッグ：セッション変数の中身：1671772767
+[23-Dec-2022 14:19:27 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1671772767
+[23-Dec-2022 14:19:27 Asia/Tokyo] デバッグ：ログイン期限日時：1671750239
+[23-Dec-2022 14:19:27 Asia/Tokyo] デバッグ：msg情報を取得します。掲示板ID70
+[23-Dec-2022 14:19:27 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+)
+
+[23-Dec-2022 14:19:27 Asia/Tokyo] エラー：不正な値が入りました
+[23-Dec-2022 14:19:27 Asia/Tokyo] PHP Warning:  Undefined array key "product_id" in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 22
+[23-Dec-2022 14:19:27 Asia/Tokyo] デバッグ：商品情報を取得：商品ID
+[23-Dec-2022 14:19:27 Asia/Tokyo] デバッグ：取得したDBデータ：
+[23-Dec-2022 14:19:27 Asia/Tokyo] エラー：商品情報が取得できませんでした
+[23-Dec-2022 14:19:27 Asia/Tokyo] PHP Warning:  Undefined array key "sale_user" in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 30
+[23-Dec-2022 14:19:27 Asia/Tokyo] PHP Warning:  Undefined array key "buy_user" in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 31
+[23-Dec-2022 14:19:27 Asia/Tokyo] デバッグ：取得した相手のユーザーID:
+[23-Dec-2022 14:19:27 Asia/Tokyo] エラー発生：相手のユーザー情報が取得できませんでした。
+[23-Dec-2022 14:19:27 Asia/Tokyo] デバッグ：取得したユーザーデータ：
+[23-Dec-2022 14:19:27 Asia/Tokyo] デバッグ：////////////////////////画面表示処理終了
+[23-Dec-2022 14:19:27 Asia/Tokyo] PHP Warning:  Uninitialized string offset 0 in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 223
+[23-Dec-2022 14:19:27 Asia/Tokyo] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php:223
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 223
+[23-Dec-2022 14:20:19 Asia/Tokyo] デバッグ：///////掲示板//////////
+[23-Dec-2022 14:20:19 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[23-Dec-2022 14:20:19 Asia/Tokyo] デバッグ：セッションID：bgjjpooqoquq464cq9u8p8tuev
+[23-Dec-2022 14:20:19 Asia/Tokyo] デバッグ：セッション変数の中身：1671772819
+[23-Dec-2022 14:20:19 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1671772819
+[23-Dec-2022 14:20:19 Asia/Tokyo] デバッグ：ログイン期限日時：1671750239
+[23-Dec-2022 14:20:19 Asia/Tokyo] デバッグ：msg情報を取得します。掲示板ID70
+[23-Dec-2022 14:20:19 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+)
+
+[23-Dec-2022 14:20:19 Asia/Tokyo] エラー：不正な値が入りました
+[23-Dec-2022 14:20:19 Asia/Tokyo] PHP Warning:  Undefined array key "product_id" in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 23
+[23-Dec-2022 14:20:19 Asia/Tokyo] デバッグ：商品情報を取得：商品ID
+[23-Dec-2022 14:20:19 Asia/Tokyo] デバッグ：取得したDBデータ：
+[23-Dec-2022 14:20:19 Asia/Tokyo] エラー：商品情報が取得できませんでした
+[23-Dec-2022 14:20:19 Asia/Tokyo] PHP Warning:  Undefined array key "sale_user" in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 31
+[23-Dec-2022 14:20:19 Asia/Tokyo] PHP Warning:  Undefined array key "buy_user" in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 32
+[23-Dec-2022 14:20:19 Asia/Tokyo] デバッグ：取得した相手のユーザーID:
+[23-Dec-2022 14:20:19 Asia/Tokyo] エラー発生：相手のユーザー情報が取得できませんでした。
+[23-Dec-2022 14:20:19 Asia/Tokyo] デバッグ：取得したユーザーデータ：
+[23-Dec-2022 14:20:19 Asia/Tokyo] デバッグ：////////////////////////画面表示処理終了
+[23-Dec-2022 14:20:19 Asia/Tokyo] PHP Warning:  Uninitialized string offset 0 in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 223
+[23-Dec-2022 14:20:19 Asia/Tokyo] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php:223
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 223
+[23-Dec-2022 14:33:56 Asia/Tokyo] デバッグ：///////掲示板//////////
+[23-Dec-2022 14:33:56 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[23-Dec-2022 14:33:56 Asia/Tokyo] デバッグ：セッションID：bgjjpooqoquq464cq9u8p8tuev
+[23-Dec-2022 14:33:56 Asia/Tokyo] デバッグ：セッション変数の中身：1671773636
+[23-Dec-2022 14:33:56 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1671773636
+[23-Dec-2022 14:33:56 Asia/Tokyo] デバッグ：ログイン期限日時：1671750239
+[23-Dec-2022 14:33:56 Asia/Tokyo] デバッグ：msg情報を取得します。掲示板ID70
+[23-Dec-2022 14:33:56 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+)
+
+[23-Dec-2022 14:33:56 Asia/Tokyo] PHP Warning:  Undefined variable $stmt in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 40
+[23-Dec-2022 14:33:56 Asia/Tokyo] エラー：不正な値が入りました
+[23-Dec-2022 14:33:56 Asia/Tokyo] PHP Warning:  Undefined array key "product_id" in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 46
+[23-Dec-2022 14:33:56 Asia/Tokyo] デバッグ：商品情報を取得：商品ID
+[23-Dec-2022 14:33:56 Asia/Tokyo] デバッグ：取得したDBデータ：
+[23-Dec-2022 14:33:56 Asia/Tokyo] エラー：商品情報が取得できませんでした
+[23-Dec-2022 14:33:56 Asia/Tokyo] PHP Warning:  Undefined array key "sale_user" in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 54
+[23-Dec-2022 14:33:56 Asia/Tokyo] PHP Warning:  Undefined array key "buy_user" in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 55
+[23-Dec-2022 14:33:56 Asia/Tokyo] デバッグ：取得した相手のユーザーID:
+[23-Dec-2022 14:33:56 Asia/Tokyo] エラー発生：相手のユーザー情報が取得できませんでした。
+[23-Dec-2022 14:33:56 Asia/Tokyo] デバッグ：取得したユーザーデータ：
+[23-Dec-2022 14:33:56 Asia/Tokyo] デバッグ：////////////////////////画面表示処理終了
+[23-Dec-2022 14:33:56 Asia/Tokyo] PHP Warning:  Uninitialized string offset 0 in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 246
+[23-Dec-2022 14:33:56 Asia/Tokyo] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php:246
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 246
+[23-Dec-2022 14:34:02 Asia/Tokyo] デバッグ：///////掲示板//////////
+[23-Dec-2022 14:34:02 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[23-Dec-2022 14:34:02 Asia/Tokyo] デバッグ：セッションID：bgjjpooqoquq464cq9u8p8tuev
+[23-Dec-2022 14:34:02 Asia/Tokyo] デバッグ：セッション変数の中身：1671773642
+[23-Dec-2022 14:34:02 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1671773642
+[23-Dec-2022 14:34:02 Asia/Tokyo] デバッグ：ログイン期限日時：1671750239
+[23-Dec-2022 14:34:02 Asia/Tokyo] デバッグ：msg情報を取得します。掲示板ID70
+[23-Dec-2022 14:34:02 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+)
+
+[23-Dec-2022 14:34:02 Asia/Tokyo] PHP Warning:  Undefined variable $stmt in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 40
+[23-Dec-2022 14:34:02 Asia/Tokyo] エラー：不正な値が入りました
+[23-Dec-2022 14:34:02 Asia/Tokyo] PHP Warning:  Undefined array key "product_id" in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 46
+[23-Dec-2022 14:34:02 Asia/Tokyo] デバッグ：商品情報を取得：商品ID
+[23-Dec-2022 14:34:02 Asia/Tokyo] デバッグ：取得したDBデータ：
+[23-Dec-2022 14:34:02 Asia/Tokyo] エラー：商品情報が取得できませんでした
+[23-Dec-2022 14:34:02 Asia/Tokyo] PHP Warning:  Undefined array key "sale_user" in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 54
+[23-Dec-2022 14:34:02 Asia/Tokyo] PHP Warning:  Undefined array key "buy_user" in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 55
+[23-Dec-2022 14:34:02 Asia/Tokyo] デバッグ：取得した相手のユーザーID:
+[23-Dec-2022 14:34:02 Asia/Tokyo] エラー発生：相手のユーザー情報が取得できませんでした。
+[23-Dec-2022 14:34:02 Asia/Tokyo] デバッグ：取得したユーザーデータ：
+[23-Dec-2022 14:34:02 Asia/Tokyo] デバッグ：////////////////////////画面表示処理終了
+[23-Dec-2022 14:34:02 Asia/Tokyo] PHP Warning:  Uninitialized string offset 0 in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 246
+[23-Dec-2022 14:34:02 Asia/Tokyo] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php:246
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 246
+[23-Dec-2022 14:35:58 Asia/Tokyo] デバッグ：///////掲示板//////////
+[23-Dec-2022 14:35:58 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[23-Dec-2022 14:35:58 Asia/Tokyo] デバッグ：セッションID：bgjjpooqoquq464cq9u8p8tuev
+[23-Dec-2022 14:35:58 Asia/Tokyo] デバッグ：セッション変数の中身：1671773758
+[23-Dec-2022 14:35:58 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1671773758
+[23-Dec-2022 14:35:58 Asia/Tokyo] デバッグ：ログイン期限日時：1671750239
+[23-Dec-2022 14:35:58 Asia/Tokyo] デバッグ：msg情報を取得します。掲示板ID70
+[23-Dec-2022 14:35:58 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+)
+
+[23-Dec-2022 14:35:58 Asia/Tokyo] エラー：不正な値が入りました
+[23-Dec-2022 14:35:58 Asia/Tokyo] PHP Warning:  Undefined array key "product_id" in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 46
+[23-Dec-2022 14:35:58 Asia/Tokyo] デバッグ：商品情報を取得：商品ID
+[23-Dec-2022 14:35:58 Asia/Tokyo] デバッグ：取得したDBデータ：
+[23-Dec-2022 14:35:58 Asia/Tokyo] エラー：商品情報が取得できませんでした
+[23-Dec-2022 14:35:58 Asia/Tokyo] PHP Warning:  Undefined array key "sale_user" in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 54
+[23-Dec-2022 14:35:58 Asia/Tokyo] PHP Warning:  Undefined array key "buy_user" in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 55
+[23-Dec-2022 14:35:58 Asia/Tokyo] デバッグ：取得した相手のユーザーID:
+[23-Dec-2022 14:35:58 Asia/Tokyo] エラー発生：相手のユーザー情報が取得できませんでした。
+[23-Dec-2022 14:35:58 Asia/Tokyo] デバッグ：取得したユーザーデータ：
+[23-Dec-2022 14:35:58 Asia/Tokyo] デバッグ：////////////////////////画面表示処理終了
+[23-Dec-2022 14:35:58 Asia/Tokyo] PHP Warning:  Uninitialized string offset 0 in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 246
+[23-Dec-2022 14:35:58 Asia/Tokyo] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php:246
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 246
+[23-Dec-2022 14:36:00 Asia/Tokyo] デバッグ：///////掲示板//////////
+[23-Dec-2022 14:36:00 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[23-Dec-2022 14:36:00 Asia/Tokyo] デバッグ：セッションID：bgjjpooqoquq464cq9u8p8tuev
+[23-Dec-2022 14:36:00 Asia/Tokyo] デバッグ：セッション変数の中身：1671773760
+[23-Dec-2022 14:36:00 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1671773760
+[23-Dec-2022 14:36:00 Asia/Tokyo] デバッグ：ログイン期限日時：1671750239
+[23-Dec-2022 14:36:00 Asia/Tokyo] デバッグ：msg情報を取得します。掲示板ID70
+[23-Dec-2022 14:36:00 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+)
+
+[23-Dec-2022 14:36:00 Asia/Tokyo] エラー：不正な値が入りました
+[23-Dec-2022 14:36:00 Asia/Tokyo] PHP Warning:  Undefined array key "product_id" in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 46
+[23-Dec-2022 14:36:00 Asia/Tokyo] デバッグ：商品情報を取得：商品ID
+[23-Dec-2022 14:36:00 Asia/Tokyo] デバッグ：取得したDBデータ：
+[23-Dec-2022 14:36:00 Asia/Tokyo] エラー：商品情報が取得できませんでした
+[23-Dec-2022 14:36:00 Asia/Tokyo] PHP Warning:  Undefined array key "sale_user" in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 54
+[23-Dec-2022 14:36:00 Asia/Tokyo] PHP Warning:  Undefined array key "buy_user" in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 55
+[23-Dec-2022 14:36:00 Asia/Tokyo] デバッグ：取得した相手のユーザーID:
+[23-Dec-2022 14:36:00 Asia/Tokyo] エラー発生：相手のユーザー情報が取得できませんでした。
+[23-Dec-2022 14:36:00 Asia/Tokyo] デバッグ：取得したユーザーデータ：
+[23-Dec-2022 14:36:00 Asia/Tokyo] デバッグ：////////////////////////画面表示処理終了
+[23-Dec-2022 14:36:00 Asia/Tokyo] PHP Warning:  Uninitialized string offset 0 in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 246
+[23-Dec-2022 14:36:00 Asia/Tokyo] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php:246
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 246
+[23-Dec-2022 14:36:21 Asia/Tokyo] デバッグ：///////掲示板//////////
+[23-Dec-2022 14:36:21 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[23-Dec-2022 14:36:21 Asia/Tokyo] デバッグ：セッションID：bgjjpooqoquq464cq9u8p8tuev
+[23-Dec-2022 14:36:21 Asia/Tokyo] デバッグ：セッション変数の中身：1671773781
+[23-Dec-2022 14:36:21 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1671773781
+[23-Dec-2022 14:36:21 Asia/Tokyo] デバッグ：ログイン期限日時：1671750239
+[23-Dec-2022 14:36:21 Asia/Tokyo] デバッグ：msg情報を取得します。掲示板ID70
+[23-Dec-2022 14:36:21 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+)
+
+[23-Dec-2022 14:36:21 Asia/Tokyo] エラー：不正な値が入りました
+[23-Dec-2022 14:36:21 Asia/Tokyo] PHP Warning:  Undefined array key "product_id" in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 46
+[23-Dec-2022 14:36:21 Asia/Tokyo] デバッグ：商品情報を取得：商品ID
+[23-Dec-2022 14:36:21 Asia/Tokyo] デバッグ：取得したDBデータ：
+[23-Dec-2022 14:36:21 Asia/Tokyo] エラー：商品情報が取得できませんでした
+[23-Dec-2022 14:36:21 Asia/Tokyo] PHP Warning:  Undefined array key "sale_user" in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 54
+[23-Dec-2022 14:36:21 Asia/Tokyo] PHP Warning:  Undefined array key "buy_user" in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 55
+[23-Dec-2022 14:36:21 Asia/Tokyo] デバッグ：取得した相手のユーザーID:
+[23-Dec-2022 14:36:21 Asia/Tokyo] エラー発生：相手のユーザー情報が取得できませんでした。
+[23-Dec-2022 14:36:21 Asia/Tokyo] デバッグ：取得したユーザーデータ：
+[23-Dec-2022 14:36:21 Asia/Tokyo] デバッグ：////////////////////////画面表示処理終了
+[23-Dec-2022 14:36:21 Asia/Tokyo] PHP Warning:  Uninitialized string offset 0 in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 246
+[23-Dec-2022 14:36:21 Asia/Tokyo] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php:246
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 246
+[23-Dec-2022 14:36:33 Asia/Tokyo] デバッグ：///////掲示板//////////
+[23-Dec-2022 14:36:33 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[23-Dec-2022 14:36:33 Asia/Tokyo] デバッグ：セッションID：bgjjpooqoquq464cq9u8p8tuev
+[23-Dec-2022 14:36:33 Asia/Tokyo] デバッグ：セッション変数の中身：1671773793
+[23-Dec-2022 14:36:33 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1671773793
+[23-Dec-2022 14:36:33 Asia/Tokyo] デバッグ：ログイン期限日時：1671750239
+[23-Dec-2022 14:36:33 Asia/Tokyo] デバッグ：msg情報を取得します。掲示板ID70
+[23-Dec-2022 14:36:33 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+)
+
+[23-Dec-2022 14:36:33 Asia/Tokyo] エラー：不正な値が入りました
+[23-Dec-2022 14:36:33 Asia/Tokyo] PHP Warning:  Undefined array key "product_id" in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 46
+[23-Dec-2022 14:36:33 Asia/Tokyo] デバッグ：商品情報を取得：商品ID
+[23-Dec-2022 14:36:33 Asia/Tokyo] デバッグ：取得したDBデータ：
+[23-Dec-2022 14:36:33 Asia/Tokyo] エラー：商品情報が取得できませんでした
+[23-Dec-2022 14:36:33 Asia/Tokyo] PHP Warning:  Undefined array key "sale_user" in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 54
+[23-Dec-2022 14:36:33 Asia/Tokyo] PHP Warning:  Undefined array key "buy_user" in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 55
+[23-Dec-2022 14:36:33 Asia/Tokyo] デバッグ：取得した相手のユーザーID:
+[23-Dec-2022 14:36:33 Asia/Tokyo] エラー発生：相手のユーザー情報が取得できませんでした。
+[23-Dec-2022 14:36:33 Asia/Tokyo] デバッグ：取得したユーザーデータ：
+[23-Dec-2022 14:36:33 Asia/Tokyo] デバッグ：////////////////////////画面表示処理終了
+[23-Dec-2022 14:36:33 Asia/Tokyo] PHP Warning:  Uninitialized string offset 0 in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 246
+[23-Dec-2022 14:36:33 Asia/Tokyo] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php:246
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 246
+[23-Dec-2022 14:36:33 Asia/Tokyo] デバッグ：///////掲示板//////////
+[23-Dec-2022 14:36:33 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[23-Dec-2022 14:36:33 Asia/Tokyo] デバッグ：セッションID：bgjjpooqoquq464cq9u8p8tuev
+[23-Dec-2022 14:36:33 Asia/Tokyo] デバッグ：セッション変数の中身：1671773793
+[23-Dec-2022 14:36:33 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1671773793
+[23-Dec-2022 14:36:33 Asia/Tokyo] デバッグ：ログイン期限日時：1671750239
+[23-Dec-2022 14:36:33 Asia/Tokyo] デバッグ：msg情報を取得します。掲示板ID70
+[23-Dec-2022 14:36:33 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+)
+
+[23-Dec-2022 14:36:33 Asia/Tokyo] エラー：不正な値が入りました
+[23-Dec-2022 14:36:33 Asia/Tokyo] PHP Warning:  Undefined array key "product_id" in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 46
+[23-Dec-2022 14:36:33 Asia/Tokyo] デバッグ：商品情報を取得：商品ID
+[23-Dec-2022 14:36:33 Asia/Tokyo] デバッグ：取得したDBデータ：
+[23-Dec-2022 14:36:33 Asia/Tokyo] エラー：商品情報が取得できませんでした
+[23-Dec-2022 14:36:33 Asia/Tokyo] PHP Warning:  Undefined array key "sale_user" in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 54
+[23-Dec-2022 14:36:33 Asia/Tokyo] PHP Warning:  Undefined array key "buy_user" in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 55
+[23-Dec-2022 14:36:33 Asia/Tokyo] デバッグ：取得した相手のユーザーID:
+[23-Dec-2022 14:36:33 Asia/Tokyo] エラー発生：相手のユーザー情報が取得できませんでした。
+[23-Dec-2022 14:36:33 Asia/Tokyo] デバッグ：取得したユーザーデータ：
+[23-Dec-2022 14:36:33 Asia/Tokyo] デバッグ：////////////////////////画面表示処理終了
+[23-Dec-2022 14:36:33 Asia/Tokyo] PHP Warning:  Uninitialized string offset 0 in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 246
+[23-Dec-2022 14:36:33 Asia/Tokyo] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php:246
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 246
+[23-Dec-2022 14:37:30 Asia/Tokyo] デバッグ：///////掲示板//////////
+[23-Dec-2022 14:37:30 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[23-Dec-2022 14:37:30 Asia/Tokyo] デバッグ：セッションID：bgjjpooqoquq464cq9u8p8tuev
+[23-Dec-2022 14:37:30 Asia/Tokyo] デバッグ：セッション変数の中身：1671773850
+[23-Dec-2022 14:37:30 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1671773850
+[23-Dec-2022 14:37:30 Asia/Tokyo] デバッグ：ログイン期限日時：1671750239
+[23-Dec-2022 14:37:30 Asia/Tokyo] PHP Warning:  Undefined variable $stmt in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 38
+[23-Dec-2022 14:37:30 Asia/Tokyo] デバッグ：msg情報を取得します。掲示板ID70
+[23-Dec-2022 14:37:30 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+)
+
+[23-Dec-2022 14:37:30 Asia/Tokyo] エラー：不正な値が入りました
+[23-Dec-2022 14:37:30 Asia/Tokyo] PHP Warning:  Undefined array key "product_id" in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 46
+[23-Dec-2022 14:37:30 Asia/Tokyo] デバッグ：商品情報を取得：商品ID
+[23-Dec-2022 14:37:30 Asia/Tokyo] デバッグ：取得したDBデータ：
+[23-Dec-2022 14:37:30 Asia/Tokyo] エラー：商品情報が取得できませんでした
+[23-Dec-2022 14:37:30 Asia/Tokyo] PHP Warning:  Undefined array key "sale_user" in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 54
+[23-Dec-2022 14:37:30 Asia/Tokyo] PHP Warning:  Undefined array key "buy_user" in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 55
+[23-Dec-2022 14:37:30 Asia/Tokyo] デバッグ：取得した相手のユーザーID:
+[23-Dec-2022 14:37:30 Asia/Tokyo] エラー発生：相手のユーザー情報が取得できませんでした。
+[23-Dec-2022 14:37:30 Asia/Tokyo] デバッグ：取得したユーザーデータ：
+[23-Dec-2022 14:37:30 Asia/Tokyo] デバッグ：////////////////////////画面表示処理終了
+[23-Dec-2022 14:37:30 Asia/Tokyo] PHP Warning:  Uninitialized string offset 0 in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 246
+[23-Dec-2022 14:37:30 Asia/Tokyo] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php:246
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 246
+[23-Dec-2022 14:38:13 Asia/Tokyo] デバッグ：///////掲示板//////////
+[23-Dec-2022 14:38:13 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[23-Dec-2022 14:38:13 Asia/Tokyo] デバッグ：セッションID：bgjjpooqoquq464cq9u8p8tuev
+[23-Dec-2022 14:38:13 Asia/Tokyo] デバッグ：セッション変数の中身：1671773893
+[23-Dec-2022 14:38:13 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1671773893
+[23-Dec-2022 14:38:13 Asia/Tokyo] デバッグ：ログイン期限日時：1671750239
+[23-Dec-2022 14:38:13 Asia/Tokyo] PHP Warning:  Undefined variable $stmt in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 38
+[23-Dec-2022 14:38:13 Asia/Tokyo] デバッグ：msg情報を取得します。掲示板ID70
+[23-Dec-2022 14:38:13 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+)
+
+[23-Dec-2022 14:38:13 Asia/Tokyo] エラー：不正な値が入りました
+[23-Dec-2022 14:38:13 Asia/Tokyo] PHP Warning:  Undefined array key "product_id" in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 46
+[23-Dec-2022 14:38:13 Asia/Tokyo] デバッグ：商品情報を取得：商品ID
+[23-Dec-2022 14:38:13 Asia/Tokyo] デバッグ：取得したDBデータ：
+[23-Dec-2022 14:38:13 Asia/Tokyo] エラー：商品情報が取得できませんでした
+[23-Dec-2022 14:38:13 Asia/Tokyo] PHP Warning:  Undefined array key "sale_user" in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 54
+[23-Dec-2022 14:38:13 Asia/Tokyo] PHP Warning:  Undefined array key "buy_user" in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 55
+[23-Dec-2022 14:38:13 Asia/Tokyo] デバッグ：取得した相手のユーザーID:
+[23-Dec-2022 14:38:13 Asia/Tokyo] エラー発生：相手のユーザー情報が取得できませんでした。
+[23-Dec-2022 14:38:13 Asia/Tokyo] デバッグ：取得したユーザーデータ：
+[23-Dec-2022 14:38:13 Asia/Tokyo] デバッグ：////////////////////////画面表示処理終了
+[23-Dec-2022 14:38:13 Asia/Tokyo] PHP Warning:  Uninitialized string offset 0 in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 246
+[23-Dec-2022 14:38:13 Asia/Tokyo] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php:246
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 246
+[23-Dec-2022 14:38:14 Asia/Tokyo] デバッグ：///////掲示板//////////
+[23-Dec-2022 14:38:14 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[23-Dec-2022 14:38:14 Asia/Tokyo] デバッグ：セッションID：bgjjpooqoquq464cq9u8p8tuev
+[23-Dec-2022 14:38:14 Asia/Tokyo] デバッグ：セッション変数の中身：1671773894
+[23-Dec-2022 14:38:14 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1671773894
+[23-Dec-2022 14:38:14 Asia/Tokyo] デバッグ：ログイン期限日時：1671750239
+[23-Dec-2022 14:38:14 Asia/Tokyo] PHP Warning:  Undefined variable $stmt in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 38
+[23-Dec-2022 14:38:14 Asia/Tokyo] デバッグ：msg情報を取得します。掲示板ID70
+[23-Dec-2022 14:38:14 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+)
+
+[23-Dec-2022 14:38:14 Asia/Tokyo] エラー：不正な値が入りました
+[23-Dec-2022 14:38:14 Asia/Tokyo] PHP Warning:  Undefined array key "product_id" in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 46
+[23-Dec-2022 14:38:14 Asia/Tokyo] デバッグ：商品情報を取得：商品ID
+[23-Dec-2022 14:38:14 Asia/Tokyo] デバッグ：取得したDBデータ：
+[23-Dec-2022 14:38:14 Asia/Tokyo] エラー：商品情報が取得できませんでした
+[23-Dec-2022 14:38:14 Asia/Tokyo] PHP Warning:  Undefined array key "sale_user" in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 54
+[23-Dec-2022 14:38:14 Asia/Tokyo] PHP Warning:  Undefined array key "buy_user" in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 55
+[23-Dec-2022 14:38:14 Asia/Tokyo] デバッグ：取得した相手のユーザーID:
+[23-Dec-2022 14:38:14 Asia/Tokyo] エラー発生：相手のユーザー情報が取得できませんでした。
+[23-Dec-2022 14:38:14 Asia/Tokyo] デバッグ：取得したユーザーデータ：
+[23-Dec-2022 14:38:14 Asia/Tokyo] デバッグ：////////////////////////画面表示処理終了
+[23-Dec-2022 14:38:14 Asia/Tokyo] PHP Warning:  Uninitialized string offset 0 in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 246
+[23-Dec-2022 14:38:14 Asia/Tokyo] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php:246
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 246
+[23-Dec-2022 14:39:10 Asia/Tokyo] デバッグ：///////掲示板//////////
+[23-Dec-2022 14:39:10 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[23-Dec-2022 14:39:10 Asia/Tokyo] デバッグ：セッションID：bgjjpooqoquq464cq9u8p8tuev
+[23-Dec-2022 14:39:10 Asia/Tokyo] デバッグ：セッション変数の中身：1671773950
+[23-Dec-2022 14:39:10 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1671773950
+[23-Dec-2022 14:39:10 Asia/Tokyo] デバッグ：ログイン期限日時：1671750239
+[23-Dec-2022 14:39:10 Asia/Tokyo] デバッグ：msg情報を取得します。掲示板ID70
+[23-Dec-2022 14:39:10 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+)
+
+[23-Dec-2022 14:39:10 Asia/Tokyo] エラー：不正な値が入りました
+[23-Dec-2022 14:39:10 Asia/Tokyo] PHP Warning:  Undefined array key "product_id" in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 46
+[23-Dec-2022 14:39:10 Asia/Tokyo] デバッグ：商品情報を取得：商品ID
+[23-Dec-2022 14:39:10 Asia/Tokyo] デバッグ：取得したDBデータ：
+[23-Dec-2022 14:39:10 Asia/Tokyo] エラー：商品情報が取得できませんでした
+[23-Dec-2022 14:39:10 Asia/Tokyo] PHP Warning:  Undefined array key "sale_user" in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 54
+[23-Dec-2022 14:39:10 Asia/Tokyo] PHP Warning:  Undefined array key "buy_user" in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 55
+[23-Dec-2022 14:39:10 Asia/Tokyo] デバッグ：取得した相手のユーザーID:
+[23-Dec-2022 14:39:10 Asia/Tokyo] エラー発生：相手のユーザー情報が取得できませんでした。
+[23-Dec-2022 14:39:10 Asia/Tokyo] デバッグ：取得したユーザーデータ：
+[23-Dec-2022 14:39:10 Asia/Tokyo] デバッグ：////////////////////////画面表示処理終了
+[23-Dec-2022 14:39:10 Asia/Tokyo] PHP Warning:  Uninitialized string offset 0 in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 246
+[23-Dec-2022 14:39:10 Asia/Tokyo] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php:246
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 246
+[23-Dec-2022 14:39:44 Asia/Tokyo] デバッグ：///////掲示板//////////
+[23-Dec-2022 14:39:44 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[23-Dec-2022 14:39:44 Asia/Tokyo] デバッグ：セッションID：bgjjpooqoquq464cq9u8p8tuev
+[23-Dec-2022 14:39:44 Asia/Tokyo] デバッグ：セッション変数の中身：1671773984
+[23-Dec-2022 14:39:44 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1671773984
+[23-Dec-2022 14:39:44 Asia/Tokyo] デバッグ：ログイン期限日時：1671750239
+[23-Dec-2022 14:39:44 Asia/Tokyo] デバッグ：msg情報を取得します。掲示板ID70
+[23-Dec-2022 14:39:44 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+)
+
+[23-Dec-2022 14:39:44 Asia/Tokyo] エラー：不正な値が入りました
+[23-Dec-2022 14:39:44 Asia/Tokyo] PHP Warning:  Undefined array key "product_id" in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 47
+[23-Dec-2022 14:39:44 Asia/Tokyo] デバッグ：商品情報を取得：商品ID
+[23-Dec-2022 14:39:44 Asia/Tokyo] デバッグ：取得したDBデータ：
+[23-Dec-2022 14:39:44 Asia/Tokyo] エラー：商品情報が取得できませんでした
+[23-Dec-2022 14:39:44 Asia/Tokyo] PHP Warning:  Undefined array key "sale_user" in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 55
+[23-Dec-2022 14:39:44 Asia/Tokyo] PHP Warning:  Undefined array key "buy_user" in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 56
+[23-Dec-2022 14:39:44 Asia/Tokyo] デバッグ：取得した相手のユーザーID:
+[23-Dec-2022 14:39:44 Asia/Tokyo] エラー発生：相手のユーザー情報が取得できませんでした。
+[23-Dec-2022 14:39:44 Asia/Tokyo] デバッグ：取得したユーザーデータ：
+[23-Dec-2022 14:39:44 Asia/Tokyo] デバッグ：////////////////////////画面表示処理終了
+[23-Dec-2022 14:39:44 Asia/Tokyo] PHP Warning:  Uninitialized string offset 0 in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 247
+[23-Dec-2022 14:39:44 Asia/Tokyo] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php:247
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 247
+[23-Dec-2022 14:40:15 Asia/Tokyo] デバッグ：///////掲示板//////////
+[23-Dec-2022 14:40:15 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[23-Dec-2022 14:40:15 Asia/Tokyo] デバッグ：セッションID：bgjjpooqoquq464cq9u8p8tuev
+[23-Dec-2022 14:40:15 Asia/Tokyo] デバッグ：セッション変数の中身：1671774015
+[23-Dec-2022 14:40:15 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1671774015
+[23-Dec-2022 14:40:15 Asia/Tokyo] デバッグ：ログイン期限日時：1671750239
+[23-Dec-2022 14:40:15 Asia/Tokyo] デバッグ：msg情報を取得します。掲示板ID70
+[23-Dec-2022 14:40:15 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+)
+
+[23-Dec-2022 14:40:15 Asia/Tokyo] エラー：不正な値が入りました
+[23-Dec-2022 14:40:15 Asia/Tokyo] PHP Warning:  Undefined array key "product_id" in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 47
+[23-Dec-2022 14:40:15 Asia/Tokyo] デバッグ：商品情報を取得：商品ID
+[23-Dec-2022 14:40:15 Asia/Tokyo] デバッグ：取得したDBデータ：
+[23-Dec-2022 14:40:15 Asia/Tokyo] エラー：商品情報が取得できませんでした
+[23-Dec-2022 14:40:15 Asia/Tokyo] PHP Warning:  Undefined array key "sale_user" in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 55
+[23-Dec-2022 14:40:15 Asia/Tokyo] PHP Warning:  Undefined array key "buy_user" in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 56
+[23-Dec-2022 14:40:15 Asia/Tokyo] デバッグ：取得した相手のユーザーID:
+[23-Dec-2022 14:40:15 Asia/Tokyo] エラー発生：相手のユーザー情報が取得できませんでした。
+[23-Dec-2022 14:40:15 Asia/Tokyo] デバッグ：取得したユーザーデータ：
+[23-Dec-2022 14:40:15 Asia/Tokyo] デバッグ：////////////////////////画面表示処理終了
+[23-Dec-2022 14:40:15 Asia/Tokyo] PHP Warning:  Uninitialized string offset 0 in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 247
+[23-Dec-2022 14:40:15 Asia/Tokyo] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php:247
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 247
+[23-Dec-2022 14:50:24 Asia/Tokyo] デバッグ：///////掲示板//////////
+[23-Dec-2022 14:50:24 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[23-Dec-2022 14:50:24 Asia/Tokyo] デバッグ：セッションID：bgjjpooqoquq464cq9u8p8tuev
+[23-Dec-2022 14:50:24 Asia/Tokyo] デバッグ：セッション変数の中身：1671774624
+[23-Dec-2022 14:50:24 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1671774624
+[23-Dec-2022 14:50:24 Asia/Tokyo] デバッグ：ログイン期限日時：1671750239
+[23-Dec-2022 14:50:24 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to undefined function getMsgsAndBord() in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php:15
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 15
+[23-Dec-2022 15:01:38 Asia/Tokyo] デバッグ：///////掲示板//////////
+[23-Dec-2022 15:01:38 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[23-Dec-2022 15:01:38 Asia/Tokyo] デバッグ：セッションID：bgjjpooqoquq464cq9u8p8tuev
+[23-Dec-2022 15:01:38 Asia/Tokyo] デバッグ：セッション変数の中身：1671775298
+[23-Dec-2022 15:01:38 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1671775298
+[23-Dec-2022 15:01:38 Asia/Tokyo] デバッグ：ログイン期限日時：1671750239
+[23-Dec-2022 15:01:38 Asia/Tokyo] デバッグ：msg情報を取得：掲示板ID70
+[23-Dec-2022 15:01:38 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+)
+
+[23-Dec-2022 15:01:38 Asia/Tokyo] エラー：不正な値が入りました
+[23-Dec-2022 15:01:38 Asia/Tokyo] PHP Warning:  Undefined array key 0 in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 22
+[23-Dec-2022 15:01:38 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 22
+[23-Dec-2022 15:01:38 Asia/Tokyo] デバッグ：商品情報を取得：商品ID
+[23-Dec-2022 15:01:38 Asia/Tokyo] デバッグ：取得したDBデータ：
+[23-Dec-2022 15:01:38 Asia/Tokyo] エラー：商品情報が取得できませんでした
+[23-Dec-2022 15:01:38 Asia/Tokyo] PHP Warning:  Undefined array key "sale_user" in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 30
+[23-Dec-2022 15:01:38 Asia/Tokyo] PHP Warning:  Undefined array key "buy_user" in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 31
+[23-Dec-2022 15:01:38 Asia/Tokyo] デバッグ：取得した相手のユーザーID:
+[23-Dec-2022 15:01:38 Asia/Tokyo] エラー発生：相手のユーザー情報が取得できませんでした。
+[23-Dec-2022 15:01:38 Asia/Tokyo] デバッグ：取得したユーザーデータ：
+[23-Dec-2022 15:01:38 Asia/Tokyo] デバッグ：////////////////////////画面表示処理終了
+[23-Dec-2022 15:01:38 Asia/Tokyo] PHP Warning:  Uninitialized string offset 0 in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 223
+[23-Dec-2022 15:01:38 Asia/Tokyo] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php:223
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 223
+[23-Dec-2022 15:02:03 Asia/Tokyo] デバッグ：///////掲示板//////////
+[23-Dec-2022 15:02:03 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[23-Dec-2022 15:02:03 Asia/Tokyo] デバッグ：セッションID：bgjjpooqoquq464cq9u8p8tuev
+[23-Dec-2022 15:02:03 Asia/Tokyo] デバッグ：セッション変数の中身：1671775323
+[23-Dec-2022 15:02:03 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1671775323
+[23-Dec-2022 15:02:03 Asia/Tokyo] デバッグ：ログイン期限日時：1671750239
+[23-Dec-2022 15:02:03 Asia/Tokyo] デバッグ：msg情報を取得：掲示板ID70
+[23-Dec-2022 15:02:03 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+)
+
+[23-Dec-2022 15:02:03 Asia/Tokyo] エラー：不正な値が入りました
+[23-Dec-2022 15:02:03 Asia/Tokyo] PHP Warning:  Undefined array key "product_id" in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 22
+[23-Dec-2022 15:02:03 Asia/Tokyo] デバッグ：商品情報を取得：商品ID
+[23-Dec-2022 15:02:03 Asia/Tokyo] デバッグ：取得したDBデータ：
+[23-Dec-2022 15:02:03 Asia/Tokyo] エラー：商品情報が取得できませんでした
+[23-Dec-2022 15:02:03 Asia/Tokyo] PHP Warning:  Undefined array key "sale_user" in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 30
+[23-Dec-2022 15:02:03 Asia/Tokyo] PHP Warning:  Undefined array key "buy_user" in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 31
+[23-Dec-2022 15:02:03 Asia/Tokyo] デバッグ：取得した相手のユーザーID:
+[23-Dec-2022 15:02:03 Asia/Tokyo] エラー発生：相手のユーザー情報が取得できませんでした。
+[23-Dec-2022 15:02:03 Asia/Tokyo] デバッグ：取得したユーザーデータ：
+[23-Dec-2022 15:02:03 Asia/Tokyo] デバッグ：////////////////////////画面表示処理終了
+[23-Dec-2022 15:02:03 Asia/Tokyo] PHP Warning:  Uninitialized string offset 0 in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 223
+[23-Dec-2022 15:02:03 Asia/Tokyo] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php:223
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 223
+[23-Dec-2022 15:03:36 Asia/Tokyo] デバッグ：///////掲示板//////////
+[23-Dec-2022 15:03:36 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[23-Dec-2022 15:03:36 Asia/Tokyo] デバッグ：セッションID：bgjjpooqoquq464cq9u8p8tuev
+[23-Dec-2022 15:03:36 Asia/Tokyo] デバッグ：セッション変数の中身：1671775416
+[23-Dec-2022 15:03:36 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1671775416
+[23-Dec-2022 15:03:36 Asia/Tokyo] デバッグ：ログイン期限日時：1671750239
+[23-Dec-2022 15:03:36 Asia/Tokyo] デバッグ：msg情報を取得：掲示板ID70
+[23-Dec-2022 15:03:36 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+)
+
+[23-Dec-2022 15:03:36 Asia/Tokyo] エラー：不正な値が入りました
+[23-Dec-2022 15:03:36 Asia/Tokyo] PHP Warning:  Undefined array key "product_id" in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 22
+[23-Dec-2022 15:03:36 Asia/Tokyo] デバッグ：商品情報を取得：商品ID
+[23-Dec-2022 15:03:36 Asia/Tokyo] デバッグ：取得したDBデータ：
+[23-Dec-2022 15:03:36 Asia/Tokyo] エラー：商品情報が取得できませんでした
+[23-Dec-2022 15:03:36 Asia/Tokyo] PHP Warning:  Undefined array key "sale_user" in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 30
+[23-Dec-2022 15:03:36 Asia/Tokyo] PHP Warning:  Undefined array key "buy_user" in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 31
+[23-Dec-2022 15:03:36 Asia/Tokyo] デバッグ：取得した相手のユーザーID:
+[23-Dec-2022 15:03:36 Asia/Tokyo] エラー発生：相手のユーザー情報が取得できませんでした。
+[23-Dec-2022 15:03:36 Asia/Tokyo] デバッグ：取得したユーザーデータ：
+[23-Dec-2022 15:03:36 Asia/Tokyo] デバッグ：////////////////////////画面表示処理終了
+[23-Dec-2022 15:03:36 Asia/Tokyo] PHP Warning:  Uninitialized string offset 0 in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 223
+[23-Dec-2022 15:03:36 Asia/Tokyo] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php:223
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 223
+[23-Dec-2022 15:03:37 Asia/Tokyo] デバッグ：///////掲示板//////////
+[23-Dec-2022 15:03:37 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[23-Dec-2022 15:03:37 Asia/Tokyo] デバッグ：セッションID：bgjjpooqoquq464cq9u8p8tuev
+[23-Dec-2022 15:03:37 Asia/Tokyo] デバッグ：セッション変数の中身：1671775417
+[23-Dec-2022 15:03:37 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1671775417
+[23-Dec-2022 15:03:37 Asia/Tokyo] デバッグ：ログイン期限日時：1671750239
+[23-Dec-2022 15:03:37 Asia/Tokyo] デバッグ：msg情報を取得：掲示板ID70
+[23-Dec-2022 15:03:37 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+)
+
+[23-Dec-2022 15:03:37 Asia/Tokyo] エラー：不正な値が入りました
+[23-Dec-2022 15:03:37 Asia/Tokyo] PHP Warning:  Undefined array key "product_id" in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 22
+[23-Dec-2022 15:03:37 Asia/Tokyo] デバッグ：商品情報を取得：商品ID
+[23-Dec-2022 15:03:37 Asia/Tokyo] デバッグ：取得したDBデータ：
+[23-Dec-2022 15:03:37 Asia/Tokyo] エラー：商品情報が取得できませんでした
+[23-Dec-2022 15:03:37 Asia/Tokyo] PHP Warning:  Undefined array key "sale_user" in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 30
+[23-Dec-2022 15:03:37 Asia/Tokyo] PHP Warning:  Undefined array key "buy_user" in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 31
+[23-Dec-2022 15:03:37 Asia/Tokyo] デバッグ：取得した相手のユーザーID:
+[23-Dec-2022 15:03:37 Asia/Tokyo] エラー発生：相手のユーザー情報が取得できませんでした。
+[23-Dec-2022 15:03:37 Asia/Tokyo] デバッグ：取得したユーザーデータ：
+[23-Dec-2022 15:03:37 Asia/Tokyo] デバッグ：////////////////////////画面表示処理終了
+[23-Dec-2022 15:03:37 Asia/Tokyo] PHP Warning:  Uninitialized string offset 0 in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 223
+[23-Dec-2022 15:03:37 Asia/Tokyo] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php:223
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 223
+[23-Dec-2022 15:08:52 Asia/Tokyo] デバッグ：///////掲示板//////////
+[23-Dec-2022 15:08:52 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[23-Dec-2022 15:08:52 Asia/Tokyo] デバッグ：セッションID：bgjjpooqoquq464cq9u8p8tuev
+[23-Dec-2022 15:08:52 Asia/Tokyo] デバッグ：セッション変数の中身：1671775732
+[23-Dec-2022 15:08:52 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1671775732
+[23-Dec-2022 15:08:52 Asia/Tokyo] デバッグ：ログイン期限日時：1671750239
+[23-Dec-2022 15:08:52 Asia/Tokyo] デバッグ：msg情報を取得：掲示板ID70
+[23-Dec-2022 15:08:52 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+)
+
+[23-Dec-2022 15:08:52 Asia/Tokyo] エラー：不正な値が入りました
+[23-Dec-2022 15:08:52 Asia/Tokyo] PHP Warning:  Undefined array key "product_id" in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 22
+[23-Dec-2022 15:08:52 Asia/Tokyo] デバッグ：商品情報を取得：商品ID
+[23-Dec-2022 15:08:52 Asia/Tokyo] デバッグ：取得したDBデータ：
+[23-Dec-2022 15:08:52 Asia/Tokyo] エラー：商品情報が取得できませんでした
+[23-Dec-2022 15:08:52 Asia/Tokyo] PHP Warning:  Undefined array key "sale_user" in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 30
+[23-Dec-2022 15:08:52 Asia/Tokyo] PHP Warning:  Undefined array key "buy_user" in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 31
+[23-Dec-2022 15:08:52 Asia/Tokyo] デバッグ：取得した相手のユーザーID:
+[23-Dec-2022 15:08:52 Asia/Tokyo] エラー発生：相手のユーザー情報が取得できませんでした。
+[23-Dec-2022 15:08:52 Asia/Tokyo] デバッグ：取得したユーザーデータ：
+[23-Dec-2022 15:08:52 Asia/Tokyo] デバッグ：////////////////////////画面表示処理終了
+[23-Dec-2022 15:08:52 Asia/Tokyo] PHP Warning:  Uninitialized string offset 0 in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 223
+[23-Dec-2022 15:08:52 Asia/Tokyo] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php:223
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 223
+[23-Dec-2022 15:09:52 Asia/Tokyo] デバッグ：///////掲示板//////////
+[23-Dec-2022 15:09:52 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[23-Dec-2022 15:09:52 Asia/Tokyo] デバッグ：セッションID：bgjjpooqoquq464cq9u8p8tuev
+[23-Dec-2022 15:09:52 Asia/Tokyo] デバッグ：セッション変数の中身：1671775792
+[23-Dec-2022 15:09:52 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1671775792
+[23-Dec-2022 15:09:52 Asia/Tokyo] デバッグ：ログイン期限日時：1671750239
+[23-Dec-2022 15:09:52 Asia/Tokyo] デバッグ：msg情報を取得：掲示板ID70
+[23-Dec-2022 15:09:52 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+)
+
+[23-Dec-2022 15:09:52 Asia/Tokyo] エラー：不正な値が入りました
+[23-Dec-2022 15:09:52 Asia/Tokyo] PHP Warning:  Undefined array key "product_id" in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 22
+[23-Dec-2022 15:09:52 Asia/Tokyo] デバッグ：商品情報を取得：商品ID
+[23-Dec-2022 15:09:52 Asia/Tokyo] デバッグ：取得したDBデータ：
+[23-Dec-2022 15:09:52 Asia/Tokyo] エラー：商品情報が取得できませんでした
+[23-Dec-2022 15:09:52 Asia/Tokyo] PHP Warning:  Undefined array key "sale_user" in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 30
+[23-Dec-2022 15:09:52 Asia/Tokyo] PHP Warning:  Undefined array key "buy_user" in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 31
+[23-Dec-2022 15:09:52 Asia/Tokyo] デバッグ：取得した相手のユーザーID:
+[23-Dec-2022 15:09:52 Asia/Tokyo] エラー発生：相手のユーザー情報が取得できませんでした。
+[23-Dec-2022 15:09:52 Asia/Tokyo] デバッグ：取得したユーザーデータ：
+[23-Dec-2022 15:09:52 Asia/Tokyo] デバッグ：////////////////////////画面表示処理終了
+[23-Dec-2022 15:09:52 Asia/Tokyo] PHP Warning:  Uninitialized string offset 0 in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 223
+[23-Dec-2022 15:09:52 Asia/Tokyo] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php:223
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 223
+[23-Dec-2022 15:09:53 Asia/Tokyo] デバッグ：///////掲示板//////////
+[23-Dec-2022 15:09:53 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[23-Dec-2022 15:09:53 Asia/Tokyo] デバッグ：セッションID：bgjjpooqoquq464cq9u8p8tuev
+[23-Dec-2022 15:09:53 Asia/Tokyo] デバッグ：セッション変数の中身：1671775793
+[23-Dec-2022 15:09:53 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1671775793
+[23-Dec-2022 15:09:53 Asia/Tokyo] デバッグ：ログイン期限日時：1671750239
+[23-Dec-2022 15:09:53 Asia/Tokyo] デバッグ：msg情報を取得：掲示板ID70
+[23-Dec-2022 15:09:53 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+)
+
+[23-Dec-2022 15:09:53 Asia/Tokyo] エラー：不正な値が入りました
+[23-Dec-2022 15:09:53 Asia/Tokyo] PHP Warning:  Undefined array key "product_id" in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 22
+[23-Dec-2022 15:09:53 Asia/Tokyo] デバッグ：商品情報を取得：商品ID
+[23-Dec-2022 15:09:53 Asia/Tokyo] デバッグ：取得したDBデータ：
+[23-Dec-2022 15:09:53 Asia/Tokyo] エラー：商品情報が取得できませんでした
+[23-Dec-2022 15:09:53 Asia/Tokyo] PHP Warning:  Undefined array key "sale_user" in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 30
+[23-Dec-2022 15:09:53 Asia/Tokyo] PHP Warning:  Undefined array key "buy_user" in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 31
+[23-Dec-2022 15:09:53 Asia/Tokyo] デバッグ：取得した相手のユーザーID:
+[23-Dec-2022 15:09:53 Asia/Tokyo] エラー発生：相手のユーザー情報が取得できませんでした。
+[23-Dec-2022 15:09:53 Asia/Tokyo] デバッグ：取得したユーザーデータ：
+[23-Dec-2022 15:09:53 Asia/Tokyo] デバッグ：////////////////////////画面表示処理終了
+[23-Dec-2022 15:09:53 Asia/Tokyo] PHP Warning:  Uninitialized string offset 0 in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 223
+[23-Dec-2022 15:09:53 Asia/Tokyo] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php:223
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 223
+[23-Dec-2022 15:13:38 Asia/Tokyo] デバッグ：///////掲示板//////////
+[23-Dec-2022 15:13:38 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[23-Dec-2022 15:13:38 Asia/Tokyo] デバッグ：セッションID：bgjjpooqoquq464cq9u8p8tuev
+[23-Dec-2022 15:13:38 Asia/Tokyo] デバッグ：セッション変数の中身：1671776018
+[23-Dec-2022 15:13:38 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1671776018
+[23-Dec-2022 15:13:38 Asia/Tokyo] デバッグ：ログイン期限日時：1671750239
+[23-Dec-2022 15:13:38 Asia/Tokyo] デバッグ：msg情報を取得：掲示板ID70
+[23-Dec-2022 15:13:38 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+)
+
+[23-Dec-2022 15:13:38 Asia/Tokyo] エラー：不正な値が入りました
+[23-Dec-2022 15:13:38 Asia/Tokyo] PHP Warning:  Undefined array key "product_id" in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 22
+[23-Dec-2022 15:13:38 Asia/Tokyo] デバッグ：商品情報を取得：商品ID
+[23-Dec-2022 15:13:38 Asia/Tokyo] デバッグ：取得したDBデータ：
+[23-Dec-2022 15:13:38 Asia/Tokyo] エラー：商品情報が取得できませんでした
+[23-Dec-2022 15:13:38 Asia/Tokyo] PHP Warning:  Undefined array key "sale_user" in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 30
+[23-Dec-2022 15:13:38 Asia/Tokyo] PHP Warning:  Undefined array key "buy_user" in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 31
+[23-Dec-2022 15:13:38 Asia/Tokyo] デバッグ：取得した相手のユーザーID:
+[23-Dec-2022 15:13:38 Asia/Tokyo] エラー発生：相手のユーザー情報が取得できませんでした。
+[23-Dec-2022 15:13:38 Asia/Tokyo] デバッグ：取得したユーザーデータ：
+[23-Dec-2022 15:13:38 Asia/Tokyo] デバッグ：////////////////////////画面表示処理終了
+[23-Dec-2022 15:13:38 Asia/Tokyo] PHP Warning:  Uninitialized string offset 0 in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 223
+[23-Dec-2022 15:13:38 Asia/Tokyo] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php:223
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 223
+[23-Dec-2022 15:13:40 Asia/Tokyo] デバッグ：///////掲示板//////////
+[23-Dec-2022 15:13:40 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[23-Dec-2022 15:13:40 Asia/Tokyo] デバッグ：セッションID：bgjjpooqoquq464cq9u8p8tuev
+[23-Dec-2022 15:13:40 Asia/Tokyo] デバッグ：セッション変数の中身：1671776020
+[23-Dec-2022 15:13:40 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1671776020
+[23-Dec-2022 15:13:40 Asia/Tokyo] デバッグ：ログイン期限日時：1671750239
+[23-Dec-2022 15:13:40 Asia/Tokyo] デバッグ：msg情報を取得：掲示板ID70
+[23-Dec-2022 15:13:40 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+)
+
+[23-Dec-2022 15:13:40 Asia/Tokyo] エラー：不正な値が入りました
+[23-Dec-2022 15:13:40 Asia/Tokyo] PHP Warning:  Undefined array key "product_id" in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 22
+[23-Dec-2022 15:13:40 Asia/Tokyo] デバッグ：商品情報を取得：商品ID
+[23-Dec-2022 15:13:40 Asia/Tokyo] デバッグ：取得したDBデータ：
+[23-Dec-2022 15:13:40 Asia/Tokyo] エラー：商品情報が取得できませんでした
+[23-Dec-2022 15:13:40 Asia/Tokyo] PHP Warning:  Undefined array key "sale_user" in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 30
+[23-Dec-2022 15:13:40 Asia/Tokyo] PHP Warning:  Undefined array key "buy_user" in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 31
+[23-Dec-2022 15:13:40 Asia/Tokyo] デバッグ：取得した相手のユーザーID:
+[23-Dec-2022 15:13:40 Asia/Tokyo] エラー発生：相手のユーザー情報が取得できませんでした。
+[23-Dec-2022 15:13:40 Asia/Tokyo] デバッグ：取得したユーザーデータ：
+[23-Dec-2022 15:13:40 Asia/Tokyo] デバッグ：////////////////////////画面表示処理終了
+[23-Dec-2022 15:13:40 Asia/Tokyo] PHP Warning:  Uninitialized string offset 0 in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 223
+[23-Dec-2022 15:13:40 Asia/Tokyo] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php:223
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 223
+[23-Dec-2022 15:14:16 Asia/Tokyo] デバッグ：///////掲示板//////////
+[23-Dec-2022 15:14:16 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[23-Dec-2022 15:14:16 Asia/Tokyo] デバッグ：セッションID：bgjjpooqoquq464cq9u8p8tuev
+[23-Dec-2022 15:14:16 Asia/Tokyo] デバッグ：セッション変数の中身：1671776056
+[23-Dec-2022 15:14:16 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1671776056
+[23-Dec-2022 15:14:16 Asia/Tokyo] デバッグ：ログイン期限日時：1671750239
+[23-Dec-2022 15:14:16 Asia/Tokyo] デバッグ：msg情報を取得：掲示板ID70
+[23-Dec-2022 15:14:16 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+)
+
+[23-Dec-2022 15:14:16 Asia/Tokyo] エラー：不正な値が入りました
+[23-Dec-2022 15:14:16 Asia/Tokyo] PHP Warning:  Undefined array key "product_id" in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 23
+[23-Dec-2022 15:14:16 Asia/Tokyo] デバッグ：商品情報を取得：商品ID
+[23-Dec-2022 15:14:16 Asia/Tokyo] デバッグ：取得したDBデータ：
+[23-Dec-2022 15:14:16 Asia/Tokyo] エラー：商品情報が取得できませんでした
+[23-Dec-2022 15:14:16 Asia/Tokyo] PHP Warning:  Undefined array key "sale_user" in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 31
+[23-Dec-2022 15:14:16 Asia/Tokyo] PHP Warning:  Undefined array key "buy_user" in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 32
+[23-Dec-2022 15:14:16 Asia/Tokyo] デバッグ：取得した相手のユーザーID:
+[23-Dec-2022 15:14:16 Asia/Tokyo] エラー発生：相手のユーザー情報が取得できませんでした。
+[23-Dec-2022 15:14:16 Asia/Tokyo] デバッグ：取得したユーザーデータ：
+[23-Dec-2022 15:14:16 Asia/Tokyo] デバッグ：////////////////////////画面表示処理終了
+[23-Dec-2022 15:14:16 Asia/Tokyo] PHP Warning:  Uninitialized string offset 0 in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 223
+[23-Dec-2022 15:14:16 Asia/Tokyo] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php:223
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/3rdpractice/src/app/msg.php on line 223

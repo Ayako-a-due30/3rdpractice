@@ -10,32 +10,33 @@ $partnerUserInfo='';
 $myUserInfo = '';
 $productInfo = '';
 
-$m_id = (!empty($_GET['m_id']))? $_GET['m_id']:'';
+$m_id = (!empty($_GET['m_id'])) ? $_GET['m_id'] : '';
+
 $viewData = getMsgsAndBord($m_id);
-var_dump($m_id);
 debug('取得したDBデータ：'.print_r($viewData,true));
+var_dump($viewData);
 
 if(empty($viewData)){
-    error_log('エラー：不正な値が入りました');
-    // header("Location:mypage3.php");
+  error_log('エラー：不正な値が入りました');
+  // header("Location:mypage3.php");
 }
-$productInfo=getProductOne($viewData[0]['product_id']);
+$productInfo=getProductOne($viewData['product_id']);
 debug('取得したDBデータ：'.print_r($productInfo,true));
 
 if(empty($productInfo)){
-    error_log('エラー：商品情報が取得できませんでした');
-    // header("Location:mypage3.php");
+  error_log('エラー：商品情報が取得できませんでした');
+  // header("Location:mypage3.php");
 }
-viewDataから相手のユーザーIDを取り出す
-$dealUserIds[]= $viewData[0]['sale_user'];
-$dealUserIds[]= $viewData[0]['buy_user'];
+// viewDataから相手のユーザーIDを取り出す
+$dealUserIds[]= $viewData['sale_user'];
+$dealUserIds[]= $viewData['buy_user'];
 if(($key= array_search($_SESSION['user_id'],$dealUserIds)) !== false){
-    unset($dealUserIds[$key]);
+  unset($dealUserIds[$key]);
 }
 
-$partnerUserId=array_shift($dealUserIds);
+$partnerUserId = array_shift($dealUserIds);
 debug('取得した相手のユーザーID:'.$partnerUserId);
-DBから取引相手のユーザー情報を取得
+// DBから取引相手のユーザー情報を取得
 if(isset($partnerUserId)){
     $partnerUserInfo = getUser($partnerUserId);
 }
