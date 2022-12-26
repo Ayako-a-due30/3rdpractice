@@ -458,17 +458,18 @@ function getMsgsAndBord($id){
     debug('msg情報を取得：掲示板ID'.$id);
     try{
         $dbh = dbConnect();
-        $sql = 'SELECT m.id, b.product_id, b.id, m.send_date, m.to_user, m.from_user, 
-                b.sale_user, b.buy_user, m.msg, b.create_date 
-                FROM message AS m 
-                inner JOIN bord AS b 
+
+        $sql = 'SELECT  b.id, b.sale_user, b.buy_user, b.product_id,b.create_date,m.id,m.send_date,m.to_user, m.from_user, m.msg 
+                FROM bord AS b 
+                left JOIN message AS m 
                 ON b.id = m.bord_id 
                 WHERE b.id = :id
-                ORDER BY send_date ASC';
-        $data = array(':id' => $id);
+                ORDER BY m.send_date ASC';
+                                
+        $data = array(':id'=>$id);
         $stmt = queryPost($dbh, $sql,$data);
         if($stmt){
-            return $stmt ->fetchAll();
+            return $stmt->fetchAll();
         }else{
             return false;
         }
