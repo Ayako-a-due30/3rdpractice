@@ -461,7 +461,7 @@ function getMsgsAndBord($id){
 
         $sql = 'SELECT  b.id, b.sale_user, b.buy_user, b.product_id,b.create_date,m.id,m.send_date,m.to_user, m.from_user, m.msg 
                 FROM bord AS b 
-                left JOIN message AS m 
+                Left JOIN message AS m 
                 ON b.id = m.bord_id 
                 WHERE b.id = :id
                 ORDER BY m.send_date ASC';

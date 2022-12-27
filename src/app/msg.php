@@ -18,27 +18,21 @@ debug('取得したDBデータ：'.print_r($viewData));
 
 if(!isset($viewData)){
   error_log('エラー：不正な値が入りました');
-  // header("Location:mypage3.php");
+  header("Location:mypage3.php");
 }
-if(isset($viewData['product_id'])) {
-  $productInfo=getProductOne($viewData['product_id']);
+if(isset($viewData[0]["product_id"])) {
+  $productInfo=getProductOne($viewData[0]["product_id"]);
   debug('取得したDBデータ：'.print_r($productInfo,true));
   
   if(empty($productInfo)){
     error_log('エラー：商品情報が取得できませんでした');
-    // header("Location:mypage3.php");
-  }
-  // viewDataから相手のユーザーIDを取り出す
-  $seller = $viewData['sale_user'];
-  $buyer = $viewData['buy_user'];
-  // $dealUserIds= $viewData[0]['buy_user'];
-  // if(($key= array_search($_SESSION['user_id'],$dealUserIds)) !== false){
-  //   unset($dealUserIds[$key]);
-  // 
-var_dump($seller);  
-  // $partnerUserId = array_shift($dealUserIds);
-  debug('取得した相手のユーザーID:'.$partnerUserId);
+    header("Location:mypage3.php");
+  } 
+}
+  debug('取得した相手のユーザーID:'.print_r($viewData[0]["sale_user"]));
+
   // DBから取引相手のユーザー情報を取得
+  $partnerUserId = $viewData[0]["sale_user"];
   if(isset($partnerUserId)){
       $partnerUserInfo = getUser($partnerUserId);
   }
@@ -46,14 +40,17 @@ var_dump($seller);
       error_log('エラー発生：相手のユーザー情報が取得できませんでした。');
       header("Location:mypage3.php");
   }
-  $myUserInfo = getUser($_SESSION['user_id']);
+  $myUserInfo = getUser($viewData[0]["buy_user"]);
   debug('取得したユーザーデータ：'.print_r($partnerUserInfo,true));
   //自分のユーザー情報が取れたかチェック
   if(empty($myUserInfo)){
       error_log('エラー：自分のユーザー情報が取得できませんでした');
       header("Location:mypage3.php");
   }
+
   //post送信されていた場合
+
+
   if(!empty($_POST)){
       debug('POST送信があります');
       require('../function/auth.php');
@@ -79,7 +76,6 @@ var_dump($seller);
               error_log('エラー発生：'.$e->getMessage());
               $err_msg['common']=ERR04;
           }
-      }
       
   }
 
@@ -217,7 +213,6 @@ debug('////////////////////////画面表示処理終了')
   float: right;
 }
 </style>
-
 </head>
 <body>
     <p id="js-show-msg" style="display:none;" class="msg-slide">
@@ -228,10 +223,9 @@ debug('////////////////////////画面表示処理終了')
         <div class="msg-info">
             <div class="avatar-img">
                 <img src="<?php echo showImg(sanitize($partnerUserInfo['pic'])); ?>" alt="" class="avatar"><br>
-
             </div>
             <div class="avatar-info">
-                <?php echo sanitize($partnerUserInfo['username']).''.sanitize($partnerUserInfo['age']).歳 ?><br>
+                <?php echo sanitize($partnerUserInfo['username']).''.sanitize($partnerUserInfo['age']).'歳'; ?><br>
                 〒<?php echo wordwrap($partnerUserInfo['zip'],4,"-",true); ?>
                 <?php echo sanitize($partnerUserInfo['addr']);  ?><br>
                 TEL:<?php  echo sanitize($partnerUserInfo['tel']);?>
@@ -250,7 +244,8 @@ debug('////////////////////////画面表示処理終了')
         </div>
         <div class="area-bord" id="js-scroll-bottom">
             <?php 
-                if(!empty($viewData)){
+            if(!empty($viewData[0]["msg"])){
+                // if(!empty($viewData)){
                     foreach($viewData as $key => $val){
                     if(!empty($val['from_user']) && $val['from_user']==$partnerUserId){ ?>
                     <div class="msg-cnt msg-left">
