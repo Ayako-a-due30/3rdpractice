@@ -29149,3 +29149,1034 @@ Stack trace:
 )
 
 [27-Dec-2022 20:22:45 Asia/Tokyo] デバッグ：////////////////////////画面表示処理終了
+[31-Dec-2022 17:21:25 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[31-Dec-2022 17:21:25 Asia/Tokyo] デバッグ：セッションID：md8fgfaljtuqfu5eag9vorr1v4
+[31-Dec-2022 17:21:25 Asia/Tokyo] デバッグ：セッション変数の中身：1672474885
+[31-Dec-2022 17:21:25 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1672474885
+[31-Dec-2022 17:21:25 Asia/Tokyo] デバッグ：ログイン期限日時：1672478485
+[31-Dec-2022 17:21:25 Asia/Tokyo] デバッグ：///トップページ////
+[31-Dec-2022 17:21:25 Asia/Tokyo] デバッグ：商品情報を取得
+[31-Dec-2022 17:21:25 Asia/Tokyo] デバッグ：SQL：SELECT * FROM product LIMIT 20 OFFSET 0
+[31-Dec-2022 17:21:51 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[31-Dec-2022 17:21:51 Asia/Tokyo] デバッグ：商品情報を取得：商品ID4
+[31-Dec-2022 17:21:51 Asia/Tokyo] エラー：指定ページに不正な値が入りました
+[31-Dec-2022 17:21:51 Asia/Tokyo] デバッグ：DBデータ：
+[31-Dec-2022 17:21:51 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[31-Dec-2022 17:21:51 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 125
+[31-Dec-2022 17:21:51 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 126
+[31-Dec-2022 17:21:51 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 130
+[31-Dec-2022 17:21:51 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 131
+[31-Dec-2022 17:21:51 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 134
+[31-Dec-2022 17:21:51 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 134
+[31-Dec-2022 17:21:51 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 135
+[31-Dec-2022 17:21:51 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 135
+[31-Dec-2022 17:21:51 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 136
+[31-Dec-2022 17:21:51 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 136
+[31-Dec-2022 17:21:51 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 140
+[31-Dec-2022 17:21:51 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 152
+[31-Dec-2022 17:21:51 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[31-Dec-2022 17:21:51 Asia/Tokyo] デバッグ：セッションID：md8fgfaljtuqfu5eag9vorr1v4
+[31-Dec-2022 17:21:51 Asia/Tokyo] デバッグ：セッション変数の中身：1672474911
+[31-Dec-2022 17:21:51 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1672474911
+[31-Dec-2022 17:21:51 Asia/Tokyo] デバッグ：ログイン期限日時：1672478511
+[31-Dec-2022 17:21:51 Asia/Tokyo] デバッグ：///トップページ////
+[31-Dec-2022 17:21:51 Asia/Tokyo] デバッグ：商品情報を取得
+[31-Dec-2022 17:21:51 Asia/Tokyo] デバッグ：SQL：SELECT * FROM product LIMIT 20 OFFSET 0
+[31-Dec-2022 17:21:52 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[31-Dec-2022 17:21:52 Asia/Tokyo] デバッグ：商品情報を取得：商品ID4
+[31-Dec-2022 17:21:52 Asia/Tokyo] エラー：指定ページに不正な値が入りました
+[31-Dec-2022 17:21:52 Asia/Tokyo] デバッグ：DBデータ：
+[31-Dec-2022 17:21:52 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[31-Dec-2022 17:21:52 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 125
+[31-Dec-2022 17:21:52 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 126
+[31-Dec-2022 17:21:52 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 130
+[31-Dec-2022 17:21:52 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 131
+[31-Dec-2022 17:21:52 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 134
+[31-Dec-2022 17:21:52 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 134
+[31-Dec-2022 17:21:52 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 135
+[31-Dec-2022 17:21:52 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 135
+[31-Dec-2022 17:21:52 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 136
+[31-Dec-2022 17:21:52 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 136
+[31-Dec-2022 17:21:52 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 140
+[31-Dec-2022 17:21:52 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 152
+[31-Dec-2022 17:21:52 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[31-Dec-2022 17:21:52 Asia/Tokyo] デバッグ：セッションID：md8fgfaljtuqfu5eag9vorr1v4
+[31-Dec-2022 17:21:52 Asia/Tokyo] デバッグ：セッション変数の中身：1672474912
+[31-Dec-2022 17:21:52 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1672474912
+[31-Dec-2022 17:21:52 Asia/Tokyo] デバッグ：ログイン期限日時：1672478512
+[31-Dec-2022 17:21:52 Asia/Tokyo] デバッグ：///トップページ////
+[31-Dec-2022 17:21:52 Asia/Tokyo] デバッグ：商品情報を取得
+[31-Dec-2022 17:21:52 Asia/Tokyo] デバッグ：SQL：SELECT * FROM product LIMIT 20 OFFSET 0
+[31-Dec-2022 17:21:54 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[31-Dec-2022 17:21:54 Asia/Tokyo] デバッグ：商品情報を取得：商品ID4
+[31-Dec-2022 17:21:54 Asia/Tokyo] エラー：指定ページに不正な値が入りました
+[31-Dec-2022 17:21:54 Asia/Tokyo] デバッグ：DBデータ：
+[31-Dec-2022 17:21:54 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[31-Dec-2022 17:21:54 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 125
+[31-Dec-2022 17:21:54 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 126
+[31-Dec-2022 17:21:54 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 130
+[31-Dec-2022 17:21:54 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 131
+[31-Dec-2022 17:21:54 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 134
+[31-Dec-2022 17:21:54 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 134
+[31-Dec-2022 17:21:54 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 135
+[31-Dec-2022 17:21:54 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 135
+[31-Dec-2022 17:21:54 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 136
+[31-Dec-2022 17:21:54 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 136
+[31-Dec-2022 17:21:54 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 140
+[31-Dec-2022 17:21:54 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 152
+[31-Dec-2022 17:21:54 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[31-Dec-2022 17:21:54 Asia/Tokyo] デバッグ：セッションID：md8fgfaljtuqfu5eag9vorr1v4
+[31-Dec-2022 17:21:54 Asia/Tokyo] デバッグ：セッション変数の中身：1672474914
+[31-Dec-2022 17:21:54 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1672474914
+[31-Dec-2022 17:21:54 Asia/Tokyo] デバッグ：ログイン期限日時：1672478514
+[31-Dec-2022 17:21:54 Asia/Tokyo] デバッグ：///トップページ////
+[31-Dec-2022 17:21:54 Asia/Tokyo] デバッグ：商品情報を取得
+[31-Dec-2022 17:21:54 Asia/Tokyo] デバッグ：SQL：SELECT * FROM product LIMIT 20 OFFSET 0
+[31-Dec-2022 17:21:55 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[31-Dec-2022 17:21:55 Asia/Tokyo] デバッグ：商品情報を取得：商品ID4
+[31-Dec-2022 17:21:55 Asia/Tokyo] エラー：指定ページに不正な値が入りました
+[31-Dec-2022 17:21:55 Asia/Tokyo] デバッグ：DBデータ：
+[31-Dec-2022 17:21:55 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[31-Dec-2022 17:21:55 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 125
+[31-Dec-2022 17:21:55 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 126
+[31-Dec-2022 17:21:55 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 130
+[31-Dec-2022 17:21:55 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 131
+[31-Dec-2022 17:21:55 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 134
+[31-Dec-2022 17:21:55 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 134
+[31-Dec-2022 17:21:55 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 135
+[31-Dec-2022 17:21:55 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 135
+[31-Dec-2022 17:21:55 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 136
+[31-Dec-2022 17:21:55 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 136
+[31-Dec-2022 17:21:55 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 140
+[31-Dec-2022 17:21:55 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 152
+[31-Dec-2022 17:21:55 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[31-Dec-2022 17:21:55 Asia/Tokyo] デバッグ：セッションID：md8fgfaljtuqfu5eag9vorr1v4
+[31-Dec-2022 17:21:55 Asia/Tokyo] デバッグ：セッション変数の中身：1672474915
+[31-Dec-2022 17:21:55 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1672474915
+[31-Dec-2022 17:21:55 Asia/Tokyo] デバッグ：ログイン期限日時：1672478515
+[31-Dec-2022 17:21:55 Asia/Tokyo] デバッグ：///トップページ////
+[31-Dec-2022 17:21:55 Asia/Tokyo] デバッグ：商品情報を取得
+[31-Dec-2022 17:21:55 Asia/Tokyo] デバッグ：SQL：SELECT * FROM product LIMIT 20 OFFSET 0
+[31-Dec-2022 17:21:57 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[31-Dec-2022 17:21:57 Asia/Tokyo] デバッグ：商品情報を取得：商品ID5
+[31-Dec-2022 17:21:57 Asia/Tokyo] エラー：指定ページに不正な値が入りました
+[31-Dec-2022 17:21:57 Asia/Tokyo] デバッグ：DBデータ：
+[31-Dec-2022 17:21:57 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[31-Dec-2022 17:21:57 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 125
+[31-Dec-2022 17:21:57 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 126
+[31-Dec-2022 17:21:57 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 130
+[31-Dec-2022 17:21:57 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 131
+[31-Dec-2022 17:21:57 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 134
+[31-Dec-2022 17:21:57 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 134
+[31-Dec-2022 17:21:57 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 135
+[31-Dec-2022 17:21:57 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 135
+[31-Dec-2022 17:21:57 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 136
+[31-Dec-2022 17:21:57 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 136
+[31-Dec-2022 17:21:57 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 140
+[31-Dec-2022 17:21:57 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 152
+[31-Dec-2022 17:21:57 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[31-Dec-2022 17:21:57 Asia/Tokyo] デバッグ：セッションID：md8fgfaljtuqfu5eag9vorr1v4
+[31-Dec-2022 17:21:57 Asia/Tokyo] デバッグ：セッション変数の中身：1672474917
+[31-Dec-2022 17:21:57 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1672474917
+[31-Dec-2022 17:21:57 Asia/Tokyo] デバッグ：ログイン期限日時：1672478517
+[31-Dec-2022 17:21:57 Asia/Tokyo] デバッグ：///トップページ////
+[31-Dec-2022 17:21:57 Asia/Tokyo] デバッグ：商品情報を取得
+[31-Dec-2022 17:21:57 Asia/Tokyo] デバッグ：SQL：SELECT * FROM product LIMIT 20 OFFSET 0
+[31-Dec-2022 17:21:59 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[31-Dec-2022 17:21:59 Asia/Tokyo] デバッグ：商品情報を取得：商品ID1
+[31-Dec-2022 17:21:59 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 1
+    [name] => 
+    [comment] => dfdgsf
+    [price] => 0
+    [pic1] => uploads/7ec9e68e8c49460ae8d527bd6d84e367321392e4.jpeg
+    [pic2] => uploads/7ec9e68e8c49460ae8d527bd6d84e367321392e4.jpeg
+    [pic3] => uploads/7ec9e68e8c49460ae8d527bd6d84e367321392e4.jpeg
+    [user_id] => 40
+    [create_date] => 2022-11-25 14:04:48
+    [update_date] => 2022-11-25 14:04:48
+    [category] => １月
+)
+
+[31-Dec-2022 17:21:59 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[31-Dec-2022 17:22:07 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[31-Dec-2022 17:22:07 Asia/Tokyo] デバッグ：セッションID：md8fgfaljtuqfu5eag9vorr1v4
+[31-Dec-2022 17:22:07 Asia/Tokyo] デバッグ：セッション変数の中身：1672474927
+[31-Dec-2022 17:22:07 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1672474927
+[31-Dec-2022 17:22:07 Asia/Tokyo] デバッグ：ログイン期限日時：1672478527
+[31-Dec-2022 17:22:07 Asia/Tokyo] デバッグ：///トップページ////
+[31-Dec-2022 17:22:07 Asia/Tokyo] デバッグ：商品情報を取得
+[31-Dec-2022 17:22:07 Asia/Tokyo] デバッグ：SQL：SELECT * FROM product LIMIT 20 OFFSET 0
+[31-Dec-2022 17:22:09 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[31-Dec-2022 17:22:09 Asia/Tokyo] デバッグ：商品情報を取得：商品ID16
+[31-Dec-2022 17:22:09 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 16
+    [name] => たぬき
+    [comment] => たぬきの置き物
+    [price] => 3000
+    [pic1] => uploads/f11143effda8756d6f56ad976e20a40738db9d95.jpeg
+    [pic2] => uploads/f11143effda8756d6f56ad976e20a40738db9d95.jpeg
+    [pic3] => uploads/f11143effda8756d6f56ad976e20a40738db9d95.jpeg
+    [user_id] => 40
+    [create_date] => 2022-11-27 14:51:16
+    [update_date] => 2022-11-27 14:51:16
+    [category] => １月
+)
+
+[31-Dec-2022 17:22:09 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[31-Dec-2022 17:22:13 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[31-Dec-2022 17:22:13 Asia/Tokyo] デバッグ：セッションID：md8fgfaljtuqfu5eag9vorr1v4
+[31-Dec-2022 17:22:13 Asia/Tokyo] デバッグ：セッション変数の中身：1672474933
+[31-Dec-2022 17:22:13 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1672474933
+[31-Dec-2022 17:22:13 Asia/Tokyo] デバッグ：ログイン期限日時：1672478533
+[31-Dec-2022 17:22:13 Asia/Tokyo] デバッグ：///トップページ////
+[31-Dec-2022 17:22:13 Asia/Tokyo] デバッグ：商品情報を取得
+[31-Dec-2022 17:22:13 Asia/Tokyo] デバッグ：SQL：SELECT * FROM product LIMIT 20 OFFSET 0
+[31-Dec-2022 17:22:15 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[31-Dec-2022 17:22:15 Asia/Tokyo] デバッグ：商品情報を取得：商品ID18
+[31-Dec-2022 17:22:15 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 18
+    [name] => うさうさ
+    [comment] => ウサ耳
+    [price] => 200
+    [pic1] => uploads/f64bc23bfdd727a5e627c5f2dd4096940a45e87c.jpeg
+    [pic2] => uploads/f64bc23bfdd727a5e627c5f2dd4096940a45e87c.jpeg
+    [pic3] => uploads/f64bc23bfdd727a5e627c5f2dd4096940a45e87c.jpeg
+    [user_id] => 40
+    [create_date] => 2022-11-27 06:57:00
+    [update_date] => 2022-11-27 15:03:57
+    [category] => ２月
+)
+
+[31-Dec-2022 17:22:15 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[31-Dec-2022 17:22:20 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[31-Dec-2022 17:22:20 Asia/Tokyo] デバッグ：セッションID：md8fgfaljtuqfu5eag9vorr1v4
+[31-Dec-2022 17:22:20 Asia/Tokyo] デバッグ：セッション変数の中身：1672474940
+[31-Dec-2022 17:22:20 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1672474940
+[31-Dec-2022 17:22:20 Asia/Tokyo] デバッグ：ログイン期限日時：1672478540
+[31-Dec-2022 17:22:20 Asia/Tokyo] デバッグ：///トップページ////
+[31-Dec-2022 17:22:20 Asia/Tokyo] デバッグ：商品情報を取得
+[31-Dec-2022 17:22:20 Asia/Tokyo] デバッグ：SQL：SELECT * FROM product LIMIT 20 OFFSET 0
+[01-Jan-2023 10:44:27 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[01-Jan-2023 10:44:27 Asia/Tokyo] デバッグ：セッションID：e8trg2mohscvc8bphnjcb24bjk
+[01-Jan-2023 10:44:27 Asia/Tokyo] デバッグ：セッション変数の中身：1672537467
+[01-Jan-2023 10:44:27 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1672537467
+[01-Jan-2023 10:44:27 Asia/Tokyo] PHP Warning:  Undefined array key "login_date" in /Applications/MAMP/htdocs/3rdpractice/src/function/function.php on line 64
+[01-Jan-2023 10:44:27 Asia/Tokyo] デバッグ：///トップページ////
+[01-Jan-2023 10:44:27 Asia/Tokyo] デバッグ：商品情報を取得
+[01-Jan-2023 10:44:27 Asia/Tokyo] デバッグ：SQL：SELECT * FROM product LIMIT 20 OFFSET 60
+[05-Jan-2023 15:02:37 Asia/Tokyo] PHP Warning:  Undefined array key "user_id" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 8
+[05-Jan-2023 15:02:37 Asia/Tokyo] PHP Warning:  Undefined array key "user_id" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 24
+[05-Jan-2023 15:02:47 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[05-Jan-2023 15:02:47 Asia/Tokyo] デバッグ：セッションID：kevq9uqn8pv2779aon16i27eet
+[05-Jan-2023 15:02:47 Asia/Tokyo] デバッグ：セッション変数の中身：1672898567
+[05-Jan-2023 15:02:47 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1672898567
+[05-Jan-2023 15:02:47 Asia/Tokyo] デバッグ：ログイン期限日時：1672902167
+[05-Jan-2023 15:02:47 Asia/Tokyo] デバッグ：///トップページ////
+[05-Jan-2023 15:02:47 Asia/Tokyo] デバッグ：商品情報を取得
+[05-Jan-2023 15:02:47 Asia/Tokyo] デバッグ：SQL：SELECT * FROM product LIMIT 20 OFFSET 0
+[05-Jan-2023 15:02:48 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[05-Jan-2023 15:02:48 Asia/Tokyo] デバッグ：商品情報を取得：商品ID2
+[05-Jan-2023 15:02:48 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 2
+    [name] => cat
+    [comment] => asdf
+    [price] => 0
+    [pic1] => uploads/7ec9e68e8c49460ae8d527bd6d84e367321392e4.jpeg
+    [pic2] => uploads/7ec9e68e8c49460ae8d527bd6d84e367321392e4.jpeg
+    [pic3] => uploads/7ec9e68e8c49460ae8d527bd6d84e367321392e4.jpeg
+    [user_id] => 40
+    [create_date] => 2022-11-25 14:05:33
+    [update_date] => 2022-11-25 14:05:33
+    [category] => １月
+)
+
+[05-Jan-2023 15:02:48 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[05-Jan-2023 15:17:38 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[05-Jan-2023 15:17:38 Asia/Tokyo] デバッグ：商品情報を取得：商品ID2
+[05-Jan-2023 15:17:38 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 2
+    [name] => cat
+    [comment] => asdf
+    [price] => 0
+    [pic1] => uploads/7ec9e68e8c49460ae8d527bd6d84e367321392e4.jpeg
+    [pic2] => uploads/7ec9e68e8c49460ae8d527bd6d84e367321392e4.jpeg
+    [pic3] => uploads/7ec9e68e8c49460ae8d527bd6d84e367321392e4.jpeg
+    [user_id] => 40
+    [create_date] => 2022-11-25 14:05:33
+    [update_date] => 2022-11-25 14:05:33
+    [category] => １月
+)
+
+[05-Jan-2023 15:17:38 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[05-Jan-2023 15:17:38 Asia/Tokyo] デバッグ：お気に入り情報があるか確認します
+[05-Jan-2023 15:17:38 Asia/Tokyo] デバッグ：ユーザーID：40
+[05-Jan-2023 15:17:38 Asia/Tokyo] デバッグ：商品ID:2
+[05-Jan-2023 15:17:38 Asia/Tokyo] デバッグ：お気に入りではありません
+[05-Jan-2023 15:22:36 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[05-Jan-2023 15:22:36 Asia/Tokyo] デバッグ：商品情報を取得：商品ID2
+[05-Jan-2023 15:22:36 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 2
+    [name] => cat
+    [comment] => asdf
+    [price] => 0
+    [pic1] => uploads/7ec9e68e8c49460ae8d527bd6d84e367321392e4.jpeg
+    [pic2] => uploads/7ec9e68e8c49460ae8d527bd6d84e367321392e4.jpeg
+    [pic3] => uploads/7ec9e68e8c49460ae8d527bd6d84e367321392e4.jpeg
+    [user_id] => 40
+    [create_date] => 2022-11-25 14:05:33
+    [update_date] => 2022-11-25 14:05:33
+    [category] => １月
+)
+
+[05-Jan-2023 15:22:36 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[05-Jan-2023 15:22:36 Asia/Tokyo] デバッグ：お気に入り情報があるか確認します
+[05-Jan-2023 15:22:36 Asia/Tokyo] デバッグ：ユーザーID：40
+[05-Jan-2023 15:22:36 Asia/Tokyo] デバッグ：商品ID:2
+[05-Jan-2023 15:22:36 Asia/Tokyo] デバッグ：お気に入りではありません
+[05-Jan-2023 15:22:39 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[05-Jan-2023 15:22:39 Asia/Tokyo] デバッグ：商品情報を取得：商品ID2
+[05-Jan-2023 15:22:39 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 2
+    [name] => cat
+    [comment] => asdf
+    [price] => 0
+    [pic1] => uploads/7ec9e68e8c49460ae8d527bd6d84e367321392e4.jpeg
+    [pic2] => uploads/7ec9e68e8c49460ae8d527bd6d84e367321392e4.jpeg
+    [pic3] => uploads/7ec9e68e8c49460ae8d527bd6d84e367321392e4.jpeg
+    [user_id] => 40
+    [create_date] => 2022-11-25 14:05:33
+    [update_date] => 2022-11-25 14:05:33
+    [category] => １月
+)
+
+[05-Jan-2023 15:22:39 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[05-Jan-2023 15:22:39 Asia/Tokyo] デバッグ：お気に入り情報があるか確認します
+[05-Jan-2023 15:22:39 Asia/Tokyo] デバッグ：ユーザーID：40
+[05-Jan-2023 15:22:39 Asia/Tokyo] デバッグ：商品ID:2
+[05-Jan-2023 15:22:39 Asia/Tokyo] デバッグ：お気に入りではありません
+[05-Jan-2023 15:22:46 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[05-Jan-2023 15:22:46 Asia/Tokyo] デバッグ：セッションID：kevq9uqn8pv2779aon16i27eet
+[05-Jan-2023 15:22:46 Asia/Tokyo] デバッグ：セッション変数の中身：1672899766
+[05-Jan-2023 15:22:46 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1672899766
+[05-Jan-2023 15:22:46 Asia/Tokyo] デバッグ：ログイン期限日時：1672903366
+[05-Jan-2023 15:22:46 Asia/Tokyo] デバッグ：///トップページ////
+[05-Jan-2023 15:22:46 Asia/Tokyo] デバッグ：商品情報を取得
+[05-Jan-2023 15:22:46 Asia/Tokyo] デバッグ：SQL：SELECT * FROM product LIMIT 20 OFFSET 0
+[05-Jan-2023 15:22:47 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[05-Jan-2023 15:22:47 Asia/Tokyo] デバッグ：商品情報を取得：商品ID3
+[05-Jan-2023 15:22:47 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 3
+    [name] => dog
+    [comment] => ffgsfs
+    [price] => 0
+    [pic1] => uploads/9858b90b880b947732386127ec8d991abfa62fd4.jpeg
+    [pic2] => uploads/9858b90b880b947732386127ec8d991abfa62fd4.jpeg
+    [pic3] => uploads/9858b90b880b947732386127ec8d991abfa62fd4.jpeg
+    [user_id] => 40
+    [create_date] => 2022-11-25 14:20:55
+    [update_date] => 2022-11-25 14:20:55
+    [category] => ２月
+)
+
+[05-Jan-2023 15:22:47 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[05-Jan-2023 15:22:47 Asia/Tokyo] デバッグ：お気に入り情報があるか確認します
+[05-Jan-2023 15:22:47 Asia/Tokyo] デバッグ：ユーザーID：40
+[05-Jan-2023 15:22:47 Asia/Tokyo] デバッグ：商品ID:3
+[05-Jan-2023 15:22:47 Asia/Tokyo] デバッグ：お気に入りではありません
+[05-Jan-2023 15:24:37 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[05-Jan-2023 15:24:37 Asia/Tokyo] デバッグ：商品情報を取得：商品ID3
+[05-Jan-2023 15:24:37 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 3
+    [name] => dog
+    [comment] => ffgsfs
+    [price] => 0
+    [pic1] => uploads/9858b90b880b947732386127ec8d991abfa62fd4.jpeg
+    [pic2] => uploads/9858b90b880b947732386127ec8d991abfa62fd4.jpeg
+    [pic3] => uploads/9858b90b880b947732386127ec8d991abfa62fd4.jpeg
+    [user_id] => 40
+    [create_date] => 2022-11-25 14:20:55
+    [update_date] => 2022-11-25 14:20:55
+    [category] => ２月
+)
+
+[05-Jan-2023 15:24:37 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[05-Jan-2023 15:24:37 Asia/Tokyo] デバッグ：お気に入り情報があるか確認します
+[05-Jan-2023 15:24:37 Asia/Tokyo] デバッグ：ユーザーID：40
+[05-Jan-2023 15:24:37 Asia/Tokyo] デバッグ：商品ID:3
+[05-Jan-2023 15:24:37 Asia/Tokyo] デバッグ：お気に入りではありません
+[05-Jan-2023 15:27:00 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[05-Jan-2023 15:27:00 Asia/Tokyo] デバッグ：商品情報を取得：商品ID3
+[05-Jan-2023 15:27:00 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 3
+    [name] => dog
+    [comment] => ffgsfs
+    [price] => 0
+    [pic1] => uploads/9858b90b880b947732386127ec8d991abfa62fd4.jpeg
+    [pic2] => uploads/9858b90b880b947732386127ec8d991abfa62fd4.jpeg
+    [pic3] => uploads/9858b90b880b947732386127ec8d991abfa62fd4.jpeg
+    [user_id] => 40
+    [create_date] => 2022-11-25 14:20:55
+    [update_date] => 2022-11-25 14:20:55
+    [category] => ２月
+)
+
+[05-Jan-2023 15:27:00 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[05-Jan-2023 15:27:00 Asia/Tokyo] デバッグ：お気に入り情報があるか確認します
+[05-Jan-2023 15:27:00 Asia/Tokyo] デバッグ：ユーザーID：40
+[05-Jan-2023 15:27:00 Asia/Tokyo] デバッグ：商品ID:3
+[05-Jan-2023 15:27:00 Asia/Tokyo] デバッグ：お気に入りではありません
+[05-Jan-2023 15:27:00 Asia/Tokyo] デバッグ：お気に入り情報があるか確認します
+[05-Jan-2023 15:27:00 Asia/Tokyo] デバッグ：ユーザーID：40
+[05-Jan-2023 15:27:00 Asia/Tokyo] デバッグ：商品ID:3
+[05-Jan-2023 15:27:00 Asia/Tokyo] デバッグ：お気に入りではありません
+[05-Jan-2023 15:27:02 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[05-Jan-2023 15:27:02 Asia/Tokyo] デバッグ：商品情報を取得：商品ID3
+[05-Jan-2023 15:27:02 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 3
+    [name] => dog
+    [comment] => ffgsfs
+    [price] => 0
+    [pic1] => uploads/9858b90b880b947732386127ec8d991abfa62fd4.jpeg
+    [pic2] => uploads/9858b90b880b947732386127ec8d991abfa62fd4.jpeg
+    [pic3] => uploads/9858b90b880b947732386127ec8d991abfa62fd4.jpeg
+    [user_id] => 40
+    [create_date] => 2022-11-25 14:20:55
+    [update_date] => 2022-11-25 14:20:55
+    [category] => ２月
+)
+
+[05-Jan-2023 15:27:02 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[05-Jan-2023 15:27:02 Asia/Tokyo] デバッグ：お気に入り情報があるか確認します
+[05-Jan-2023 15:27:02 Asia/Tokyo] デバッグ：ユーザーID：40
+[05-Jan-2023 15:27:02 Asia/Tokyo] デバッグ：商品ID:3
+[05-Jan-2023 15:27:02 Asia/Tokyo] デバッグ：お気に入りではありません
+[05-Jan-2023 15:27:02 Asia/Tokyo] デバッグ：お気に入り情報があるか確認します
+[05-Jan-2023 15:27:02 Asia/Tokyo] デバッグ：ユーザーID：40
+[05-Jan-2023 15:27:02 Asia/Tokyo] デバッグ：商品ID:3
+[05-Jan-2023 15:27:02 Asia/Tokyo] デバッグ：お気に入りではありません
+[05-Jan-2023 15:31:00 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[05-Jan-2023 15:31:00 Asia/Tokyo] デバッグ：商品情報を取得：商品ID3
+[05-Jan-2023 15:31:00 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 3
+    [name] => dog
+    [comment] => ffgsfs
+    [price] => 0
+    [pic1] => uploads/9858b90b880b947732386127ec8d991abfa62fd4.jpeg
+    [pic2] => uploads/9858b90b880b947732386127ec8d991abfa62fd4.jpeg
+    [pic3] => uploads/9858b90b880b947732386127ec8d991abfa62fd4.jpeg
+    [user_id] => 40
+    [create_date] => 2022-11-25 14:20:55
+    [update_date] => 2022-11-25 14:20:55
+    [category] => ２月
+)
+
+[05-Jan-2023 15:31:00 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[05-Jan-2023 15:31:00 Asia/Tokyo] デバッグ：お気に入り情報があるか確認します
+[05-Jan-2023 15:31:00 Asia/Tokyo] デバッグ：ユーザーID：40
+[05-Jan-2023 15:31:00 Asia/Tokyo] デバッグ：商品ID:3
+[05-Jan-2023 15:31:00 Asia/Tokyo] デバッグ：お気に入りではありません
+[05-Jan-2023 15:31:00 Asia/Tokyo] デバッグ：お気に入り情報があるか確認します
+[05-Jan-2023 15:31:00 Asia/Tokyo] デバッグ：ユーザーID：40
+[05-Jan-2023 15:31:00 Asia/Tokyo] デバッグ：商品ID:3
+[05-Jan-2023 15:31:00 Asia/Tokyo] デバッグ：お気に入りではありません
+[05-Jan-2023 15:31:48 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[05-Jan-2023 15:31:48 Asia/Tokyo] デバッグ：商品情報を取得：商品ID3
+[05-Jan-2023 15:31:48 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 3
+    [name] => dog
+    [comment] => ffgsfs
+    [price] => 0
+    [pic1] => uploads/9858b90b880b947732386127ec8d991abfa62fd4.jpeg
+    [pic2] => uploads/9858b90b880b947732386127ec8d991abfa62fd4.jpeg
+    [pic3] => uploads/9858b90b880b947732386127ec8d991abfa62fd4.jpeg
+    [user_id] => 40
+    [create_date] => 2022-11-25 14:20:55
+    [update_date] => 2022-11-25 14:20:55
+    [category] => ２月
+)
+
+[05-Jan-2023 15:31:48 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[05-Jan-2023 15:31:48 Asia/Tokyo] デバッグ：お気に入り情報があるか確認します
+[05-Jan-2023 15:31:48 Asia/Tokyo] デバッグ：ユーザーID：40
+[05-Jan-2023 15:31:48 Asia/Tokyo] デバッグ：商品ID:3
+[05-Jan-2023 15:31:48 Asia/Tokyo] デバッグ：お気に入りではありません
+[05-Jan-2023 15:31:48 Asia/Tokyo] デバッグ：お気に入り情報があるか確認します
+[05-Jan-2023 15:31:48 Asia/Tokyo] デバッグ：ユーザーID：40
+[05-Jan-2023 15:31:48 Asia/Tokyo] デバッグ：商品ID:3
+[05-Jan-2023 15:31:48 Asia/Tokyo] デバッグ：お気に入りではありません
+[05-Jan-2023 15:31:50 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[05-Jan-2023 15:31:50 Asia/Tokyo] デバッグ：商品情報を取得：商品ID3
+[05-Jan-2023 15:31:50 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 3
+    [name] => dog
+    [comment] => ffgsfs
+    [price] => 0
+    [pic1] => uploads/9858b90b880b947732386127ec8d991abfa62fd4.jpeg
+    [pic2] => uploads/9858b90b880b947732386127ec8d991abfa62fd4.jpeg
+    [pic3] => uploads/9858b90b880b947732386127ec8d991abfa62fd4.jpeg
+    [user_id] => 40
+    [create_date] => 2022-11-25 14:20:55
+    [update_date] => 2022-11-25 14:20:55
+    [category] => ２月
+)
+
+[05-Jan-2023 15:31:50 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[05-Jan-2023 15:31:50 Asia/Tokyo] デバッグ：お気に入り情報があるか確認します
+[05-Jan-2023 15:31:50 Asia/Tokyo] デバッグ：ユーザーID：40
+[05-Jan-2023 15:31:50 Asia/Tokyo] デバッグ：商品ID:3
+[05-Jan-2023 15:31:50 Asia/Tokyo] デバッグ：お気に入りではありません
+[05-Jan-2023 15:31:50 Asia/Tokyo] デバッグ：お気に入り情報があるか確認します
+[05-Jan-2023 15:31:50 Asia/Tokyo] デバッグ：ユーザーID：40
+[05-Jan-2023 15:31:50 Asia/Tokyo] デバッグ：商品ID:3
+[05-Jan-2023 15:31:50 Asia/Tokyo] デバッグ：お気に入りではありません
+[05-Jan-2023 15:32:10 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[05-Jan-2023 15:32:10 Asia/Tokyo] デバッグ：商品情報を取得：商品ID3
+[05-Jan-2023 15:32:10 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 3
+    [name] => dog
+    [comment] => ffgsfs
+    [price] => 0
+    [pic1] => uploads/9858b90b880b947732386127ec8d991abfa62fd4.jpeg
+    [pic2] => uploads/9858b90b880b947732386127ec8d991abfa62fd4.jpeg
+    [pic3] => uploads/9858b90b880b947732386127ec8d991abfa62fd4.jpeg
+    [user_id] => 40
+    [create_date] => 2022-11-25 14:20:55
+    [update_date] => 2022-11-25 14:20:55
+    [category] => ２月
+)
+
+[05-Jan-2023 15:32:10 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[05-Jan-2023 15:32:10 Asia/Tokyo] デバッグ：お気に入り情報があるか確認します
+[05-Jan-2023 15:32:10 Asia/Tokyo] デバッグ：ユーザーID：40
+[05-Jan-2023 15:32:10 Asia/Tokyo] デバッグ：商品ID:3
+[05-Jan-2023 15:32:10 Asia/Tokyo] デバッグ：お気に入りではありません
+[05-Jan-2023 15:32:10 Asia/Tokyo] デバッグ：お気に入り情報があるか確認します
+[05-Jan-2023 15:32:10 Asia/Tokyo] デバッグ：ユーザーID：40
+[05-Jan-2023 15:32:10 Asia/Tokyo] デバッグ：商品ID:3
+[05-Jan-2023 15:32:10 Asia/Tokyo] デバッグ：お気に入りではありません
+[05-Jan-2023 16:26:47 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[05-Jan-2023 16:26:47 Asia/Tokyo] デバッグ：商品情報を取得：商品ID3
+[05-Jan-2023 16:26:47 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 3
+    [name] => dog
+    [comment] => ffgsfs
+    [price] => 0
+    [pic1] => uploads/9858b90b880b947732386127ec8d991abfa62fd4.jpeg
+    [pic2] => uploads/9858b90b880b947732386127ec8d991abfa62fd4.jpeg
+    [pic3] => uploads/9858b90b880b947732386127ec8d991abfa62fd4.jpeg
+    [user_id] => 40
+    [create_date] => 2022-11-25 14:20:55
+    [update_date] => 2022-11-25 14:20:55
+    [category] => ２月
+)
+
+[05-Jan-2023 16:26:47 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[05-Jan-2023 16:26:47 Asia/Tokyo] デバッグ：お気に入り情報があるか確認します
+[05-Jan-2023 16:26:47 Asia/Tokyo] デバッグ：ユーザーID：40
+[05-Jan-2023 16:26:47 Asia/Tokyo] デバッグ：商品ID:3
+[05-Jan-2023 16:26:47 Asia/Tokyo] デバッグ：お気に入りではありません
+[05-Jan-2023 16:26:47 Asia/Tokyo] デバッグ：お気に入り情報があるか確認します
+[05-Jan-2023 16:26:47 Asia/Tokyo] デバッグ：ユーザーID：40
+[05-Jan-2023 16:26:47 Asia/Tokyo] デバッグ：商品ID:3
+[05-Jan-2023 16:26:47 Asia/Tokyo] デバッグ：お気に入りではありません
+[05-Jan-2023 16:26:57 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[05-Jan-2023 16:26:57 Asia/Tokyo] デバッグ：商品情報を取得：商品ID3
+[05-Jan-2023 16:26:57 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 3
+    [name] => dog
+    [comment] => ffgsfs
+    [price] => 0
+    [pic1] => uploads/9858b90b880b947732386127ec8d991abfa62fd4.jpeg
+    [pic2] => uploads/9858b90b880b947732386127ec8d991abfa62fd4.jpeg
+    [pic3] => uploads/9858b90b880b947732386127ec8d991abfa62fd4.jpeg
+    [user_id] => 40
+    [create_date] => 2022-11-25 14:20:55
+    [update_date] => 2022-11-25 14:20:55
+    [category] => ２月
+)
+
+[05-Jan-2023 16:26:57 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[05-Jan-2023 16:26:57 Asia/Tokyo] デバッグ：お気に入り情報があるか確認します
+[05-Jan-2023 16:26:57 Asia/Tokyo] デバッグ：ユーザーID：40
+[05-Jan-2023 16:26:57 Asia/Tokyo] デバッグ：商品ID:3
+[05-Jan-2023 16:26:57 Asia/Tokyo] デバッグ：お気に入りではありません
+[05-Jan-2023 16:26:57 Asia/Tokyo] デバッグ：お気に入り情報があるか確認します
+[05-Jan-2023 16:26:57 Asia/Tokyo] デバッグ：ユーザーID：40
+[05-Jan-2023 16:26:57 Asia/Tokyo] デバッグ：商品ID:3
+[05-Jan-2023 16:26:57 Asia/Tokyo] デバッグ：お気に入りではありません
+[05-Jan-2023 16:34:54 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[05-Jan-2023 16:34:54 Asia/Tokyo] デバッグ：商品情報を取得：商品ID3
+[05-Jan-2023 16:34:54 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 3
+    [name] => dog
+    [comment] => ffgsfs
+    [price] => 0
+    [pic1] => uploads/9858b90b880b947732386127ec8d991abfa62fd4.jpeg
+    [pic2] => uploads/9858b90b880b947732386127ec8d991abfa62fd4.jpeg
+    [pic3] => uploads/9858b90b880b947732386127ec8d991abfa62fd4.jpeg
+    [user_id] => 40
+    [create_date] => 2022-11-25 14:20:55
+    [update_date] => 2022-11-25 14:20:55
+    [category] => ２月
+)
+
+[05-Jan-2023 16:34:54 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[05-Jan-2023 16:34:54 Asia/Tokyo] デバッグ：お気に入り情報があるか確認します
+[05-Jan-2023 16:34:54 Asia/Tokyo] デバッグ：ユーザーID：40
+[05-Jan-2023 16:34:54 Asia/Tokyo] デバッグ：商品ID:3
+[05-Jan-2023 16:34:54 Asia/Tokyo] デバッグ：お気に入りではありません
+[05-Jan-2023 16:34:54 Asia/Tokyo] デバッグ：お気に入り情報があるか確認します
+[05-Jan-2023 16:34:54 Asia/Tokyo] デバッグ：ユーザーID：40
+[05-Jan-2023 16:34:54 Asia/Tokyo] デバッグ：商品ID:3
+[05-Jan-2023 16:34:54 Asia/Tokyo] デバッグ：お気に入りではありません
+[07-Jan-2023 06:48:53 Asia/Tokyo] デバッグ：////////////Ajax
+[07-Jan-2023 06:48:53 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[07-Jan-2023 06:48:53 Asia/Tokyo] デバッグ：セッションID：kevq9uqn8pv2779aon16i27eet
+[07-Jan-2023 06:48:53 Asia/Tokyo] デバッグ：セッション変数の中身：1673041733
+[07-Jan-2023 06:48:53 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1673041733
+[07-Jan-2023 06:48:53 Asia/Tokyo] デバッグ：ログイン期限日時：1672903366
+[07-Jan-2023 06:48:53 Asia/Tokyo] デバッグ：Ajax処理終了
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[07-Jan-2023 06:48:55 Asia/Tokyo] デバッグ：////////////Ajax
+[07-Jan-2023 06:48:55 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[07-Jan-2023 06:48:55 Asia/Tokyo] デバッグ：セッションID：kevq9uqn8pv2779aon16i27eet
+[07-Jan-2023 06:48:55 Asia/Tokyo] デバッグ：セッション変数の中身：1673041735
+[07-Jan-2023 06:48:55 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1673041735
+[07-Jan-2023 06:48:55 Asia/Tokyo] デバッグ：ログイン期限日時：1672903366
+[07-Jan-2023 06:48:55 Asia/Tokyo] デバッグ：Ajax処理終了
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[07-Jan-2023 06:55:57 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[07-Jan-2023 06:55:57 Asia/Tokyo] デバッグ：商品情報を取得：商品ID
+[07-Jan-2023 06:55:57 Asia/Tokyo] エラー：指定ページに不正な値が入りました
+[07-Jan-2023 06:55:57 Asia/Tokyo] デバッグ：DBデータ：
+[07-Jan-2023 06:55:57 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[07-Jan-2023 06:55:57 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 131
+[07-Jan-2023 06:55:57 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 132
+[07-Jan-2023 06:55:57 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 133
+[07-Jan-2023 06:55:57 Asia/Tokyo] デバッグ：お気に入り情報があるか確認します
+[07-Jan-2023 06:55:57 Asia/Tokyo] デバッグ：ユーザーID：40
+[07-Jan-2023 06:55:57 Asia/Tokyo] デバッグ：商品ID:
+[07-Jan-2023 06:55:57 Asia/Tokyo] デバッグ：お気に入りではありません
+[07-Jan-2023 06:55:57 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 134
+[07-Jan-2023 06:55:57 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 137
+[07-Jan-2023 06:55:57 Asia/Tokyo] デバッグ：お気に入り情報があるか確認します
+[07-Jan-2023 06:55:57 Asia/Tokyo] デバッグ：ユーザーID：40
+[07-Jan-2023 06:55:57 Asia/Tokyo] デバッグ：商品ID:
+[07-Jan-2023 06:55:57 Asia/Tokyo] デバッグ：お気に入りではありません
+[07-Jan-2023 06:55:57 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 138
+[07-Jan-2023 06:55:57 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 142
+[07-Jan-2023 06:55:57 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 143
+[07-Jan-2023 06:55:57 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 146
+[07-Jan-2023 06:55:57 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 146
+[07-Jan-2023 06:55:57 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 147
+[07-Jan-2023 06:55:57 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 147
+[07-Jan-2023 06:55:57 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 148
+[07-Jan-2023 06:55:57 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 148
+[07-Jan-2023 06:55:57 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 152
+[07-Jan-2023 06:55:57 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 164
+[07-Jan-2023 06:55:57 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[07-Jan-2023 06:55:57 Asia/Tokyo] デバッグ：セッションID：
+[07-Jan-2023 06:55:57 Asia/Tokyo] デバッグ：セッション変数の中身：1673042157
+[07-Jan-2023 06:55:57 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1673042157
+[07-Jan-2023 06:55:57 Asia/Tokyo] デバッグ：ログイン期限日時：1672903366
+[07-Jan-2023 06:55:57 Asia/Tokyo] デバッグ：///トップページ////
+[07-Jan-2023 06:55:57 Asia/Tokyo] デバッグ：商品情報を取得
+[07-Jan-2023 06:55:57 Asia/Tokyo] デバッグ：SQL：SELECT * FROM product LIMIT 20 OFFSET 0
+[07-Jan-2023 06:56:08 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[07-Jan-2023 06:56:08 Asia/Tokyo] デバッグ：セッションID：kevq9uqn8pv2779aon16i27eet
+[07-Jan-2023 06:56:08 Asia/Tokyo] デバッグ：セッション変数の中身：1673042168
+[07-Jan-2023 06:56:08 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1673042168
+[07-Jan-2023 06:56:08 Asia/Tokyo] デバッグ：ログイン期限日時：1673045768
+[07-Jan-2023 06:56:08 Asia/Tokyo] デバッグ：///トップページ////
+[07-Jan-2023 06:56:08 Asia/Tokyo] デバッグ：商品情報を取得
+[07-Jan-2023 06:56:08 Asia/Tokyo] デバッグ：SQL：SELECT * FROM product LIMIT 20 OFFSET 0
+[07-Jan-2023 06:56:09 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[07-Jan-2023 06:56:09 Asia/Tokyo] デバッグ：商品情報を取得：商品ID1
+[07-Jan-2023 06:56:09 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 1
+    [name] => 
+    [comment] => dfdgsf
+    [price] => 0
+    [pic1] => uploads/7ec9e68e8c49460ae8d527bd6d84e367321392e4.jpeg
+    [pic2] => uploads/7ec9e68e8c49460ae8d527bd6d84e367321392e4.jpeg
+    [pic3] => uploads/7ec9e68e8c49460ae8d527bd6d84e367321392e4.jpeg
+    [user_id] => 40
+    [create_date] => 2022-11-25 14:04:48
+    [update_date] => 2022-11-25 14:04:48
+    [category] => １月
+)
+
+[07-Jan-2023 06:56:09 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[07-Jan-2023 06:56:09 Asia/Tokyo] デバッグ：お気に入り情報があるか確認します
+[07-Jan-2023 06:56:09 Asia/Tokyo] デバッグ：ユーザーID：40
+[07-Jan-2023 06:56:09 Asia/Tokyo] デバッグ：商品ID:1
+[07-Jan-2023 06:56:09 Asia/Tokyo] デバッグ：お気に入りではありません
+[07-Jan-2023 06:56:09 Asia/Tokyo] デバッグ：お気に入り情報があるか確認します
+[07-Jan-2023 06:56:09 Asia/Tokyo] デバッグ：ユーザーID：40
+[07-Jan-2023 06:56:09 Asia/Tokyo] デバッグ：商品ID:1
+[07-Jan-2023 06:56:09 Asia/Tokyo] デバッグ：お気に入りではありません
+[07-Jan-2023 06:56:11 Asia/Tokyo] デバッグ：////////////Ajax
+[07-Jan-2023 06:56:11 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[07-Jan-2023 06:56:11 Asia/Tokyo] デバッグ：セッションID：kevq9uqn8pv2779aon16i27eet
+[07-Jan-2023 06:56:11 Asia/Tokyo] デバッグ：セッション変数の中身：1673042171
+[07-Jan-2023 06:56:11 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1673042171
+[07-Jan-2023 06:56:11 Asia/Tokyo] デバッグ：ログイン期限日時：1673045768
+[07-Jan-2023 06:56:11 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to undefined function isLogin() in /Applications/MAMP/htdocs/3rdpractice/src/app/ajaxLike.php:8
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/3rdpractice/src/app/ajaxLike.php on line 8
+[07-Jan-2023 06:56:12 Asia/Tokyo] デバッグ：////////////Ajax
+[07-Jan-2023 06:56:12 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[07-Jan-2023 06:56:12 Asia/Tokyo] デバッグ：セッションID：kevq9uqn8pv2779aon16i27eet
+[07-Jan-2023 06:56:12 Asia/Tokyo] デバッグ：セッション変数の中身：1673042172
+[07-Jan-2023 06:56:12 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1673042172
+[07-Jan-2023 06:56:12 Asia/Tokyo] デバッグ：ログイン期限日時：1673045768
+[07-Jan-2023 06:56:12 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to undefined function isLogin() in /Applications/MAMP/htdocs/3rdpractice/src/app/ajaxLike.php:8
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/3rdpractice/src/app/ajaxLike.php on line 8
+[07-Jan-2023 10:23:48 Asia/Tokyo] デバッグ：////////////Ajax
+[07-Jan-2023 10:23:48 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[07-Jan-2023 10:23:48 Asia/Tokyo] デバッグ：セッションID：5km689iu1mpgfauob8uotehdjo
+[07-Jan-2023 10:23:48 Asia/Tokyo] デバッグ：セッション変数の中身：1673054628
+[07-Jan-2023 10:23:48 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1673054628
+[07-Jan-2023 10:23:48 Asia/Tokyo] PHP Warning:  Undefined array key "login_date" in /Applications/MAMP/htdocs/3rdpractice/src/function/function.php on line 64
+[07-Jan-2023 10:23:48 Asia/Tokyo] デバッグ：Ajax処理終了
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[07-Jan-2023 10:23:50 Asia/Tokyo] デバッグ：////////////Ajax
+[07-Jan-2023 10:23:50 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[07-Jan-2023 10:23:50 Asia/Tokyo] デバッグ：セッションID：5km689iu1mpgfauob8uotehdjo
+[07-Jan-2023 10:23:50 Asia/Tokyo] デバッグ：セッション変数の中身：1673054630
+[07-Jan-2023 10:23:50 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1673054630
+[07-Jan-2023 10:23:50 Asia/Tokyo] PHP Warning:  Undefined array key "login_date" in /Applications/MAMP/htdocs/3rdpractice/src/function/function.php on line 64
+[07-Jan-2023 10:23:50 Asia/Tokyo] デバッグ：Ajax処理終了
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[07-Jan-2023 10:23:52 Asia/Tokyo] デバッグ：////////////Ajax
+[07-Jan-2023 10:23:52 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[07-Jan-2023 10:23:52 Asia/Tokyo] デバッグ：セッションID：5km689iu1mpgfauob8uotehdjo
+[07-Jan-2023 10:23:52 Asia/Tokyo] デバッグ：セッション変数の中身：1673054632
+[07-Jan-2023 10:23:52 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1673054632
+[07-Jan-2023 10:23:52 Asia/Tokyo] PHP Warning:  Undefined array key "login_date" in /Applications/MAMP/htdocs/3rdpractice/src/function/function.php on line 64
+[07-Jan-2023 10:23:52 Asia/Tokyo] デバッグ：Ajax処理終了
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[07-Jan-2023 10:23:54 Asia/Tokyo] デバッグ：////////////Ajax
+[07-Jan-2023 10:23:54 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[07-Jan-2023 10:23:54 Asia/Tokyo] デバッグ：セッションID：5km689iu1mpgfauob8uotehdjo
+[07-Jan-2023 10:23:54 Asia/Tokyo] デバッグ：セッション変数の中身：1673054634
+[07-Jan-2023 10:23:54 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1673054634
+[07-Jan-2023 10:23:54 Asia/Tokyo] PHP Warning:  Undefined array key "login_date" in /Applications/MAMP/htdocs/3rdpractice/src/function/function.php on line 64
+[07-Jan-2023 10:23:54 Asia/Tokyo] デバッグ：Ajax処理終了
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[07-Jan-2023 10:24:04 Asia/Tokyo] デバッグ：////////////Ajax
+[07-Jan-2023 10:24:04 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[07-Jan-2023 10:24:04 Asia/Tokyo] デバッグ：セッションID：5km689iu1mpgfauob8uotehdjo
+[07-Jan-2023 10:24:04 Asia/Tokyo] デバッグ：セッション変数の中身：1673054644
+[07-Jan-2023 10:24:04 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1673054644
+[07-Jan-2023 10:24:04 Asia/Tokyo] PHP Warning:  Undefined array key "login_date" in /Applications/MAMP/htdocs/3rdpractice/src/function/function.php on line 64
+[07-Jan-2023 10:24:04 Asia/Tokyo] デバッグ：Ajax処理終了
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[07-Jan-2023 10:26:30 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[07-Jan-2023 10:26:30 Asia/Tokyo] デバッグ：商品情報を取得：商品ID1
+[07-Jan-2023 10:26:30 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 1
+    [name] => 
+    [comment] => dfdgsf
+    [price] => 0
+    [pic1] => uploads/7ec9e68e8c49460ae8d527bd6d84e367321392e4.jpeg
+    [pic2] => uploads/7ec9e68e8c49460ae8d527bd6d84e367321392e4.jpeg
+    [pic3] => uploads/7ec9e68e8c49460ae8d527bd6d84e367321392e4.jpeg
+    [user_id] => 40
+    [create_date] => 2022-11-25 14:04:48
+    [update_date] => 2022-11-25 14:04:48
+    [category] => １月
+)
+
+[07-Jan-2023 10:26:30 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[07-Jan-2023 10:26:30 Asia/Tokyo] PHP Warning:  Undefined array key "user_id" in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 133
+[07-Jan-2023 10:26:30 Asia/Tokyo] デバッグ：お気に入り情報があるか確認します
+[07-Jan-2023 10:26:30 Asia/Tokyo] デバッグ：ユーザーID：
+[07-Jan-2023 10:26:30 Asia/Tokyo] デバッグ：商品ID:1
+[07-Jan-2023 10:26:30 Asia/Tokyo] デバッグ：お気に入りではありません
+[07-Jan-2023 10:26:30 Asia/Tokyo] PHP Warning:  Undefined array key "user_id" in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 137
+[07-Jan-2023 10:26:30 Asia/Tokyo] デバッグ：お気に入り情報があるか確認します
+[07-Jan-2023 10:26:30 Asia/Tokyo] デバッグ：ユーザーID：
+[07-Jan-2023 10:26:30 Asia/Tokyo] デバッグ：商品ID:1
+[07-Jan-2023 10:26:30 Asia/Tokyo] デバッグ：お気に入りではありません
+[07-Jan-2023 10:26:50 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[07-Jan-2023 10:26:50 Asia/Tokyo] デバッグ：商品情報を取得：商品ID1
+[07-Jan-2023 10:26:50 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 1
+    [name] => 
+    [comment] => dfdgsf
+    [price] => 0
+    [pic1] => uploads/7ec9e68e8c49460ae8d527bd6d84e367321392e4.jpeg
+    [pic2] => uploads/7ec9e68e8c49460ae8d527bd6d84e367321392e4.jpeg
+    [pic3] => uploads/7ec9e68e8c49460ae8d527bd6d84e367321392e4.jpeg
+    [user_id] => 40
+    [create_date] => 2022-11-25 14:04:48
+    [update_date] => 2022-11-25 14:04:48
+    [category] => １月
+)
+
+[07-Jan-2023 10:26:50 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[07-Jan-2023 10:26:50 Asia/Tokyo] PHP Warning:  Undefined array key "user_id" in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 133
+[07-Jan-2023 10:26:50 Asia/Tokyo] デバッグ：お気に入り情報があるか確認します
+[07-Jan-2023 10:26:50 Asia/Tokyo] デバッグ：ユーザーID：
+[07-Jan-2023 10:26:50 Asia/Tokyo] デバッグ：商品ID:1
+[07-Jan-2023 10:26:50 Asia/Tokyo] デバッグ：お気に入りではありません
+[07-Jan-2023 10:26:50 Asia/Tokyo] PHP Warning:  Undefined array key "user_id" in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 137
+[07-Jan-2023 10:26:50 Asia/Tokyo] デバッグ：お気に入り情報があるか確認します
+[07-Jan-2023 10:26:50 Asia/Tokyo] デバッグ：ユーザーID：
+[07-Jan-2023 10:26:50 Asia/Tokyo] デバッグ：商品ID:1
+[07-Jan-2023 10:26:50 Asia/Tokyo] デバッグ：お気に入りではありません
+[07-Jan-2023 10:26:53 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[07-Jan-2023 10:26:53 Asia/Tokyo] デバッグ：商品情報を取得：商品ID1
+[07-Jan-2023 10:26:53 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 1
+    [name] => 
+    [comment] => dfdgsf
+    [price] => 0
+    [pic1] => uploads/7ec9e68e8c49460ae8d527bd6d84e367321392e4.jpeg
+    [pic2] => uploads/7ec9e68e8c49460ae8d527bd6d84e367321392e4.jpeg
+    [pic3] => uploads/7ec9e68e8c49460ae8d527bd6d84e367321392e4.jpeg
+    [user_id] => 40
+    [create_date] => 2022-11-25 14:04:48
+    [update_date] => 2022-11-25 14:04:48
+    [category] => １月
+)
+
+[07-Jan-2023 10:26:53 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[07-Jan-2023 10:26:53 Asia/Tokyo] PHP Warning:  Undefined array key "user_id" in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 133
+[07-Jan-2023 10:26:53 Asia/Tokyo] デバッグ：お気に入り情報があるか確認します
+[07-Jan-2023 10:26:53 Asia/Tokyo] デバッグ：ユーザーID：
+[07-Jan-2023 10:26:53 Asia/Tokyo] デバッグ：商品ID:1
+[07-Jan-2023 10:26:53 Asia/Tokyo] デバッグ：お気に入りではありません
+[07-Jan-2023 10:26:53 Asia/Tokyo] PHP Warning:  Undefined array key "user_id" in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 137
+[07-Jan-2023 10:26:53 Asia/Tokyo] デバッグ：お気に入り情報があるか確認します
+[07-Jan-2023 10:26:53 Asia/Tokyo] デバッグ：ユーザーID：
+[07-Jan-2023 10:26:53 Asia/Tokyo] デバッグ：商品ID:1
+[07-Jan-2023 10:26:53 Asia/Tokyo] デバッグ：お気に入りではありません
+[07-Jan-2023 10:28:16 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[07-Jan-2023 10:28:16 Asia/Tokyo] デバッグ：商品情報を取得：商品ID1
+[07-Jan-2023 10:28:16 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 1
+    [name] => 
+    [comment] => dfdgsf
+    [price] => 0
+    [pic1] => uploads/7ec9e68e8c49460ae8d527bd6d84e367321392e4.jpeg
+    [pic2] => uploads/7ec9e68e8c49460ae8d527bd6d84e367321392e4.jpeg
+    [pic3] => uploads/7ec9e68e8c49460ae8d527bd6d84e367321392e4.jpeg
+    [user_id] => 40
+    [create_date] => 2022-11-25 14:04:48
+    [update_date] => 2022-11-25 14:04:48
+    [category] => １月
+)
+
+[07-Jan-2023 10:28:16 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[07-Jan-2023 10:28:16 Asia/Tokyo] PHP Warning:  Undefined array key "user_id" in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 133
+[07-Jan-2023 10:28:16 Asia/Tokyo] デバッグ：お気に入り情報があるか確認します
+[07-Jan-2023 10:28:16 Asia/Tokyo] デバッグ：ユーザーID：
+[07-Jan-2023 10:28:16 Asia/Tokyo] デバッグ：商品ID:1
+[07-Jan-2023 10:28:17 Asia/Tokyo] デバッグ：お気に入りではありません
+[07-Jan-2023 10:39:55 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[07-Jan-2023 10:39:55 Asia/Tokyo] デバッグ：商品情報を取得：商品ID1
+[07-Jan-2023 10:39:55 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 1
+    [name] => 
+    [comment] => dfdgsf
+    [price] => 0
+    [pic1] => uploads/7ec9e68e8c49460ae8d527bd6d84e367321392e4.jpeg
+    [pic2] => uploads/7ec9e68e8c49460ae8d527bd6d84e367321392e4.jpeg
+    [pic3] => uploads/7ec9e68e8c49460ae8d527bd6d84e367321392e4.jpeg
+    [user_id] => 40
+    [create_date] => 2022-11-25 14:04:48
+    [update_date] => 2022-11-25 14:04:48
+    [category] => １月
+)
+
+[07-Jan-2023 10:39:55 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[07-Jan-2023 10:39:55 Asia/Tokyo] PHP Warning:  Undefined array key "user_id" in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 133
+[07-Jan-2023 10:39:55 Asia/Tokyo] デバッグ：お気に入り情報があるか確認します
+[07-Jan-2023 10:39:55 Asia/Tokyo] デバッグ：ユーザーID：
+[07-Jan-2023 10:39:55 Asia/Tokyo] デバッグ：商品ID:1
+[07-Jan-2023 10:39:55 Asia/Tokyo] デバッグ：お気に入りではありません
+[07-Jan-2023 10:39:58 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[07-Jan-2023 10:39:58 Asia/Tokyo] デバッグ：商品情報を取得：商品ID1
+[07-Jan-2023 10:39:58 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 1
+    [name] => 
+    [comment] => dfdgsf
+    [price] => 0
+    [pic1] => uploads/7ec9e68e8c49460ae8d527bd6d84e367321392e4.jpeg
+    [pic2] => uploads/7ec9e68e8c49460ae8d527bd6d84e367321392e4.jpeg
+    [pic3] => uploads/7ec9e68e8c49460ae8d527bd6d84e367321392e4.jpeg
+    [user_id] => 40
+    [create_date] => 2022-11-25 14:04:48
+    [update_date] => 2022-11-25 14:04:48
+    [category] => １月
+)
+
+[07-Jan-2023 10:39:58 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[07-Jan-2023 10:39:58 Asia/Tokyo] PHP Warning:  Undefined array key "user_id" in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 133
+[07-Jan-2023 10:39:58 Asia/Tokyo] デバッグ：お気に入り情報があるか確認します
+[07-Jan-2023 10:39:58 Asia/Tokyo] デバッグ：ユーザーID：
+[07-Jan-2023 10:39:58 Asia/Tokyo] デバッグ：商品ID:1
+[07-Jan-2023 10:39:58 Asia/Tokyo] デバッグ：お気に入りではありません
+[07-Jan-2023 10:48:30 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[07-Jan-2023 10:48:30 Asia/Tokyo] デバッグ：セッションID：5km689iu1mpgfauob8uotehdjo
+[07-Jan-2023 10:48:30 Asia/Tokyo] デバッグ：セッション変数の中身：1673056110
+[07-Jan-2023 10:48:30 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1673056110
+[07-Jan-2023 10:48:30 Asia/Tokyo] PHP Warning:  Undefined array key "login_date" in /Applications/MAMP/htdocs/3rdpractice/src/function/function.php on line 64
+[07-Jan-2023 10:48:30 Asia/Tokyo] デバッグ：///トップページ////
+[07-Jan-2023 10:48:30 Asia/Tokyo] デバッグ：商品情報を取得
+[07-Jan-2023 10:48:30 Asia/Tokyo] デバッグ：SQL：SELECT * FROM product LIMIT 20 OFFSET 0
+[07-Jan-2023 10:48:41 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[07-Jan-2023 10:48:41 Asia/Tokyo] デバッグ：セッションID：5km689iu1mpgfauob8uotehdjo
+[07-Jan-2023 10:48:41 Asia/Tokyo] デバッグ：セッション変数の中身：1673056121
+[07-Jan-2023 10:48:41 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1673056121
+[07-Jan-2023 10:48:41 Asia/Tokyo] デバッグ：ログイン期限日時：1673059721
+[07-Jan-2023 10:48:41 Asia/Tokyo] デバッグ：///トップページ////
+[07-Jan-2023 10:48:41 Asia/Tokyo] デバッグ：商品情報を取得
+[07-Jan-2023 10:48:41 Asia/Tokyo] デバッグ：SQL：SELECT * FROM product LIMIT 20 OFFSET 0
+[07-Jan-2023 10:48:42 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[07-Jan-2023 10:48:42 Asia/Tokyo] デバッグ：商品情報を取得：商品ID2
+[07-Jan-2023 10:48:42 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 2
+    [name] => cat
+    [comment] => asdf
+    [price] => 0
+    [pic1] => uploads/7ec9e68e8c49460ae8d527bd6d84e367321392e4.jpeg
+    [pic2] => uploads/7ec9e68e8c49460ae8d527bd6d84e367321392e4.jpeg
+    [pic3] => uploads/7ec9e68e8c49460ae8d527bd6d84e367321392e4.jpeg
+    [user_id] => 40
+    [create_date] => 2022-11-25 14:05:33
+    [update_date] => 2022-11-25 14:05:33
+    [category] => １月
+)
+
+[07-Jan-2023 10:48:42 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[07-Jan-2023 10:48:42 Asia/Tokyo] デバッグ：お気に入り情報があるか確認します
+[07-Jan-2023 10:48:42 Asia/Tokyo] デバッグ：ユーザーID：40
+[07-Jan-2023 10:48:42 Asia/Tokyo] デバッグ：商品ID:2
+[07-Jan-2023 10:48:42 Asia/Tokyo] デバッグ：お気に入りではありません
+[07-Jan-2023 10:48:46 Asia/Tokyo] デバッグ：////////////Ajax
+[07-Jan-2023 10:48:46 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[07-Jan-2023 10:48:46 Asia/Tokyo] デバッグ：セッションID：5km689iu1mpgfauob8uotehdjo
+[07-Jan-2023 10:48:46 Asia/Tokyo] デバッグ：セッション変数の中身：1673056126
+[07-Jan-2023 10:48:46 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1673056126
+[07-Jan-2023 10:48:46 Asia/Tokyo] デバッグ：ログイン期限日時：1673059721
+[07-Jan-2023 10:48:46 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to undefined function isLogin() in /Applications/MAMP/htdocs/3rdpractice/src/app/ajaxLike.php:8
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/3rdpractice/src/app/ajaxLike.php on line 8
+[07-Jan-2023 11:04:27 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[07-Jan-2023 11:04:27 Asia/Tokyo] デバッグ：商品情報を取得：商品ID2
+[07-Jan-2023 11:04:27 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 2
+    [name] => cat
+    [comment] => asdf
+    [price] => 0
+    [pic1] => uploads/7ec9e68e8c49460ae8d527bd6d84e367321392e4.jpeg
+    [pic2] => uploads/7ec9e68e8c49460ae8d527bd6d84e367321392e4.jpeg
+    [pic3] => uploads/7ec9e68e8c49460ae8d527bd6d84e367321392e4.jpeg
+    [user_id] => 40
+    [create_date] => 2022-11-25 14:05:33
+    [update_date] => 2022-11-25 14:05:33
+    [category] => １月
+)
+
+[07-Jan-2023 11:04:27 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[07-Jan-2023 11:04:27 Asia/Tokyo] デバッグ：お気に入り情報があるか確認します
+[07-Jan-2023 11:04:27 Asia/Tokyo] デバッグ：ユーザーID：40
+[07-Jan-2023 11:04:27 Asia/Tokyo] デバッグ：商品ID:2
+[07-Jan-2023 11:04:27 Asia/Tokyo] デバッグ：お気に入りではありません
+[07-Jan-2023 11:04:30 Asia/Tokyo] デバッグ：////////////Ajax
+[07-Jan-2023 11:04:30 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[07-Jan-2023 11:04:30 Asia/Tokyo] デバッグ：セッションID：5km689iu1mpgfauob8uotehdjo
+[07-Jan-2023 11:04:30 Asia/Tokyo] デバッグ：セッション変数の中身：1673057070
+[07-Jan-2023 11:04:30 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1673057070
+[07-Jan-2023 11:04:30 Asia/Tokyo] デバッグ：ログイン期限日時：1673059721
+[07-Jan-2023 11:04:30 Asia/Tokyo] デバッグ：ログイン済みユーザーです
+[07-Jan-2023 11:04:30 Asia/Tokyo] デバッグ：ログイン有効期限内です
+[07-Jan-2023 11:04:30 Asia/Tokyo] デバッグ：POST送信があります
+[07-Jan-2023 11:04:30 Asia/Tokyo] デバッグ：商品ID：2
+[07-Jan-2023 11:04:30 Asia/Tokyo] デバッグ：0
+[07-Jan-2023 11:04:30 Asia/Tokyo] エラー発生：SQLSTATE[42S22]: Column not found: 1054 Unknown column 'create_date' in 'field list'
+[07-Jan-2023 11:04:30 Asia/Tokyo] デバッグ：Ajax処理終了
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[07-Jan-2023 11:07:44 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[07-Jan-2023 11:07:44 Asia/Tokyo] デバッグ：商品情報を取得：商品ID2
+[07-Jan-2023 11:07:44 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 2
+    [name] => cat
+    [comment] => asdf
+    [price] => 0
+    [pic1] => uploads/7ec9e68e8c49460ae8d527bd6d84e367321392e4.jpeg
+    [pic2] => uploads/7ec9e68e8c49460ae8d527bd6d84e367321392e4.jpeg
+    [pic3] => uploads/7ec9e68e8c49460ae8d527bd6d84e367321392e4.jpeg
+    [user_id] => 40
+    [create_date] => 2022-11-25 14:05:33
+    [update_date] => 2022-11-25 14:05:33
+    [category] => １月
+)
+
+[07-Jan-2023 11:07:44 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[07-Jan-2023 11:07:44 Asia/Tokyo] デバッグ：お気に入り情報があるか確認します
+[07-Jan-2023 11:07:44 Asia/Tokyo] デバッグ：ユーザーID：40
+[07-Jan-2023 11:07:44 Asia/Tokyo] デバッグ：商品ID:2
+[07-Jan-2023 11:07:44 Asia/Tokyo] デバッグ：お気に入りではありません
+[07-Jan-2023 11:07:48 Asia/Tokyo] デバッグ：////////////Ajax
+[07-Jan-2023 11:07:48 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[07-Jan-2023 11:07:48 Asia/Tokyo] デバッグ：セッションID：5km689iu1mpgfauob8uotehdjo
+[07-Jan-2023 11:07:48 Asia/Tokyo] デバッグ：セッション変数の中身：1673057268
+[07-Jan-2023 11:07:48 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1673057268
+[07-Jan-2023 11:07:48 Asia/Tokyo] デバッグ：ログイン期限日時：1673059721
+[07-Jan-2023 11:07:48 Asia/Tokyo] デバッグ：ログイン済みユーザーです
+[07-Jan-2023 11:07:48 Asia/Tokyo] デバッグ：ログイン有効期限内です
+[07-Jan-2023 11:07:48 Asia/Tokyo] デバッグ：POST送信があります
+[07-Jan-2023 11:07:48 Asia/Tokyo] デバッグ：商品ID：2
+[07-Jan-2023 11:07:48 Asia/Tokyo] デバッグ：0
+[07-Jan-2023 11:07:48 Asia/Tokyo] デバッグ：Ajax処理終了
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[07-Jan-2023 11:08:06 Asia/Tokyo] デバッグ：////////////Ajax
+[07-Jan-2023 11:08:06 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[07-Jan-2023 11:08:06 Asia/Tokyo] デバッグ：セッションID：5km689iu1mpgfauob8uotehdjo
+[07-Jan-2023 11:08:06 Asia/Tokyo] デバッグ：セッション変数の中身：1673057286
+[07-Jan-2023 11:08:06 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1673057286
+[07-Jan-2023 11:08:06 Asia/Tokyo] デバッグ：ログイン期限日時：1673059721
+[07-Jan-2023 11:08:06 Asia/Tokyo] デバッグ：ログイン済みユーザーです
+[07-Jan-2023 11:08:06 Asia/Tokyo] デバッグ：ログイン有効期限内です
+[07-Jan-2023 11:08:06 Asia/Tokyo] デバッグ：POST送信があります
+[07-Jan-2023 11:08:06 Asia/Tokyo] デバッグ：商品ID：2
+[07-Jan-2023 11:08:06 Asia/Tokyo] デバッグ：1
+[07-Jan-2023 11:08:06 Asia/Tokyo] デバッグ：Ajax処理終了
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<

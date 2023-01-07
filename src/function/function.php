@@ -454,6 +454,73 @@ function getProductOne($p_id){
         error_log('エラー：'.$e->getMessage());
     }
 }
+
+//お気に入り登録
+function registLike($u_id, $p_id){
+    debug('お気に入り情報を登録します');
+    debug('ユーザーID：'.$u_id);
+    debug('商品ID：'.$p_id);
+
+    try{
+        $dbh = dbConnect();
+        $sql = 'INSERT INTO `like`(product_id, user_id) VALUES(:product_id,:user_id)';
+        $data = array(':u_id'=>$u_id,':p_id'=>$p_id);
+
+        $stmt = queryPost($dbh, $sql, $data);
+        if($stmt){
+            debug('お気に入り登録しました');
+            return $stmt;
+        }
+    }catch(Exception $e){
+        error_log('エラー発生：'.$e->getMessage());
+    }
+}
+function isLike($u_id,$p_id){
+    debug('お気に入り情報があるか確認します');
+    debug('ユーザーID：'.$u_id);
+    debug('商品ID:'.$p_id);
+
+    try{
+        $dbh = dbConnect();
+        $sql = 'SELECT * FROM `like` WHERE product_id = :p_id AND user_id = :u_id';
+        $data = array(':u_id'=>$u_id,':p_id'=>$p_id);
+
+        $stmt = queryPost($dbh, $sql, $data);
+        if($stmt->rowCount()){
+            debug('お気に入りです');
+            return true;
+        }else{
+            debug('お気に入りではありません');
+            return false;
+        }
+    }catch(Exception $e){
+        error_log('エラー発生：'.$e->getMessage());
+    }
+}
+
+
+
+//ログイン認証
+
+function isLogin(){
+    if(!empty($_SESSION['login_date'])){
+        debug('ログイン済みユーザーです');
+
+        if(($_SESSION['login_date']+ $_SESSION['login_limit'])<time()){
+            debug('ログイン有効期限オーバーです');
+
+            session_destroy();
+            return false;
+        }else{
+            debug('ログイン有効期限内です');
+            return true;
+        }
+
+    }else{
+        debug('未ログインユーザーです');
+        return false;
+    }
+}
 function getMsgsAndBord($id){
     debug('msg情報を取得：掲示板ID'.$id);
     try{

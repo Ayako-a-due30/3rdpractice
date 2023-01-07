@@ -8,7 +8,6 @@ debug('/////////商品詳細ページ//////////');
 $p_id = (!empty($_GET['p_id']))? $_GET['p_id'] :'';
 $viewData= getProductOne($p_id);
 
-var_dump($viewData);
 
 if(empty($viewData)){
     error_log('エラー：指定ページに不正な値が入りました');
@@ -42,6 +41,9 @@ if(!empty($_POST['submit'])){
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <title>商品詳細</title>
     <style>
       .badge{
@@ -117,6 +119,10 @@ if(!empty($_POST['submit'])){
       .product-buy .btn:hover{
         cursor: pointer;
       }
+      .icn-like.active{
+        float:right;
+        color:#fe8a8b;
+      }
       </style>
 </head>
 <body>
@@ -124,6 +130,10 @@ if(!empty($_POST['submit'])){
     <div class="title">
       <span class="badge"><?php echo sanitize($viewData['category']); ?></span>
       <?php echo sanitize($viewData['name']); ?>
+      <span class="material-symbols-outlined js-click-like  icn-like <?php if(isLike($_SESSION['user_id'],$viewData['id'])){
+        echo 'active';} ?>" aria-hidden="true" data-productid ="<?php echo sanitize($viewData['id']); ?>">
+favorite
+</span>
     </div>
     <div class="product-img-container">
             <div class="img-main">
