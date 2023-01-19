@@ -52,7 +52,7 @@ if(!empty($_POST)){
         ?>
             <p><?php echo ($val["name"]); ?></p>
             <p><?php echo ($val["price"]); ?></p>
-            <span><?php echo ($val["pic1"]); ?></span>
+            <img src ="<?php echo ($val["pic1"]); ?>">
         <?php  
         endforeach;
         ?>

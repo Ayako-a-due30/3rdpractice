@@ -115,14 +115,6 @@ $dbCategoryData = getCategory();
         <?php pagination($currentPageNum,$dbProductData['total_page']); ?>
         <a href="mypage3.php">マイページへ戻る</a>
     </section>
-            $currentMinNum <br>
-            <?php var_dump($currentMinNum); ?>
-            <br>
-            <br>$_GET <br>
-            <?php var_dump($_GET); ?>
-            <br>
-            <br>$dbProductData['data'] <br>
-            <?php var_dump($dbProductData['data']); ?>
 
 
     <?php require('footer.php'); ?>

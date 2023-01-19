@@ -220,7 +220,6 @@ function getProduct($u_id,$p_id){
         $dbh=dbConnect();
         $sql= 'SELECT*FROM product WHERE user_id =:u_id AND id =:p_id AND delete_flg=0';
         $data= array(':u_id'=>$u_id,':p_id'=>$p_id);
-
         $stmt=queryPost($dbh,$sql,$data);
         if($stmt){
             return $stmt->fetch(PDO::FETCH_ASSOC);

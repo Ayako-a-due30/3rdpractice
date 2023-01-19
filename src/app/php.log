@@ -31317,3 +31317,57 @@ Stack trace:
   thrown in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 56
 [19-Jan-2023 11:46:02 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
 [19-Jan-2023 11:46:10 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[19-Jan-2023 14:40:51 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[19-Jan-2023 14:40:58 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[19-Jan-2023 14:41:17 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[19-Jan-2023 14:41:17 Asia/Tokyo] デバッグ：セッションID：e7k76qvvbrq054829hk81shql7
+[19-Jan-2023 14:41:17 Asia/Tokyo] デバッグ：セッション変数の中身：1674106877
+[19-Jan-2023 14:41:17 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1674106877
+[19-Jan-2023 14:41:17 Asia/Tokyo] デバッグ：ログイン期限日時：1674110477
+[19-Jan-2023 14:41:17 Asia/Tokyo] デバッグ：///トップページ////
+[19-Jan-2023 14:41:17 Asia/Tokyo] デバッグ：商品情報を取得
+[19-Jan-2023 14:41:17 Asia/Tokyo] デバッグ：SQL：SELECT * FROM product LIMIT 20 OFFSET 0
+[19-Jan-2023 14:41:21 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[19-Jan-2023 14:41:21 Asia/Tokyo] デバッグ：商品情報を取得：商品ID20
+[19-Jan-2023 14:41:21 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 20
+    [name] => きつね
+    [comment] => キツネの皮
+    [price] => 7000
+    [pic1] => uploads/7ab8acf805f20b8f533933db23a39a34db490678.jpeg
+    [pic2] => uploads/7ab8acf805f20b8f533933db23a39a34db490678.jpeg
+    [pic3] => uploads/7ab8acf805f20b8f533933db23a39a34db490678.jpeg
+    [user_id] => 40
+    [create_date] => 2022-11-27 14:52:39
+    [update_date] => 2022-11-27 14:52:39
+    [category] => ２月
+)
+
+[19-Jan-2023 14:41:21 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[19-Jan-2023 14:41:21 Asia/Tokyo] デバッグ：お気に入り情報があるか確認します
+[19-Jan-2023 14:41:21 Asia/Tokyo] デバッグ：ユーザーID：40
+[19-Jan-2023 14:41:21 Asia/Tokyo] デバッグ：商品ID:20
+[19-Jan-2023 14:41:21 Asia/Tokyo] デバッグ：お気に入りではありません
+[19-Jan-2023 14:41:26 Asia/Tokyo] デバッグ：////////////Ajax
+[19-Jan-2023 14:41:26 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[19-Jan-2023 14:41:26 Asia/Tokyo] デバッグ：セッションID：e7k76qvvbrq054829hk81shql7
+[19-Jan-2023 14:41:26 Asia/Tokyo] デバッグ：セッション変数の中身：1674106886
+[19-Jan-2023 14:41:26 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1674106886
+[19-Jan-2023 14:41:26 Asia/Tokyo] デバッグ：ログイン期限日時：1674110477
+[19-Jan-2023 14:41:26 Asia/Tokyo] デバッグ：ログイン済みユーザーです
+[19-Jan-2023 14:41:26 Asia/Tokyo] デバッグ：ログイン有効期限内です
+[19-Jan-2023 14:41:26 Asia/Tokyo] デバッグ：POST送信があります
+[19-Jan-2023 14:41:26 Asia/Tokyo] デバッグ：商品ID：20
+[19-Jan-2023 14:41:26 Asia/Tokyo] デバッグ：0
+[19-Jan-2023 14:41:26 Asia/Tokyo] デバッグ：Ajax処理終了
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[19-Jan-2023 14:41:30 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[19-Jan-2023 14:41:30 Asia/Tokyo] デバッグ：セッションID：e7k76qvvbrq054829hk81shql7
+[19-Jan-2023 14:41:30 Asia/Tokyo] デバッグ：セッション変数の中身：1674106890
+[19-Jan-2023 14:41:30 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1674106890
+[19-Jan-2023 14:41:30 Asia/Tokyo] デバッグ：ログイン期限日時：1674110490
+[19-Jan-2023 14:41:30 Asia/Tokyo] デバッグ：///トップページ////
+[19-Jan-2023 14:41:30 Asia/Tokyo] デバッグ：商品情報を取得
+[19-Jan-2023 14:41:30 Asia/Tokyo] デバッグ：SQL：SELECT * FROM product LIMIT 20 OFFSET 0
+[19-Jan-2023 14:42:26 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
