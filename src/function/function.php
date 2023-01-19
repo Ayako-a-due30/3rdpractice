@@ -11,7 +11,7 @@ function debug($str){
         error_log('デバッグ：'.$str);
     }
 }
-
+session_save_path("/var/tmp");
 session_start();
 //エラーメッセージ格納用配列
 $err_msg=array();
@@ -304,7 +304,6 @@ function getProductList($category,$sort,$currentMinNum=1,$span = 20){
     }
   }
 
-
 function getCategory(){
     try{
         $dbh = dbConnect();
@@ -482,7 +481,8 @@ function isLike($u_id,$p_id){
 
     try{
         $dbh = dbConnect();
-        $sql = 'SELECT * FROM `like` WHERE product_id = :p_id AND user_id = :u_id';
+        $sql = 'SELECT * FROM `like` 
+        WHERE product_id = :p_id AND user_id = :u_id';
         $data = array(':u_id'=>$u_id,':p_id'=>$p_id);
 
         $stmt = queryPost($dbh, $sql, $data);
@@ -498,6 +498,27 @@ function isLike($u_id,$p_id){
     }
 }
 
+//お気に入りをマイページに表示
+function showLike($u_id){
+    debug('お気に入りをマイページに表示します');
+    try{
+        $dbh = dbConnect();
+        $sql = 'SELECT l.product_id, l.user_id, l.create_date, p.name, p.price, p.pic1 
+                FROM `like` as l
+                inner join product as p
+                on l.product_id = p.id
+                where l.user_id = :id';
+        $data = array(':id' => $u_id);
+        $stmt = queryPost($dbh, $sql,$data);
+        if($stmt){
+            return $stmt ->fetchAll();
+        }else{
+            return false;
+        }
+    }catch(Exception $e){
+        error_log('エラー'.$e->getMessage());
+    }
+}
 
 
 //ログイン認証
@@ -544,6 +565,7 @@ function getMsgsAndBord($id){
         error_log('エラー'.$e->getMessage());
     }
 }
+
 
 //一回だけ表示
 function getSessionFlash($key){

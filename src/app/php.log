@@ -30180,3 +30180,1140 @@ Stack trace:
 [07-Jan-2023 11:08:06 Asia/Tokyo] デバッグ：1
 [07-Jan-2023 11:08:06 Asia/Tokyo] デバッグ：Ajax処理終了
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[07-Jan-2023 15:22:18 Asia/Tokyo] デバッグ：////////////Ajax
+[07-Jan-2023 15:22:18 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[07-Jan-2023 15:22:18 Asia/Tokyo] デバッグ：セッションID：5km689iu1mpgfauob8uotehdjo
+[07-Jan-2023 15:22:18 Asia/Tokyo] デバッグ：セッション変数の中身：1673072538
+[07-Jan-2023 15:22:18 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1673072538
+[07-Jan-2023 15:22:18 Asia/Tokyo] デバッグ：ログイン期限日時：1673059721
+[07-Jan-2023 15:22:18 Asia/Tokyo] デバッグ：ログイン済みユーザーです
+[07-Jan-2023 15:22:18 Asia/Tokyo] デバッグ：ログイン有効期限オーバーです
+[07-Jan-2023 15:22:18 Asia/Tokyo] デバッグ：Ajax処理終了
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[08-Jan-2023 06:48:27 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[08-Jan-2023 06:48:27 Asia/Tokyo] デバッグ：商品情報を取得：商品ID2
+[08-Jan-2023 06:48:27 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 2
+    [name] => cat
+    [comment] => asdf
+    [price] => 0
+    [pic1] => uploads/7ec9e68e8c49460ae8d527bd6d84e367321392e4.jpeg
+    [pic2] => uploads/7ec9e68e8c49460ae8d527bd6d84e367321392e4.jpeg
+    [pic3] => uploads/7ec9e68e8c49460ae8d527bd6d84e367321392e4.jpeg
+    [user_id] => 40
+    [create_date] => 2022-11-25 14:05:33
+    [update_date] => 2022-11-25 14:05:33
+    [category] => １月
+)
+
+[08-Jan-2023 06:48:27 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[08-Jan-2023 06:48:27 Asia/Tokyo] PHP Warning:  Undefined array key "user_id" in /Applications/MAMP/htdocs/3rdpractice/src/app/productDetail.php on line 133
+[08-Jan-2023 06:48:27 Asia/Tokyo] デバッグ：お気に入り情報があるか確認します
+[08-Jan-2023 06:48:27 Asia/Tokyo] デバッグ：ユーザーID：
+[08-Jan-2023 06:48:27 Asia/Tokyo] デバッグ：商品ID:2
+[08-Jan-2023 06:48:27 Asia/Tokyo] デバッグ：お気に入りではありません
+[08-Jan-2023 06:48:36 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[08-Jan-2023 06:48:36 Asia/Tokyo] デバッグ：セッションID：5km689iu1mpgfauob8uotehdjo
+[08-Jan-2023 06:48:36 Asia/Tokyo] デバッグ：セッション変数の中身：1673128116
+[08-Jan-2023 06:48:36 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1673128116
+[08-Jan-2023 06:48:36 Asia/Tokyo] PHP Warning:  Undefined array key "login_date" in /Applications/MAMP/htdocs/3rdpractice/src/function/function.php on line 64
+[08-Jan-2023 06:48:36 Asia/Tokyo] デバッグ：///トップページ////
+[08-Jan-2023 06:48:36 Asia/Tokyo] デバッグ：商品情報を取得
+[08-Jan-2023 06:48:36 Asia/Tokyo] デバッグ：SQL：SELECT * FROM product LIMIT 20 OFFSET 0
+[08-Jan-2023 06:50:37 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[08-Jan-2023 06:50:37 Asia/Tokyo] デバッグ：セッションID：5km689iu1mpgfauob8uotehdjo
+[08-Jan-2023 06:50:37 Asia/Tokyo] デバッグ：セッション変数の中身：1673128237
+[08-Jan-2023 06:50:37 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1673128237
+[08-Jan-2023 06:50:37 Asia/Tokyo] デバッグ：ログイン期限日時：1673131837
+[08-Jan-2023 06:50:37 Asia/Tokyo] デバッグ：///トップページ////
+[08-Jan-2023 06:50:37 Asia/Tokyo] デバッグ：商品情報を取得
+[08-Jan-2023 06:50:37 Asia/Tokyo] デバッグ：SQL：SELECT * FROM product LIMIT 20 OFFSET 0
+[08-Jan-2023 06:50:40 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[08-Jan-2023 06:50:40 Asia/Tokyo] デバッグ：商品情報を取得：商品ID3
+[08-Jan-2023 06:50:40 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 3
+    [name] => dog
+    [comment] => ffgsfs
+    [price] => 0
+    [pic1] => uploads/9858b90b880b947732386127ec8d991abfa62fd4.jpeg
+    [pic2] => uploads/9858b90b880b947732386127ec8d991abfa62fd4.jpeg
+    [pic3] => uploads/9858b90b880b947732386127ec8d991abfa62fd4.jpeg
+    [user_id] => 40
+    [create_date] => 2022-11-25 14:20:55
+    [update_date] => 2022-11-25 14:20:55
+    [category] => ２月
+)
+
+[08-Jan-2023 06:50:40 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[08-Jan-2023 06:50:40 Asia/Tokyo] デバッグ：お気に入り情報があるか確認します
+[08-Jan-2023 06:50:40 Asia/Tokyo] デバッグ：ユーザーID：40
+[08-Jan-2023 06:50:40 Asia/Tokyo] デバッグ：商品ID:3
+[08-Jan-2023 06:50:40 Asia/Tokyo] デバッグ：お気に入りではありません
+[08-Jan-2023 06:50:42 Asia/Tokyo] デバッグ：////////////Ajax
+[08-Jan-2023 06:50:42 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[08-Jan-2023 06:50:42 Asia/Tokyo] デバッグ：セッションID：5km689iu1mpgfauob8uotehdjo
+[08-Jan-2023 06:50:42 Asia/Tokyo] デバッグ：セッション変数の中身：1673128242
+[08-Jan-2023 06:50:42 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1673128242
+[08-Jan-2023 06:50:42 Asia/Tokyo] デバッグ：ログイン期限日時：1673131837
+[08-Jan-2023 06:50:42 Asia/Tokyo] デバッグ：ログイン済みユーザーです
+[08-Jan-2023 06:50:42 Asia/Tokyo] デバッグ：ログイン有効期限内です
+[08-Jan-2023 06:50:42 Asia/Tokyo] デバッグ：POST送信があります
+[08-Jan-2023 06:50:42 Asia/Tokyo] デバッグ：商品ID：3
+[08-Jan-2023 06:50:42 Asia/Tokyo] デバッグ：0
+[08-Jan-2023 06:50:42 Asia/Tokyo] デバッグ：Ajax処理終了
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[08-Jan-2023 06:50:46 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[08-Jan-2023 06:50:46 Asia/Tokyo] デバッグ：セッションID：5km689iu1mpgfauob8uotehdjo
+[08-Jan-2023 06:50:46 Asia/Tokyo] デバッグ：セッション変数の中身：1673128246
+[08-Jan-2023 06:50:46 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1673128246
+[08-Jan-2023 06:50:46 Asia/Tokyo] デバッグ：ログイン期限日時：1673131846
+[08-Jan-2023 06:50:46 Asia/Tokyo] デバッグ：///トップページ////
+[08-Jan-2023 06:50:46 Asia/Tokyo] デバッグ：商品情報を取得
+[08-Jan-2023 06:50:46 Asia/Tokyo] デバッグ：SQL：SELECT * FROM product LIMIT 20 OFFSET 0
+[08-Jan-2023 06:50:47 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[08-Jan-2023 06:50:47 Asia/Tokyo] デバッグ：商品情報を取得：商品ID10
+[08-Jan-2023 06:50:47 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 10
+    [name] => とら
+    [comment] => 虎の威
+    [price] => 100
+    [pic1] => uploads/770d92450d8f1e0038a2c3c9953f04c5c291942f.jpeg
+    [pic2] => uploads/770d92450d8f1e0038a2c3c9953f04c5c291942f.jpeg
+    [pic3] => uploads/770d92450d8f1e0038a2c3c9953f04c5c291942f.jpeg
+    [user_id] => 40
+    [create_date] => 2022-11-27 07:07:55
+    [update_date] => 2022-11-27 15:03:46
+    [category] => １月
+)
+
+[08-Jan-2023 06:50:47 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[08-Jan-2023 06:50:47 Asia/Tokyo] デバッグ：お気に入り情報があるか確認します
+[08-Jan-2023 06:50:47 Asia/Tokyo] デバッグ：ユーザーID：40
+[08-Jan-2023 06:50:47 Asia/Tokyo] デバッグ：商品ID:10
+[08-Jan-2023 06:50:47 Asia/Tokyo] デバッグ：お気に入りではありません
+[08-Jan-2023 06:50:51 Asia/Tokyo] デバッグ：////////////Ajax
+[08-Jan-2023 06:50:51 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[08-Jan-2023 06:50:51 Asia/Tokyo] デバッグ：セッションID：5km689iu1mpgfauob8uotehdjo
+[08-Jan-2023 06:50:51 Asia/Tokyo] デバッグ：セッション変数の中身：1673128251
+[08-Jan-2023 06:50:51 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1673128251
+[08-Jan-2023 06:50:51 Asia/Tokyo] デバッグ：ログイン期限日時：1673131846
+[08-Jan-2023 06:50:51 Asia/Tokyo] デバッグ：ログイン済みユーザーです
+[08-Jan-2023 06:50:51 Asia/Tokyo] デバッグ：ログイン有効期限内です
+[08-Jan-2023 06:50:51 Asia/Tokyo] デバッグ：POST送信があります
+[08-Jan-2023 06:50:51 Asia/Tokyo] デバッグ：商品ID：10
+[08-Jan-2023 06:50:51 Asia/Tokyo] デバッグ：0
+[08-Jan-2023 06:50:51 Asia/Tokyo] デバッグ：Ajax処理終了
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[08-Jan-2023 06:50:54 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[08-Jan-2023 06:50:54 Asia/Tokyo] デバッグ：セッションID：5km689iu1mpgfauob8uotehdjo
+[08-Jan-2023 06:50:54 Asia/Tokyo] デバッグ：セッション変数の中身：1673128254
+[08-Jan-2023 06:50:54 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1673128254
+[08-Jan-2023 06:50:54 Asia/Tokyo] デバッグ：ログイン期限日時：1673131854
+[08-Jan-2023 06:50:54 Asia/Tokyo] デバッグ：///トップページ////
+[08-Jan-2023 06:50:54 Asia/Tokyo] デバッグ：商品情報を取得
+[08-Jan-2023 06:50:54 Asia/Tokyo] デバッグ：SQL：SELECT * FROM product LIMIT 20 OFFSET 0
+[08-Jan-2023 06:50:56 Asia/Tokyo] デバッグ：/////////商品詳細ページ//////////
+[08-Jan-2023 06:50:56 Asia/Tokyo] デバッグ：商品情報を取得：商品ID19
+[08-Jan-2023 06:50:56 Asia/Tokyo] デバッグ：DBデータ：Array
+(
+    [id] => 19
+    [name] => たぬき
+    [comment] => たぬきの置き物
+    [price] => 3000
+    [pic1] => uploads/f11143effda8756d6f56ad976e20a40738db9d95.jpeg
+    [pic2] => uploads/f11143effda8756d6f56ad976e20a40738db9d95.jpeg
+    [pic3] => uploads/f11143effda8756d6f56ad976e20a40738db9d95.jpeg
+    [user_id] => 40
+    [create_date] => 2022-11-27 14:51:16
+    [update_date] => 2022-11-27 14:51:16
+    [category] => １月
+)
+
+[08-Jan-2023 06:50:56 Asia/Tokyo] デバッグ：///////画面表示処理終了///////
+[08-Jan-2023 06:50:56 Asia/Tokyo] デバッグ：お気に入り情報があるか確認します
+[08-Jan-2023 06:50:56 Asia/Tokyo] デバッグ：ユーザーID：40
+[08-Jan-2023 06:50:56 Asia/Tokyo] デバッグ：商品ID:19
+[08-Jan-2023 06:50:56 Asia/Tokyo] デバッグ：お気に入りではありません
+[08-Jan-2023 06:50:58 Asia/Tokyo] デバッグ：////////////Ajax
+[08-Jan-2023 06:50:58 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[08-Jan-2023 06:50:58 Asia/Tokyo] デバッグ：セッションID：5km689iu1mpgfauob8uotehdjo
+[08-Jan-2023 06:50:58 Asia/Tokyo] デバッグ：セッション変数の中身：1673128258
+[08-Jan-2023 06:50:58 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1673128258
+[08-Jan-2023 06:50:58 Asia/Tokyo] デバッグ：ログイン期限日時：1673131854
+[08-Jan-2023 06:50:58 Asia/Tokyo] デバッグ：ログイン済みユーザーです
+[08-Jan-2023 06:50:58 Asia/Tokyo] デバッグ：ログイン有効期限内です
+[08-Jan-2023 06:50:58 Asia/Tokyo] デバッグ：POST送信があります
+[08-Jan-2023 06:50:58 Asia/Tokyo] デバッグ：商品ID：19
+[08-Jan-2023 06:50:58 Asia/Tokyo] デバッグ：0
+[08-Jan-2023 06:50:58 Asia/Tokyo] デバッグ：Ajax処理終了
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[08-Jan-2023 07:17:19 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[08-Jan-2023 07:17:19 Asia/Tokyo] デバッグ：セッションID：5km689iu1mpgfauob8uotehdjo
+[08-Jan-2023 07:17:19 Asia/Tokyo] デバッグ：セッション変数の中身：1673129839
+[08-Jan-2023 07:17:19 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1673129839
+[08-Jan-2023 07:17:19 Asia/Tokyo] デバッグ：ログイン期限日時：1673133439
+[08-Jan-2023 07:17:19 Asia/Tokyo] デバッグ：///トップページ////
+[08-Jan-2023 07:17:19 Asia/Tokyo] デバッグ：商品情報を取得
+[08-Jan-2023 07:17:19 Asia/Tokyo] デバッグ：SQL：SELECT * FROM product LIMIT 20 OFFSET 0
+[08-Jan-2023 07:17:23 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[08-Jan-2023 07:17:23 Asia/Tokyo] エラーSQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+[08-Jan-2023 07:17:28 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[08-Jan-2023 07:17:28 Asia/Tokyo] エラーSQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+[08-Jan-2023 07:17:30 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[08-Jan-2023 07:17:30 Asia/Tokyo] エラーSQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+[08-Jan-2023 07:29:10 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[08-Jan-2023 07:29:10 Asia/Tokyo] エラーSQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+[08-Jan-2023 07:29:12 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[08-Jan-2023 07:29:12 Asia/Tokyo] エラーSQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+[08-Jan-2023 07:29:15 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[08-Jan-2023 07:29:15 Asia/Tokyo] デバッグ：セッションID：5km689iu1mpgfauob8uotehdjo
+[08-Jan-2023 07:29:15 Asia/Tokyo] デバッグ：セッション変数の中身：1673130555
+[08-Jan-2023 07:29:15 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1673130555
+[08-Jan-2023 07:29:15 Asia/Tokyo] デバッグ：ログイン期限日時：1673134155
+[08-Jan-2023 07:29:15 Asia/Tokyo] デバッグ：///トップページ////
+[08-Jan-2023 07:29:15 Asia/Tokyo] デバッグ：商品情報を取得
+[08-Jan-2023 07:29:15 Asia/Tokyo] デバッグ：SQL：SELECT * FROM product LIMIT 20 OFFSET 0
+[08-Jan-2023 07:29:32 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[08-Jan-2023 07:29:32 Asia/Tokyo] エラーSQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+[08-Jan-2023 09:12:43 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[08-Jan-2023 09:12:43 Asia/Tokyo] エラーSQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+[08-Jan-2023 09:31:47 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[08-Jan-2023 09:31:47 Asia/Tokyo] エラーSQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+[08-Jan-2023 09:57:32 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[08-Jan-2023 09:57:32 Asia/Tokyo] エラーSQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+[08-Jan-2023 09:57:34 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[08-Jan-2023 09:57:34 Asia/Tokyo] エラーSQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+[08-Jan-2023 11:51:05 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[08-Jan-2023 11:51:05 Asia/Tokyo] エラーSQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+[08-Jan-2023 11:51:14 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[08-Jan-2023 11:51:14 Asia/Tokyo] エラーSQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+[08-Jan-2023 13:43:04 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[08-Jan-2023 13:43:04 Asia/Tokyo] エラーSQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'outer JOIN product AS p
+                ON l.user_id = p.user_id 
+              ' at line 3
+[08-Jan-2023 13:43:13 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[08-Jan-2023 13:43:13 Asia/Tokyo] エラーSQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'outer JOIN product AS p
+                ON l.user_id = p.user_id 
+              ' at line 3
+[08-Jan-2023 13:55:25 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[08-Jan-2023 13:55:25 Asia/Tokyo] PHP Warning:  Array to string conversion in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 47
+[08-Jan-2023 13:56:21 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[08-Jan-2023 13:59:12 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[08-Jan-2023 13:59:12 Asia/Tokyo] PHP Warning:  Undefined variable $showLike in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 49
+[08-Jan-2023 13:59:12 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 49
+[08-Jan-2023 13:59:31 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[08-Jan-2023 13:59:31 Asia/Tokyo] PHP Warning:  Undefined variable $showLike in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 49
+[08-Jan-2023 13:59:31 Asia/Tokyo] PHP Warning:  Trying to access array offset on value of type null in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 49
+[08-Jan-2023 13:59:50 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[08-Jan-2023 13:59:50 Asia/Tokyo] PHP Warning:  Undefined array key "pic1" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 49
+[08-Jan-2023 14:00:05 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[09-Jan-2023 14:15:40 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[09-Jan-2023 14:15:40 Asia/Tokyo] PHP Warning:  Undefined array key "pic1" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 49
+[09-Jan-2023 14:15:48 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[09-Jan-2023 14:15:48 Asia/Tokyo] PHP Warning:  Undefined array key "pic1" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 49
+[09-Jan-2023 14:16:29 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[09-Jan-2023 14:16:29 Asia/Tokyo] PHP Warning:  Undefined array key "pic1" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 49
+[09-Jan-2023 14:16:49 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[09-Jan-2023 14:32:56 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[09-Jan-2023 14:32:56 Asia/Tokyo] PHP Warning:  Undefined array key "data" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 50
+[09-Jan-2023 14:35:03 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[09-Jan-2023 14:35:03 Asia/Tokyo] PHP Warning:  Undefined array key "data" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 50
+[09-Jan-2023 14:35:37 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[09-Jan-2023 14:35:37 Asia/Tokyo] PHP Warning:  Undefined array key "name" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 50
+[09-Jan-2023 14:35:56 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[09-Jan-2023 15:12:04 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[09-Jan-2023 15:12:16 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[09-Jan-2023 15:12:17 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[09-Jan-2023 15:12:18 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[09-Jan-2023 15:12:29 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[09-Jan-2023 15:12:30 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[09-Jan-2023 15:12:42 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[09-Jan-2023 15:12:43 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[09-Jan-2023 15:12:44 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[09-Jan-2023 15:12:45 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[09-Jan-2023 15:22:57 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[09-Jan-2023 15:22:58 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[09-Jan-2023 15:22:59 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[09-Jan-2023 15:23:00 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[09-Jan-2023 15:23:22 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[09-Jan-2023 15:25:16 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[09-Jan-2023 15:25:19 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[09-Jan-2023 15:36:27 Asia/Tokyo] PHP Warning:  Undefined array key "user_id" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 8
+[09-Jan-2023 15:36:27 Asia/Tokyo] PHP Warning:  Undefined array key "user_id" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 11
+[09-Jan-2023 15:36:27 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[09-Jan-2023 15:36:27 Asia/Tokyo] PHP Warning:  Undefined array key "user_id" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 24
+[09-Jan-2023 16:27:11 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[09-Jan-2023 16:27:59 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[09-Jan-2023 16:29:20 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[09-Jan-2023 16:45:01 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[09-Jan-2023 16:45:18 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[09-Jan-2023 16:45:19 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[09-Jan-2023 16:45:48 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[09-Jan-2023 16:45:49 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[09-Jan-2023 16:46:11 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[09-Jan-2023 16:46:13 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[09-Jan-2023 16:46:24 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[09-Jan-2023 16:46:24 Asia/Tokyo] エラーSQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Outer JOIN product AS p
+                ON l.user_id = p.user_id 
+              ' at line 3
+[09-Jan-2023 16:46:24 Asia/Tokyo] PHP Warning:  foreach() argument must be of type array|object, null given in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 50
+[09-Jan-2023 20:04:01 Asia/Tokyo] PHP Warning:  Undefined array key "user_id" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 8
+[09-Jan-2023 20:04:01 Asia/Tokyo] PHP Warning:  Undefined array key "user_id" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 11
+[09-Jan-2023 20:04:01 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[09-Jan-2023 20:04:01 Asia/Tokyo] エラーSQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Outer JOIN product AS p
+                ON l.user_id = p.user_id 
+              ' at line 3
+[09-Jan-2023 20:04:01 Asia/Tokyo] PHP Warning:  Undefined array key "user_id" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 24
+[09-Jan-2023 20:04:01 Asia/Tokyo] PHP Warning:  foreach() argument must be of type array|object, null given in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 50
+[09-Jan-2023 20:04:10 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[09-Jan-2023 20:04:10 Asia/Tokyo] エラーSQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Outer JOIN product AS p
+                ON l.user_id = p.user_id 
+              ' at line 3
+[09-Jan-2023 20:04:10 Asia/Tokyo] PHP Warning:  foreach() argument must be of type array|object, null given in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 50
+[09-Jan-2023 20:04:59 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[09-Jan-2023 20:05:27 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[09-Jan-2023 20:05:35 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[09-Jan-2023 20:05:36 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[09-Jan-2023 20:05:43 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[09-Jan-2023 20:05:46 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[09-Jan-2023 20:06:48 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[09-Jan-2023 20:07:00 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[09-Jan-2023 20:07:11 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[09-Jan-2023 20:07:12 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[09-Jan-2023 20:07:45 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[09-Jan-2023 20:07:45 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::fetchASSOC() in /Applications/MAMP/htdocs/3rdpractice/src/function/function.php:515
+Stack trace:
+#0 /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php(11): showLike('40')
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/3rdpractice/src/function/function.php on line 515
+[09-Jan-2023 20:09:58 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[09-Jan-2023 20:09:58 Asia/Tokyo] PHP Warning:  Undefined property: PDOStatement::$fetch_Assoc in /Applications/MAMP/htdocs/3rdpractice/src/function/function.php on line 515
+[09-Jan-2023 20:10:15 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[15-Jan-2023 07:07:57 Asia/Tokyo] デバッグ：////////////Ajax
+[15-Jan-2023 07:07:57 Asia/Tokyo] デバッグ：///画面表示処理開始/////
+[15-Jan-2023 07:07:57 Asia/Tokyo] デバッグ：セッションID：e7k76qvvbrq054829hk81shql7
+[15-Jan-2023 07:07:57 Asia/Tokyo] デバッグ：セッション変数の中身：1673734077
+[15-Jan-2023 07:07:57 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1673734077
+[15-Jan-2023 07:07:57 Asia/Tokyo] PHP Warning:  Undefined array key "login_date" in /Applications/MAMP/htdocs/3rdpractice/src/function/function.php on line 64
+[15-Jan-2023 07:07:57 Asia/Tokyo] デバッグ：Ajax処理終了
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[15-Jan-2023 07:09:54 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[15-Jan-2023 21:54:48 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[15-Jan-2023 21:54:56 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[15-Jan-2023 22:12:44 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[15-Jan-2023 22:18:56 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[15-Jan-2023 22:18:56 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Undefined constant "product_id" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php:48
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 48
+[15-Jan-2023 22:19:12 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[15-Jan-2023 22:19:12 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Undefined constant "product_id" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php:48
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 48
+[15-Jan-2023 22:19:15 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[15-Jan-2023 22:19:15 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Undefined constant "product_id" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php:48
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 48
+[15-Jan-2023 22:19:22 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[15-Jan-2023 22:19:22 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Undefined constant "product_id" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php:48
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 48
+[15-Jan-2023 22:19:46 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[15-Jan-2023 22:19:46 Asia/Tokyo] PHP Warning:  Array to string conversion in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 48
+[15-Jan-2023 22:20:06 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[15-Jan-2023 22:20:06 Asia/Tokyo] PHP Warning:  Undefined array key 0 in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 48
+[15-Jan-2023 22:20:30 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[15-Jan-2023 22:21:21 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[15-Jan-2023 22:21:33 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[15-Jan-2023 22:21:33 Asia/Tokyo] PHP Warning:  Array to string conversion in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 48
+[15-Jan-2023 22:21:44 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[15-Jan-2023 22:23:28 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[15-Jan-2023 22:24:13 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[15-Jan-2023 22:24:13 Asia/Tokyo] PHP Warning:  Undefined array key "addr" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 50
+[15-Jan-2023 22:25:15 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[15-Jan-2023 22:35:06 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[17-Jan-2023 13:52:53 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[17-Jan-2023 13:56:01 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[17-Jan-2023 14:02:38 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[17-Jan-2023 14:03:38 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[17-Jan-2023 14:03:40 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[17-Jan-2023 14:03:41 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[17-Jan-2023 14:03:42 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[17-Jan-2023 14:03:43 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[17-Jan-2023 14:03:56 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[17-Jan-2023 14:04:33 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[17-Jan-2023 16:06:22 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[17-Jan-2023 16:06:29 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[17-Jan-2023 16:10:31 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[17-Jan-2023 16:13:09 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[17-Jan-2023 16:13:17 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[17-Jan-2023 16:14:33 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[17-Jan-2023 18:00:59 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[19-Jan-2023 10:04:37 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[19-Jan-2023 10:37:49 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[19-Jan-2023 10:39:35 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[19-Jan-2023 10:45:47 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[19-Jan-2023 10:52:20 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[19-Jan-2023 10:52:20 Asia/Tokyo] PHP Warning:  Undefined array key "name" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 53
+[19-Jan-2023 10:52:20 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 10:52:20 Asia/Tokyo] PHP Warning:  Undefined array key "name" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 53
+[19-Jan-2023 10:52:20 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 10:52:20 Asia/Tokyo] PHP Warning:  Undefined array key "name" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 53
+[19-Jan-2023 10:52:20 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:12:48 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:28 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 54
+[19-Jan-2023 11:13:59 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[19-Jan-2023 11:13:59 Asia/Tokyo] エラーSQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+[19-Jan-2023 11:13:59 Asia/Tokyo] PHP Warning:  foreach() argument must be of type array|object, null given in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 50
+[19-Jan-2023 11:14:01 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[19-Jan-2023 11:14:01 Asia/Tokyo] エラーSQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+[19-Jan-2023 11:14:01 Asia/Tokyo] PHP Warning:  foreach() argument must be of type array|object, null given in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 50
+[19-Jan-2023 11:15:01 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[19-Jan-2023 11:15:01 Asia/Tokyo] エラーSQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+[19-Jan-2023 11:15:01 Asia/Tokyo] PHP Warning:  foreach() argument must be of type array|object, null given in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 50
+[19-Jan-2023 11:15:50 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[19-Jan-2023 11:15:50 Asia/Tokyo] エラーSQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+[19-Jan-2023 11:15:50 Asia/Tokyo] PHP Warning:  Undefined variable $u_id in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 49
+[19-Jan-2023 11:15:50 Asia/Tokyo] PHP Warning:  foreach() argument must be of type array|object, null given in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 51
+[19-Jan-2023 11:30:17 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[19-Jan-2023 11:30:17 Asia/Tokyo] エラーSQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+[19-Jan-2023 11:30:17 Asia/Tokyo] PHP Warning:  Undefined variable $u_id in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 49
+[19-Jan-2023 11:30:17 Asia/Tokyo] PHP Warning:  foreach() argument must be of type array|object, null given in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 51
+[19-Jan-2023 11:30:19 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[19-Jan-2023 11:30:19 Asia/Tokyo] エラーSQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+[19-Jan-2023 11:30:19 Asia/Tokyo] PHP Warning:  Undefined variable $u_id in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 49
+[19-Jan-2023 11:30:19 Asia/Tokyo] PHP Warning:  foreach() argument must be of type array|object, null given in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 51
+[19-Jan-2023 11:30:58 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[19-Jan-2023 11:30:58 Asia/Tokyo] エラーSQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+[19-Jan-2023 11:30:58 Asia/Tokyo] PHP Warning:  foreach() argument must be of type array|object, null given in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 50
+[19-Jan-2023 11:32:25 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[19-Jan-2023 11:32:25 Asia/Tokyo] エラーSQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+[19-Jan-2023 11:32:25 Asia/Tokyo] PHP Warning:  foreach() argument must be of type array|object, null given in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 51
+[19-Jan-2023 11:32:27 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[19-Jan-2023 11:32:27 Asia/Tokyo] エラーSQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+[19-Jan-2023 11:32:27 Asia/Tokyo] PHP Warning:  foreach() argument must be of type array|object, null given in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 51
+[19-Jan-2023 11:32:49 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:32:49 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:43:07 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[19-Jan-2023 11:43:07 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:43:07 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:43:07 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:43:42 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[19-Jan-2023 11:43:42 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:43:42 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:43:42 Asia/Tokyo] PHP Warning:  Undefined array key "price" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 55
+[19-Jan-2023 11:44:23 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[19-Jan-2023 11:45:53 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[19-Jan-2023 11:45:53 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Undefined constant "val" in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php:56
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/3rdpractice/src/app/mypage3.php on line 56
+[19-Jan-2023 11:46:02 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します
+[19-Jan-2023 11:46:10 Asia/Tokyo] デバッグ：お気に入りをマイページに表示します

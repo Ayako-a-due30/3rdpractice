@@ -5,10 +5,10 @@ require('../function/auth.php');
 
     $dbh = dbConnect();
     $sesLimit = 60*60;
-    $user_id =$_SESSION['user_id'];
-    print_r($_SESSION);
-    print_r(time());
+    $user_id =$_SESSION["user_id"];
     
+
+    $showMyLike = showLike($_SESSION['user_id']);
 if(!empty($_POST)){
     if(array_key_exists('logout',$_POST)){
         session_unset();
@@ -43,6 +43,26 @@ if(!empty($_POST)){
 <body>
     <h1>マイページ</h1>
     こんにちは、<?php echo getFormData('username'); ?>さん！
+    <h2>お気に入り登録一覧</h2>
+
+
+        <?php 
+        foreach($showMyLike as $key =>$val):
+
+        ?>
+            <p><?php echo ($val["name"]); ?></p>
+            <p><?php echo ($val["price"]); ?></p>
+            <span><?php echo ($val["pic1"]); ?></span>
+        <?php  
+        endforeach;
+        ?>
+        
+
+
+
+    <h2>連絡掲示板一覧</h2>
+    <h2>登録商品一覧</h2>
+
     <form action="" method = "post">
         <input type="submit" name="logout" value="ログアウト">
         <input type="submit" name ="bye" value="退会する"><br>
@@ -50,6 +70,8 @@ if(!empty($_POST)){
         <a href="./passEdit.php">パスワード変更</a><br>
         <a href="./registArticle.php"> 記事登録</a><br>
         <a href="./index.php">記事一覧</a>
+
+
 
     </form>
 
